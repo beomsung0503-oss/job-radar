@@ -3,6 +3,7 @@ window.JOB_RADAR_PROFILE = {
   baseLocation: "Tokyo, Japan",
   currentSalaryJpyMan: 500,
   targetSalaryJpyMan: 600,
+  minCompanyEmployees: 1000,
   preferredMarkets: ["Japan", "Tokyo", "Hybrid", "Remote"],
   excludedTitleTerms: [
     "Engineer",

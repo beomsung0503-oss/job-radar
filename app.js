@@ -53,6 +53,12 @@ function salaryLabel(job) {
   return "상세 연봉 미확인";
 }
 
+function companySizeLabel(job) {
+  if (job.companySizeBand) return `${job.companySizeBand}명`;
+  if (job.minCompanyEmployees) return `${job.minCompanyEmployees.toLocaleString("ko-KR")}명+`;
+  return "규모 미확인";
+}
+
 function hasOfficialJobUrl(job) {
   return job.directUrlStatus === "verified_official" && Boolean(job.directUrl);
 }
@@ -151,7 +157,7 @@ function renderJobs() {
         <div class="job-title-row">
           <div>
             <h3>${job.title}</h3>
-            <div class="job-meta">${job.company} · ${job.location} · ${salary} · ${job.postedDate || "날짜 미기재"}</div>
+            <div class="job-meta">${job.company} · ${companySizeLabel(job)} · ${job.location} · ${salary} · ${job.postedDate || "날짜 미기재"}</div>
           </div>
           <div class="score">${job.score}</div>
         </div>
@@ -160,6 +166,7 @@ function renderJobs() {
           <span class="badge">${job.source}</span>
           <span class="badge">${sourceLabel(job)}</span>
           <span class="badge">${job.employmentType || "고용형태 미기재"}</span>
+          <span class="badge good">${companySizeLabel(job)}</span>
         </div>
         <ul class="reason-list">${reasons}</ul>
         <ul class="risk-list">${risks}</ul>
@@ -183,7 +190,7 @@ function renderCompanies() {
           <strong>${company.name}</strong>
           <span class="priority">${company.priority}</span>
         </div>
-        <span class="company-meta">${company.type}</span>
+        <span class="company-meta">${company.type} · ${company.employeeBand || "1000+"}명</span>
         <div class="term-row">${terms}</div>
         <a class="button secondary" href="${company.officialCareersUrl}" target="_blank" rel="noreferrer">공식 Careers</a>
       </article>

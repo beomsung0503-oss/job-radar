@@ -7,7 +7,8 @@ This is a local-first MVP for a Japan-focused job radar based on the user's resu
 - Prioritizes Salesforce, CRM, PM/PL, presales, implementation consultant, and customer success roles.
 - Excludes engineer/developer/admin-first job titles by default, including Japanese title variants such as `エンジニア`, `開発リーダー`, `アドミン`, `管理者`, and `社内SE`.
 - Uses LinkedIn as the first discovery source.
-- Tracks a curated official Careers watchlist for 50 target companies.
+- Tracks a curated official Careers watchlist for 100 target companies.
+- Filters for companies with an expected employee scale of 1,000+.
 - Shows a `공고` button only when a verified official job URL is available; otherwise the primary action opens LinkedIn.
 - Presents recommendation, stretch, and backup buckets in a static dashboard.
 
@@ -27,6 +28,12 @@ Classification:
 - Recommended: 66+ total, enough role and experience fit, Salesforce/CRM/Slack/etc. in the title, and a target-role title such as consultant, PM/PL, presales, customer success, implementation, or DX. Short title acronyms such as PM/PL are matched conservatively so they do not trigger on unrelated words like `Deployment`.
 - Stretch: 55+ total or senior/high-requirement roles.
 - Backup: lower relevance or unclear fit.
+
+Company Scale:
+
+- Jobs from target companies are allowed when the target company is marked `minEmployees: 1000`.
+- Non-target jobs are allowed only when the job text contains a strong large-company signal such as Fortune/Global 500 or an explicit 1,000+ employee phrase.
+- Smaller or unverified company-scale jobs are filtered out before scoring.
 
 ## Update Model
 

@@ -5,6 +5,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -37,13 +38,26 @@ def load_target_companies():
         url = find_one(r'officialCareersUrl:\s*"([^"]+)"', block)
         terms_block = find_one(r"watchTerms:\s*\[(.*?)\]", block)
         terms = re.findall(r'"([^"]+)"', terms_block)
+        aliases_block = find_one(r"aliases:\s*\[(.*?)\]", block)
+        aliases = re.findall(r'"([^"]+)"', aliases_block) if aliases_block else []
+        min_employees = find_one(r"minEmployees:\s*([0-9]+)", block)
+        employee_band = find_one(r'employeeBand:\s*"([^"]+)"', block) or "1000+"
         if name and url and terms:
-            companies.append((name, url, terms))
+            companies.append(
+                {
+                    "name": name,
+                    "url": url,
+                    "terms": terms,
+                    "aliases": aliases,
+                    "minEmployees": int(min_employees or 0),
+                    "employeeBand": employee_band,
+                }
+            )
     return companies
 
 
 def load_company_careers_map():
-    return {name.lower(): url for name, url, _terms in load_target_companies()}
+    return load_target_companies()
 
 EXCLUDE_TITLE_TERMS = [
     "Engineer",
@@ -73,6 +87,18 @@ EXCLUDE_TITLE_TERMS = [
     "システム管理",
     "社内SE",
     "システムエンジニア",
+]
+
+EXCLUDE_COMPANY_TERMS = [
+    "Computer Futures",
+    "Michael Page",
+    "Robert Walters",
+    "Hays",
+    "en world",
+    "JAC Recruitment",
+    "Morgan McKinley",
+    "Randstad",
+    "Adecco",
 ]
 
 CORE_TITLE_TERMS = [
@@ -131,6 +157,7 @@ CANDIDATE_PROFILE = {
     "pm_years": 1.0,
     "current_salary_man": 500,
     "target_salary_man": 600,
+    "min_company_employees": 1000,
 }
 
 ROLE_TITLE_PATTERNS = [
@@ -225,7 +252,59 @@ def parse_linkedin_cards(page):
 
 
 def normalize_company_name(value):
-    return re.sub(r"\s+", " ", value or "").strip().lower()
+    value = unicodedata.normalize("NFKC", value or "")
+    value = value.lower()
+    value = re.sub(r"株式会社|有限会社|\(株\)|（株）|corporation|corp\.?|inc\.?|co\.,?\s*ltd\.?|llc|合同会社|日本法人", " ", value)
+    value = re.sub(r"[^0-9a-zぁ-んァ-ン一-龥]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def company_target_names(target):
+    return [target.get("name", ""), *target.get("aliases", [])]
+
+
+def company_matches_target(company, target):
+    company_key = normalize_company_name(company)
+    if not company_key:
+        return False
+    for candidate in company_target_names(target):
+        candidate_key = normalize_company_name(candidate)
+        if not candidate_key:
+            continue
+        if candidate_key == company_key:
+            return True
+        if len(candidate_key) >= 7 and len(company_key) >= 7:
+            if candidate_key in company_key or company_key in candidate_key:
+                return True
+    return False
+
+
+def infer_company_scale(job):
+    if job.get("minCompanyEmployees", 0) >= CANDIDATE_PROFILE["min_company_employees"]:
+        return job
+
+    text = " ".join(
+        [
+            job.get("company", ""),
+            job.get("descriptionText", ""),
+            " ".join(job.get("reasons", [])),
+        ]
+    )
+    if re.search(r"(?:Fortune|フォーチュン)\s*(?:Global\s*)?500", text, flags=re.I):
+        job["minCompanyEmployees"] = CANDIDATE_PROFILE["min_company_employees"]
+        job["companySizeBand"] = "1000+"
+        job["companyScaleStatus"] = "inferred_large"
+        job["reasons"].append("회사 규모: Fortune/Global 500급 신호")
+    elif re.search(r"(?:over|more than|超过|従業員|社員|employees?|people)\s*[0-9,]{4,}", text, flags=re.I):
+        job["minCompanyEmployees"] = CANDIDATE_PROFILE["min_company_employees"]
+        job["companySizeBand"] = "1000+"
+        job["companyScaleStatus"] = "inferred_large"
+        job["reasons"].append("회사 규모: 본문에서 1000명 이상 신호")
+    else:
+        job.setdefault("minCompanyEmployees", 0)
+        job.setdefault("companySizeBand", "미확인")
+        job.setdefault("companyScaleStatus", "unverified")
+    return job
 
 
 def build_search_url(job):
@@ -244,18 +323,32 @@ def add_direct_destination(job, careers_map):
             job["directUrlStatus"] = "verified_official"
             job["directSource"] = "HRMOS official"
             job["reasons"].append("LinkedIn 없이 열 수 있는 공식 HRMOS 공고 확인")
+            job["minCompanyEmployees"] = 0
+            job["companySizeBand"] = "미확인"
+            job["companyScaleStatus"] = "unverified"
             return job
 
-    for name, careers_url in careers_map.items():
-        if name and (name in company_key or company_key in name):
-            job["directUrl"] = careers_url
+    for target in careers_map:
+        if company_matches_target(company, target):
+            job["directUrl"] = target["url"]
             job["directUrlStatus"] = "company_careers"
             job["directSource"] = "Company careers"
+            job["targetCompany"] = target["name"]
+            job["minCompanyEmployees"] = target.get("minEmployees", 0)
+            job["companySizeBand"] = target.get("employeeBand", "1000+")
+            if job["minCompanyEmployees"] >= CANDIDATE_PROFILE["min_company_employees"]:
+                job["companyScaleStatus"] = "target_1000_plus"
+                job["reasons"].append(f"회사 규모: {job['companySizeBand']} 대상 회사")
+            else:
+                job["companyScaleStatus"] = "below_1000"
             job["risks"].append("회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요")
             return job
 
     job["directSearchUrl"] = build_search_url(job)
     job["directUrlStatus"] = "search_required"
+    job["companySizeBand"] = "미확인"
+    job["minCompanyEmployees"] = 0
+    job["companyScaleStatus"] = "unverified"
     return job
 
 
@@ -357,6 +450,13 @@ def score_cap(value, cap):
 
 
 def detailed_score_job(job):
+    if contains_any(job.get("company", ""), EXCLUDE_COMPANY_TERMS):
+        return None
+
+    infer_company_scale(job)
+    if job.get("minCompanyEmployees", 0) < CANDIDATE_PROFILE["min_company_employees"]:
+        return None
+
     title = job.get("title", "")
     description = job.get("descriptionText", "")
     salary_text = job.get("salaryText", "")
@@ -517,6 +617,8 @@ def detailed_score_job(job):
         risks.append(salary_note)
     if job.get("directUrlStatus") != "verified_official":
         risks.append("공식 상세 URL 미확인")
+    if job.get("companyScaleStatus") == "inferred_large":
+        risks.append("회사 규모는 본문 신호 기반 추정")
     if off_target_title:
         risks.append("제목이 Salesforce/CRM 중심이 아님")
     if core_title_match and not target_role_title_match:
@@ -529,6 +631,7 @@ def detailed_score_job(job):
         positives.append("직무: " + ", ".join(dict.fromkeys(role_hits)))
     if loc_hits:
         positives.append("조건: " + ", ".join(loc_hits))
+    positives.append(f"회사 규모: {job.get('companySizeBand', '1000+')} 대상")
 
     breakdown = {
         "skills": skills,
@@ -627,7 +730,10 @@ def absolute_url(base, href):
 def collect_official(max_companies):
     rows = []
     target_companies = load_target_companies()
-    for company, url, terms in target_companies[:max_companies]:
+    for target in target_companies[:max_companies]:
+        company = target["name"]
+        url = target["url"]
+        terms = target["terms"]
         try:
             page = fetch(url)
         except Exception as exc:
@@ -676,6 +782,10 @@ def collect_official(max_companies):
                     "score": 0,
                     "reasons": ["공식 Careers 페이지에서 키워드 링크 발견"],
                     "risks": ["일반 HTML 스캔 결과라 상세 직무 페이지 여부 확인 필요"],
+                    "targetCompany": company,
+                    "minCompanyEmployees": target.get("minEmployees", 0),
+                    "companySizeBand": target.get("employeeBand", "1000+"),
+                    "companyScaleStatus": "target_1000_plus",
                 }
             )
         time.sleep(1.0)

@@ -1,352 +1,102 @@
 window.JOB_RADAR_TARGET_COMPANIES = [
-  {
-    name: "Salesforce Japan",
-    priority: "A",
-    type: "vendor",
-    officialCareersUrl: "https://careers.salesforce.com/",
-    watchTerms: ["Solution Consultant", "Customer Success", "Agentforce", "Slack", "Salesforce"]
-  },
-  {
-    name: "PwC Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://www.pwc.com/jp/ja/careers.html",
-    watchTerms: ["Salesforce", "CRM", "CX", "Front Office"]
-  },
-  {
-    name: "Accenture Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://www.accenture.com/jp-ja/careers/jobsearch",
-    watchTerms: ["Salesforce", "CRM", "Technology Consultant", "Customer"]
-  },
-  {
-    name: "Deloitte Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://www2.deloitte.com/jp/ja/careers.html",
-    watchTerms: ["Salesforce", "CRM", "Customer", "DX"]
-  },
-  {
-    name: "IBM Japan",
-    priority: "A",
-    type: "technology",
-    officialCareersUrl: "https://www.ibm.com/jp-ja/careers/search",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Package Consultant"]
-  },
-  {
-    name: "NTT DATA",
-    priority: "A",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.nttdata.com/global/en/careers",
-    watchTerms: ["Salesforce", "CRM", "DX", "IT Consultant"]
-  },
-  {
-    name: "Nomura Research Institute",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://career.nri.co.jp/",
-    watchTerms: ["Salesforce", "CRM", "Solution Consultant"]
-  },
-  {
-    name: "Infosys",
-    priority: "A",
-    type: "global-si",
-    officialCareersUrl: "https://www.infosys.com/careers/apply.html",
-    watchTerms: ["Salesforce", "Agentforce", "Data Cloud", "Marketing Cloud"]
-  },
-  {
-    name: "HCLTech",
-    priority: "A",
-    type: "global-si",
-    officialCareersUrl: "https://www.hcltech.com/careers",
-    watchTerms: ["Salesforce Consultant", "CRM", "Japan"]
-  },
-  {
-    name: "Tata Consultancy Services Japan",
-    priority: "A",
-    type: "global-si",
-    officialCareersUrl: "https://www.tcs.com/careers",
-    watchTerms: ["Salesforce", "CRM", "Japan"]
-  },
-  {
-    name: "ServiceNow Japan",
-    priority: "B",
-    type: "vendor",
-    officialCareersUrl: "https://careers.servicenow.com/",
-    watchTerms: ["CRM", "Customer Outcomes", "Technical Consultant", "Tokyo"]
-  },
-  {
-    name: "TerraSky",
-    priority: "A",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.terrasky.co.jp/recruit/",
-    watchTerms: ["Salesforce", "Project Manager", "Consultant", "DX"]
-  },
-  {
-    name: "Circlace",
-    priority: "A",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.circlace.com/recruit/",
-    watchTerms: ["Salesforce", "CRM", "PM", "MuleSoft", "Slack"]
-  },
-  {
-    name: "Uhuru",
-    priority: "B",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://uhuru.co.jp/recruit/",
-    watchTerms: ["Salesforce", "IoT", "PM", "Presales"]
-  },
-  {
-    name: "Virtualex Consulting",
-    priority: "A",
-    type: "crm-consulting",
-    officialCareersUrl: "https://www.virtualex.co.jp/recruit/",
-    watchTerms: ["CRM", "Salesforce", "DX", "PM"]
-  },
-  {
-    name: "transcosmos",
-    priority: "B",
-    type: "bpo-dx",
-    officialCareersUrl: "https://www.trans-cosmos.co.jp/saiyou/career/",
-    watchTerms: ["Salesforce", "CRM", "CX", "Consultant"]
-  },
-  {
-    name: "BellSystem24",
-    priority: "B",
-    type: "bpo-cx",
-    officialCareersUrl: "https://www.bell24.co.jp/ja/recruit/",
-    watchTerms: ["CRM", "Salesforce", "Consultant", "Presales"]
-  },
-  {
-    name: "Quantz",
-    priority: "B",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.quants.co.jp/",
-    watchTerms: ["Salesforce", "導入コンサルタント", "PM"]
-  },
-  {
-    name: "GlobalLogic Japan",
-    priority: "B",
-    type: "global-si",
-    officialCareersUrl: "https://www.globallogic.com/careers/",
-    watchTerms: ["Salesforce", "Project Manager", "Japan"]
-  },
-  {
-    name: "DXC Technology Japan",
-    priority: "B",
-    type: "global-si",
-    officialCareersUrl: "https://careers.dxc.com/",
-    watchTerms: ["Salesforce", "Consultant", "Japan"]
-  },
-  {
-    name: "EY Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://www.ey.com/ja_jp/careers",
-    watchTerms: ["Salesforce", "CRM", "Customer", "Technology Consultant"]
-  },
-  {
-    name: "KPMG Consulting Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://recruit.kpmg-consulting.jp/",
-    watchTerms: ["Salesforce", "CRM", "Customer", "DX", "Consultant"]
-  },
-  {
-    name: "Capgemini Japan",
-    priority: "A",
-    type: "consulting",
-    officialCareersUrl: "https://www.capgemini.com/jp-jp/careers/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"]
-  },
-  {
-    name: "Cognizant Japan",
-    priority: "A",
-    type: "global-si",
-    officialCareersUrl: "https://careers.cognizant.com/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"]
-  },
-  {
-    name: "Wipro Japan",
-    priority: "B",
-    type: "global-si",
-    officialCareersUrl: "https://careers.wipro.com/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"]
-  },
-  {
-    name: "Avanade Japan",
-    priority: "A",
-    type: "microsoft-consulting",
-    officialCareersUrl: "https://www.avanade.com/ja-jp/career",
-    watchTerms: ["CRM", "Dynamics", "Power Platform", "Consultant", "Customer"]
-  },
-  {
-    name: "Microsoft Japan",
-    priority: "B",
-    type: "vendor",
-    officialCareersUrl: "https://careers.microsoft.com/",
-    watchTerms: ["Customer Success", "Solution Consultant", "Power Platform", "Dynamics", "Japan"]
-  },
-  {
-    name: "Oracle Japan",
-    priority: "B",
-    type: "vendor",
-    officialCareersUrl: "https://www.oracle.com/careers/",
-    watchTerms: ["CX", "CRM", "Consultant", "Customer Success", "Japan"]
-  },
-  {
-    name: "SAP Japan",
-    priority: "B",
-    type: "vendor",
-    officialCareersUrl: "https://jobs.sap.com/",
-    watchTerms: ["Customer Experience", "CRM", "Consultant", "Customer Success", "Japan"]
-  },
-  {
-    name: "Adobe Japan",
-    priority: "B",
-    type: "vendor",
-    officialCareersUrl: "https://careers.adobe.com/",
-    watchTerms: ["Customer Experience", "Solution Consultant", "Customer Success", "Japan"]
-  },
-  {
-    name: "Fujitsu",
-    priority: "A",
-    type: "si-consulting",
-    officialCareersUrl: "https://fujitsu.recruiting.jp.fujitsu.com/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "NEC",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://jpn.nec.com/recruit/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "Hitachi",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.hitachi.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "SCSK",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.scsk.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Project Manager"]
-  },
-  {
-    name: "BIPROGY",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.biprogy.com/recruit/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "JSOL",
-    priority: "A",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.jsol.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "PM", "Consultant"]
-  },
-  {
-    name: "ITOCHU Techno-Solutions",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.ctc-g.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "TIS",
-    priority: "B",
-    type: "si-consulting",
-    officialCareersUrl: "https://www.tis.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"]
-  },
-  {
-    name: "FLECT",
-    priority: "A",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.flect.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "PM", "Customer Success"]
-  },
-  {
-    name: "SunBridge",
-    priority: "B",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.sunbridge.com/recruit/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Customer Success"]
-  },
-  {
-    name: "toBe Marketing",
-    priority: "B",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://tobem.jp/recruit/",
-    watchTerms: ["Salesforce", "Marketing Cloud", "CRM", "Consultant"]
-  },
-  {
-    name: "Frogwell",
-    priority: "B",
-    type: "salesforce-partner",
-    officialCareersUrl: "https://www.frogwell.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "Consultant", "Data"]
-  },
-  {
-    name: "PERSOL Business Process Design",
-    priority: "B",
-    type: "business-process-consulting",
-    officialCareersUrl: "https://www.persol-bd.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "BPO", "Consultant", "PM"]
-  },
-  {
-    name: "PERSOL Cross Technology",
-    priority: "B",
-    type: "technology-consulting",
-    officialCareersUrl: "https://persol-xtech.co.jp/recruit/",
-    watchTerms: ["Salesforce", "CRM", "IT Consultant", "PM"]
-  },
-  {
-    name: "WingArc1st",
-    priority: "C",
-    type: "data-saas",
-    officialCareersUrl: "https://www.wingarc.com/recruit/",
-    watchTerms: ["Salesforce", "Data", "BI", "Customer Success", "Consultant"]
-  },
-  {
-    name: "PLAID",
-    priority: "C",
-    type: "cx-saas",
-    officialCareersUrl: "https://plaid.co.jp/recruit/",
-    watchTerms: ["CX", "CRM", "Customer Success", "Solution Consultant"]
-  },
-  {
-    name: "Zendesk Japan",
-    priority: "C",
-    type: "cx-saas",
-    officialCareersUrl: "https://jobs.zendesk.com/",
-    watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"]
-  },
-  {
-    name: "HubSpot Japan",
-    priority: "C",
-    type: "crm-saas",
-    officialCareersUrl: "https://www.hubspot.com/careers",
-    watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"]
-  },
-  {
-    name: "SmartHR",
-    priority: "C",
-    type: "saas",
-    officialCareersUrl: "https://smarthr.co.jp/recruit/",
-    watchTerms: ["Customer Success", "Implementation", "Solution", "PM"]
-  },
-  {
-    name: "Sansan",
-    priority: "C",
-    type: "saas",
-    officialCareersUrl: "https://jp.corp-sansan.com/recruit/",
-    watchTerms: ["Customer Success", "CRM", "Implementation", "Consultant"]
-  }
+  { name: "Salesforce Japan", priority: "A", type: "crm-saas", officialCareersUrl: "https://careers.salesforce.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Salesforce", "セールスフォース・ジャパン"], watchTerms: ["Solution Consultant", "Customer Success", "Agentforce", "Slack", "Salesforce"] },
+  { name: "PwC Japan", priority: "A", type: "consulting", officialCareersUrl: "https://www.pwc.com/jp/ja/careers.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["PwC", "PwC Japan合同会社"], watchTerms: ["Salesforce", "CRM", "CX", "Front Office"] },
+  { name: "Accenture Japan", priority: "A", type: "consulting", officialCareersUrl: "https://www.accenture.com/jp-ja/careers/jobsearch", minEmployees: 1000, employeeBand: "1000+", aliases: ["Accenture", "アクセンチュア"], watchTerms: ["Salesforce", "CRM", "Technology Consultant", "Customer"] },
+  { name: "Deloitte Japan", priority: "A", type: "consulting", officialCareersUrl: "https://www2.deloitte.com/jp/ja/careers.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["Deloitte", "デロイト トーマツ", "Deloitte Tohmatsu"], watchTerms: ["Salesforce", "CRM", "Customer", "DX"] },
+  { name: "IBM Japan", priority: "A", type: "technology-consulting", officialCareersUrl: "https://www.ibm.com/jp-ja/careers/search", minEmployees: 1000, employeeBand: "1000+", aliases: ["IBM", "日本IBM"], watchTerms: ["Salesforce", "CRM", "Consultant", "Package Consultant"] },
+  { name: "NTT DATA", priority: "A", type: "si-consulting", officialCareersUrl: "https://www.nttdata.com/global/en/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["NTTデータ", "NTT DATA Japan"], watchTerms: ["Salesforce", "CRM", "DX", "IT Consultant"] },
+  { name: "Nomura Research Institute", priority: "A", type: "consulting", officialCareersUrl: "https://career.nri.co.jp/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NRI", "野村総合研究所"], watchTerms: ["Salesforce", "CRM", "Solution Consultant"] },
+  { name: "Infosys", priority: "A", type: "global-si", officialCareersUrl: "https://www.infosys.com/careers/apply.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["Infosys Limited", "インフォシス"], watchTerms: ["Salesforce", "Agentforce", "Data Cloud", "Marketing Cloud"] },
+  { name: "HCLTech", priority: "A", type: "global-si", officialCareersUrl: "https://www.hcltech.com/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["HCL Technologies", "HCLTech Japan"], watchTerms: ["Salesforce Consultant", "CRM", "Japan"] },
+  { name: "Tata Consultancy Services Japan", priority: "A", type: "global-si", officialCareersUrl: "https://www.tcs.com/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["TCS", "日本タタ・コンサルタンシー・サービシズ"], watchTerms: ["Salesforce", "CRM", "Japan"] },
+  { name: "ServiceNow Japan", priority: "A", type: "workflow-saas", officialCareersUrl: "https://careers.servicenow.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["ServiceNow", "サービスナウ"], watchTerms: ["CRM", "Customer Outcomes", "Technical Consultant", "Tokyo"] },
+  { name: "TerraSky", priority: "A", type: "salesforce-partner", officialCareersUrl: "https://www.terrasky.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["テラスカイ"], watchTerms: ["Salesforce", "Project Manager", "Consultant", "DX"] },
+  { name: "transcosmos", priority: "A", type: "bpo-cx", officialCareersUrl: "https://www.trans-cosmos.co.jp/saiyou/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["トランスコスモス", "trans-cosmos"], watchTerms: ["Salesforce", "CRM", "CX", "Consultant"] },
+  { name: "BellSystem24", priority: "A", type: "bpo-cx", officialCareersUrl: "https://www.bell24.co.jp/ja/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["ベルシステム24", "ベルシステム２４"], watchTerms: ["CRM", "Salesforce", "Consultant", "Presales"] },
+  { name: "GlobalLogic Japan", priority: "B", type: "global-si", officialCareersUrl: "https://www.globallogic.com/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["GlobalLogic", "グローバルロジック"], watchTerms: ["Salesforce", "Project Manager", "Japan"] },
+  { name: "DXC Technology Japan", priority: "B", type: "global-si", officialCareersUrl: "https://careers.dxc.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["DXC Technology", "DXC"], watchTerms: ["Salesforce", "Consultant", "Japan"] },
+  { name: "EY Japan", priority: "A", type: "consulting", officialCareersUrl: "https://www.ey.com/ja_jp/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["EY", "EYストラテジー・アンド・コンサルティング"], watchTerms: ["Salesforce", "CRM", "Customer", "Technology Consultant"] },
+  { name: "KPMG Consulting Japan", priority: "A", type: "consulting", officialCareersUrl: "https://recruit.kpmg-consulting.jp/", minEmployees: 1000, employeeBand: "1000+", aliases: ["KPMG", "KPMGコンサルティング"], watchTerms: ["Salesforce", "CRM", "Customer", "DX", "Consultant"] },
+  { name: "Capgemini Japan", priority: "A", type: "consulting", officialCareersUrl: "https://www.capgemini.com/jp-jp/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Capgemini", "キャップジェミニ"], watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"] },
+  { name: "Cognizant Japan", priority: "A", type: "global-si", officialCareersUrl: "https://careers.cognizant.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Cognizant", "コグニザント"], watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"] },
+  { name: "Wipro Japan", priority: "B", type: "global-si", officialCareersUrl: "https://careers.wipro.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Wipro", "ウィプロ"], watchTerms: ["Salesforce", "CRM", "Consultant", "Japan"] },
+  { name: "Avanade Japan", priority: "B", type: "microsoft-consulting", officialCareersUrl: "https://www.avanade.com/ja-jp/career", minEmployees: 1000, employeeBand: "1000+", aliases: ["Avanade", "アバナード"], watchTerms: ["CRM", "Dynamics", "Power Platform", "Consultant", "Customer"] },
+  { name: "Microsoft Japan", priority: "B", type: "vendor", officialCareersUrl: "https://careers.microsoft.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Microsoft", "日本マイクロソフト"], watchTerms: ["Customer Success", "Solution Consultant", "Power Platform", "Dynamics", "Japan"] },
+  { name: "Oracle Japan", priority: "B", type: "vendor", officialCareersUrl: "https://www.oracle.com/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Oracle", "日本オラクル"], watchTerms: ["CX", "CRM", "Consultant", "Customer Success", "Japan"] },
+  { name: "SAP Japan", priority: "B", type: "vendor", officialCareersUrl: "https://jobs.sap.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["SAP", "SAPジャパン"], watchTerms: ["Customer Experience", "CRM", "Consultant", "Customer Success", "Japan"] },
+  { name: "Adobe Japan", priority: "B", type: "vendor", officialCareersUrl: "https://careers.adobe.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Adobe", "アドビ"], watchTerms: ["Customer Experience", "Solution Consultant", "Customer Success", "Japan"] },
+  { name: "Fujitsu", priority: "A", type: "si-consulting", officialCareersUrl: "https://fujitsu.recruiting.jp.fujitsu.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["富士通"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "NEC", priority: "B", type: "si-consulting", officialCareersUrl: "https://jpn.nec.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["日本電気"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "Hitachi", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.hitachi.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["日立製作所"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "SCSK", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.scsk.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["SCSK株式会社"], watchTerms: ["Salesforce", "CRM", "Consultant", "Project Manager"] },
+  { name: "BIPROGY", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.biprogy.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["日本ユニシス"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "JSOL", priority: "A", type: "si-consulting", officialCareersUrl: "https://www.jsol.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["ＪＳＯＬ", "株式会社JSOL"], watchTerms: ["Salesforce", "CRM", "PM", "Consultant"] },
+  { name: "ITOCHU Techno-Solutions", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.ctc-g.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["CTC", "伊藤忠テクノソリューションズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "TIS", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.tis.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["TIS株式会社"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "ABeam Consulting", priority: "A", type: "consulting", officialCareersUrl: "https://www.abeam.com/jp/ja/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["ABeam", "アビームコンサルティング"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "QUNIE", priority: "B", type: "consulting", officialCareersUrl: "https://www.qunie.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["クニエ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "BayCurrent Consulting", priority: "B", type: "consulting", officialCareersUrl: "https://www.baycurrent.co.jp/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["BayCurrent", "ベイカレント"], watchTerms: ["CRM", "DX", "IT Consultant", "PM"] },
+  { name: "Ridgelinez", priority: "B", type: "consulting", officialCareersUrl: "https://www.ridgelinez.com/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["リッジラインズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "SHIFT", priority: "B", type: "technology-consulting", officialCareersUrl: "https://recruit.shiftinc.jp/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["SHIFT Inc.", "株式会社SHIFT"], watchTerms: ["Salesforce", "CRM", "PM", "Consultant"] },
+  { name: "Simplex", priority: "C", type: "technology-consulting", officialCareersUrl: "https://www.simplex.inc/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["シンプレクス"], watchTerms: ["CRM", "DX", "Consultant", "PM"] },
+  { name: "Future", priority: "C", type: "technology-consulting", officialCareersUrl: "https://www.future.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["フューチャー", "Future Architect"], watchTerms: ["Salesforce", "CRM", "IT Consultant", "DX"] },
+  { name: "NS Solutions", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.nssol.nipponsteel.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NSSOL", "日鉄ソリューションズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "DTS", priority: "C", type: "si-consulting", officialCareersUrl: "https://www.dts.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["株式会社DTS"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "NTT Comware", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.nttcom.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NTTコムウェア"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "NTT Communications", priority: "B", type: "telecom-dx", officialCareersUrl: "https://www.ntt.com/about-us/careers.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["NTTコミュニケーションズ"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "NTT Docomo Business", priority: "B", type: "telecom-dx", officialCareersUrl: "https://www.ntt.com/about-us/careers.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["ドコモビジネス", "NTTドコモビジネス"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "NTT TechnoCross", priority: "C", type: "si-consulting", officialCareersUrl: "https://www.ntt-tx.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NTTテクノクロス"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "Hitachi Solutions", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.hitachi-solutions.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["日立ソリューションズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant", "PM"] },
+  { name: "Hitachi Systems", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.hitachi-systems.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["日立システムズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "NEC Solution Innovators", priority: "B", type: "si-consulting", officialCareersUrl: "https://www.nec-solutioninnovators.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NECソリューションイノベータ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "NEC Networks & System Integration", priority: "C", type: "si-consulting", officialCareersUrl: "https://www.nesic.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["NESIC", "NECネッツエスアイ"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "Canon IT Solutions", priority: "C", type: "si-consulting", officialCareersUrl: "https://www.canon-its.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["キヤノンITソリューションズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "Toshiba Digital Solutions", priority: "C", type: "si-consulting", officialCareersUrl: "https://www.global.toshiba/jp/recruit/career.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["東芝デジタルソリューションズ", "Toshiba"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "Panasonic Connect", priority: "C", type: "technology", officialCareersUrl: "https://connect.panasonic.com/jp-ja/recruit/career", minEmployees: 1000, employeeBand: "1000+", aliases: ["パナソニック コネクト"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "Mitsubishi Electric", priority: "C", type: "technology", officialCareersUrl: "https://www.mitsubishielectric.co.jp/saiyo/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["三菱電機"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "Ricoh", priority: "C", type: "technology", officialCareersUrl: "https://jp.ricoh.com/jobs", minEmployees: 1000, employeeBand: "1000+", aliases: ["リコー"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "Dentsu Digital", priority: "B", type: "digital-consulting", officialCareersUrl: "https://www.dentsudigital.co.jp/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["電通デジタル"], watchTerms: ["Salesforce", "CRM", "CX", "Marketing Cloud"] },
+  { name: "Hakuhodo DY ONE", priority: "C", type: "digital-consulting", officialCareersUrl: "https://www.hakuhodody-one.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["博報堂ＤＹワン", "Hakuhodo"], watchTerms: ["Salesforce", "CRM", "CX", "Marketing Cloud"] },
+  { name: "CyberAgent", priority: "C", type: "internet", officialCareersUrl: "https://www.cyberagent.co.jp/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["サイバーエージェント"], watchTerms: ["CRM", "Customer Success", "DX", "PM"] },
+  { name: "Rakuten", priority: "B", type: "internet", officialCareersUrl: "https://corp.rakuten.co.jp/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["楽天", "Rakuten Group"], watchTerms: ["Salesforce", "CRM", "Customer Success", "PM"] },
+  { name: "SoftBank", priority: "B", type: "telecom-dx", officialCareersUrl: "https://www.softbank.jp/corp/recruit/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["ソフトバンク"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "KDDI", priority: "B", type: "telecom-dx", officialCareersUrl: "https://career.kddi.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["KDDI株式会社"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] },
+  { name: "LY Corporation", priority: "B", type: "internet", officialCareersUrl: "https://www.lycorp.co.jp/ja/recruit/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["LINEヤフー", "LINE Yahoo", "Yahoo Japan"], watchTerms: ["CRM", "Customer Success", "DX", "PM"] },
+  { name: "Recruit", priority: "B", type: "internet-hr", officialCareersUrl: "https://www.recruit.co.jp/employment/", minEmployees: 1000, employeeBand: "1000+", aliases: ["リクルート", "Recruit Holdings"], watchTerms: ["Salesforce", "CRM", "Customer Success", "DX"] },
+  { name: "PERSOL Business Process Design", priority: "B", type: "business-process-consulting", officialCareersUrl: "https://www.persol-bd.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["パーソルビジネスプロセスデザイン"], watchTerms: ["Salesforce", "CRM", "BPO", "Consultant", "PM"] },
+  { name: "PERSOL Cross Technology", priority: "B", type: "technology-consulting", officialCareersUrl: "https://persol-xtech.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["パーソルクロステクノロジー"], watchTerms: ["Salesforce", "CRM", "IT Consultant", "PM"] },
+  { name: "Altius Link", priority: "C", type: "bpo-cx", officialCareersUrl: "https://www.altius-link.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["アルティウスリンク"], watchTerms: ["Salesforce", "CRM", "CX", "PM"] },
+  { name: "TMJ", priority: "C", type: "bpo-cx", officialCareersUrl: "https://www.tmj.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["株式会社TMJ"], watchTerms: ["Salesforce", "CRM", "CX", "Consultant"] },
+  { name: "Relia", priority: "C", type: "bpo-cx", officialCareersUrl: "https://www.relia-group.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["りらいあ", "Relia Group"], watchTerms: ["Salesforce", "CRM", "CX", "PM"] },
+  { name: "Prestige International", priority: "C", type: "bpo-cx", officialCareersUrl: "https://www.prestigein.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["プレステージ・インターナショナル"], watchTerms: ["Salesforce", "CRM", "CX", "Customer Success"] },
+  { name: "Amazon Japan", priority: "B", type: "cloud-commerce", officialCareersUrl: "https://www.amazon.jobs/ja/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Amazon", "Amazon Web Services", "AWS", "アマゾン"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Google Japan", priority: "C", type: "vendor", officialCareersUrl: "https://www.google.com/about/careers/applications/jobs/results/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Google", "グーグル"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Cisco Japan", priority: "C", type: "vendor", officialCareersUrl: "https://jobs.cisco.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Cisco", "シスコ"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Dell Technologies Japan", priority: "C", type: "vendor", officialCareersUrl: "https://jobs.dell.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Dell Technologies", "Dell", "デル・テクノロジーズ"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "HP Japan", priority: "C", type: "vendor", officialCareersUrl: "https://jobs.hp.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["HP", "日本HP"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Lenovo Japan", priority: "C", type: "vendor", officialCareersUrl: "https://jobs.lenovo.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Lenovo", "レノボ"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Workday Japan", priority: "C", type: "enterprise-saas", officialCareersUrl: "https://workday.wd5.myworkdayjobs.com/Workday", minEmployees: 1000, employeeBand: "1000+", aliases: ["Workday", "ワークデイ"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Box Japan", priority: "C", type: "enterprise-saas", officialCareersUrl: "https://www.box.com/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["Box", "Box Japan"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Zendesk Japan", priority: "C", type: "cx-saas", officialCareersUrl: "https://jobs.zendesk.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Zendesk", "ゼンデスク"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "HubSpot Japan", priority: "C", type: "crm-saas", officialCareersUrl: "https://www.hubspot.com/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["HubSpot", "ハブスポット"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Atlassian Japan", priority: "C", type: "enterprise-saas", officialCareersUrl: "https://www.atlassian.com/company/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["Atlassian", "アトラシアン"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Okta Japan", priority: "C", type: "identity-saas", officialCareersUrl: "https://www.okta.com/company/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Okta", "オクタ"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Snowflake Japan", priority: "C", type: "data-saas", officialCareersUrl: "https://careers.snowflake.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Snowflake", "スノーフレイク"], watchTerms: ["Customer Success", "Solution Consultant", "Data Cloud", "Japan"] },
+  { name: "Databricks Japan", priority: "C", type: "data-saas", officialCareersUrl: "https://www.databricks.com/company/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["Databricks", "データブリックス"], watchTerms: ["Customer Success", "Solution Consultant", "Data", "Japan"] },
+  { name: "Datadog Japan", priority: "C", type: "observability-saas", officialCareersUrl: "https://careers.datadoghq.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Datadog", "データドッグ"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "MongoDB Japan", priority: "C", type: "data-saas", officialCareersUrl: "https://www.mongodb.com/company/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["MongoDB", "MongoDB Japan"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "UiPath Japan", priority: "C", type: "automation-saas", officialCareersUrl: "https://www.uipath.com/company/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["UiPath", "ユーアイパス"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Quest Global Japan", priority: "C", type: "global-si", officialCareersUrl: "https://www.quest-global.com/careers/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Quest Global", "クエスト・グローバル"], watchTerms: ["Salesforce", "CRM", "Project Manager", "Japan"] },
+  { name: "SAS Institute Japan", priority: "C", type: "analytics-saas", officialCareersUrl: "https://www.sas.com/ja_jp/careers.html", minEmployees: 1000, employeeBand: "1000+", aliases: ["SAS", "SAS Institute"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "OpenText Japan", priority: "C", type: "enterprise-software", officialCareersUrl: "https://careers.opentext.com/", minEmployees: 1000, employeeBand: "1000+", aliases: ["OpenText", "オープンテキスト"], watchTerms: ["Customer Success", "Solution Consultant", "CRM", "Japan"] },
+  { name: "Workato Japan", priority: "C", type: "automation-saas", officialCareersUrl: "https://www.workato.com/careers", minEmployees: 1000, employeeBand: "1000+", aliases: ["Workato", "ワーカート"], watchTerms: ["Customer Success", "Solution Consultant", "Implementation", "Japan"] },
+  { name: "Cybozu", priority: "C", type: "saas", officialCareersUrl: "https://cybozu.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["サイボウズ"], watchTerms: ["Customer Success", "CRM", "Implementation", "Consultant"] },
+  { name: "Sansan", priority: "C", type: "saas", officialCareersUrl: "https://jp.corp-sansan.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["Sansan株式会社"], watchTerms: ["Customer Success", "CRM", "Implementation", "Consultant"] },
+  { name: "SmartHR", priority: "C", type: "saas", officialCareersUrl: "https://smarthr.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["SmartHR株式会社"], watchTerms: ["Customer Success", "Implementation", "Solution", "PM"] },
+  { name: "freee", priority: "C", type: "saas", officialCareersUrl: "https://jobs.freee.co.jp/", minEmployees: 1000, employeeBand: "1000+", aliases: ["freee株式会社", "フリー"], watchTerms: ["Customer Success", "CRM", "Implementation", "PM"] },
+  { name: "Money Forward", priority: "C", type: "saas", officialCareersUrl: "https://corp.moneyforward.com/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["マネーフォワード"], watchTerms: ["Customer Success", "CRM", "Implementation", "PM"] },
+  { name: "Mizuho Research & Technologies", priority: "C", type: "financial-it", officialCareersUrl: "https://www.mizuho-rt.co.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["みずほリサーチ&テクノロジーズ", "みずほリサーチアンドテクノロジーズ"], watchTerms: ["Salesforce", "CRM", "DX", "Consultant"] },
+  { name: "Mitsubishi UFJ Information Technology", priority: "C", type: "financial-it", officialCareersUrl: "https://www.it.mufg.jp/recruit/", minEmployees: 1000, employeeBand: "1000+", aliases: ["三菱UFJインフォメーションテクノロジー", "MUIT"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "Sumitomo Mitsui Banking Corporation", priority: "C", type: "financial-services", officialCareersUrl: "https://www.smbc.co.jp/saiyou/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["SMBC", "三井住友銀行"], watchTerms: ["Salesforce", "CRM", "DX", "PM"] },
+  { name: "Nomura Securities", priority: "C", type: "financial-services", officialCareersUrl: "https://www.nomura.co.jp/recruit/career/", minEmployees: 1000, employeeBand: "1000+", aliases: ["野村證券", "Nomura"], watchTerms: ["Salesforce", "CRM", "DX", "Customer Success"] }
 ];
