@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Radar</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar" aria-label="Profile summary">
+        <div>
+          <p class="eyebrow">Japan Salesforce Career Radar</p>
+          <h1>맞춤 구직 레이더</h1>
+        </div>
+        <div class="run-status">
+          <span id="last-updated">업데이트 확인 중</span>
+          <strong id="polling-label">3시간 폴링</strong>
+        </div>
+      </section>
+
+      <section class="profile-strip" aria-label="Candidate profile">
+        <div>
+          <span class="label">거점</span>
+          <strong id="profile-location">-</strong>
+        </div>
+        <div>
+          <span class="label">현재 연봉</span>
+          <strong id="profile-current-salary">-</strong>
+        </div>
+        <div>
+          <span class="label">타깃</span>
+          <strong id="profile-target-roles">-</strong>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Filters">
+        <label class="search-box">
+          <span>검색</span>
+          <input id="search-input" type="search" placeholder="회사, 직무, 키워드">
+        </label>
+        <label>
+          <span>추천도</span>
+          <select id="fit-filter">
+            <option value="all">전체</option>
+            <option value="recommended">추천</option>
+            <option value="stretch">스트레치</option>
+            <option value="backup">백업</option>
+          </select>
+        </label>
+        <label>
+          <span>소스</span>
+          <select id="source-filter">
+            <option value="all">전체</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Official">공식 Careers</option>
+          </select>
+        </label>
+        <label>
+          <span>최소 점수</span>
+          <input id="score-filter" type="range" min="0" max="100" value="60">
+        </label>
+        <output id="score-output">60+</output>
+      </section>
+
+      <section class="metric-grid" aria-label="Metrics">
+        <article>
+          <span>추천 후보</span>
+          <strong id="metric-recommended">0</strong>
+        </article>
+        <article>
+          <span>스트레치</span>
+          <strong id="metric-stretch">0</strong>
+        </article>
+        <article>
+          <span>공식 감시 회사</span>
+          <strong id="metric-companies">0</strong>
+        </article>
+        <article>
+          <span>엔지니어 제외</span>
+          <strong id="metric-excluded">ON</strong>
+        </article>
+      </section>
+
+      <div class="content-layout">
+        <section aria-label="Job matches">
+          <div class="section-heading">
+            <h2>지원 후보</h2>
+            <span id="result-count">0건</span>
+          </div>
+          <div id="jobs-list" class="jobs-list"></div>
+        </section>
+
+        <aside class="watch-panel" aria-label="Official careers watchlist">
+          <div class="section-heading">
+            <h2>공식 Careers 감시</h2>
+            <span id="company-count">0개</span>
+          </div>
+          <div id="company-list" class="company-list"></div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="./data/profile.js"></script>
+    <script src="./data/target_companies.js"></script>
+    <script src="./data/jobs.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
