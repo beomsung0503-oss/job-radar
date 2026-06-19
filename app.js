@@ -59,18 +59,43 @@ function companySizeLabel(job) {
   return "규모 미확인";
 }
 
+function isAiVenture(item) {
+  return (item.targetCompanyType || item.type || "").includes("ai-megaventure");
+}
+
+function isMegaVenture(item) {
+  return (item.targetCompanyType || item.type || "").includes("megaventure");
+}
+
+function ventureLabel(item) {
+  if (isAiVenture(item)) return "AI 메가벤처";
+  if (isMegaVenture(item)) return "메가벤처";
+  return "";
+}
+
+function openWorkSearchUrl(name) {
+  return `https://www.openwork.jp/search?keyword=${encodeURIComponent(name || "")}`;
+}
+
+function openWorkLabel(item) {
+  if (item.openWorkRating) return `OpenWork ${item.openWorkRating}`;
+  return "OpenWork 확인";
+}
+
 function hasOfficialJobUrl(job) {
   return job.directUrlStatus === "verified_official" && Boolean(job.directUrl);
 }
 
 function actionButtons(job) {
+  const openWork = `<a class="button secondary" href="${openWorkSearchUrl(job.targetCompany || job.company)}" target="_blank" rel="noreferrer">OpenWork</a>`;
   if (hasOfficialJobUrl(job)) {
     return `
       <a class="button" href="${job.directUrl}" target="_blank" rel="noreferrer">공고</a>
       <a class="button secondary" href="${job.url}" target="_blank" rel="noreferrer">LinkedIn</a>
+      ${openWork}
     `;
   }
-  return `<a class="button" href="${job.url}" target="_blank" rel="noreferrer">LinkedIn</a>`;
+  return `<a class="button" href="${job.url}" target="_blank" rel="noreferrer">LinkedIn</a>${openWork}`;
 }
 
 function scoreBreakdown(job) {
@@ -167,6 +192,8 @@ function renderJobs() {
           <span class="badge">${sourceLabel(job)}</span>
           <span class="badge">${job.employmentType || "고용형태 미기재"}</span>
           <span class="badge good">${companySizeLabel(job)}</span>
+          ${ventureLabel(job) ? `<span class="badge ai">${ventureLabel(job)}</span>` : ""}
+          <span class="badge">${openWorkLabel(job)}</span>
         </div>
         <ul class="reason-list">${reasons}</ul>
         <ul class="risk-list">${risks}</ul>
@@ -190,9 +217,12 @@ function renderCompanies() {
           <strong>${company.name}</strong>
           <span class="priority">${company.priority}</span>
         </div>
-        <span class="company-meta">${company.type} · ${company.employeeBand || "1000+"}명</span>
+        <span class="company-meta">${company.type} · ${company.employeeBand || "1000+"}명 · ${openWorkLabel(company)}</span>
         <div class="term-row">${terms}</div>
-        <a class="button secondary" href="${company.officialCareersUrl}" target="_blank" rel="noreferrer">공식 Careers</a>
+        <div class="card-actions compact">
+          <a class="button secondary" href="${company.officialCareersUrl}" target="_blank" rel="noreferrer">공식 Careers</a>
+          <a class="button secondary" href="${openWorkSearchUrl(company.name)}" target="_blank" rel="noreferrer">OpenWork</a>
+        </div>
       </article>
     `;
   }).join("");

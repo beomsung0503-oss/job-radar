@@ -20,7 +20,7 @@ This gives you:
 The workflow refreshes LinkedIn plus conservative official Careers data with:
 
 ```bash
-python scripts/collect_jobs.py --replace --linkedin-queries 16 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
+python scripts/collect_jobs.py --replace --linkedin-queries 26 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
 ```
 
 Official Careers scanning is intentionally conservative. It promotes links only when the link text and target-company keywords look like a job page, so it may miss JavaScript-only ATS pages.

@@ -25,7 +25,7 @@ window.JOB_RADAR_JOBS = [
       "상세 본문에서 연봉 정보 확인",
       "스킬: Salesforce, CRM, Sales Cloud, Service Cloud",
       "직무: 컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
+      "조건: 도쿄, 리모트/하이브리드",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -36,6 +36,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "JSOL",
+    "targetCompanyType": "si-consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -61,7 +62,153 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
         "experience": "요구 3년",
         "salary": "목표연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드",
+        "location": "도쿄, 리모트/하이브리드",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4404736537",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "ITコンサルタント",
+    "company": "NTT DATA, Inc.",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-05-21",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Senior level",
+    "jobFunction": "Consulting, Project Management, and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/it%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-ntt-data-inc-4404736537",
+    "directUrl": "https://www.nttdata.com/global/en/careers",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 80,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, AI, 生成AI, LLM",
+      "직무: 컨설턴트, PM/PL, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "NTT DATA",
+    "targetCompanyType": "si-consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "【職務内容】 ■対象業界 流通小売、交通観光、エンタメ、メーカー（自動車、食品飲料、機械、日用品など）など業種多数 ■対象業務、システム領域 EC/店舗に関連する販売管理システム （商品管理、OMS、DWH/BI) ロジスティクス領域（物流計画・配車、庫内最適化、需要予測、在庫最適化、配送可視化、返品・リバースロジ等）に関わる業務・システム（WMS/TMS/OMS連携、SCM周辺、データ基盤、分析・最適化 等） CRM/デジタルマーケティングシステム（CDP/BI、ロイヤリティ・ポイント管理、MA（Salesforce社MarketingCloud、Brazeなど）） 当該領域における課題解決のためのデジタルテクノロジーの業務組込み （例：フィジカルAI、AIエージェント、AIカメラ、AIデータ活用を活用した業務高度化・自動化／意思決定支援 など） ■職務 ITコンサルタント 課題特定、業務・IT変革グランドデザイン、実行計画の立案・提言 お客様の立場でのプロジェクト推進支援 運用上の業務・IT課題解決、データ活用／生成AI活用の企画・適用支援 プロジェクトマネージャー・リーダー 開発プロジェクト及びローンチ後の一定期間のDev/Opsにおけるリーダー AIエンジニア AIデータ連携・分析基盤、生成AI活用機能を含む業務実装・運用（PoC〜本番適用まで）、AIインフラ構築 【アピールポイント（職務の魅力）】 生活者接点のデジタル化、顧客接点改革を起点とするバリューチェーン変革の伴走を通じて、お客様企業の事業成長に貢献します。 生活者ニーズの多様化に伴い生活者接点事業プロセスも輻輳化、複雑化してきており、これを見直す引き合いが増えてきております。 また同様に生活者ニーズのインサイト、きめ細かな体験設計とオファリングによる生活者価値創造の引き合いも増えてきております。 これらのニーズは広く業界にまたがって生じております。当社既存のお客様、新規のお客様より様々な引き合いを頂いており、これをお客様企業とともに解決していきます。 さらに生成AI（LLM）を業務へ組み込み、現場の意思決定支援、問い合わせ/例外対応の自動化、計画業務の効率化など、これまでにない価値提供の実現を目指します。 ベースとなる業務、システム領域においては、スクラッチやSaaS/PKG併用、WFやアジャイル開発をプロジェクト特性に応じて使い分けます。 また課題解決の過程で他のデジタルテクノロジー（例：AIカメラ、AIデータ活用など）を業務に組み込むといったケースにも対応しますが、社内の他組織にはより技術に特化した高度専門部隊もおり社内連携、バックアップ体制は充実しております。 上流からローンチ後の事業成長過程まで従事し、また適宜ローテーションしていくことで、業種の幅出し、業務・システム領域の幅出し、担当者からスペシャリストへ、リーダへ、コンサルタントへの幅出しも実現できるポストです。 【必要条件】 以下のいずれかの条件を満たす方。 対象領域におけるいずれか、または複数のシステム開発経験・維持経験が３年以上ある方（対象システム領域に列挙したパッケージでなくても良い） 若年層の方の場合は、対象領域に限らず、システム開発経験を3年以上有し、生活者向けサービスに関心のある方 開発経験が上記を満たさな",
+    "scoreBreakdown": {
+      "skills": 27,
+      "role": 23,
+      "experience": 16,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 80,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, AI, 生成AI, LLM",
+        "role": "컨설턴트, PM/PL, AI, 타이틀 매칭",
+        "experience": "요구 3년",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4405950764",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "AI×Salesforceコンサルタント 【FOX-BA】",
+    "company": "PwC Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-08",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/ai%C3%97salesforce%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E3%80%90fox-ba%E3%80%91-at-pwc-japan-4405950764",
+    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "recommended",
+    "score": 79,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI, 生成AI",
+      "직무: 컨설턴트, PM/PL, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "募集要項 Job Description AI×Salesforceコンサルタント 【FOX-BA】 職務内容 Roles and Responsibilities ■ポジション概要 CRM、SFA、サービス（コンタクトセンターなど）を中心としたフロントオフィス領域において、Salesforceと生成AI（Agentforce）を組み合わせ、クライアントの業務課題に対して構想策定から価値検証（PoC・デモ）、要件定義、導入・定着までを一貫して推進するポジションです。 Agentforceを前提に、単なる機能導入にとどまらず、業務要件に基づくAI活用のあり方（必要な入力・処理・出力設計、責任分界、統制・ガバナンス）を整理します。そのうえで、効率化・高度化に本当に寄与するポイントを明確化し、ステークホルダーと合意形成しながら実行フェーズまでリードします。 ■担当業務 業務変革とAI活用の全体構想立案支援 営業・サービス・CX／マーケティングなどフロント業務の現状分析、課題特定、AI適用領域の選定 COPISによる業務分解、RACIによる責任分界の整理 AI活用で価値が出るポイント（効率化・高度化）の特定、論点・打ち手の素案作成 Agentforceを前提とした業務要件・アーキテクチャ整理 エージェントに求める役割、参照データ、実行アクション、ガードレール、利用チャネルの整理 Salesforce（Sales／Service）とAgentforceを中心とした業務・データ・統制・運用の全体設計 PoC・デモ構築による価値検証と意思決定支援 実際に動くデモを構築し、ROIやKPIの観点で価値を検証 課題（精度・運用・統制・コスト）を可視化し、次フェーズの意思決定をリード 要件定義以降のデリバリー推進（PM／リード） 要件定義、設計、開発、テスト、移行、導入、定着化までを推進（ウォーターフォール／アジャイル双方） ステークホルダー間の合意形成、リスク・課題管理、品質管理、チェンジマネジメント 提案から案件推進のリード 提案戦略、スコープ設定、体制設計、見積、品質・リスク管理 専門家連携を活用し、案件を拡張・高度化 ■担当業界 金融、製造、メディア・テクノロジー、医療・ヘルスケア、官公庁など、幅広い業界に携わることが可能です。 ■担当領域 セールス（SFA、代理店営業、リード管理、商談、ナーチャリングなど） サービス（コンタクトセンター、フィールドサービス、ケース管理、ナレッジ活用など） CX／マーケティング（デジタル接点、パーソナライズ、キャンペーン運用など） 上記に関連するCRM全般（顧客接点管理、顧客情報管理、分析・インサイト活用） ■プロジェクト例 ・営業領域：商談や活動履歴、顧客情報を踏まえた次アクション提案・要約・提案支援の構想から定着まで ・サービス領域：問い合わせ文脈とナレッジに基づく回答生成、ケース起票、エスカレーションの設計・運用 ・全社横断：社内ドキュメントや履歴、基幹データを活用したRAG型支援（検索×生成）の企画・統制設計 参考ページURL------------------------------------------------ 登録資格 Qualification ■必須要件（Core Requirements） コンサルティン",
+    "scoreBreakdown": {
+      "skills": 28,
+      "role": 25,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 79,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI, 生成AI",
+        "role": "컨설턴트, PM/PL, 도입/정착, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -90,13 +237,13 @@ window.JOB_RADAR_JOBS = [
     "directSearchUrl": "",
     "status": "open",
     "fit": "recommended",
-    "score": 72,
+    "score": 77,
     "reasons": [
       "Actively Hiring",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Service Cloud, Apex",
-      "직무: 컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "스킬: Salesforce, CRM, Service Cloud, AI, Apex",
+      "직무: 컨설턴트, PM/PL, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -108,18 +255,19 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "HCLTech",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
     "descriptionText": "Bilingual Salesforce Consultant Required qualifications, capabilities, and skills: Strong hands on experience in Salesforce developing, debugging, and maintaining code in a large corporate environment Indepth knowledge of apex programming language and limitations. Solid understanding of Salesforce Lightning Connect to call external API and building Salesforce Lightning UI, LWC Development and understanding of connectivity solutions, REST API, Messaging and Data transfers. Good understanding of OAUTH2, Caching, Future calls, outlook integration, open cti and salesforce features. Implementation experience of Vonage on Service cloud is preferred Ability to develop reports, dashboards, and processes to continuously monitor data quality and integrity Ability to interpret system / business requirements and prepare specification and design document An understanding of the sales process to better align changes to the CRM platform Overall knowledge of the Software Development Life Cycle and Solid understanding of agile methodologies such as CI/CD, Application Resiliency, and Security",
     "scoreBreakdown": {
-      "skills": 22,
-      "role": 24,
+      "skills": 26,
+      "role": 25,
       "experience": 12,
       "salary": 5,
       "location": 6,
       "source": 3,
-      "total": 72,
+      "total": 77,
       "max": {
         "skills": 30,
         "role": 25,
@@ -129,11 +277,83 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Service Cloud, Apex",
-        "role": "컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
+        "skills": "Salesforce, CRM, Service Cloud, AI, Apex",
+        "role": "컨설턴트, PM/PL, 도입/정착, AI, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4419498528",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Salesforce Marketing Cloud導入PM",
+    "company": "transcosmos inc.",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-05-26",
+    "salaryText": "給与 381,000 ~ 750,000 円",
+    "salaryStatus": "listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/salesforce-marketing-cloud%E5%B0%8E%E5%85%A5pm-at-transcosmos-inc-4419498528",
+    "directUrl": "https://www.trans-cosmos.co.jp/saiyou/career/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "recommended",
+    "score": 74,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "상세 본문에서 연봉 정보 확인",
+      "스킬: Salesforce, CRM, Marketing Cloud",
+      "직무: 컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "transcosmos",
+    "targetCompanyType": "bpo-cx",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "【仕事内容】 【業務について】 本ポジションではプロジェクトマネジャーとして、主に下記の業務に携わっていただきます。 お客様企業へのSalesforce Marketing Cloudの導入支援におけるプロジェクト管理（進行管理、品質管理、予算管理） お客様の課題ヒアリング、データ分析、施策提案 マーケティングシナリオの構築（要件定義・設計） マーケティング施策の効果検証・改善提案 【Salesforce Marketing Cloud（SMC）とは？】 「Salesforce Marketing Cloud（SMC）」はCRM市場世界No.1を誇るSalesforceが提供するMAツールであり、 顧客情報、行動データを統合し、顧客ごとに最適かつ自動化されたOne to Oneコミュニケーションを実現します。 SMCを活用することにより、通常のメール配信だけではなく、LINE、ネイティブアプリ、SMSなどのマルチチャネルへの対応、個人の属性や行動に合わせたコンテンツのパーソナライズ、CRM・ECなどのあらゆる顧客情報・履歴情報を連携し、最適なシナリオを設計・設定・チューニングをおこなっていきます。 【案件事例】 ・化粧品メーカー：SalesforceとLINEを連携したO2O施策でECサイトと実店舗間の送客を実現 （Salesforce Marketing Cloud(SMC) を導入し EC サイトと店舗の購買データ、ポイントデータ、クーポン利用データなどのデータを活用しメール・LINEを配信） ・金融：銀行口座保有のユーザデータをSMCに蓄積し、メール、ネイティブアプリ、SMSから口座利用状況や契約商品状況に応じ顧客に必要な情報を素早く自動発信することを実現 【キャリアパス】 キャリアパスとしては、ある程度Webに関わっていた方であれば、 まずはSalesforce公式認定資格「Salesforce 認定 Marketing Cloud アドミニストレーター」や 「Salesforce 認定 Marketing Cloud コンサルタント」を取得いただきます。（社内勉強会あり、受験料全額会社負担）その後SMCに関する実務によりマーケティング知見を蓄えていただき、マーケティングチームのマネジメントや大規模なプロジェクトの推進など 【求める人材】 【求めるスキル・経験 A:must B:want C:あれば尚可】 A：以下いずれかのご経験をお持ちの方 ・Salesforce Marketing Cloud orその他MA製品を用いたプロジェクトマネジャーの実務経験（2年以上） ・CDP、DMP製品を用いたプロジェクトマネジャーの実務経験（2年以上） B：下記のようなシステムのスクラッチ開発をエンジニアとしてご経験された方 ・データーベース間の連携ファイル（CSVなど）設計経験 ・データベースセキュリティに精通した方 ・SQLSERVER（ORACLE)のSQL（PL/SQL）に精通した方（ストアドプロシージャーの経験があれば尚可） ・SQLSERVER Agentでジョブ処理の作成経験 ・複数のローデータ格納テーブルを集計し、トランザクションデータやマスターデータなどの作成経験 ・設計、テストケースなどのドキュメントレビュー経験 【給与】 給与形態 ",
+    "scoreBreakdown": {
+      "skills": 19,
+      "role": 24,
+      "experience": 20,
+      "salary": 2,
+      "location": 6,
+      "source": 3,
+      "total": 74,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Marketing Cloud",
+        "role": "컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
+        "experience": "요구 2년",
+        "salary": "연봉 상승 제한",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -169,7 +389,7 @@ window.JOB_RADAR_JOBS = [
       "상세 본문에서 연봉 정보 확인",
       "스킬: Salesforce, Sales Cloud, Service Cloud",
       "직무: PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
+      "조건: 도쿄, 리모트/하이브리드",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -179,6 +399,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "JSOL",
+    "targetCompanyType": "si-consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -204,7 +425,7 @@ window.JOB_RADAR_JOBS = [
         "role": "PM/PL, 도입/정착, 타이틀 매칭",
         "experience": "요구 3년",
         "salary": "목표연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드",
+        "location": "도쿄, 리모트/하이브리드",
         "source": "LinkedIn"
       },
       "flags": {
@@ -215,31 +436,105 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4405950764",
+    "id": "linkedin-4427918900",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "AI×Salesforceコンサルタント 【FOX-BA】",
-    "company": "PwC Japan",
+    "title": "Senior Solution Consultant (Global)",
+    "company": "Salesforce",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-08",
+    "postedDate": "2026-06-12",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
     "jobFunction": "Consulting, Information Technology, and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/ai%C3%97salesforce%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E3%80%90fox-ba%E3%80%91-at-pwc-japan-4405950764",
+    "url": "https://jp.linkedin.com/jobs/view/senior-solution-consultant-global-at-salesforce-4427918900",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 69,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: 컨설턴트, CS, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. 職務の目的 「グローバルな知見とAIを駆使し、日本の変革を加速させる」 本ポジションは、日本のお客様とインドのGlobal Delivery Center (GDC) を結ぶ戦略的ハブとして、Salesforceを活用したビジネス変革を支援します。最大のミッションは、単なる言葉の通訳にとどまらず、日本側のシニアアーキテクトとペアを組み、案件内容やプロセスを技術的に理解した上で、GDCメンバーと共に「戦略・変革デザイン」「プロジェクト実行支援」「ガバナンス・最適化」といった幅広いサービスをデリバリーすることにあります。 日本固有のビジネスコンテキストと、GDCが持つ世界最高水準の技術力、グローバル標準手法であるSalesforce Professional Service Methodology（SPSM）、そして利用可能なAI Tool群を融合させ、お客様のROI（投資対効果）を最大化する「技術的・文化的ファシリテーター」としての役割を担います。 主な職責 (Responsibilities) 日本のシニアアーキテクトと緊密なペアを組み、プロジェクトのタスクやプロセスの意図を正しく理解し、GDCへ正確かつ効率的に伝える実行支援を担います。 日本側Architectとのペアリング遂行: 国内のシニアアーキテクトと常に連携し、案件の背景、個別の支",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 20,
+      "experience": 9,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 69,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "컨설턴트, CS, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4405945757",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "CX/CRMコンサルタント【FOX-MC】",
+    "company": "PwC Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-09",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/cx-crm%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90fox-mc%E3%80%91-at-pwc-japan-4405945757",
     "directUrl": "https://www.pwc.com/jp/ja/careers.html",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "recommended",
-    "score": 70,
+    "score": 69,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: 컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "스킬: Salesforce, CRM, AI",
+      "직무: 컨설턴트, 도입/정착, AI, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -251,18 +546,19 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "募集要項 Job Description AI×Salesforceコンサルタント 【FOX-BA】 職務内容 Roles and Responsibilities ■ポジション概要 CRM、SFA、サービス（コンタクトセンターなど）を中心としたフロントオフィス領域において、Salesforceと生成AI（Agentforce）を組み合わせ、クライアントの業務課題に対して構想策定から価値検証（PoC・デモ）、要件定義、導入・定着までを一貫して推進するポジションです。 Agentforceを前提に、単なる機能導入にとどまらず、業務要件に基づくAI活用のあり方（必要な入力・処理・出力設計、責任分界、統制・ガバナンス）を整理します。そのうえで、効率化・高度化に本当に寄与するポイントを明確化し、ステークホルダーと合意形成しながら実行フェーズまでリードします。 ■担当業務 業務変革とAI活用の全体構想立案支援 営業・サービス・CX／マーケティングなどフロント業務の現状分析、課題特定、AI適用領域の選定 COPISによる業務分解、RACIによる責任分界の整理 AI活用で価値が出るポイント（効率化・高度化）の特定、論点・打ち手の素案作成 Agentforceを前提とした業務要件・アーキテクチャ整理 エージェントに求める役割、参照データ、実行アクション、ガードレール、利用チャネルの整理 Salesforce（Sales／Service）とAgentforceを中心とした業務・データ・統制・運用の全体設計 PoC・デモ構築による価値検証と意思決定支援 実際に動くデモを構築し、ROIやKPIの観点で価値を検証 課題（精度・運用・統制・コスト）を可視化し、次フェーズの意思決定をリード 要件定義以降のデリバリー推進（PM／リード） 要件定義、設計、開発、テスト、移行、導入、定着化までを推進（ウォーターフォール／アジャイル双方） ステークホルダー間の合意形成、リスク・課題管理、品質管理、チェンジマネジメント 提案から案件推進のリード 提案戦略、スコープ設定、体制設計、見積、品質・リスク管理 専門家連携を活用し、案件を拡張・高度化 ■担当業界 金融、製造、メディア・テクノロジー、医療・ヘルスケア、官公庁など、幅広い業界に携わることが可能です。 ■担当領域 セールス（SFA、代理店営業、リード管理、商談、ナーチャリングなど） サービス（コンタクトセンター、フィールドサービス、ケース管理、ナレッジ活用など） CX／マーケティング（デジタル接点、パーソナライズ、キャンペーン運用など） 上記に関連するCRM全般（顧客接点管理、顧客情報管理、分析・インサイト活用） ■プロジェクト例 ・営業領域：商談や活動履歴、顧客情報を踏まえた次アクション提案・要約・提案支援の構想から定着まで ・サービス領域：問い合わせ文脈とナレッジに基づく回答生成、ケース起票、エスカレーションの設計・運用 ・全社横断：社内ドキュメントや履歴、基幹データを活用したRAG型支援（検索×生成）の企画・統制設計 参考ページURL------------------------------------------------ 登録資格 Qualification ■必須要件（Core Requirements） コンサルティン",
+    "descriptionText": "募集要項 Job Description CX/CRMコンサルタント【FOX-MC】 職務内容 Roles and Responsibilities 製造・流通・通信・金融・公共サービスなどさまざまな業界の多岐にわたる課題に対し、 コーポレートブランディング、マーケティング起点の新規事業開発、マーケティング戦略、アライアンス戦略といった上流の顧客戦略や豊富なマーケティング戦略立案と実行支援の経験、人工知能（AI）を活用した高度な分析スキルを活用したカスタマーアナリィクス。 また従来のCRM構想策定コンサルティングから、Salesforce（セールスフォース）などのデジタルテクノロジーを活用したプロセス変革コンサルティングに至るまで、多くの専任コンサルタントが得意領域の知見を持ち寄り、クライアントの成功を見届けるまで一貫した支援を行います。 同じPwCグループ内のディールズ部門、あらた監査法人や税理士法人と共同でサービス提供を行う機会も多く、 総合系ファームとしての醍醐味を経験する事が出来るチームです。 チームは大きくCustomer Value Strategy（CVS）とFront Office OperationTransformation（FOOT）というビジネスチームに分かれており、 さらに提供サービスごとに方針を定めていますが、特定のチームに所属となりアサインが固定されることはなく、 BA領域（Salesforce-Delivery）を含めて、Customerチーム全体でアサインメントや育成を行っています。 Customer Value Strategy（CVS） ・CX ・New Biz & Branding ・Customer Strategy ・Customer Insight ・CX Digital Architecture Front Office Operation Transformation（FOOT） ・Front-DX／Front Change Management ・Salesforce Delivery(BA領域) 【部門からのメッセージ】 ・構想策定からITシステム導入まで、幅広い案件を抱えていることから、ご自身の強みを活用しつつ、キャリア志向に応じて様々な案件に関わることが出来るため、経験と意見が広がります。 ・世界152カ国・32万人以上のスタッフを有するグローバルネットワークや、監査法人、税理士法人、ディールズ部門のリソースやナレッジを活用し、多様な経営課題やニーズに対し最適なソリューションの提案に携わることが可能です。 ・中途採用入社者の比率が比較的高く、柔軟でフラットな組織運営を実現しています。 登録資格 Qualification ＜必須要件＞※下記いずれかを満たすこと。 ■コンサルティングファーム経験者（経験領域不問） ※現在は特に以下の経験をお持ちの方を積極的に採用しております。 ・戦略領域全般 ・マーケティング戦略や営業戦略等の顧客戦略立案（新規事業・顧客体験設計等）経験 ・業務改革プロジェクト経験・SFA/CRM/マーケティングツールの導入プロジェクト経験 ・データマネジメント（データ収集、管理、分析、ガバナンス）プロジェクト経験 ■SIerにて以下の業務経験をお持ちの方 ・CRMやコールセンタ",
     "scoreBreakdown": {
-      "skills": 20,
+      "skills": 19,
       "role": 24,
       "experience": 12,
       "salary": 5,
       "location": 6,
       "source": 3,
-      "total": 70,
+      "total": 69,
       "max": {
         "skills": 30,
         "role": 25,
@@ -272,11 +568,452 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
+        "skills": "Salesforce, CRM, AI",
+        "role": "컨설턴트, 도입/정착, AI, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4407816647",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "【500】【主任級】総合証券会社向け／アプリ領域のPL（Salesforce CRM／人材育成システム）",
+    "company": "Hitachi",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-05-29",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Information Technology, Consulting, and Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90500%E3%80%91%E3%80%90%E4%B8%BB%E4%BB%BB%E7%B4%9A%E3%80%91%E7%B7%8F%E5%90%88%E8%A8%BC%E5%88%B8%E4%BC%9A%E7%A4%BE%E5%90%91%E3%81%91%EF%BC%8F%E3%82%A2%E3%83%97%E3%83%AA%E9%A0%98%E5%9F%9F%E3%81%AEpl%EF%BC%88salesforce-crm%EF%BC%8F%E4%BA%BA%E6%9D%90%E8%82%B2%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%EF%BC%89-at-hitachi-4407816647",
+    "directUrl": "https://www.hitachi.co.jp/recruit/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "recommended",
+    "score": 69,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, AI, 生成AI",
+      "직무: PM/PL, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Hitachi",
+    "targetCompanyType": "si-consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "職務内容 【配属組織名】 デジタルサービスビジネスユニット(金融システム) 金融第二システム事業部 金融システム第一本部 第二部 【配属組織について（概要・ミッション）】 当本部では、証券業界・リース業界の中核を担うお客様に向けて、社会インフラとしての高い信頼性と安定性が求められるシステムの設計・開発・運用を行っています。証券基幹系システムや取引所システムといった高信頼領域を中核に据え、近年では生成AI、Web3、サステナブルファイナンス、ブロックチェーンなどの先端技術を活用した新規ビジネスの創出にも積極的に取り組み、金融の未来を支えるシステムづくりに挑戦しています。 ■組織のミッション 総合証券会社のフロントアカウント部署として、技術力・要員動員力を強みにミッションクリティカルシステムの導入と安定稼働に貢献する。 ■年齢構成・組織構成 総合証券会社向けSalesforceを活用したCRM、人材育成システムおける、アプリケーションの設計・開発を担当するチーム。20代〜40代のメンバが活躍。 【携わる事業・ビジネス・サービス・製品など】 ■担当業界 金融、主に証券分野を中心にネット証券、大手〜中堅証券会社のシステム開発が主たる担当領域 ■提供サービス・製品 要件に応じたSalesforceのアプリケーション開発で最適な方針を提案し、実装から保守・エンハンス対応までを実施。 【募集背景】 お客様（総合証券会社）においてCRMで管理している顧客情報の明確化・高度化を目的としたシステム開発プロジェクトの引合いをいただいています。また併せて、お客様の人材育成システムに関するシステム開発プロジェクトの引合いもいただいており、このプロジェクトではSalesforceが提供するローコードの開発基盤を活用したアジャイル開発を行います。システム開発にあたっては、お客様と連携しながらプロジェクトを推進する必要があり、これに寄与頂ける人財を募集します。 【職務概要】 総合証券会社向けSalesforceを活用したCRM、人材育成システムに関するアプリケーション開発プロジェクトの推進・設計開発のプロジェクトリードをお任せいたします。 【職務詳細】 ・Salesforceに関する開発プロジェクトのリーダとして推進/取り纏め、及び顧客折衝を実施 ・顧客とのシステムについての要望のヒアリング／要件定義／仕様検討 ・システムアーキテクチャに関する顧客／社内協力先組織／協力会社との打ち合わせ／検討 ・開発の見積および提案書の作成についのて取り纏め ・プロジェクト計画を立案し、推進、進捗/品質管理 ※受注案件毎に数名〜10名程度のチームを組み、このチームのリーダとして活動頂く形となります。 ※日立系をはじめとする協力会社メンバーをマネジメントしながら、システム開発プロジェクトを推進頂きます。 ※実際のコーディングなどは協力会社で対応をしているため、あくまでプロジェクト全体の進捗管理がメイン業務となります。 ※日々のの打ち合わせの中でシステムに関する課題を深堀していき、さらなる案件の受注などの顧客折衝もお任せをします。 【ポジションの魅力・やりがい・キャリアパス】 ・総合証券会社の大規模なCRMアプリケーション開発や人材育成システムを対象にアジャイル開発による継続的な改善・開発スタイルを経",
+    "scoreBreakdown": {
+      "skills": 23,
+      "role": 20,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 69,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, AI, 生成AI",
+        "role": "PM/PL, 도입/정착, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4324159828",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "【EAS】大手金融機関向けプロジェクト・Salesforceプロジェクトリーダー候補/コンサルタント",
+    "company": "DXC Technology",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90eas%E3%80%91%E5%A4%A7%E6%89%8B%E9%87%91%E8%9E%8D%E6%A9%9F%E9%96%A2%E5%90%91%E3%81%91%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%BBsalesforce%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC%E5%80%99%E8%A3%9C-%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-dxc-technology-4324159828",
+    "directUrl": "https://careers.dxc.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "recommended",
+    "score": 67,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, Service Cloud",
+      "직무: 컨설턴트, PM/PL, 프리세일즈, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Job Description 【業務内容】 ・大手金融機関のSalesforce開発案件におけるプロジェクトリーダ業務。 ・製品としては「Financial Service Cloud」「ServiceCloud」等の金融業界におけるデファクトスタンダードを扱う案件。 ・Salesforceの製品を主軸に制度対応に纏わる軽微な改訂から工期が数か月にも及ぶ中規模プロジェクトまで多岐に渡る。 ・プロジェクトリーダとしてCXOや関連したIT部門やユーザ部門のエグゼクティブとの折衝。 ・軽微な開発案件におけるプロジェクトリード及び現場メンバと連携しプロジェクトを成功に導くためにプロジェクト管理を実施する。 ・顧客要望を適切に咀嚼しあらゆる制約を考慮した上で顧客ビジネス伸長及び顧客要望実現に資するソリューショニング。 【身につくスキル】 ・エンジニアとして手を動かすだけでなく、コスト、品質、納期等プロジェクト全体を管理するプロジェクトマネジメントスキル ・Salesforceを主軸としたテクニカルスキル、ソリューショニングスキル ・CXOや関連したIT部門及びユーザ部門のエグゼクティブと折衝するコミュニケーションスキル 【目指せるキャリア】 ①Salesforceコンサルタント（テクニカル/業務コンサルタント） ・プロジェクトリーダーとしての経験を活かし、顧客の課題を深掘りし、最適なソリューションを提供 ・Salesforceを主軸としたコンサルタントとしてのキャリア ②プロジェクトマネージャー（PM） ・複数のプロジェクトを管理し、チームの進捗やリソースを最適化 ・中~大規模のプロジェクトマネジメントとしてのキャリア ③ソリューションアーキテクト ・Salesforceを中心としたエコシステムの技術設計を推進し、大規模システムの構築をリードできるキャリア 【必須（MUST）】 ・IT業界での業務経験、特に大規模な顧客を担当した経験 ・顧客の技術・ビジネス要件を適切に理解、表現できるコミュニケーション及びドキュメンテーション能力 ・チーム内で働き、リードができるリーダーシップ能力 ・ネイティブレベルの日本語能力 【歓迎（WANT）】 ・PM/PL経験者 ・Salesforceにおけるファンクショナル・テクニカルコンサルティング、またはプリセールスとしての経験 ・各種Salesforce認定資格 ・基本設計書の作成及び説明が可能 ・Java等のプログラミング言語 【求める人物像※イメージ】 素直で学ぶ姿勢がある人 ・担当製品のSalesforceだけに閉じず新しい技術や業界トレンドに対してもオープンで、積極的に学び続ける姿勢を持つ人。 愚直に取り組める姿勢 ・小さなタスクや地道な作業にも真摯に取り組み、確実に成果を出すことを厭わない人。 責任感と結果へのコミットメントが強い人 ・プロジェクトの成功に向けて責任を持ち、結果や期日にこだわりながら最後までやり遂げることを重要視する人。 顧客志向の強くコミュニケーション力が高い人 ・顧客との関係構築に長け、ニーズを深く理解し、最適なソリューションを提案できる人。 変革を恐れず挑戦できる人 ・顧客や業界が求める変化に対応し、自身の成長やキャリアアップに向けて挑戦し続ける人。 DXCテクノロジーでは、コミュニティの強いつ",
+    "scoreBreakdown": {
+      "skills": 14,
+      "role": 25,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 67,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, Service Cloud",
+        "role": "컨설턴트, PM/PL, 프리세일즈, DX/업무개혁, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4426104295",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Salesforce Business Analyst – Bilingual (English & Japanese) IRC294210",
+    "company": "GlobalLogic",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-10",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Business Development and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/salesforce-business-analyst-%E2%80%93-bilingual-english-japanese-irc294210-at-globallogic-4426104295",
+    "directUrl": "https://www.globallogic.com/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 66,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, Sales Cloud, Service Cloud, AI",
+      "직무: 컨설턴트, PM/PL, 도입/정착, AI",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "필수/우대 연차가 높음(10년)",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "GlobalLogic Japan",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Description GlobalLogic Japan Requirements Required Skills 10+ years of total experience with a minimum of 6+ years in Salesforce Business Analysis across multi-cloud implementations, with extensive experience supporting clients in Japan Fluent in both English and Japanese, with proven ability to lead workshops, write documentation, and present to stakeholders in both languages Strong understanding of Salesforce platform capabilities including Sales Cloud, Service Cloud, Experience Cloud, and AppExchange solutions Strong understanding of CPQ processes Deep familiarity with Agile delivery models, Jira/Confluence usage, and global delivery coordination Experience working with cross-functional teams involving developers, architects, testers, and release manager Exposure to data migration, integration (REST/SOAP APIs), and third-party systems Strong analytical skills, business process modelling experience, and attention to detail Salesforce Certified Administrator and at least one Consultant-level Salesforce certification (Sales/Service Cloud) Excellent communication, stakeholder management, and interpersonal skills Qualifications: Bachelor’s degree in computer science, Information Technology. Experience working with onshore/offshore delivery teams Experience with multi-org and multilingual Salesforce environments Working knowledge of Japanese regulatory or business process framewo",
+    "scoreBreakdown": {
+      "skills": 22,
+      "role": 24,
+      "experience": 4,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 66,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, Sales Cloud, Service Cloud, AI",
+        "role": "컨설턴트, PM/PL, 도입/정착, AI",
+        "experience": "요구 10년 이상",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4429769663",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "2027 Japan Futureforce - Trainee (Customer Success Group)",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-17",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/2027-japan-futureforce-trainee-customer-success-group-at-salesforce-4429769663",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 64,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. About Futureforce University Recruiting Our Futureforce University Recruiting program is dedicated to attracting, retaining and cultivating talent. Our interns and new graduates work on real projects that affect how our business runs, giving them the opportunity to make a tangible impact on the future of our company. With offices all over the world, our recruits have the chance to collaborate and connect with fellow employees on a global scale. We offer job shadowing, mentorship programs, talent development courses, and much more. Job Category Sales Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. This is for those who have already participated in the",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 12,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 64,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414685610",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Agentforce/AI Deployment Strategist (Multiple Levels)",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-09",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Business Development and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/agentforce-ai-deployment-strategist-multiple-levels-at-salesforce-4414685610",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 63,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: 도입/정착, CS, AI",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. About The Role We are seeking a Deployment Strategist, a pivotal leadership role focused on driving the successful adoption and strategic implementation of AI-powered Agentforce solutions for our key customers. This role is less about hands-on technical execution and more about solutioning, strategic oversight, and executive relationship management. As a trusted advisor, you will be the primary front-facing contact for Agentforce deployments, bridging customer strategic needs with our product innovation to ensure long-term success and value realization. You will play a ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 13,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 63,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "도입/정착, CS, AI",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4401644818",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Consultant - Salesforce Agentforce Consultant",
+    "company": "Infosys",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-02",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/consultant-salesforce-agentforce-consultant-at-infosys-4401644818",
+    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 63,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, Agentforce, AI",
+      "직무: 컨설턴트, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Infosys",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 +countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Location: Tokyo Based on your role, please note that this position may require on-site presence at Infosys premises and/or ",
+    "scoreBreakdown": {
+      "skills": 19,
+      "role": 16,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 63,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, Agentforce, AI",
+        "role": "컨설턴트, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -312,7 +1049,7 @@ window.JOB_RADAR_JOBS = [
       "상세 본문에서 연봉 정보 확인",
       "스킬: Salesforce, CRM",
       "직무: 컨설턴트, PM/PL, 프리세일즈, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -324,6 +1061,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "BellSystem24",
+    "targetCompanyType": "bpo-cx",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -349,7 +1087,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, PM/PL, 프리세일즈, 타이틀 매칭",
         "experience": "요구 5년 + 시니어",
         "salary": "목표연봉 이상",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -360,236 +1098,19 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4328059606",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "福岡オープンポジション - テクノロジー コンサルティング本部",
-    "company": "Accenture Japan",
-    "location": "Fukuoka, Japan",
-    "postedDate": "2026-06-19",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Entry level",
-    "jobFunction": "Strategy/Planning and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/%E7%A6%8F%E5%B2%A1%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC-%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%9C%AC%E9%83%A8-at-accenture-japan-4328059606",
-    "directUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 61,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce",
-      "직무: 컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Accenture Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "オープンポジションのため幅広くコンサルタント/ITエンジニアの知見をお持ちの方を募集しております。 福岡エリアに身を置きながら、東京、関西オフィスと同様に全国/グローバルの案件に携わることが可能です。 職種：コンサルタント ◆業務内容 グローバル対応・デジタルトランスフォーメーションを主体的に推進するITコンサルタント・ビジネスアナリスト（BA）およびPMを募集いたします。 具体的には、各種業界のITコンサルティングの専門家として、主に下記を担当していただきます。 ・システム将来像の策定 ・グローバルプロジェクトプランニング、グローバルプロジェクト推進 ・DXプランニング、DX推進 ・ビジネス要件の定義・最適化 ・ソリューション検討、システム開発計画の立案 ・システムアーキテクチャの選定・設計 ・システム要件の定義・最適化 職種：ITエンジニア ◆業務内容 企業におけるデジタルトランスフォーメーション案件において、最先端のテクノロジーを活用した業務・ビジネスの変革を推進するために、戦略企画から変革実行・運用まで一貫した支援を行う人材を募集いたします。具体的には、ソリューションエンジニアとして、下記を担当して頂きます。 ・Salesforce/SAP/Oracle/IBM等の製品ソリューションの要件定義、設計、開発、テスト、保守運用 ・Java/Python等でのカスタムメイドの要件定義、設計、開発、テスト、保守運用 ◆役割・期待 ・お客様にとって最適なソリューションの提案から導入支援まで行って頂きます。 ・新しいテクノロジーにキャッチアップしながら、様々な業界で、要件定義から設計、開発、テスト、保守運用まで幅広くチャレンジして頂きます。 職種： ITコンサルタント（金融系） ◆業務内容 企業におけるデジタルトランスフォーメーション案件において、最先端のテクノロジーを活用した業務・ビジネスの変革を推進するために、戦略企画から変革実行・運用まで一貫した支援を行う人材を募集いたします。具体的にはITコンサルタントとして金融系のお客様に対して、下記を担当して頂きます。 ・ システム運用部運への運用設計テンプレート展開・定着化支援 ・ システムメンテナンスの移行計画策定・実行推進支援 ・ 決済系システムのIT-BCP導入・DR切替事務局支援 など ◆役割・期待 ・通信・プラットフォーム業界、金融・クレジットカード業界のクライアントをITの力で支援したい方 ・システム開発の経験を生かしながら、企業の方向性決定・業務の基本設計などコンサルスキルを磨いていきたい方 ・クライアントフェイシング志向の方、チームワークを重視し、スピード感をもって自発的に課題解決・変化創造に取り組める方 ・いずれはプロジェクトマネージャとして、大小複数のプロジェクトをマネジメントしたい方 ◆応募要件 職種：コンサルタント ・通信、メディア、ハイテク、製造、流通、トラベル、金融、素材・エネルギー、官公庁などの業界でのシステム導入のご経験 職種：ITエンジニア ・Javaを中心としたオープン系開発言語を用いたシステム開発経験 C#、C++ Python PHP VB,VBA SQL ・iOS、Android上でのアプリケーション開発 ・Salesforce、SAP、Oracle EBS、Hyb",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 25,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 61,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4328029753",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "ファンクションコンサルタント（カスタマーサービス/チェンジマネジメント） - ソング本部",
-    "company": "Accenture Japan",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-19",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Strategy/Planning and Consulting",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%EF%BC%88%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%89-%E3%82%BD%E3%83%B3%E3%82%B0%E6%9C%AC%E9%83%A8-at-accenture-japan-4328029753",
-    "directUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 61,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Accenture Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "ファンクションコンサルタント（カスタマーサービス/チェンジマネジメント） は全ての顧客接点およびフィールドサービス領域において、構想策定から業務設計、実装、定着化までを一貫して担います。 コンタクトセンター、店舗、Web、チャット、アプリ、FAQ、ボイスボットに加え、訪問・保守・修理などのフィールドオペレーションを含むエンドツーエンドの業務変革を推進します。 アクセンチュア ソングおよびグループ内外の専門家と協業し、AI・データ・IoTを前提とした業務構造改革、CX／EX設計、フィールドサービス業務モデルの再設計を実行します。 業界を問わず、顧客接点と現場オペレーションを横断した変革を通じて、サービスビジネス全体を設計できるスペシャリストを目指せるポジションです。 ◆具体的な業務内容 ・顧客接点全体（コンタクトセンター、店舗、Web、チャット、デジタルチャネル等）の業務設計・標準化・最適化およびチャネル横断設計 ・AI・生成AI・ナレッジ基盤を活用した業務設計および実装推進 ・CRM業務設計、KPI設計、ナレッジ活用、データ活用による顧客体験（CX）向上 ・業務変更や新システム／SaaS導入時の役割設計、運用設計、教育体系構築、行動変容設計から定着化までの一気通貫支援 ・フィールドサービス（訪問・保守・修理等）を含む現場オペレーションの構造再設計 ・スケジューリング最適化、部品管理設計、現場負荷やボトルネックの可視化と改善 ・モバイル、IoT、データ活用を前提としたField Service業務モデル設計および予測保守等の導入支援 ・サービスビジネスの高度化に向けた業務モデル見直しおよび収益性向上施策の設計 ・従業員体験（EX）の再構築および属人化排除による標準化・生産性向上の推進 ・Salesforce、ServiceNow、Dynamics等のプラットフォームを活用した導入推進およびプロジェクトマネジメント ◆具体的なプロジェクトの例 ・大規模な業務変更や新システム（生成AI、SaaS、ナレッジ基盤等）導入において、業務設計から現場定着まで一気通貫でチェンジマネジメントを推進 ・顧客問い合わせ業務に生成AIを活用し、自己解決率向上・応答品質改善・待ち時間短縮を実現。回答生成の高度化により、顧客体験および従業員体験の双方を向上 ・訪問・保守・修理などのフィールドサービス領域において、現場制約を踏まえた業務プロセス再設計を実施。AI・IoT・データ活用を前提としたオペレーションモデルを構築 ・スケジューリング最適化、部品管理高度化、予測保守モデル導入等を通じ、現場負荷軽減とサービス収益性向上を両立 ◆応募要件（必須） ・マネジメント経験（プロジェクト／チームリード経験）※マネジャー候補のみ ・下記いずれか該当する経験をお持ちの方 ストラテジー／ビジネス／テクノロジーコンサルティング経験 組織変革・人材開発コンサル／HRテック導入支援／組織変革グローバルファーム経験／チェンジマネジメント・従業員体験に関するコンサルティング経験 デジタルCX設計コンサル／CRM導入コンサル／CX変革グローバルファーム／エンタープライズソフトウェア経験 顧客体験／カスタマーサービス／コンタクトセンター改革／DXソリューション／生成AI／チャットボットに関する提案・導入支援",
-    "scoreBreakdown": {
-      "skills": 15,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 61,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4427918900",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Senior Solution Consultant (Global)",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-12",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Consulting, Information Technology, and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/senior-solution-consultant-global-at-salesforce-4427918900",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 61,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: 컨설턴트, CS, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. 職務の目的 「グローバルな知見とAIを駆使し、日本の変革を加速させる」 本ポジションは、日本のお客様とインドのGlobal Delivery Center (GDC) を結ぶ戦略的ハブとして、Salesforceを活用したビジネス変革を支援します。最大のミッションは、単なる言葉の通訳にとどまらず、日本側のシニアアーキテクトとペアを組み、案件内容やプロセスを技術的に理解した上で、GDCメンバーと共に「戦略・変革デザイン」「プロジェクト実行支援」「ガバナンス・最適化」といった幅広いサービスをデリバリーすることにあります。 日本固有のビジネスコンテキストと、GDCが持つ世界最高水準の技術力、グローバル標準手法であるSalesforce Professional Service Methodology（SPSM）、そして利用可能なAI Tool群を融合させ、お客様のROI（投資対効果）を最大化する「技術的・文化的ファシリテーター」としての役割を担います。 主な職責 (Responsibilities) 日本のシニアアーキテクトと緊密なペアを組み、プロジェクトのタスクやプロセスの意図を正しく理解し、GDCへ正確かつ効率的に伝える実行支援を担います。 日本側Architectとのペアリング遂行: 国内のシニアアーキテクトと常に連携し、案件の背景、個別の支",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 16,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 61,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "컨설턴트, CS, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4405940831",
+    "id": "linkedin-4405961393",
     "source": "LinkedIn",
     "sourceQuality": "primary",
     "title": "Salesforceコンサルタント【FOX-BA】",
     "company": "PwC Japan",
-    "location": "Osaka, Osaka, Japan",
-    "postedDate": "2026-06-09",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-08",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
     "jobFunction": "Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/salesforce%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90fox-ba%E3%80%91-at-pwc-japan-4405940831",
+    "url": "https://jp.linkedin.com/jobs/view/salesforce%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90fox-ba%E3%80%91-at-pwc-japan-4405961393",
     "directUrl": "https://www.pwc.com/jp/ja/careers.html",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
@@ -601,7 +1122,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce, CRM",
       "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -613,6 +1134,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -638,151 +1160,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4405946769",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "CX/CRMコンサルタント【FOX-MC】/大阪",
-    "company": "PwC Japan",
-    "location": "Osaka, Osaka, Japan",
-    "postedDate": "2026-06-09",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Consulting, Information Technology, and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/cx-crm%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90fox-mc%E3%80%91-%E5%A4%A7%E9%98%AA-at-pwc-japan-4405946769",
-    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 61,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "PwC Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "募集要項 Job Description CX/CRMコンサルタント【FOX-MC】/大阪 職務内容 Roles and Responsibilities 製造・流通・通信・金融・公共サービスなどさまざまな業界の多岐にわたる課題に対し、 コーポレートブランディング、マーケティング起点の新規事業開発、マーケティング戦略、アライアンス戦略といった上流の顧客戦略や豊富なマーケティング戦略立案と実行支援の経験、人工知能（AI）を活用した高度な分析スキルを活用したカスタマーアナリィクス。 また従来のCRM構想策定コンサルティングから、Salesforce（セールスフォース）などのデジタルテクノロジーを活用したプロセス変革コンサルティングに至るまで、多くの専任コンサルタントが得意領域の知見を持ち寄り、クライアントの成功を見届けるまで一貫した支援を行います。 同じPwCグループ内のディールズ部門、あらた監査法人や税理士法人と共同でサービス提供を行う機会も多く、 総合系ファームとしての醍醐味を経験する事が出来るチームです。 チームは大きくCustomer Value Strategy（CVS）とFront Office OperationTransformation（FOOT）というビジネスチームに分かれており、 さらに提供サービスごとに方針を定めていますが、特定のチームに所属となりアサインが固定されることはなく、 BA領域（Salesforce-Delivery）を含めて、Customerチーム全体でアサインメントや育成を行っています。 Customer Value Strategy（CVS） ・CX ・New Biz & Branding ・Customer Strategy ・Customer Insight ・CX Digital Architecture Front Office Operation Transformation（FOOT） ・Front-DX／Front Change Management ・Salesforce Delivery(BA領域) 【部門からのメッセージ】 ・構想策定からITシステム導入まで、幅広い案件を抱えていることから、ご自身の強みを活用しつつ、キャリア志向に応じて様々な案件に関わることが出来るため、経験と意見が広がります。 ・世界152カ国・32万人以上のスタッフを有するグローバルネットワークや、監査法人、税理士法人、ディールズ部門のリソースやナレッジを活用し、多様な経営課題やニーズに対し最適なソリューションの提案に携わることが可能です。 ・中途採用入社者の比率が比較的高く、柔軟でフラットな組織運営を実現しています。 登録資格 Qualification ＜必須要件＞※下記いずれかを満たすこと。 ■コンサルティングファーム経験者（経験領域不問） ※現在は特に以下の経験をお持ちの方を積極的に採用しております。 ・戦略領域全般 ・マーケティング戦略や営業戦略等の顧客戦略立案（新規事業・顧客体験設計等）経験 ・業務改革プロジェクト経験・SFA/CRM/マーケティングツールの導入プロジェクト経験 ・データマネジメント（データ収集、管理、分析、ガバナンス）プロジェクト経験 ■SIerにて以下の業務経験をお持ちの方 ・CRMやコール",
-    "scoreBreakdown": {
-      "skills": 15,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 61,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4405945757",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "CX/CRMコンサルタント【FOX-MC】",
-    "company": "PwC Japan",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-09",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Consulting, Information Technology, and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/cx-crm%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90fox-mc%E3%80%91-at-pwc-japan-4405945757",
-    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 61,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "PwC Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "募集要項 Job Description CX/CRMコンサルタント【FOX-MC】 職務内容 Roles and Responsibilities 製造・流通・通信・金融・公共サービスなどさまざまな業界の多岐にわたる課題に対し、 コーポレートブランディング、マーケティング起点の新規事業開発、マーケティング戦略、アライアンス戦略といった上流の顧客戦略や豊富なマーケティング戦略立案と実行支援の経験、人工知能（AI）を活用した高度な分析スキルを活用したカスタマーアナリィクス。 また従来のCRM構想策定コンサルティングから、Salesforce（セールスフォース）などのデジタルテクノロジーを活用したプロセス変革コンサルティングに至るまで、多くの専任コンサルタントが得意領域の知見を持ち寄り、クライアントの成功を見届けるまで一貫した支援を行います。 同じPwCグループ内のディールズ部門、あらた監査法人や税理士法人と共同でサービス提供を行う機会も多く、 総合系ファームとしての醍醐味を経験する事が出来るチームです。 チームは大きくCustomer Value Strategy（CVS）とFront Office OperationTransformation（FOOT）というビジネスチームに分かれており、 さらに提供サービスごとに方針を定めていますが、特定のチームに所属となりアサインが固定されることはなく、 BA領域（Salesforce-Delivery）を含めて、Customerチーム全体でアサインメントや育成を行っています。 Customer Value Strategy（CVS） ・CX ・New Biz & Branding ・Customer Strategy ・Customer Insight ・CX Digital Architecture Front Office Operation Transformation（FOOT） ・Front-DX／Front Change Management ・Salesforce Delivery(BA領域) 【部門からのメッセージ】 ・構想策定からITシステム導入まで、幅広い案件を抱えていることから、ご自身の強みを活用しつつ、キャリア志向に応じて様々な案件に関わることが出来るため、経験と意見が広がります。 ・世界152カ国・32万人以上のスタッフを有するグローバルネットワークや、監査法人、税理士法人、ディールズ部門のリソースやナレッジを活用し、多様な経営課題やニーズに対し最適なソリューションの提案に携わることが可能です。 ・中途採用入社者の比率が比較的高く、柔軟でフラットな組織運営を実現しています。 登録資格 Qualification ＜必須要件＞※下記いずれかを満たすこと。 ■コンサルティングファーム経験者（経験領域不問） ※現在は特に以下の経験をお持ちの方を積極的に採用しております。 ・戦略領域全般 ・マーケティング戦略や営業戦略等の顧客戦略立案（新規事業・顧客体験設計等）経験 ・業務改革プロジェクト経験・SFA/CRM/マーケティングツールの導入プロジェクト経験 ・データマネジメント（データ収集、管理、分析、ガバナンス）プロジェクト経験 ■SIerにて以下の業務経験をお持ちの方 ・CRMやコールセンタ",
-    "scoreBreakdown": {
-      "skills": 15,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 61,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -817,7 +1195,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce, CRM",
       "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -829,6 +1207,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Nomura Research Institute",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -854,11 +1233,305 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4401643767",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Consultant - Salesforce Data Cloud Consultants",
+    "company": "Infosys",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-02",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Engineering and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/consultant-salesforce-data-cloud-consultants-at-infosys-4401643767",
+    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 61,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, AI, Data Cloud",
+      "직무: 컨설턴트, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Infosys",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: Consultant – Salesforce Data Cloud Consultant Location: Tokyo Based on your role, please note that this position may r",
+    "scoreBreakdown": {
+      "skills": 17,
+      "role": 16,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 61,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, AI, Data Cloud",
+        "role": "컨설턴트, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-3884752038",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "CRM_Enterprise Transformation Business Unit CX Sector（Solution Consultant職）≪東京≫",
+    "company": "ABeam Consulting",
+    "location": "Chuo-ku, Tokyo, Japan",
+    "postedDate": "2026-06-17",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Project Management, Consulting, and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/crm-enterprise-transformation-business-unit-cx-sector%EF%BC%88solution-consultant%E8%81%B7%EF%BC%89%E2%89%AA%E6%9D%B1%E4%BA%AC%E2%89%AB-at-abeam-consulting-3884752038",
+    "directUrl": "https://www.abeam.com/jp/ja/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 60,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: CRM, AI",
+      "직무: 컨설턴트, 도입/정착, CS, AI, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "ABeam Consulting",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "組織について CXセクターは「包括的なCRMソリューションを提供する国内最大規模のCRM専門組織として、企業の顧客戦略、マーケティング、営業、カスタマーサービス、顧客分析の改革を実現し、利益拡大やグローバルでの競争力向上に貢献する」をミッションに掲げ、顧客戦略の策定から、マーケティング、営業、カスタマーサービスにおける顧客接点業務の改革、さらには実現のためのシステムソリューション導入・定着化、チェンジマネジメントまで、一貫したコンサルティングサービスを提供しています。国内のコンサルティングファームの中では、最も包括的かつ革新的なコンサルティングサービスを提供していることが特徴です。 提供サービス 顧客データ活用によるデータドリブンな戦略策定 営業戦略策、マネジメント変革 ブランド策定からPR、コミュニケーション戦略策定 営業、販売領域やカスタマーサービスにおける社内プロセスのBPR及びツール導入 デジタルマーケティング（Webサイト、アプリ、マーケティングツール）の導入と定着化 EC戦略からEC立ち上げ、運用改善 カスタマーサクセス部門の立ち上げ、導入 AIを活用したプロセス変革・効率化 、ビジネス貢献に向けたデータ活用 入社後のアサイン想定プロジェクト 顧客戦略策定プロジェクト マーケティング、営業、顧客サービス、コマースの業務改革プロジェクト 新規顧客獲得、既存顧客維持・育成・離反防止プロジェクト 会社・事業間の顧客データ統合によるCX最適化プロジェクト 顧客起点経営に向けたチャネル横断での組織/業務/システム間連携プロジェクト デマンドチェーンマネジメントによる販売最適化プロジェクト OMO実現に向けたUI/UX向上プロジェクト 国内におけるCX改革事例のグローバル展開プロジェクト 入社後のアサイメントや業務内容は、中長期的な志向と業務／業種／テクノロジーの専門性等を勘案して決定します。 直近のプロジェクト事例 エンターテインメント企業における顧客戦略策定プロジェクト 製造業におけるB2Bマーケティング組織立ち上げ支援プロジェクト 食品メーカーにおける営業DXを起点とした組織・業務改革プロジェクト プロスポーツチームにおけるスポンサー獲得、新規顧客獲得、既存顧客維持・育成・離反防止プロジェクト 鉄道グループにおける会社・事業間の顧客データ統合によるCX最適化プロジェクト リテール業における顧客起点経営に向けたチャネル横断での組織/業務/システム間連携プロジェクト 専門商社におけるB2Bコマースの構想策定支援プロジェクト 製造業におけるデマンドチェーンマネジメントによる販売最適化プロジェクト 化粧品メーカーにおけるOMO実現に向けたUI/UX向上プロジェクト 素材メーカーにおける国内CX改革事例のグローバル展開プロジェクト 保険業におけるマーケティング高度化に向けたデータ基盤構築・利活用支援プロジェクト 自動車メーカーにおけるロイヤルティプログラム高度化支援プロジェクト 地方自治体におけるコンタクトセンター刷新に向けた業務設計と導入プロジェクト 銀行業におけるAIを活用した顧客接点業務高度化プロジェクト 求める人物像 ■クライアントの経営課題、業務課題を解決し、クライアントの事業や業務に変革をもたらすコンサルティングに従事したい方 ■「論理的思考",
+    "scoreBreakdown": {
+      "skills": 9,
+      "role": 25,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 60,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "CRM, AI",
+        "role": "컨설턴트, 도입/정착, CS, AI, DX/업무개혁, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4429758106",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Success Manager, Financial Services",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-17",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/customer-success-manager-financial-services-at-salesforce-4429758106",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 59,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. The Customer Success Manager leverages deep business and industry knowledge to partner with customers to help them accelerate business value and ROI from their investment with Salesforce. You will align at the C-level, building and maintaining strong relationships to help customers progress on their transformation journey. In this role, you will be responsible for helping customers achieve business value faster and progress on their journey towards becoming a Customer Company. This means helping them leverage Salesforce to transform their business, engage with their own cus",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 12,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 59,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4429528061",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Operations Manager - Customer Success",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-16",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Management and Manufacturing",
+    "url": "https://jp.linkedin.com/jobs/view/operations-manager-customer-success-at-salesforce-4429528061",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 59,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Salesforceをご利用のお客様を成功に導くサクセスプラン（Success Plan）は、お客様のニーズにあわせた3種類のプランをご用意し、リソース、ガイダンス、技術サポートを提供します。そのサクセスプランのオペレーションに責任を持ち、サービスデリバリーチームがお客様の成功を促進できるよう、重要な役割を果たすのがカスタマーサクセスのオペレーションズチームです。 オペレーションズチームがアラインする主要業績指標は、お客様の満足度、Salesforceの利用状況スコア、解約率、サービスの利用促進度と多岐に渡ります。 本ポジション（ビジネスオペレーションズマネージャー）は、主要業績指標の達成に向けて、オペレーショナルエクセレンスの側面で組織に貢献します。単一の業務や特定のチームのオペレーションにとどまらず、カスタマーサクセスに大きなインパクトのある組織全体の取り組みや、コアとなるサービスのオペレーションをリードする役割です。グローバル本社のメンバーも含め、チーム内外の関係者と密接に連携し、最良の顧客体験を提供できるオペレーションを追求します。 以下に、その役割の詳細な内訳を説明します。 主要な責任 プログラムマネジメント：会社・組織の目標と一致した業務戦略の策定と実行。プログラムの組織インパクトをデータの側面で支え、改善サイクルを実行・管理 プロジェクトマ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 12,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 59,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
@@ -889,7 +1562,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce, Sales Cloud, Service Cloud",
       "직무: PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -902,6 +1575,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "GlobalLogic Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -927,11 +1601,159 @@ window.JOB_RADAR_JOBS = [
         "role": "PM/PL, 도입/정착, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4424116309",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Senior Manager, Customer Success Management, Technical (People Manager)",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/senior-manager-customer-success-management-technical-people-manager-at-salesforce-4424116309",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 59,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Description As a Senior Manager of Customer Success Management, Technical, you will directly lead a team of Technical CSMs and serve as a people manager driving customer success across a portfolio of technically sophisticated enterprise accounts. You will combine strong technical acumen with leadership skills to ensure your team delivers on Salesforce's Signature Success Plan obligations while helping customers accelerate value and ROI from their Salesforce investment. Your team will deliver technical value through activities such as architecture reviews, security guidance ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 12,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 59,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414697175",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Success Manager, Senior Manager (BtoC)",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/customer-success-manager-senior-manager-btoc-at-salesforce-4414697175",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 59,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. The Customer Success Manager (BtoC) uses deep business, industry and product knowledge to partner with customers and guide them to accelerate business value and return from their investment with Salesforce. In this role, the Customer Success Manager will specialize in one or more line of businesses, a specific cloud or industry to speak the customer language and ensure customer value realization. They are aligned at key stakeholder level, building and fostering positive relationships to help customers progress on their digital journey. Customer Success Managers are working ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 12,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 59,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
@@ -962,7 +1784,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce, Sales Cloud, Service Cloud",
       "직무: PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -975,6 +1797,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "GlobalLogic Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -1000,7 +1823,7 @@ window.JOB_RADAR_JOBS = [
         "role": "PM/PL, 도입/정착, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -1011,20 +1834,20 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4407816647",
+    "id": "linkedin-4423114031",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "【500】【主任級】総合証券会社向け／アプリ領域のPL（Salesforce CRM／人材育成システム）",
-    "company": "Hitachi",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-05-29",
+    "title": "戦略コンサルタント・ビジネスコンサルタント/Strategy & Business Consultant",
+    "company": "Capgemini Invent",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-10",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Information Technology, Consulting, and Engineering",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90500%E3%80%91%E3%80%90%E4%B8%BB%E4%BB%BB%E7%B4%9A%E3%80%91%E7%B7%8F%E5%90%88%E8%A8%BC%E5%88%B8%E4%BC%9A%E7%A4%BE%E5%90%91%E3%81%91%EF%BC%8F%E3%82%A2%E3%83%97%E3%83%AA%E9%A0%98%E5%9F%9F%E3%81%AEpl%EF%BC%88salesforce-crm%EF%BC%8F%E4%BA%BA%E6%9D%90%E8%82%B2%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%EF%BC%89-at-hitachi-4407816647",
-    "directUrl": "https://www.hitachi.co.jp/recruit/",
+    "jobFunction": "Consulting",
+    "url": "https://jp.linkedin.com/jobs/view/%E6%88%A6%E7%95%A5%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%83%BB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-strategy-business-consultant-at-capgemini-invent-4423114031",
+    "directUrl": "https://www.capgemini.com/jp-jp/careers/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -1033,9 +1856,9 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM",
-      "직무: PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "스킬: AI, 生成AI",
+      "직무: 컨설턴트, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1046,15 +1869,237 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Hitachi",
+    "targetCompany": "Capgemini Japan",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "職務内容 【配属組織名】 デジタルサービスビジネスユニット(金融システム) 金融第二システム事業部 金融システム第一本部 第二部 【配属組織について（概要・ミッション）】 当本部では、証券業界・リース業界の中核を担うお客様に向けて、社会インフラとしての高い信頼性と安定性が求められるシステムの設計・開発・運用を行っています。証券基幹系システムや取引所システムといった高信頼領域を中核に据え、近年では生成AI、Web3、サステナブルファイナンス、ブロックチェーンなどの先端技術を活用した新規ビジネスの創出にも積極的に取り組み、金融の未来を支えるシステムづくりに挑戦しています。 ■組織のミッション 総合証券会社のフロントアカウント部署として、技術力・要員動員力を強みにミッションクリティカルシステムの導入と安定稼働に貢献する。 ■年齢構成・組織構成 総合証券会社向けSalesforceを活用したCRM、人材育成システムおける、アプリケーションの設計・開発を担当するチーム。20代〜40代のメンバが活躍。 【携わる事業・ビジネス・サービス・製品など】 ■担当業界 金融、主に証券分野を中心にネット証券、大手〜中堅証券会社のシステム開発が主たる担当領域 ■提供サービス・製品 要件に応じたSalesforceのアプリケーション開発で最適な方針を提案し、実装から保守・エンハンス対応までを実施。 【募集背景】 お客様（総合証券会社）においてCRMで管理している顧客情報の明確化・高度化を目的としたシステム開発プロジェクトの引合いをいただいています。また併せて、お客様の人材育成システムに関するシステム開発プロジェクトの引合いもいただいており、このプロジェクトではSalesforceが提供するローコードの開発基盤を活用したアジャイル開発を行います。システム開発にあたっては、お客様と連携しながらプロジェクトを推進する必要があり、これに寄与頂ける人財を募集します。 【職務概要】 総合証券会社向けSalesforceを活用したCRM、人材育成システムに関するアプリケーション開発プロジェクトの推進・設計開発のプロジェクトリードをお任せいたします。 【職務詳細】 ・Salesforceに関する開発プロジェクトのリーダとして推進/取り纏め、及び顧客折衝を実施 ・顧客とのシステムについての要望のヒアリング／要件定義／仕様検討 ・システムアーキテクチャに関する顧客／社内協力先組織／協力会社との打ち合わせ／検討 ・開発の見積および提案書の作成についのて取り纏め ・プロジェクト計画を立案し、推進、進捗/品質管理 ※受注案件毎に数名〜10名程度のチームを組み、このチームのリーダとして活動頂く形となります。 ※日立系をはじめとする協力会社メンバーをマネジメントしながら、システム開発プロジェクトを推進頂きます。 ※実際のコーディングなどは協力会社で対応をしているため、あくまでプロジェクト全体の進捗管理がメイン業務となります。 ※日々のの打ち合わせの中でシステムに関する課題を深堀していき、さらなる案件の受注などの顧客折衝もお任せをします。 【ポジションの魅力・やりがい・キャリアパス】 ・総合証券会社の大規模なCRMアプリケーション開発や人材育成システムを対象にアジャイル開発による継続的な改善・開発スタイルを経",
+    "descriptionText": "English follows Japanese キャップジェミニ・インベントは、欧州発グローバル総合コンサルティングファーム「キャップジェミニ」の戦略コンサルティング、デジタル、データ・AI等のテクノロジーを活用したイノベーション創出およびトンランスフォーメーション支援特化型のコンサルティングチームです。世界に約40のスタジオと60以上のオフィスを構え、戦略コンサルタント、データサイエンティスト、AIエキスパート、プロダクトおよびエクスペリエンスデザイナー、ブランドスペシャリスト、エンジニアなど1万人を超える専門家が、新たなデジタルサービス、製品、顧客体験、ビジネスモデルの創出を通じて、クライアント企業のみならず社会全体の持続可能な成長の実現に貢献しています。 キャップジェミニ・インベントは2025年9月に日本オフィスの立ち上げを開始し、現在、創設メンバーを積極的に募集しています。 キャップジェミニがこれまでグローバルで培ってきた豊富な専門知識とネットワークを最大限活用しながら、トップティアの外資系コンサルティングファーム出身者と、グローバルのキャップジェミニ・インベントの専門家たちが集結し、少数精鋭のコンサルティングチームを構築していきます。 ぜひ、初期創設メンバーとしてこの新たな挑戦にご参加ください。 募集概要 このポジションでは、戦略コンサルティングおよびビジネスコンサルティングの専門家として、クライアントの企業価値向上、事業創造、トランスフォーメーションなどのコンサルティングサービスを提供していきます。 複雑かつインパクトの大きいプロジェクトをリードし、経営戦略・事業戦略策定、イノベーション創出、そしてエンドツーエンドの企業変革を推進する、非常にやりがいのある役割です。 主な業務内容： 企業の経営戦略・事業戦略策定 全社変革、業務プロセス改革、デジタルトランスフォーメーション推進 IoT、AI技術等を活用した工場生産プロセスの改善、サプライチェーンの再設計 データサイエンス、AIエンジニアリング等を活用した価値創出、業務プロセス高度化 グローバルチームとの協業 担当いただくプロジェクトの例： 競争環境の変化に合わせた、ビジネスモデルの再構築、新規事業戦略の策定 データサイエンス、AI/生成AIなどのテクノロジーを活用した全社業務変革の構想策定、包括的ビジネストランスフォーメーション グローバルオペレーティングモデルの全体将来像、変革アプローチの策定、新業務展開・定着の支援 顧客起点への業務変革、スケーラビリティとレジリエンスの実現などの主要経営課題に合わせたIT戦略の策定 応募資格 戦略コンサルティングファーム、総合コンサルティングファーム、シンクタンク等でのコンサルティング・アドバイザリー業務の実務経験 事業会社の社内コンサルティング、経営企画等でのコンサルティング類似業務の実務経験 国内外の関係者と調整・交渉しながらプロジェクトを推進できるコミュニケーション力 日本語でのコミュニケーション力 (日本語能力検定 2級以上) 海外勤務経験があれば尚可 MBAまたは同等の専門資格があれば尚可 キャップジェミニは、お客様のビジネストランスフォーメーションならびにテクノロジートランスフォーメ ーションのグローバルパートナーです。企業が“デジタル世",
     "scoreBreakdown": {
-      "skills": 15,
-      "role": 16,
+      "skills": 8,
+      "role": 21,
       "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 57,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI, 生成AI",
+        "role": "컨설턴트, 도입/정착, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4405947811",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "AI×SAPコンサルタント 【ETC-ES】",
+    "company": "PwC Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-08",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/ai%C3%97sap%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E3%80%90etc-es%E3%80%91-at-pwc-japan-4405947811",
+    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 57,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI, 生成AI",
+      "직무: 컨설턴트, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "募集要項 Job Description AI×SAPコンサルタント 【ETC-ES】 職務内容 Roles and Responsibilities Enterprise Transformation Consulting- Enterprise Solution(ETC-ES)はSAP関連ソリューションを活用した企業変革を支援する部門です。 ・SAPに関連する最上流から運用・定着までソリューション導入のコンサルティングビジネスを行います ・PwCにおける全SAP案件を司る役割を担います ・PwCはEdgeの効いた専門集団として企業に貢献できることを目指しており、常に新しいソリューションに目を向け、チャレンジできる環境があります ・現在もSAPのデリバリーだけでなく、様々なEdgeの効いたSolutionを研究するイニシアチブを立ち上げており、ソリューション開発、方法論策定、人材育成、組織運営等に参画できる環境を整えています。 【部門からのメッセージ】 ・近年は、SAP S/4HANAの高度化・グローバル展開に加え、生成AI・機械学習を活用した導入効率化・業務変革への期待が高まっており、SAP x 生成AIを用いた導入サービスの提供は、当社としても最重要戦略として位置付けています。 ・私たちは、従来のERP導入スキルに加えて、AIを活用し「より早く・より正確に・より価値のある」変革を実現できる仲間を求めています。クライアントの業務・システム改革の最前線で、新しい価値創造に挑戦したい方を歓迎します。 【参考ページ】 ▼PwCが見据える生成AI×SAPの将来像とは？ ▼ETC-ES部門紹介 ▼コラム/対談ページ 【ETC-ESの魅力】 ■SAPのNew Technology / New Solutionに触れる機会が格段に増えます。 ・SAP BTP Hackathon(SAP BTPとAIを活用したアプリーケーションやソリューションの開発能力を競うイベント)で、2024年、2025年の2年連続で最優秀賞を受賞 ・S/4HANAなど主力ソリューション導入以外に、新たな領域（SAP✕Cloud、Subscription Service ✕SAP、Signavio, SNP ×Version upなど）の調査／サービス立ち上げもミッションです。 ・上記より、SAP TechEd、Sapphire、 FKOMなど、望む方には海外イベントへの出張機会も多く提供しています。 ■PwC-Global Networkkを存分に活かせる環境にあります。 ・SAPロールイン・ロールアウトといったグローバル案件に携わる機会を提供します。 ・最新ソリューション、事例など、Global Networkのナレッジを活用してクライアントに提供できます。 【担当業務】 ・生成AIプラットフォーム(Copilot, Bedrock, Jouleなど) x SAPの業務設計やプロジェクト効率化を図っていく 例）SAP導入において、生成AIを活用したドキュメント自動生成、設計効率化、テストケース自動作成 例）生成AI＋RPAによる業務自動化の設計・実装 例）生成AI Agentの設計・開発 など 【担当業界】 業界を問いません。 製造、流通、公共、医薬、金融といった幅広い業界に対してコン",
+    "scoreBreakdown": {
+      "skills": 8,
+      "role": 21,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 57,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI, 生成AI",
+        "role": "컨설턴트, 도입/정착, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414692304",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Real Estate Project Delivery Associate Manager",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Project Management and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/real-estate-project-delivery-associate-manager-at-salesforce-4414692304",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 57,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Real Estate & Facility Management Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. About The Role We're looking for an Associate Manager to join Salesforce's Tokyo-based Project Design & Delivery team. You'll support a growing portfolio of workplace projects across Japan, from office fit-outs to stakeholder requests and work closely with a Senior Director, based in San Francisco, who will help you grow. If you're early in your project management career, highly organized, and ready to take on real responsibility in a fast-moving global environment, this is the right role for you. What You’ll Do Support the delivery of concurrent workplace ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 8,
+      "experience": 9,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 57,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414903071",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Manager, Sales Strategy",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Sales and Business Development",
+    "url": "https://jp.linkedin.com/jobs/view/manager-sales-strategy-at-salesforce-4414903071",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 57,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: 컨설턴트, CS, AI",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. 概要 セールスストラテジーは営業組織のための社内コンサルティングを行う組織であり、その中においてストラテジー・マネージャーは重要な役割を担います。マネージャーは、会社の業績や市場機会に関する主要指標を分析し、営業組織のための戦略テーマを設定し、シニアリーダーへの提言・プレゼンテーションを行う責任を持ちます。組織設計、事業計画、市場セグメンテーション・カバレッジ最適化、営業業績評価などのプロジェクトに関わります。精緻な分析モデル、業績分析、各種ダッシュボード、社内幹部向けプレゼンテーション資料などが求められる成果物です。シニアエグゼクティブ層と定期的に議論の場を持ちます。 業務内容 シニアエグゼクティブ向けプレゼンテーションの作成・実施 幹部の意思決定をサポートする日常的なビジネスパフォーマンス分析 拡張可能なレポート・ツールによる分析モデルの設計・構築 営業組織や関連部門との定期的な情報共有と改善活動 市場の理解、および革新的な顧客獲得施策の考案のための定性的および定量的なデータ分析、社内外へのリサーチ Go-To-Marketモデルの最適化に必要な分析モデルの設計 社内関係者や社外協力会社（マーケティング専門会社、データベンダー、パートナー）と協業の下での複数のプロジェクト・施策の管理・運営 米国本社や国外関係会社との情報交換および折衝 日本市場におけ",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 10,
+      "experience": 9,
       "salary": 5,
       "location": 6,
       "source": 3,
@@ -1068,46 +2113,119 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM",
-        "role": "PM/PL, 도입/정착, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "컨설턴트, CS, AI",
+        "experience": "시니어/매니저 타이틀",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
-        "coreTitleMatch": true,
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4418194927",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "ビジネスコンサルタント（マネジャー・シニアマネージャー）",
+    "company": "Simplex Holdings, Inc.",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-05-22",
+    "salaryText": "年収:1400万～2000万",
+    "salaryStatus": "listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%EF%BC%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%8B%E3%82%A2%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%89-at-simplex-holdings-inc-4418194927",
+    "directUrl": "https://www.simplex.inc/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 57,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "상세 본문에서 연봉 정보 확인",
+      "스킬: AI",
+      "직무: 컨설턴트, PM/PL, AI, 타이틀 매칭",
+      "조건: 도쿄, 리모트/하이브리드",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Simplex",
+    "targetCompanyType": "technology-consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "【仕事内容】 【職務概要】 ビジネスコンサルタント（マネジャー・シニアマネージャー）として幅広い業務をお任せします。 【職務詳細】 ご経験、ご希望を勘案し以下の業務に携わっていただきます。 ■ビジネスコンサルティング クライアントである金融機関に対し、事業戦略の策定支援、BPR、新規事業・ソリューション企画等を行います。自社にエンジニア部隊を有している同社だからこそ、机上の空論で終わらせることなく実効性あるサービスを提供し、クライアントの収益拡大にコミットすることが求められます。 ■Blockchain、AIを活用したコンサルティング ブロックチェーンなどの先端技術を含め実際に開発できるハイレベルなエンジニアや、2019年4月に設立されたAI子会社「DeepPercept（ディープパーセプト）株式会社」と連携し、先端技術を活用したコンサルティング案件の提案活動や、獲得した案件のプロジェクトマネジメントやデリバリー推進支援を行っていただきます。 ■事業・組織立ち上げ メンバー育成をはじめとした組織マネージメントだけではなく、 事業計画、採用計画、広報活動など、会社運営の実務にも従事していただきます。 【業務内容変更の範囲】 同社業務全般 【求める人材】 【必須】 ・コンサルファームでのプロジェクトマネージャー経験 （提案およびデリバリーを完遂した経験） 【尚可】 ・新しいコンサルファームを立ち上げ経験 【こんな方にピッタリ】 ・立ち上げ経験を積みたい方 ・ファームの経営メンバーとして制度設計や組織運営に携わたい方 ・大手ファームと同水準以上の報酬をもらいたい方 【給与】 年収:1400万～2000万程度 月給制：月額1150000円 給与:■経験、スキル、年齢を考慮の上、同社規定により優遇 残業手当:固定残業手当326,000円～／55時間分含む、固定残業時間超過分の割増賃金は別途支給（基本給：824,000円～） 賞与:年1回 昇給:年1回 【勤務地】 東京都港区虎ノ門1-23-1 虎ノ門ヒルズ森タワー19F 東京メトロ銀座線「虎ノ門ヒルズ」駅徒歩2分 勤務地変更の範囲：本社及び全国の事業場、支社、営業所 【勤務時間】 9時00分～18時00分 フレックスタイム制（コアタイム11時～15時）休憩時間：60分残業：月平均40時間 【雇用・契約形態】 契約期間：無期 試用期間：有(6ヶ月) 【待遇・福利厚生】 リモートワーク制度、社員カウンセリングの実施、従業員持ち株会、インターバル出社制度、関東ITソフトウェア健康保険組合加入、資格取得応援制度、書籍購入補助、学業等休職制度、フレックスOK、カジュアルなドレスコード、夕食無料提供、男性も積極的な育児休暇利用推進 喫煙情報：敷地内禁煙（喫煙場所あり） 【休日・休暇】 年間休日126日（土日・祝祭日）、年次有給休暇、慶弔休暇、年末年始休暇、産前産後休暇、育児休暇、介護休暇、裁判員休暇",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 23,
+      "experience": 9,
+      "salary": 10,
+      "location": 8,
+      "source": 3,
+      "total": 57,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "컨설턴트, PM/PL, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "목표연봉 이상",
+        "location": "도쿄, 리모트/하이브리드",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
     }
   },
   {
-    "id": "linkedin-4429769663",
+    "id": "linkedin-4400241893",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "2027 Japan Futureforce - Trainee (Customer Success Group)",
-    "company": "Salesforce",
+    "title": "Technical Consultant - CRM",
+    "company": "ServiceNow",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-17",
+    "postedDate": "2026-06-15",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/2027-japan-futureforce-trainee-customer-success-group-at-salesforce-4429769663",
-    "directUrl": "https://careers.salesforce.com/",
+    "jobFunction": "Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/technical-consultant-crm-at-servicenow-4400241893",
+    "directUrl": "https://careers.servicenow.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "stretch",
     "score": 56,
     "reasons": [
-      "Be an early applicant",
+      "Actively Hiring",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "스킬: CRM, AI, Flow",
+      "직무: 컨설턴트, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1118,14 +2236,15 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
+    "targetCompany": "ServiceNow Japan",
+    "targetCompanyType": "workflow-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. About Futureforce University Recruiting Our Futureforce University Recruiting program is dedicated to attracting, retaining and cultivating talent. Our interns and new graduates work on real projects that affect how our business runs, giving them the opportunity to make a tangible impact on the future of our company. With offices all over the world, our recruits have the chance to collaborate and connect with fellow employees on a global scale. We offer job shadowing, mentorship programs, talent development courses, and much more. Job Category Sales Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. This is for those who have already participated in the",
+    "descriptionText": "Company Description It all started in sunny San Diego, California in 2004 when a visionary engineer, Fred Luddy, saw the potential to transform how we work. Fast forward to today — ServiceNow stands as a global market leader, bringing innovative AI-enhanced technology to over 8,100 customers, including 85% of the Fortune 500®. Our intelligent cloud-based platform seamlessly connects people, systems, and processes to empower organizations to find smarter, faster, and better ways to work. But this is just the beginning of our journey. Join us as we pursue our purpose to make the world work better for everyone. Job Description What you get to do in this role: The Customer Outcomes Technical Consultant is responsible configuring ServiceNow Platform (CRM Workflow and Platform) based on leading practices to provide a solution that achieves customer outcomes. The Technical Consultant is the functional and technical expert in customer engagements. Participate in workshops with customers to assess current processes and establish future-state processes. Design and deliver ServiceNow CRM Workflow solutions with a technical architecture designed for long-term success and following ServiceNow technical standards and leading practices. Provide oversight and unit testing of code developed by partner or customer employees. Advise customers on how to take advantage of the ServiceNow Platform ca",
     "scoreBreakdown": {
-      "skills": 20,
-      "role": 8,
+      "skills": 12,
+      "role": 16,
       "experience": 12,
       "salary": 5,
       "location": 8,
@@ -1140,15 +2259,15 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS, 타이틀 매칭",
+        "skills": "CRM, AI, Flow",
+        "role": "컨설턴트, AI, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
-        "coreTitleMatch": false,
+        "coreTitleMatch": true,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
@@ -1179,7 +2298,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce",
       "직무: 컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1193,6 +2312,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -1218,7 +2338,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, PM/PL, 도입/정착, DX/업무개혁, 타이틀 매칭",
         "experience": "요구 5년 + 시니어",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -1229,31 +2349,31 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-3884752038",
+    "id": "linkedin-4324139767",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "CRM_Enterprise Transformation Business Unit CX Sector（Solution Consultant職）≪東京≫",
-    "company": "ABeam Consulting",
-    "location": "Chuo-ku, Tokyo, Japan",
-    "postedDate": "2026-06-17",
+    "title": "【Data & AI】製造DX Consultant／Pre-Sales",
+    "company": "DXC Technology",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-06",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Project Management, Consulting, and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/crm-enterprise-transformation-business-unit-cx-sector%EF%BC%88solution-consultant%E8%81%B7%EF%BC%89%E2%89%AA%E6%9D%B1%E4%BA%AC%E2%89%AB-at-abeam-consulting-3884752038",
-    "directUrl": "https://www.abeam.com/jp/ja/careers/",
+    "jobFunction": "Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90data-ai%E3%80%91%E8%A3%BD%E9%80%A0dx-consultant%EF%BC%8Fpre-sales-at-dxc-technology-4324139767",
+    "directUrl": "https://careers.dxc.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "stretch",
-    "score": 55,
+    "score": 56,
     "reasons": [
-      "Actively Hiring",
+      "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: CRM",
-      "직무: 컨설턴트, 도입/정착, CS, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "스킬: AI",
+      "직무: 컨설턴트, PM/PL, 프리세일즈, AI, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1264,19 +2384,20 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "ABeam Consulting",
+    "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "組織について CXセクターは「包括的なCRMソリューションを提供する国内最大規模のCRM専門組織として、企業の顧客戦略、マーケティング、営業、カスタマーサービス、顧客分析の改革を実現し、利益拡大やグローバルでの競争力向上に貢献する」をミッションに掲げ、顧客戦略の策定から、マーケティング、営業、カスタマーサービスにおける顧客接点業務の改革、さらには実現のためのシステムソリューション導入・定着化、チェンジマネジメントまで、一貫したコンサルティングサービスを提供しています。国内のコンサルティングファームの中では、最も包括的かつ革新的なコンサルティングサービスを提供していることが特徴です。 提供サービス 顧客データ活用によるデータドリブンな戦略策定 営業戦略策、マネジメント変革 ブランド策定からPR、コミュニケーション戦略策定 営業、販売領域やカスタマーサービスにおける社内プロセスのBPR及びツール導入 デジタルマーケティング（Webサイト、アプリ、マーケティングツール）の導入と定着化 EC戦略からEC立ち上げ、運用改善 カスタマーサクセス部門の立ち上げ、導入 AIを活用したプロセス変革・効率化 、ビジネス貢献に向けたデータ活用 入社後のアサイン想定プロジェクト 顧客戦略策定プロジェクト マーケティング、営業、顧客サービス、コマースの業務改革プロジェクト 新規顧客獲得、既存顧客維持・育成・離反防止プロジェクト 会社・事業間の顧客データ統合によるCX最適化プロジェクト 顧客起点経営に向けたチャネル横断での組織/業務/システム間連携プロジェクト デマンドチェーンマネジメントによる販売最適化プロジェクト OMO実現に向けたUI/UX向上プロジェクト 国内におけるCX改革事例のグローバル展開プロジェクト 入社後のアサイメントや業務内容は、中長期的な志向と業務／業種／テクノロジーの専門性等を勘案して決定します。 直近のプロジェクト事例 エンターテインメント企業における顧客戦略策定プロジェクト 製造業におけるB2Bマーケティング組織立ち上げ支援プロジェクト 食品メーカーにおける営業DXを起点とした組織・業務改革プロジェクト プロスポーツチームにおけるスポンサー獲得、新規顧客獲得、既存顧客維持・育成・離反防止プロジェクト 鉄道グループにおける会社・事業間の顧客データ統合によるCX最適化プロジェクト リテール業における顧客起点経営に向けたチャネル横断での組織/業務/システム間連携プロジェクト 専門商社におけるB2Bコマースの構想策定支援プロジェクト 製造業におけるデマンドチェーンマネジメントによる販売最適化プロジェクト 化粧品メーカーにおけるOMO実現に向けたUI/UX向上プロジェクト 素材メーカーにおける国内CX改革事例のグローバル展開プロジェクト 保険業におけるマーケティング高度化に向けたデータ基盤構築・利活用支援プロジェクト 自動車メーカーにおけるロイヤルティプログラム高度化支援プロジェクト 地方自治体におけるコンタクトセンター刷新に向けた業務設計と導入プロジェクト 銀行業におけるAIを活用した顧客接点業務高度化プロジェクト 求める人物像 ■クライアントの経営課題、業務課題を解決し、クライアントの事業や業務に変革をもたらすコンサルティングに従事したい方 ■「論理的思考",
+    "descriptionText": "Job Description 【業務 内容】 製造業のお客様に向けて製造DX、デジタルツイン、スマートファクトリー、PIM／PLMなど、製造業のお客様の課題を解決するソリューション、コンサルティング、SIプロジェクトや運用保守サービスなどを提案するお仕事です。 提案するソリューションは弊社がパートナリングを行っているパートナーのソリューションをはじめとして、様々な企業のソリューションを扱う事が可能です。海外のDXCや傘下企業（Luxoftなど）と連携し、海外でのソリューションやサービスをお客様に提案することも可能です。 主な事業領域 保険／金融／ヘルスケア／電力／ガス／製造（自動車を含む）／流通／運輸（航空会社を含む） 【募集背景】 DXCは古くから製造業のお客様とのビジネス（MES／PLM／HMS／製造業DWH／各種コンサルティングなど）を行ってきていますが、製造DXに関して高いナレッジを持つコンサルタント／プリセールスの方を拡充する事で体制の強化をしたい。 【身 につくスキル】 提案能力、コンサルティング能力、新しい技術の知識、顧客折衝能力 ※希望があれば、英語をビジネスで生かす仕事にアサインする事も可能 【目指 せるキャリア 】 アドバイザリコンサルタント 【必須（ MUST ）】 製造DX、デジタルツイン、スマートファクトリーなどに関して、コンサルティング経験、または、SIプロジェクト経験、提案経験を持っている方 スキルセットとしては下記の技術分野のどれか1つ以上で深い知識を持っている方 ・製造DX ・デジタルツイン（特に歓迎） ・スマートファクトリー 【 歓迎（ WANT ）】 ・PM経験者 ・コンサルティング経験者 ・製造見える化を含めたコンサルティング経験者 ・製造AI／ML経験者 ・PIM、MDM経験者 ・PLM経験者 ・パブリッククラウドでのシステム構築経験 ・社内を巻き込んで、案件をリードできる方・ビジネス英語ができる方 【求 める人物像】 DXC Technologyは独立系ITサービス企業です。ヨーロッパではAutoや金融に強いLuxoftも傘下にいれ、海外と連携する事で様々なソリューションを提供する事も可能です。又、アジアの色々な拠点にオフショアサイトを持っています。お客様にとって必要があれば、新たなパートナリングも締結します。そのように用意された要素や作りだした要素を統合して、お客様への提案の価値を最大化する事に興味があったり、意欲がある方に入社して頂きたいと思っております。 DXCテクノロジーでは、コミュニティの強いつながりが成功への鍵であると考えています。DXCのワークモデルは、対面でのコラボレーションを重視しつつ、社員の幸福度、生産性、個々の働き方、そして生活環境をサポートする柔軟性も提供しています。DXCは、誰もが活躍できるインクルーシブな環境づくりに尽力しています。 DXCは、ソーシャルメディアネットワークを通じて採用通知を行うことはありません。架空の求人情報を、偽のウェブサイトなどのオンラインサービスや、企業を名乗る電子メールを通じて求職者に提供するケースが発見されています。このような電子メールは、不正な採用活動の一環として、受信者に個人情報の提供や支払いを要求することがあります。また、採用プロセスのいかなる",
     "scoreBreakdown": {
-      "skills": 5,
+      "skills": 4,
       "role": 24,
       "experience": 12,
       "salary": 5,
-      "location": 6,
+      "location": 8,
       "source": 3,
-      "total": 55,
+      "total": 56,
       "max": {
         "skills": 30,
         "role": 25,
@@ -1286,11 +2407,11 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "CRM",
-        "role": "컨설턴트, 도입/정착, CS, DX/업무개혁, 타이틀 매칭",
+        "skills": "AI",
+        "role": "컨설턴트, PM/PL, 프리세일즈, AI, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -1301,19 +2422,19 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4414685610",
+    "id": "linkedin-4429001771",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Agentforce/AI Deployment Strategist (Multiple Levels)",
+    "title": "Success Guide Manager",
     "company": "Salesforce",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-09",
+    "postedDate": "2026-06-18",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Business Development and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/agentforce-ai-deployment-strategist-multiple-levels-at-salesforce-4414685610",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/success-guide-manager-at-salesforce-4429001771",
     "directUrl": "https://careers.salesforce.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
@@ -1323,9 +2444,83 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: 도입/정착, CS",
-      "조건: 일본/도쿄",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Manager, Success Guide Salesforce について We’re Salesforce, the Customer Company, inspiring the future of business with AI+ Data +CRM. Leading with our core values, we help companies across every industry blaze new trails and connect with customers in a whole new way. And, we empower you to be a Trailblazer, too — driving your performance and career growth, charting new paths, and improving the state of the world. If you believe in business as the greatest platform for change and in companies doing well and doing good – you’ve come to the right place. このロールについて Success Guideは、",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 8,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 55,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4427963607",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Agentic AI-Business Consultant (Principal) | Enterprise",
+    "company": "Microsoft",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-12",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/agentic-ai-business-consultant-principal-enterprise-at-microsoft-4427963607",
+    "directUrl": "https://careers.microsoft.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 55,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: CRM, AI",
+      "직무: 컨설턴트, CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1333,18 +2528,18 @@ window.JOB_RADAR_JOBS = [
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
       "LinkedIn 공개 상세에 연봉 정보 없음",
       "공고 연봉 미기재",
-      "공식 상세 URL 미확인",
-      "제목의 목표 직무명 불명확"
+      "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
+    "targetCompany": "Microsoft Japan",
+    "targetCompanyType": "vendor",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Software Engineering Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. About The Role We are seeking a Deployment Strategist, a pivotal leadership role focused on driving the successful adoption and strategic implementation of AI-powered Agentforce solutions for our key customers. This role is less about hands-on technical execution and more about solutioning, strategic oversight, and executive relationship management. As a trusted advisor, you will be the primary front-facing contact for Agentforce deployments, bridging customer strategic needs with our product innovation to ensure long-term success and value realization. You will play a ",
+    "descriptionText": "Overview この度、AIビジネスソリューション統括本部内に、Agentic Business Applicationチームを新設いたします。本チームは、AI時代における業務の「やり方そのもの」を再定義し、市場を創出していくことをミッションとします。大規模かつ戦略的な案件に取り組み、お客様の業務変革を実現する専門チームです。今回募集するポジションは、本チームの中核を担うAgentic AI Business Applications Consultantです。 本ロールにおいては、「業務変革 × AI（Dynamics 365 / Copilot / Agent等）」を通じて、企業の競争力そのものを変革することが期待されます。Microsoftのプラットフォームを活用し、業務プロセスや意思決定の在り方を再設計しながら、戦略・業務・テクノロジーを横断的に捉え、変革テーマの定義から実行推進まで一貫して関与していただきます。 また、Microsoftでは“Growth Mindset”を重要なカルチャーとしており、新たなテクノロジーや未知の領域に挑戦し続ける姿勢を高く評価します。 これまでコンサルタントとして培ってきた課題構造化力や変革推進力を活かし、AIとデータを活用した次世代の業務変革（Agentic Transformation）を共に推進していきたい方を歓迎します。 Responsibilities 業務変革構想の推進（Strategy / Transformation） 顧客の経営課題・業界課題を構造化し、AIを活用した業務変革テーマの策定をリードまたは主体的に推進 Dynamics 365、Copilot、AI Agents等を活用した次世代の業務モデル（Agentic ERP/CRM）の構想 業務プロセス・意思決定・オペレーティングモデルの再設計をプロジェクト内で推進 CxO・事業責任者との対話に関与し、変革ビジョンの具体化および合意形成を推進 ソリューション提案・ビジネスケース構築 AI × Business Applicationsを軸とした提案活動において、主要メンバーとしてリードまたは主体的に推進 ROI設計およびビジネスケース構築を担い、顧客の投資判断を支援 複雑な変革テーマをストーリーとして整理し、経営層への提案資料を作成 営業・技術チームと連携し、競争力のあるソリューションの構築に貢献 大型案件の創出・推進（Deal Support / Leadership） 戦略案件の創出および提案活動を行い、クロージングに向けた活動をリードまたは支援 担当領域における売上およびパイプライン成長に貢献 大規模案件におけるディール戦略の策定・実行をチームとともに推進 Agentic AIユースケースの創出と展開 業界課題に基づくAgentic AIユースケースの特定・設計に参画 ERP/CRM領域（SCM、製造、販売、サービス等）におけるAI活用シナリオの具体化を推進 CopilotおよびAI Agentを活用した業務自動化・意思決定高度化のユースケース設計 顧客事例の創出および社内外への展開に貢献 クロスファンクショナル連携 営業、技術営業、カスタマーサクセス、グローバルチーム、パートナーと連携し、顧客価値最大化に貢献 担当領域におけるワ",
     "scoreBreakdown": {
-      "skills": 20,
-      "role": 9,
+      "skills": 9,
+      "role": 20,
       "experience": 12,
       "salary": 5,
       "location": 6,
@@ -1359,15 +2554,89 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "도입/정착, CS",
+        "skills": "CRM, AI",
+        "role": "컨설턴트, CS, AI, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414685624",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Engagement Manager - Manufacturing",
+    "company": "Salesforce",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-09",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Business Development and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/engagement-manager-manufacturing-at-salesforce-4414685624",
+    "directUrl": "https://careers.salesforce.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "stretch",
+    "score": 55,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. エンゲージメントマネージャーは、最も戦略的に対応すべき顧客の大規模な変革プロジェクトをあるべき姿に形作り、自らそのプロジェクトの実行をリードすることにより、顧客を成功に導くための重要な役割を果たします。 エンゲージメントマネージャーは、Salesforceの顧客への信頼できるアドバイザーとしての役割を果たし、セールスおよびプロフェッショナルサービスチームにガイダンスを提供し、各顧客プロジェクト全体で相乗効果を確保し、最高レベルの顧客満足度を保証します。 エンゲージメントマネージャーは、アカウントパートナー（サービスセールス担当者）と連携して、受注前および受注後の活動を主導し、製品ポートフォリオ全体のデリバリーエキスパートとして機能し、組織全体の他の専門領域メンバと協力して包括的な実装提案を作成し、明確に説明します。 エンゲージメントマネージャーは、エグゼクティブとの関係を維持し、これらの有償での実装作業におけるエスカレーションポイントとして機能し、関係者間の緊密な連携を確保し、プロアクティブかつ規範的なアドバイスを提供して、素晴らしい顧客成功をもたらします。 Responsibilities 顧客固有の実装提案、SOW、人員配置計画の策定を主導し、組織全体の他の専門領域メンバと協力して、受け入れ可能な提案について合意形成を図ります。 アカウン",
+    "scoreBreakdown": {
+      "skills": 24,
+      "role": 8,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 55,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": false,
         "offTargetTitle": false
       }
@@ -1399,7 +2668,7 @@ window.JOB_RADAR_JOBS = [
       "상세 본문에서 연봉 정보 확인",
       "스킬: CRM",
       "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
+      "조건: 도쿄, 리모트/하이브리드",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1410,6 +2679,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "ABeam Consulting",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -1435,7 +2705,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
         "salary": "목표연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드",
+        "location": "도쿄, 리모트/하이브리드",
         "source": "LinkedIn"
       },
       "flags": {
@@ -1446,20 +2716,20 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4424905203",
+    "id": "linkedin-4425682158",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "【プロジェクトマネージャー】福岡／Salesforceのパートナー企業",
-    "company": "株式会社テラスカイ",
-    "location": "Fukuoka, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
+    "title": "カスタマーサクセス/コンサルタント【オープンポジション】",
+    "company": "株式会社プラスアルファ・コンサルティング",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-08",
+    "salaryText": "年収600~700万円",
+    "salaryStatus": "listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
     "jobFunction": "Engineering",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%E3%80%91%E7%A6%8F%E5%B2%A1%EF%BC%8Fsalesforce%E3%81%AE%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E4%BC%81%E6%A5%AD-at-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%86%E3%83%A9%E3%82%B9%E3%82%AB%E3%82%A4-4424905203",
-    "directUrl": "https://www.terrasky.co.jp/recruit/",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9-%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%90%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%91-at-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%97%E3%83%A9%E3%82%B9%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%BB%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-4425682158",
+    "directUrl": "https://www.pa-consul.co.jp/recruit/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -1467,105 +2737,31 @@ window.JOB_RADAR_JOBS = [
     "score": 55,
     "reasons": [
       "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce",
-      "직무: 컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
-      "회사 규모: 1000+ 대상"
+      "회사 규모: 500+ 대상 회사",
+      "상세 본문에서 연봉 정보 확인",
+      "직무: 컨설턴트, 도입/정착, CS, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 500+ 대상",
+      "회사군: AI 메가벤처"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "필수/우대 연차가 높음(5년)",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "TerraSky",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "【仕事内容】 Salesforceのさまざまなプロダクトの導入を検討しているお客様に対して、ソリューション／アーキテクチャーの設計・提案を行い、要件定義・設計・開発・テスト・リリースに至る一連をプロジェクトマネージャーとしてご担当いただきます。 ＜具体的な業務内容＞ ・プロジェクトの立上げ、計画、要件分析、Fit&Gapの実施とガイド、全体スコープやスケジュール変更に関する交渉を含めた全体の管理 ・プロジェクト計画、システム全体におよぶソリューション／アーキテクチャー設計等のドキュメント作成 など 【求める人材】 ＜求めるスキル、経験【必須】＞ ＜経験・スキル＞ ・3年以上のプロジェクトマネジメント経験（30人月以上） ・エンタープライズ市場における5年以上のERPまたは業種、業務系システムの実装とリーダー経験 ・ビジネス要求や課題に対して具体的な解決策や利用する技術やパッケージ製品に対する適用、評価を行ってきた経験 ・非常に高いコミュニケーション能力、複雑さを簡潔かつ明確に説明する能力、交渉能力や説得力 ・能動的に問題解決を図る考え方および行動力 ・新しい技術を学ぶ能力 ※クラウドの開発経験は不問です ※開発言語、開発環境、開発分野などは特に限定しません ＜求めるマインド【必須】＞ ・将来性の高い分野の専門性を高めて、長く活躍できるエンジニアになりたい方。 ・自分の開発しているシステムが「何のために、誰のために役立っているか」実感したい方。 ・業務に直結していなくても、常に最新の技術を勉強しているなど、自己啓発に積極的であり、新しい技術を学ぶのが楽しいと思える方。 【給与】 ※詳細はコンサルタントへご確認ください。 【勤務地】 ＜西日本支社／福岡支店＞福岡県福岡市博多区博多駅東2-5-28 博多偕成ビル4F 【勤務時間】 09:30～18:00※ポジション等により変動する可能性がございます。 【雇用・契約形態】 【待遇・福利厚生】 ・在宅勤務制度（全従業員利用可） ・資格取得支援制度（受験料補助、資格取得報奨金） ・Award報奨金（半期毎に表彰） ・リフレッシュ休暇報奨金 ・半期に一度の部門懇親会費用負担有り ・慶弔見舞金（結婚、出産等） ・確定給付企業年金制度 ・確定拠出年金制度 ・ベネフィットステーション ・育児短時間勤務制度 ・定期健康診断（無料） ＜東京のみ＞ ・昼食支援制度（社食をワンコインで提供） ・社内マッサージルームあり（施術無料） ・独身寮（年齢制限あり） 【休日・休暇】 完全週休2日制（土日）、祝日、年末年始休暇、年次有給休暇、産前産後休暇、育児休業、介護休業、特別休暇（慶弔）、母性健康管理のための休暇、リフレッシュ休暇",
+    "targetCompany": "Plus Alpha Consulting",
+    "targetCompanyType": "ai-megaventure",
+    "minCompanyEmployees": 500,
+    "companySizeBand": "500+",
+    "companyScaleStatus": "megaventure_500_plus",
+    "descriptionText": "【仕事内容】 当社が提供するサービスの中で、下記のいずれかに配属させていただき、 カスタマーサクセスとしてシステム導入後のオンボーディング、顧客課題に対しての伴走支援、 顧客の意思決定の高度化へ向けた取り組みなどのコンサルティング業務を担当していただきます。 ■見える化エンジン 『マーケティングの現場で活用できるテキストマイニングサービス』 アンケートやコールログ、音声データ、 SNS上のクチコミなどに書き込まれたデータを分析することで、お客様の声を見える化するツールです。 ■タレントパレット 『科学的人事を実現するタレントマネジメントプラットフォーム』あらゆる人材データを一元的に管理し、 科学的な人事戦略(人的資本経営)を実現するためのタレントマネジメントシステムです。 ■ヨリソル 『教育DXと教育データの見える化をするプラットフォーム』実現学習ポートフォリオ、 履修登録、志願者管理、卒業生管理といった学習者・保護者が使う機能を備えた、 オールインワンの教育機関向けプラットフォーム(求人ID：264425) 【求める人材】 ・ITシステムにおいてのカスタマーサクセス/カスタマーサポート業務の経験 ・システム導入支援（コンサル）経験 ・各サービスと親和性のある領域での法人折衝経験 【歓迎】 ・エンタープライズ企業の対応経験 【給与】 年収600~700万円,※職務経験を考慮のうえ決定いたします。 【勤務地】 東京都港区 【勤務時間】 09:30～18:30 【雇用・契約形態】 【待遇・福利厚生】 通勤手当 【休日・休暇】 慶弔休暇 年末年始 夏期休暇 有給休暇 完全週休2日制（土日） 祝日",
     "scoreBreakdown": {
-      "skills": 10,
+      "skills": 0,
       "role": 24,
-      "experience": 5,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 55,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "컨설턴트, PM/PL, 도입/정착, 타이틀 매칭",
-        "experience": "요구 5년 + 시니어",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 리모트/하이브리드",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4401644818",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Consultant - Salesforce Agentforce Consultant",
-    "company": "Infosys",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-02",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/consultant-salesforce-agentforce-consultant-at-infosys-4401644818",
-    "directUrl": "https://www.infosys.com/careers/apply.html",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "stretch",
-    "score": 55,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, Agentforce",
-      "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Infosys",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 +countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Location: Tokyo Based on your role, please note that this position may require on-site presence at Infosys premises and/or ",
-    "scoreBreakdown": {
-      "skills": 15,
-      "role": 12,
       "experience": 12,
-      "salary": 5,
-      "location": 8,
+      "salary": 10,
+      "location": 6,
       "source": 3,
       "total": 55,
       "max": {
@@ -1577,35 +2773,109 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, Agentforce",
-        "role": "컨설턴트, 타이틀 매칭",
+        "skills": "핵심 스킬 약함",
+        "role": "컨설턴트, 도입/정착, CS, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "salary": "목표연봉 이상",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
-        "coreTitleMatch": true,
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
     }
   },
   {
-    "id": "linkedin-4401643767",
+    "id": "linkedin-4324129925",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Consultant - Salesforce Data Cloud Consultants",
-    "company": "Infosys",
+    "title": "【Data &AI】クラウドソリューションアーキテクト",
+    "company": "DXC Technology",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-02",
+    "postedDate": "2026-06-07",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
     "jobFunction": "Engineering and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/consultant-salesforce-data-cloud-consultants-at-infosys-4401643767",
-    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90data-ai%E3%80%91%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%88-at-dxc-technology-4324129925",
+    "directUrl": "https://careers.dxc.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 54,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: 컨설턴트, PM/PL, AI, DX/업무개혁",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Job Description 【 業務内容 】 お客様の課題解決／提案対応／コンサルティングなどを行うアドバイザリー部での募集です。問題解決のためのアーキテクチャ提案対応、コンサルティングを実施して頂きます。 提案するソリューションは弊社がパートナリングを行っているパートナーのソリューションをはじめとして、様々な企業のソリューションを扱う事が可能です。海外のDXCや傘下企業（Luxoftなど）と連携し、海外でのソリューションやサービスをお客様に提案することも可能です。 主な事業領域 保険／金融／ヘルスケア／電力／ガス／製造（自動車を含む）／流通／運輸（航空会社を含む） 主なパートナー企業 AWS／Microsoft／Google／IBM／Red Hat／Talend／Blue Prism／Open Text／Snowflake／DataIku／Denodo／ThoughtSpot など 【 募集背景 】 引き合いも強く、年々、売り上げが拡大しており、体制の強化をしたい。 【 身につくスキル 】 アーキテクトとしての問題解決能力、提案能力、コンサルティング能力、新しい技術に対する知識、顧客折衝能力 ※希望があれば、英語をビジネスで生かす仕事にアサインする事も可能 【 目指せるキャリア 】 アドバイザリーコンサルタント 【 必須（ MUST ） 】 ・AWS、Azure、GCPなどのパブリッククラウドのソリューションアーキテクト経験を持っている方 ・ソフトウェア開発経験を持っている方 ・アプリケーションフレームワークや各種ミドルウェアの構造に理解または興味のある方 ・開発手法(ウォーターフォール、アジャイル等)に理解または興味のある方 ・新しい技術、開発手法を学び続けることができる方 ※AWS、Azure、GCPに関しては必要に応じて検証環境を用意する事が可能です。 【 歓迎（ WANT ） 】 ・アプリケーションサーバやデータベースの構築経験を持っている方 ・コンテナ(Docker、Kubernetes等)を利用したシステム開発経験(アプリ/インフラ) ・プライム案件経験者 ・PM/PL経験者 ・提案活動経験 ・オンプレインフラ構築経験 ・コンサルティング経験者 ・自らトライアンドエラーを繰り返し、継続的に提案を推進できる方 ・社内を巻き込んで、案件をリードできる方 ・ビジネス英語ができる方 【 求める人物像 】 DXC Technologyは独立系ITサービス企業です。ヨーロッパではAutoや金融に強いLuxoftも傘下にいれ、海外と連携する事で様々なソリューションを提供する事も可能です。又、アジアの色々な拠点にオフショアサイトを持っています。お客様にとって必要があれば、新たなパートナリングも締結します。そのように用意された要素や作りだした要素を統合して、お客様への提案の価値を最大化する事に興味があったり、意欲がある方に入社して頂きたいと思っております。 DXCテクノロジーでは、コミュニティの強いつながりが成功への鍵であると考えています。DXCのワークモデルは、対面でのコラボレーションを重視しつつ、社員の幸福度、生産性、個々の働き方、そして生活環境をサポートする柔軟性も提供しています。DXCは、誰もが活躍できるインクルーシブな環境づくりに尽力してい",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 22,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 54,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "컨설턴트, PM/PL, AI, DX/업무개혁",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4389174287",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "人事アプリケーション導入コンサルタント",
+    "company": "IBM",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-18",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Senior level",
+    "jobFunction": "Engineering and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/%E4%BA%BA%E4%BA%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%B0%8E%E5%85%A5%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-ibm-4389174287",
+    "directUrl": "https://www.ibm.com/jp-ja/careers/search",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -1614,9 +2884,9 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, Data Cloud",
-      "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "스킬: AI",
+      "직무: 컨설턴트, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 리모트/하이브리드",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -1627,14 +2897,15 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Infosys",
+    "targetCompany": "IBM Japan",
+    "targetCompanyType": "technology-consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: Consultant – Salesforce Data Cloud Consultant Location: Tokyo Based on your role, please note that this position may r",
+    "descriptionText": "Introduction A career in IBM Consulting is built on long-term client relationships and close collaboration worldwide. You’ll work with leading companies across industries, helping them shape their hybrid cloud and AI journeys. With support from our strategic partners, robust IBM technology, and Red Hat, you’ll have the tools to drive meaningful change and accelerate client impact. At IBM Consulting, curiosity fuels success. You’ll be encouraged to challenge the norm, explore new ideas, and create innovative solutions that deliver real results. Our culture of growth and empathy focuses on your long-term career development while valuing your unique skills and experiences. Your Role And Responsibilities As a Package Consultant: SuccessFactors Payroll, you will design and deploy HR technology solutions to establish key business capabilities and enable the realization of strategic initiatives and operational improvements. You will provide expert consulting services, guiding clients through the implementation process. Your primary responsibilities will include: Design and Deploy Solutions: Design and deploy HR technology solutions, establishing key business capabilities and enabling the realization of strategic initiatives and operational improvements. Provide Expert Consulting: Provide expert consulting services, guiding clients through the implementation process, and ensuring a smo",
     "scoreBreakdown": {
-      "skills": 13,
-      "role": 12,
+      "skills": 4,
+      "role": 21,
       "experience": 12,
       "salary": 5,
       "location": 8,
@@ -1649,11 +2920,84 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, Data Cloud",
-        "role": "컨설턴트, 타이틀 매칭",
+        "skills": "AI",
+        "role": "컨설턴트, 도입/정착, AI, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 리모트/하이브리드",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4390012071",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Microsoft Dynamics 365 CRM - Functional Consultant",
+    "company": "Infosys",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-18",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/microsoft-dynamics-365-crm-functional-consultant-at-infosys-4390012071",
+    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 53,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: CRM, AI",
+      "직무: 컨설턴트, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Infosys",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56+ countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: CRM Senior Consultant – MS Dynamics D365 Customer Experience Location: Tokyo Based on your role, please note that thi",
+    "scoreBreakdown": {
+      "skills": 9,
+      "role": 16,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 53,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "CRM, AI",
+        "role": "컨설턴트, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -1664,539 +3008,31 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4429528061",
+    "id": "linkedin-4414737731",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Operations Manager - Customer Success",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-16",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Management and Manufacturing",
-    "url": "https://jp.linkedin.com/jobs/view/operations-manager-customer-success-at-salesforce-4429528061",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 51,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Salesforceをご利用のお客様を成功に導くサクセスプラン（Success Plan）は、お客様のニーズにあわせた3種類のプランをご用意し、リソース、ガイダンス、技術サポートを提供します。そのサクセスプランのオペレーションに責任を持ち、サービスデリバリーチームがお客様の成功を促進できるよう、重要な役割を果たすのがカスタマーサクセスのオペレーションズチームです。 オペレーションズチームがアラインする主要業績指標は、お客様の満足度、Salesforceの利用状況スコア、解約率、サービスの利用促進度と多岐に渡ります。 本ポジション（ビジネスオペレーションズマネージャー）は、主要業績指標の達成に向けて、オペレーショナルエクセレンスの側面で組織に貢献します。単一の業務や特定のチームのオペレーションにとどまらず、カスタマーサクセスに大きなインパクトのある組織全体の取り組みや、コアとなるサービスのオペレーションをリードする役割です。グローバル本社のメンバーも含め、チーム内外の関係者と密接に連携し、最良の顧客体験を提供できるオペレーションを追求します。 以下に、その役割の詳細な内訳を説明します。 主要な責任 プログラムマネジメント：会社・組織の目標と一致した業務戦略の策定と実行。プログラムの組織インパクトをデータの側面で支え、改善サイクルを実行・管理 プロジェクトマ",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 8,
-      "experience": 9,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 51,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4424116309",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Senior Manager, Customer Success Management, Technical (People Manager)",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/senior-manager-customer-success-management-technical-people-manager-at-salesforce-4424116309",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 51,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Description As a Senior Manager of Customer Success Management, Technical, you will directly lead a team of Technical CSMs and serve as a people manager driving customer success across a portfolio of technically sophisticated enterprise accounts. You will combine strong technical acumen with leadership skills to ensure your team delivers on Salesforce's Signature Success Plan obligations while helping customers accelerate value and ROI from their Salesforce investment. Your team will deliver technical value through activities such as architecture reviews, security guidance ",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 8,
-      "experience": 9,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 51,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414697175",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Customer Success Manager, Senior Manager (BtoC)",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/customer-success-manager-senior-manager-btoc-at-salesforce-4414697175",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 51,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. The Customer Success Manager (BtoC) uses deep business, industry and product knowledge to partner with customers and guide them to accelerate business value and return from their investment with Salesforce. In this role, the Customer Success Manager will specialize in one or more line of businesses, a specific cloud or industry to speak the customer language and ensure customer value realization. They are aligned at key stakeholder level, building and fostering positive relationships to help customers progress on their digital journey. Customer Success Managers are working ",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 8,
-      "experience": 9,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 51,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4422926832",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Director, Customer Success Management, Financial Services (People Manager)",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-03",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/director-customer-success-management-financial-services-people-manager-at-salesforce-4422926832",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 51,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Description As a Director of Customer Success Management, you will lead a team of CSMs and drive strategic partnerships with enterprise customers in the financial services sector. You will leverage deep business and industry knowledge to partner with customers to help them accelerate business value and ROI from their investment with Salesforce. You will align at the C-level, building and maintaining strong relationships to help customers progress on their transformation journey. In this role, you will be responsible for helping customers achieve business value faster and pr",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 8,
-      "experience": 9,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 51,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4301238811",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "4165 ビジネスコンサルタント 担当主任クラス（製品開発・PLM領域）_SD",
-    "company": "NEC Corporation",
-    "location": "Minato, Tokyo, Japan",
-    "postedDate": "2026-06-09",
-    "salaryText": "年収400万〜560万円",
-    "salaryStatus": "listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Information Technology, Consulting, and Engineering",
-    "url": "https://jp.linkedin.com/jobs/view/4165-%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E6%8B%85%E5%BD%93%E4%B8%BB%E4%BB%BB%E3%82%AF%E3%83%A9%E3%82%B9%EF%BC%88%E8%A3%BD%E5%93%81%E9%96%8B%E7%99%BA%E3%83%BBplm%E9%A0%98%E5%9F%9F%EF%BC%89-sd-at-nec-corporation-4301238811",
-    "directUrl": "https://jpn.nec.com/recruit/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 50,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "상세 본문에서 연봉 정보 확인",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "NEC",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "職務内容 / Job duties 【事業・組織構成の概要】 製品開発プロセス改革の企画から実行までを一貫して遂行するコンサルタント集団です。コンサルタントは、NECの新卒社員だけでなく、メーカーやITベンダー出身者で構成されています。 【職務内容】 プロジェクト責任者の指導のもと、プロジェクトメンバーと協力し、下記業務を実施： ・大手製造業の顧客に対し、グローバル技術系情報基盤（グローバルPLM/BOM）の企画サービスやデジタル技術（3DCAD/CAM/CAE等）を利用した製品開発プロセス改革提供にあたり、海外展開を含んだ上流フェーズの業務改革コンサルティングを遂行。 ・経営者や事業責任者、部門長に対して訴求力のある改革企画提案実施及び受注活動に参加。 ・コンサルティング活動の計画立案〜実行〜定着までのプロジェクト推進支援。 ・AI/IoT等のNEC内テクノロジー/ソリューションを活用した新規コンサルティングサービスを開発。 ※システム開発・運用は別部門が行います。 【関連URL】 ＜参考＞コンサルティング事業部、プロジェクト事例など 戦略コンサルティング 人とAIの協奏が生むものづくり革新 PLMコラム 〜PLM導入の進め方〜 導入事例：サンデンホールディングス株式会社様 工程設計のデジタル化により生産性を高める新手法とは 【ポジションのアピールポイント】 ・NECでの自己変革実績や他社事例を活用し、企画倒れにならない改革施策を提言します。 ・NECは様々なソリューションを保有しており、ソリューション部隊と連携して企画〜実行〜定着化までを一貫でサポートすることができます。 ・元設計者、元生産技術者など、ものづくりのキャリアを活かして活躍しているメンバーが多数在籍しており、業務を通じてコンサルティングスキルを向上させながら市場価値の高い人財へと成長できる環境です。 【職場環境】 リモートワーク：週半分以上可能 応募資格 / Qualifications 【MUST】 ★コンサルタントを志望していることが前提となります。 下記のいずれかの経験を保有すること ・製品開発業務（機械設計、電気設計、生産設計）の実務経験 ・PLMソリューション（PDM/PLM）の販売促進、サービス提供、或いは当該領域のコンサルティング経験 【WANT】 ・製品開発プロセス改革、PLM改革、BOM改革に関するコンサルティング経験 ・日常会話程度以上の英語力 ・製品開発に関する業務知識や、海外設計拠点や生産拠点での従事経験 ・開発業務の社内変革プロジェクトへの参画経験（業務・IT変革） ・3DCAD/CAM/CAE/PDM/PLMシステムソリューションのいずれかに関する専門知識 【求める人物像・ソフトスキル】 ・自己成長／変革の意欲と行動、及び継続力 ・チーム行動が可能な協調性、コミュニケーション能力 待遇 / Salary & Benefits 【採用形態・ランク】 ・正社員を想定 ・担当 〜主任 レベルを想定 【想定報酬】 担当の場合 ・年収400万〜560万円程度 ・月給28万〜35万円程度（月額基本給22万〜31万円程度を含む） ※前職年収を考慮、当社規定による 主任の場合 ・年収680万〜930万円程度 ・月給44万〜61万円程度（月額基本給35万〜49万円程度を含む",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 10,
-      "source": 3,
-      "total": 50,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "현재연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414692304",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Real Estate Project Delivery Associate Manager",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Project Management and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/real-estate-project-delivery-associate-manager-at-salesforce-4414692304",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 49,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Real Estate & Facility Management Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. About The Role We're looking for an Associate Manager to join Salesforce's Tokyo-based Project Design & Delivery team. You'll support a growing portfolio of workplace projects across Japan, from office fit-outs to stakeholder requests and work closely with a Senior Director, based in San Francisco, who will help you grow. If you're early in your project management career, highly organized, and ready to take on real responsibility in a fast-moving global environment, this is the right role for you. What You’ll Do Support the delivery of concurrent workplace ",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 4,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 49,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414906075",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Senior Manager, Enablement CoE Lead",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/senior-manager-enablement-coe-lead-at-salesforce-4414906075",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 49,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. 役割の説明: Corporate Enablementは組織・Role横断で行う全社的なEnablementを推進していく役割を担っています。中長期の組織開発・人材育成に加えて、ビジネスインパクトを最大化させるため仕組みづくりやEnablementプログラムの推進を行う部門です。 その中で、CoE (Center of Excellence)チームは、Globalや日本の経営陣の方針・戦略とアラインし、 主に3つの領域（①Global Program, ② Learning Platform, ③Tech & Ops) をドライブ をしていきます。 ①Global Program: グローバルのExecutivesやキーパーソンと連携して、タイムリーにGlobalの方針や施策を日本向けに展開します。その際、日本の経営陣や現場、そのほかのステークホルダーと合意を取り付けながら、日本のビジネスに合わせて内容や実施方法をカスタマイズ/ローカライズを行い、効果の最大化を目指します。 ②Learning Platform: 新たな技術動向や製品機能をふまえてLearning Platformを進化させ社内での活用を促進します。また、Learning Platform上で社内の実践知を蓄積・循環させるための施策の企画・展開・効果測定を行います。 ③Tech & Op",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 4,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 49,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414903071",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Manager, Sales Strategy",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
+    "title": "楽天ペイメント株式会社 プロダクト開発本部 カスタマーサービス開発部：DXプロジェクトマネージャー",
+    "company": "Rakuten",
+    "location": "Tokyo, Japan",
     "postedDate": "2026-06-05",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
     "jobFunction": "Sales and Business Development",
-    "url": "https://jp.linkedin.com/jobs/view/manager-sales-strategy-at-salesforce-4414903071",
-    "directUrl": "https://careers.salesforce.com/",
+    "url": "https://jp.linkedin.com/jobs/view/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E9%96%8B%E7%99%BA%E6%9C%AC%E9%83%A8-%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E9%96%8B%E7%99%BA%E9%83%A8%EF%BC%9Adx%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-at-rakuten-4414737731",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 49,
+    "score": 52,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: 컨설턴트, CS",
-      "조건: 일본/도쿄",
+      "스킬: AI",
+      "직무: PM/PL, AI, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -2208,19 +3044,20 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. 概要 セールスストラテジーは営業組織のための社内コンサルティングを行う組織であり、その中においてストラテジー・マネージャーは重要な役割を担います。マネージャーは、会社の業績や市場機会に関する主要指標を分析し、営業組織のための戦略テーマを設定し、シニアリーダーへの提言・プレゼンテーションを行う責任を持ちます。組織設計、事業計画、市場セグメンテーション・カバレッジ最適化、営業業績評価などのプロジェクトに関わります。精緻な分析モデル、業績分析、各種ダッシュボード、社内幹部向けプレゼンテーション資料などが求められる成果物です。シニアエグゼクティブ層と定期的に議論の場を持ちます。 業務内容 シニアエグゼクティブ向けプレゼンテーションの作成・実施 幹部の意思決定をサポートする日常的なビジネスパフォーマンス分析 拡張可能なレポート・ツールによる分析モデルの設計・構築 営業組織や関連部門との定期的な情報共有と改善活動 市場の理解、および革新的な顧客獲得施策の考案のための定性的および定量的なデータ分析、社内外へのリサーチ Go-To-Marketモデルの最適化に必要な分析モデルの設計 社内関係者や社外協力会社（マーケティング専門会社、データベンダー、パートナー）と協業の下での複数のプロジェクト・施策の管理・運営 米国本社や国外関係会社との情報交換および折衝 日本市場におけ",
+    "descriptionText": "Job Description 職務内容： 楽天・事業について FinTech グループカンパニーでは、楽天カードをはじめとする各種決済サービスやポイントプログラム、インターネット銀行サービス、証券取引サービス、保険サービスなど様々なフィンテック（金融）系のサービスを提供しています。オンラインからオフラインに至るまで様々なフィンテック系サービスを提供している点が楽天の強みとなります。 部署・サービスについて 楽天ペイメントは、楽天グループの決済を担う企業です。『楽天ペイ』や『楽天ポイントカード』などの決済サービスを提供し、加盟店企業様（楽天ペイメントサービスが利用できる店舗）と利用者をつなぎ、より便利なキャッシュレス社会の推進に貢献しています。 カスタマーサービス開発部は、楽天ペイメントの加盟店企業様、および楽天ペイメント社内向けに、横断的なサービスを開発する部署です。 各ペイメントサービスを横断して提供するプラットフォームのサービス開発を、企画段階からリリース後の運用まで一貫して担っています。加盟店様の業務効率化や売上向上を支援する加盟店様向け管理ツール、社内業務を支援するAIを活用したデータ統合プラットフォームや不正検知システムなど、多岐にわたるサービスを手がけています。特定のビジネスに限定されないため、楽天ペイメントサービスの市場動向や業務知識を幅広く習得できるのが特徴です。最先端技術を活用し、ペイメント事業の成長に貢献できる、やりがいのある環境です。 ポジション： 募集背景 管掌するサービス・プロダクトの拡大に伴う組織強化のため、新たな技術を取り込みながら既存メンバーと一緒にサービス作りをしていただける方を募集しています。 業務内容 プロジェクトマネージャーとして、楽天ペイメントの加盟企業様と楽天ペイメント社内に対し横断的に提供するプロダクト開発プロジェクト、業務のDX推進プロジェクトのマネジメントをご担当頂きます。ユーザー・ビジネスに貢献できるプロダクトを構想・企画し、ステークホルダーマネジメント、ROIの定義、実行フォーメーションのデザイン、プロジェクト成果物の定義、リスクマネジメント、デリバリー計画をご担当いただきます。 ＜業務イメージ＞ プロジェクトマネージャー、プロダクトマネージャー、エンジニア複数チームのリスクマネジメント、WBS管理、依存関係の可視化を行いながら一丸となってプロジェクトを成功に導きます。 同時並行で進めるプロダクト・サービス数：10サービス程度 1サービスのプロジェクト数：4-5案件 ＜責任範囲＞ ・プロジェクトマイルストーンの設定と合意形成 ・プロジェクトフォーメーションの編成 ・プロジェクト成果物の定義 ・リスクマネジメント ・プロジェクトステータスの把握とレポーティング 働く環境 プロジェクトマネージャーとエンジニアがチーム一丸（1チーム4名〜9名）となりサービス開発・運用を行います。 国籍の比率：海外籍60％、日本人40％ 必須要件： ・3年以上のプロジェクトマネジメント経験 ・利害関係者を巻き込み物事を前に進めるコミュニケーションスキル ・複数チームのプロジェクトマネジメント経験 ・チャレンジ精神をもち、自発的に業務を遂行できる方 ・チームマネジメントの経験（メンバー育成含む） 歓迎要件： ・システムリ",
     "scoreBreakdown": {
-      "skills": 20,
-      "role": 6,
-      "experience": 9,
+      "skills": 4,
+      "role": 18,
+      "experience": 16,
       "salary": 5,
       "location": 6,
       "source": 3,
-      "total": 49,
+      "total": 52,
       "max": {
         "skills": 30,
         "role": 25,
@@ -2230,650 +3067,12 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "컨설턴트, CS",
-        "experience": "시니어/매니저 타이틀",
+        "skills": "AI",
+        "role": "PM/PL, AI, DX/업무개혁, 타이틀 매칭",
+        "experience": "요구 3년",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4418194927",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "ビジネスコンサルタント（マネジャー・シニアマネージャー）",
-    "company": "Simplex Holdings, Inc.",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-05-22",
-    "salaryText": "年収:1400万～2000万",
-    "salaryStatus": "listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Engineering",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%EF%BC%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%8B%E3%82%A2%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%89-at-simplex-holdings-inc-4418194927",
-    "directUrl": "https://www.simplex.inc/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 49,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "상세 본문에서 연봉 정보 확인",
-      "직무: 컨설턴트, PM/PL, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "시니어/매니저급 포지션",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Simplex",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "【仕事内容】 【職務概要】 ビジネスコンサルタント（マネジャー・シニアマネージャー）として幅広い業務をお任せします。 【職務詳細】 ご経験、ご希望を勘案し以下の業務に携わっていただきます。 ■ビジネスコンサルティング クライアントである金融機関に対し、事業戦略の策定支援、BPR、新規事業・ソリューション企画等を行います。自社にエンジニア部隊を有している同社だからこそ、机上の空論で終わらせることなく実効性あるサービスを提供し、クライアントの収益拡大にコミットすることが求められます。 ■Blockchain、AIを活用したコンサルティング ブロックチェーンなどの先端技術を含め実際に開発できるハイレベルなエンジニアや、2019年4月に設立されたAI子会社「DeepPercept（ディープパーセプト）株式会社」と連携し、先端技術を活用したコンサルティング案件の提案活動や、獲得した案件のプロジェクトマネジメントやデリバリー推進支援を行っていただきます。 ■事業・組織立ち上げ メンバー育成をはじめとした組織マネージメントだけではなく、 事業計画、採用計画、広報活動など、会社運営の実務にも従事していただきます。 【業務内容変更の範囲】 同社業務全般 【求める人材】 【必須】 ・コンサルファームでのプロジェクトマネージャー経験 （提案およびデリバリーを完遂した経験） 【尚可】 ・新しいコンサルファームを立ち上げ経験 【こんな方にピッタリ】 ・立ち上げ経験を積みたい方 ・ファームの経営メンバーとして制度設計や組織運営に携わたい方 ・大手ファームと同水準以上の報酬をもらいたい方 【給与】 年収:1400万～2000万程度 月給制：月額1150000円 給与:■経験、スキル、年齢を考慮の上、同社規定により優遇 残業手当:固定残業手当326,000円～／55時間分含む、固定残業時間超過分の割増賃金は別途支給（基本給：824,000円～） 賞与:年1回 昇給:年1回 【勤務地】 東京都港区虎ノ門1-23-1 虎ノ門ヒルズ森タワー19F 東京メトロ銀座線「虎ノ門ヒルズ」駅徒歩2分 勤務地変更の範囲：本社及び全国の事業場、支社、営業所 【勤務時間】 9時00分～18時00分 フレックスタイム制（コアタイム11時～15時）休憩時間：60分残業：月平均40時間 【雇用・契約形態】 契約期間：無期 試用期間：有(6ヶ月) 【待遇・福利厚生】 リモートワーク制度、社員カウンセリングの実施、従業員持ち株会、インターバル出社制度、関東ITソフトウェア健康保険組合加入、資格取得応援制度、書籍購入補助、学業等休職制度、フレックスOK、カジュアルなドレスコード、夕食無料提供、男性も積極的な育児休暇利用推進 喫煙情報：敷地内禁煙（喫煙場所あり） 【休日・休暇】 年間休日126日（土日・祝祭日）、年次有給休暇、慶弔休暇、年末年始休暇、産前産後休暇、育児休暇、介護休暇、裁判員休暇",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 19,
-      "experience": 9,
-      "salary": 10,
-      "location": 8,
-      "source": 3,
-      "total": 49,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "컨설턴트, PM/PL, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "목표연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4328134630",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "テクノロジーコンサルタント (カスタマーフロント：顧客・従業員接点領域) ー ソング本部",
-    "company": "Accenture Japan",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-19",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Entry level",
-    "jobFunction": "Strategy/Planning and Consulting",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%EF%BC%9A%E9%A1%A7%E5%AE%A2%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%E6%8E%A5%E7%82%B9%E9%A0%98%E5%9F%9F-%E3%83%BC-%E3%82%BD%E3%83%B3%E3%82%B0%E6%9C%AC%E9%83%A8-at-accenture-japan-4328134630",
-    "directUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 48,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: CRM",
-      "직무: 컨설턴트, 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Accenture Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "◆業務内容 ソング本部は、クライアントのカスタマーフロント領域変革 (体験やマーケティングなどの顧客/従業員向け接点の変革)を支援し、ビジネス成長に貢献する組織です。 生成AIなどの新しいテクノロジーが勃興している中で、テクノロジーの活用はIT部門に任せておけば良い事柄ではなく、ビジネス目標を達成するために戦略的に検討すべき事柄になってきました。現行の踏襲ではなく、大胆かつ柔軟にテクノロジーを活用することで、企業の成長を実現する戦略を立案することが求められています。テクノロジーのみならず、戦略・業務・AI・データ・クリエイティブの幅広い知見を持って、成長のための戦略的ロードマップをCXOとともに描き、実行まで伴走するプロフェッショナル集団の一員を担っていただきます。 ＜具体的な業務＞ ※志向や適正を配慮し、担当いただくフェーズをご相談して決めていきます。 戦略・構想フェーズ ・現行踏襲ではなく、大胆かつ柔軟にテクノロジーを活用し、企業の成長を実現する戦略の立案 ・テクノロジー・戦略・業務・AI・データ・クリエイティブの幅広い知見を持って、成長のための戦略的ロードマップをCXOとともに設計 要件定義・ソリューション選定フェーズ ・生成AIやエージェントAIなどを組み込んだアーキテクチャの刷新が求められている中で、クライアントのビジネス目標やシステム状況に鑑みて、数多あるソリューションを目利きしながらあるべきシステムアーキテクチャを設計・選定 システム構築・実行支援フェーズ ・構想で目指す要件をさまざまな制約の中で実現するためのシステム機能設計・構築 ・システムリリース後の更なるビジネス成長に向けて、高度化・進化に向けたあるべき姿の策定 ◆プロジェクト事例 ・通信事業会社における、新規事業開発に向けたテクノロジー活用の構想・実行計画策定 ・通販事業会社における、顧客コミュニケーションの全面改革に向けたシステム全体像の構想・計画策定・伴走PMO ・消費財企業における、生成AIを活用したコンテンツ自動生成＆PDCA高速化に向けた業務プロセス・システムアーキ構想 ・生命保険会社における、新たなB2B営業モデルの構築に向けたシステム構想・計画策定・IT PMO ・電力会社における、次世代CRMの実現に向けたビジネス・システム構想 ・官公庁における、国民および職員向けサービスの実装に向けたシステムアーキ検討・システム実装の伴走 ・大手小売企業における、顧客政策に基づいたマーケティングテクノロジー活用の構想・実現 ・大手ゲーム会社における、オンラインコンテンツと物販の融合した新業態の実現 ◆応募要件 ・テクノロジーを起点に、戦略・業務・AI・データ・クリエイティブの幅広い知見を持って、ビジネス成長の未来を描き、実現したい方 例えば、 ーコンサルティング経験者、もしくは事業会社にて企画などのプランニングに携わっていた方で、テクノロジー領域のスキルを伸ばしたい方 ーもしくは、システム構築経験(5年程度以上)があり、事業成長に資するビジネス領域のスキルを伸ばしたい方 ◆望ましい経験・スキル 以下のうち、いずれかの経験をお持ちの方 ・コンサルティング経験 ・テクノロジーを活用した事業戦略/IT中期計画の策定 ・システムブループリントの作成・ソリューションの選定(EC,CMS",
-    "scoreBreakdown": {
-      "skills": 5,
-      "role": 17,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 48,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "CRM",
-        "role": "컨설턴트, 도입/정착, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4429509946",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "【年収500万 ~ 2500万円】AI Consultant / Enterprise AI Transformation & AI Governance Consulting for Major Financial Institutions in Japan",
-    "company": "GAIDOOR RECRUIT",
-    "location": "Greater Tokyo Area",
-    "postedDate": "2026-06-16",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Mid-Senior level",
-    "jobFunction": "Engineering and Consulting",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90%E5%B9%B4%E5%8F%8E500%E4%B8%87-%7E-2500%E4%B8%87%E5%86%86%E3%80%91ai-consultant-enterprise-ai-transformation-ai-governance-consulting-for-major-financial-institutions-in-japan-at-gaidoor-recruit-4429509946",
-    "directUrl": "https://www.recruit.co.jp/employment/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 48,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Recruit",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "We are currently partnering with a fast-growing AI & Data consulting company in Japan that is actively expanding its AI & Data division and is now looking for both AI Consultants and Senior AI Consultants. Please note that prior financial industry experience is NOT required. For foreign candidates, a valid Japanese work visa and at least JLPT N2-level Japanese (or equivalent business Japanese communication skills) are required to apply. Position Levels • AI Consultant (1 ~ 3 years experience): ¥5M – ¥10M JPY • Senior AI Consultant (3 years + ): ¥10M – ¥25M JPY The company works directly with major enterprise clients in Japan on large-scale AI transformation, Generative AI adoption, AI governance, and enterprise DX initiatives. These positions focus heavily on AI strategy, AI implementation support, AI governance, organizational AI enablement, and enterprise-level transformation projects rather than purely hands-on AI model development. You will work closely with large enterprise clients, AI/Data teams, executives, and business stakeholders to help organizations successfully adopt and operationalize AI technologies in real business environments. The environment is highly collaborative and business-oriented, combining AI consulting, project leadership, organizational transformation, and modern AI technology initiatives. Interview Process: • First online interview • Final in-perso",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 48,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4400241893",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Technical Consultant - CRM",
-    "company": "ServiceNow",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-15",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/technical-consultant-crm-at-servicenow-4400241893",
-    "directUrl": "https://careers.servicenow.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 48,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: CRM, Flow",
-      "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "ServiceNow Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Company Description It all started in sunny San Diego, California in 2004 when a visionary engineer, Fred Luddy, saw the potential to transform how we work. Fast forward to today — ServiceNow stands as a global market leader, bringing innovative AI-enhanced technology to over 8,100 customers, including 85% of the Fortune 500®. Our intelligent cloud-based platform seamlessly connects people, systems, and processes to empower organizations to find smarter, faster, and better ways to work. But this is just the beginning of our journey. Join us as we pursue our purpose to make the world work better for everyone. Job Description What you get to do in this role: The Customer Outcomes Technical Consultant is responsible configuring ServiceNow Platform (CRM Workflow and Platform) based on leading practices to provide a solution that achieves customer outcomes. The Technical Consultant is the functional and technical expert in customer engagements. Participate in workshops with customers to assess current processes and establish future-state processes. Design and deliver ServiceNow CRM Workflow solutions with a technical architecture designed for long-term success and following ServiceNow technical standards and leading practices. Provide oversight and unit testing of code developed by partner or customer employees. Advise customers on how to take advantage of the ServiceNow Platform ca",
-    "scoreBreakdown": {
-      "skills": 8,
-      "role": 12,
-      "experience": 12,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 48,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "CRM, Flow",
-        "role": "컨설턴트, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4429001771",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Success Guide Manager",
-    "company": "Salesforce",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-18",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/success-guide-manager-at-salesforce-4429001771",
-    "directUrl": "https://careers.salesforce.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 47,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Customer Success Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. Manager, Success Guide Salesforce について We’re Salesforce, the Customer Company, inspiring the future of business with AI+ Data +CRM. Leading with our core values, we help companies across every industry blaze new trails and connect with customers in a whole new way. And, we empower you to be a Trailblazer, too — driving your performance and career growth, charting new paths, and improving the state of the world. If you believe in business as the greatest platform for change and in companies doing well and doing good – you’ve come to the right place. このロールについて Success Guideは、",
-    "scoreBreakdown": {
-      "skills": 20,
-      "role": 4,
-      "experience": 9,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 47,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4419844621",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "【リモート可】コーポレートIT ｜IT戦略企画・PM・Web開発・Salesforce等ポジション多数あり",
-    "company": "PERSOL CAREER BRS (Bilingual Recruitment Solutions)",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-18",
-    "salaryText": "Salary 6.5 - 13",
-    "salaryStatus": "listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Science, Health Care Provider, and Engineering",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E5%8F%AF%E3%80%91%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88it-%EF%BD%9Cit%E6%88%A6%E7%95%A5%E4%BC%81%E7%94%BB%E3%83%BBpm%E3%83%BBweb%E9%96%8B%E7%99%BA%E3%83%BBsalesforce%E7%AD%89%E3%83%9D%E3%82%B8%E3%82%B7%E3%83%A7%E3%83%B3%E5%A4%9A%E6%95%B0%E3%81%82%E3%82%8A-at-persol-career-brs-bilingual-recruitment-solutions-4419844621",
-    "directUrl": "https://www.recruit.co.jp/employment/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 46,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "상세 본문에서 연봉 정보 확인",
-      "스킬: Salesforce",
-      "직무: PM/PL, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Recruit",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "NEW Job number: JN -042026-202942 Posted: 2026-06-16 【リモート可】コーポレートIT ｜IT戦略企画・PM・Web開発・Salesforce等ポジション多数あり 東証プライム上場企業／21期連続で増収を継続中／事業の成長に直接的に貢献することができる 6.5 - 13 million yen Tokyo Information Technology IT Management Job details Company overview Our client is a domestic healthcare company actively tackling the societal challenges posed by Japan's aging population through its multi-dimentional business. While its main business lies in recruitment services of healthcare / caregiving professionals, the company also provides a wide range of products and services including consulting, and the development of health management systems. Responsibilities 同社は、超高齢社会における社会課題をビジネスチャンスと捉え、 40以上のサービスを展開しています。 事業成長に伴い高度化・複雑化する業務IT基盤に対応するため、 社内業務システムの内製化を推進しており、その体制強化を目的として募集いたします。 ━━━━━━━━━━━━━━━ ■所属部署 事業部門／管理部門を問わず業務オペレーションの最適化やIT業務基盤の改善のための企画・実行・継続的改善を全社規模で推進する横断組織です。 全社の業務効率／生産性向上と各事業の戦略遂行／目標達成を実現していくことをミッションとし、 経営や事業に携わる方々が、よりイキイキと生産性高く働ける環境をシステム、業務プロセスの両面からサポートしています。 ■業務内容 社内の業務改善・IT企画を推進する部門にて、ご経験やご志向性に合わせたポジションをご提案させていただきます。 ビズネスアーキテクト / IT戦略企画 値提供先事業（キャリア事業/SaaS事業等）に対して、事業理解をもとにしたビジネスプロセスの最適化をお願いします。規模やフェーズが異なる複数の事業を展開している弊社において、事業や会社の変化や成長に適応しながら、あるべき業務プロセスの設計とそれを支えるITシステムの要件整理を行い、実現を推進していただきます。事業の外の改善組織メンバーという立ち位置ではなく、事業担当者と同じ温度感でビジネスの成果にコミットし、各機能組織（マーケティング／セールス／CSなど）の責任者と連携しながら、サービスの立ち上げや事業成長のための施策を企画・推進していただきます。 Salesforceエンジニア（リーダー） Salesforce利用部門のビジネスプロセスや業務オペレーションを理解し、開発チームマネージャー",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 11,
-      "experience": 12,
-      "salary": 2,
-      "location": 8,
-      "source": 3,
-      "total": 46,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "PM/PL, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "연봉 상승 제한",
-        "location": "일본/도쿄, 리모트/하이브리드",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4407156537",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "税務業務改革DXコンサルタント（業務改革・データ活用）",
-    "company": "PwC Japan",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-09",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Accounting/Auditing and Finance",
-    "url": "https://jp.linkedin.com/jobs/view/%E7%A8%8E%E5%8B%99%E6%A5%AD%E5%8B%99%E6%94%B9%E9%9D%A9dx%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%EF%BC%88%E6%A5%AD%E5%8B%99%E6%94%B9%E9%9D%A9%E3%83%BB%E3%83%87%E3%83%BC%E3%82%BF%E6%B4%BB%E7%94%A8%EF%BC%89-at-pwc-japan-4407156537",
-    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 46,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "PwC Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "募集要項 Job Description 税務業務改革DXコンサルタント（業務改革・データ活用） 職務内容 Roles and Responsibilities 企業の税務業務そのものの変革を、クライアントに対して直接提供するDXコンサルタントを募集しています。 業務可視化・課題整理といった上流工程から、要件定義、改革の実行・定着まで一貫して関与し、業務とテクノロジーを統合した価値提供を行います。 本ポジションでは、クライアントとの対話を通じて本質的な課題を見極め、自らプロジェクトを前に進める主体性を期待しています。IT導入プロジェクトや業務改革の経験をベースに、税務領域における高度なコンサルティングスキルを獲得していただけます。 【業務内容 】 税務業務の可視化・課題整理および改革構想の策定 クライアントの税務プロセス（申告・レポーティング・データ収集等）をヒアリングし、業務の可視化および課題の構造化を行います。 グローバル税制対応やデータガバナンスを踏まえ、あるべき業務プロセスおよびシステム構想の策定をリードします。 業務要件定義・データ/プロセス設計 税務業務の高度化に向けて、業務要件・データ要件の整理を行い、業務プロセスおよびデータフローの設計を行います。 関係者（税務部門・経理部門・IT部門等）との合意形成を図りながら、実行可能な改革計画へ具体化します。 DX施策の実行支援・プロジェクト推進 業務改革・DXプロジェクトにおいて、クライアントおよび関係者と連携しながら、施策の実行およびプロジェクト推進を担います。 導入支援にとどまらず、業務への定着化や運用改善まで一貫して支援します。 税務データ基盤・レポーティング高度化の支援 税務データ収集・管理、各種レポーティング対応（例：国際税務・規制対応）に向けたデータ基盤の整備を支援します。 データの正確性・一貫性・トレーサビリティを確保し、税務リスク管理および当局対応の高度化に貢献します。 継続的な業務改善および新技術の活用検討 プロジェクト実施後の効果測定および追加改善提案を行い、継続的な業務高度化を推進します。 生成AI等の新たなテクノロジーの活用可能性を検討し、クライアントの業務価値向上に貢献します。 【ポジションの魅力】 ・税務×DX領域において、クライアントフェイシングで価値提供に携わるポジション 企業の税務業務に対して本質的な業務改革を直接提供します。 業務改善・IT導入の経験を、クライアントの経営・税務課題の解決に活かすことが求められます。 ・業務理解×テクノロジーの掛け合わせで専門性を確立 業務プロセスの可視化やデータ構造の設計といった上流工程に関与し、「業務が分かるDX人材」としての専門性を確立します。 生成AIなど進化するテクノロジーを業務改革に組み込む経験を通じて、特定のツールや技術に閉じないキャリアを築くことにつながります。 ・Microsoft 365を活用した業務改革の設計・推進 Microsoft 365を中心としたテクノロジーを活用し、業務プロセスおよびデータ活用の高度化に取り組みます。 クライアントの業務・データ構造に適合した 活用方針の設計に関与し、業務×データ×テクノロジーを横断した コンサルティングに携わります。 ・グローバル規制対応など重要性の高いテーマへ",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 20,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 46,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4423878480",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Business Analyst",
-    "company": "Tata Consultancy Services",
-    "location": "Tokyo, Japan",
-    "postedDate": "2026-06-02",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Associate",
-    "jobFunction": "Information Technology and Consulting",
-    "url": "https://jp.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4423878480",
-    "directUrl": "https://www.tcs.com/careers",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 46,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: CRM",
-      "직무: 도입/정착",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Tata Consultancy Services Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "◆プロジェクト概要 大手小売業向け店舗基盤システム のアプリケーションを、Agile/DevOps手法でモダナイズします 。 モダナイズにおいては顧客チームと密に連携し、追加要件の分析から技術検証、 アーキテクチャ設計、開発までを推進。 スクラムマスターとしてスクラムイベントのファシリテーション 、 進捗報告、スクラムチームの課題、リスクとタスク管理。 AIツールを活用した自動化・効率化により、 品質とスピードを両立し、ビジネス価値の最大化を目指します。 ◆ポジション概要 大手小売業向け顧客向けのオンサイト・ビジネスアナリスト及びチームリーダーとして、 TCSのオンサイト／オフショアデリバリーモデルの中核を担います。 日本の顧客との要件定義・調整をリードしつつ、オフショア開発・QAチームとの橋渡し役として、 要件の正確な伝達と品質確保を行います。 また、従来のBA業務に加え、React（Next.js）を中心としたフロントエンド技術への理解と、 Claude Code・GitHub Copilot などの生成AIツールを活用したデリバリー支援が求められます。 スペックドリブン／コードドリブン開発を前提とした、次世代型BAロールです。 ◆職務内容詳細 ＊基幹システムのモダナイゼーションに対する オンサイトBA及びチームリーダーの窓口として対応 ＊顧客と信頼関係を構築し、顧客要件を正確にオフショアへ伝達 ＊要件定義・分析・ドキュメンテーション（エンタープライズ品質） ＊スケジュール、リスク、課題管理 ＊ステックホルダーとのコミュニケーション ＊オンサイト／オフショア連携・調整 ＊スペックドリブン／コードドリブン開発支援 フロントエンド理解（React / Next.js） 生成AI活用経験（Claude Code、GitHub Copilot） ＊エンドツーエンド（E2E）テスト（業務フロー、バックエンドとの連携、画面間連携、入力チェック、相関チェック） ＊UAT計画・顧客支援 ＊以下の業務領域に関する理解・整理： POS、店舗業務、在庫管理、販促、CRM、EC 【必須スキル】 ＊お客様と仕様及び進捗に関して打ち合わせと資料作成ができる ＊品質管理の基本を理解し仕様に沿ったテスト計画立案、テスト仕様作成、テスト実行ができる。 ＊プロジェクト/チームリーダーとしての業務経験1年以上（スケジュール、リスク、課題、タスク管理） 【歓迎要件】 ＊大規模・クライアント向け案件での開発経験 ＊エンタープライズ向けリテールシステムの経験必須 アジャイル（Scrum）およびオンサイト・オフショア混在体制での実務経験 ・店舗システム（POS、店舗業務、在庫管理、販促、CRM、EC等）の知識 ・高い分析力・ドキュメンテーション能力 ・日本の顧客との直接業務経験 ・スクラムイベントの実施（計画、レビュー、振り返りとGrooming） ・お客様と定例会実施して進捗報告 ・日本語での要件定義、会議ファシリテーション、UAT支援 （読み、書き、会話はネイティブレベル） ・日英バイリンガル資料作成経験 React / Next.js リアクション/Next.js フロントエンドアプリケーション構造 ・生成AIを活用した開発への理解・経験 ・以下のツール使用経験または支援経験： Cla",
-    "scoreBreakdown": {
-      "skills": 5,
-      "role": 5,
-      "experience": 20,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 46,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "CRM",
-        "role": "도입/정착",
-        "experience": "요구 1년",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "official-3612043591734526916",
-    "source": "Official",
-    "sourceQuality": "official",
-    "title": "Implementation Partners",
-    "company": "Salesforce Japan",
-    "location": "Japan",
-    "postedDate": "",
-    "salaryText": "",
-    "employmentType": "",
-    "seniority": "",
-    "jobFunction": "",
-    "url": "https://appexchange.salesforce.com/consulting",
-    "directUrl": "https://appexchange.salesforce.com/consulting",
-    "directUrlStatus": "verified_official",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 46,
-    "reasons": [
-      "공식 Careers 페이지에서 키워드 링크 발견",
-      "스킬: Salesforce",
-      "직무: 도입/정착, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "일반 HTML 스캔 결과라 상세 직무 페이지 여부 확인 필요",
-      "상세 연봉 미확인"
-    ],
-    "targetCompany": "Salesforce Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 9,
-      "experience": 12,
-      "salary": 4,
-      "location": 6,
-      "source": 5,
-      "total": 46,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "도입/정착, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
-        "source": "공식 공고"
       },
       "flags": {
         "coreTitleMatch": false,
@@ -2901,13 +3100,13 @@ window.JOB_RADAR_JOBS = [
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 45,
+    "score": 51,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Agentforce",
-      "직무: CS",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "스킬: Salesforce, CRM, Agentforce, AI",
+      "직무: CS, AI",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -2920,18 +3119,19 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
     "descriptionText": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Operations Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce. SalesforceはAI CRM世界No.1のプラットフォームを提供する企業です。人とAIエージェントが共に顧客の成功を実現する新しい働き方をリードしています。野心と行動、テクノロジーと信頼が交わるこの場所で、私たちはビジネスと社会をより良くすることに情熱を持つトレイルブレイザーを求めています。 エージェンティック時代の働き方変革を牽引する企業で、あなたのキャリアを次のステージへ。Agentforceはその未来の中心にいます。 所属チームについて 私たちはSalesforce Strategyを担うStrategy & Programsの一員として、主にCustomer Success Group（CSG）のゴール実現に責任を持つチームです。GlobalおよびSales Strategyとの連携を通じて会社のGo-To-Market（GTM）戦略をCSGの施策に落とし込み、顧客維持・成長の実現に向けてCustomer Success Businessを牽引するリーダー陣の意思決定をデータと戦略的思考で支えます。Sales Strategy、Finance、Operations、Enablementなど多様な部門との連携を主導しながら、戦略をビジネスの現場で実現することに情熱を持つ方を歓迎します。 ロール概要 CSG Business Partnerは、",
     "scoreBreakdown": {
-      "skills": 20,
-      "role": 0,
+      "skills": 24,
+      "role": 2,
       "experience": 9,
       "salary": 5,
       "location": 8,
       "source": 3,
-      "total": 45,
+      "total": 51,
       "max": {
         "skills": 30,
         "role": 25,
@@ -2941,11 +3141,11 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "Salesforce, CRM, Agentforce",
-        "role": "CS",
+        "skills": "Salesforce, CRM, Agentforce, AI",
+        "role": "CS, AI",
         "experience": "시니어/매니저 타이틀",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -2956,31 +3156,31 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4390012071",
+    "id": "linkedin-4424785372",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Microsoft Dynamics 365 CRM - Functional Consultant",
-    "company": "Infosys",
+    "title": "【CRMソリューションコンサルタント】Dynamics導入支援／業務設計／スキルアップ可能",
+    "company": "（株）野村総合研究所",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-18",
+    "postedDate": "2026-06-05",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/microsoft-dynamics-365-crm-functional-consultant-at-infosys-4390012071",
-    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "jobFunction": "Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90crm%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%91dynamics%E5%B0%8E%E5%85%A5%E6%94%AF%E6%8F%B4%EF%BC%8F%E6%A5%AD%E5%8B%99%E8%A8%AD%E8%A8%88%EF%BC%8F%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E5%8F%AF%E8%83%BD-at-%EF%BC%88%E6%A0%AA%EF%BC%89%E9%87%8E%E6%9D%91%E7%B7%8F%E5%90%88%E7%A0%94%E7%A9%B6%E6%89%80-4424785372",
+    "directUrl": "https://career.nri.co.jp/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 45,
+    "score": 51,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "스킬: CRM",
-      "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -2991,14 +3191,519 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Infosys",
+    "targetCompany": "Nomura Research Institute",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56+ countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: CRM Senior Consultant – MS Dynamics D365 Customer Experience Location: Tokyo Based on your role, please note that thi",
+    "descriptionText": "【仕事内容】 ソリューションコンサルタントとして顧客ニーズをヒアリング・理解のうえで、Dynamicsを利用した業務設計、開発、導入、および活用支援に係る下記業務をお任せします。 １、ニーズのヒアリング 顧客・ユーザーと直接会話し、ニーズや現在の業務を理解する ２、要件定義・設計 Dynamicsの機能をベースに新たな業務をデザイン ３、導入 ソリューション構築・テスト、教育、移行 ４、活用支援 定着化・活用支援、データ分析支援 【求める人材】 ＜求めるスキル、経験【必須】＞ ・Dynamicsの導入に伴う要件定義から設計・開発・テスト・リリースの一連の工程を一通り実施したご経験 ＜求めるマインド【必須】＞ 【給与】 ※詳細はコンサルタントへご確認ください。 【勤務地】 東京都千代田区 ※選考の過程で配属地についてご相談をさせていただく予定です。 【勤務時間】 09:00～18:00※ポジション等により変動する可能性がございます。 【雇用・契約形態】 【待遇・福利厚生】 確定拠出年金、退職一時金、コンサル・ITスキル講座、DX人材育成プログラム、社費留学生制度、語学研修、資格取得支援、保養所、従業員持株会、財形貯蓄 ・確定拠出年金：会社が拠出し付与。付与額は職種により異なる ・退職一時金：確定拠出年金とは別に会社が拠出し付与。付与額は職階により異なる ・社費留学生制度：海外 【休日・休暇】 完全週休二日制（土日）、祝日、暑中休暇、リフレッシュ休暇、育児休暇、産前・産後休暇、マタニティ有給休暇、パートナー出産休暇、介護休暇、慶弔休暇、振替休日、子の看護休暇、半日休暇、介護休業、育児休業・出生時育児休業（産後パパ育休）",
     "scoreBreakdown": {
       "skills": 5,
-      "role": 12,
+      "role": 20,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 51,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "CRM",
+        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4386914622",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Cloud Implementation Project Manager",
+    "company": "SAS",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-11",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Senior level",
+    "jobFunction": "Information Technology and Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/cloud-implementation-project-manager-at-sas-4386914622",
+    "directUrl": "https://www.sas.com/ja_jp/careers.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 49,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: PM/PL, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 리모트/하이브리드",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "SAS Institute Japan",
+    "targetCompanyType": "analytics-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Hybrid, Tokyo We’re a leader in data and AI. Through our software and services, we inspire customers around the world to transform data into intelligence - and questions into answers. If you're looking for a dynamic, fulfilling career with flexibility and a world-class employee experience, you'll find it here. We're recognized around the world for our inclusive, meaningful culture and innovative technologies by organizations like Fast Company, Forbes, Newsweek and more. About The Job The SAS Managed Cloud Services team is looking for an Cloud Implementation Project Manager to lead and deliver impactful projects. In this role, you will be responsible for all aspects of project management - from planning, budgeting, and coordination to implementation and successful delivery - ensuring every project aligns with SAS’s overall strategy, commitments, and goals. Our team offers the opportunity to work with cutting-edge technologies and Cloud Infrastructure projects spanning across Azure, AWS and Google Cloud Platform, where you can continuously learn, collaborate with experts, and make a real impact. With more than 40 years of service to customers in Japan, and a strong culture of collaboration, SAS is trusted by customers to turn data into decisions and AI into real-world impact. As a Cloud Implementation Project Manager, you will guide SAS cloud projects from contract signature thro",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 20,
+      "experience": 9,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 49,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "PM/PL, 도입/정착, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 리모트/하이브리드",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4430105076",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Merchant Consultant, Life & Leisure, Paid Service",
+    "company": "Amazon",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-17",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Sales, Advertising, and Business Development",
+    "url": "https://jp.linkedin.com/jobs/view/merchant-consultant-life-leisure-paid-service-at-amazon-4430105076",
+    "directUrl": "https://www.amazon.jobs/ja/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 48,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: 컨설턴트, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Description 【Amazon出品サービスについて】 Amazon出品サービス はAmazon以外の企業がAmazonのプラットフォーム上に商品を出品、販売を行うことができる企業向けサービスです。2007年4月のサービス提供開始から今日に至るまで、多くの法人企業様（以下「販売事業者」)に利用され、さらにその数は毎年増えています。Amazonのミッションである地球上で最も豊富な品揃えを実現するためには今後さらにさまざまな商品を販売事業者様にご出品いただくことが不可欠です。 【マーチャント・コンサルタントとは】 マーチャント・コンサルタントは、Amazonプラットフォームに商品を出品している販売事業者様向けに提供している有料のコンサルティングサービスプログラムを担います。具体的には、販売事業者様の経営戦略や事業戦略を踏まえた上で、課題を特定し、戦略的アドバイスを行ってAmazon.co.jp上での売上最大化を目指します。 【主なKPI】 販売事業者様のサービスへの満足度、販売事業者様のマーチャント・コンサルタントへの満足度、出品商品ページの質、出品商品数とその配送品質、広告やセール実施により新たに生み出された売上等。 Key job responsibilities 【具体的な業務内容】 ・1人最大約30社のリセラーを担当し、専任コンサルタントとして戦略的プランを策定 ・売上実績の分析、年間ビジネスゴールに基づく戦略プラン策定、実行サポート ・販売事業者様ごとに最適な形式・頻度で定期的なビジネスレビューを実施し、 年間目標の進捗確認・提案・合意形成・実行管理までを一気通貫で推進 ・販売事業者様と合意したゴール（売上、広告効率、品揃え拡大等）に対し、 期待効果・担当者・期限を明示した具体的な提案を行い合意形成する ・合意したアクションの進捗管理と継続的な実行支援 ・最新プログラム情報の提供、戦略的アドバイスおよび実践的なコーチング ～戦略的アドバイス例～ ・広告運用の最適化(スポンサー広告の提案、広告費用対効果の改善、入札戦略) ・プロモーション施策(セールイベント提案、価格戦略) ・在庫・物流の最適化(在庫切れ要因分析、定期おトク便活用) ・品揃えの拡充(新商品立ち上げサポート、主力商品の育成、販路拡大) ・ブランディング提案(ブランド登録、商品詳細ページ改善、ストア作成、 ブランド分析ツールの活用) ・購入転換率の向上(商品ページ改善、プライシング) ・販路拡大(グローバル展開、法人向け販売) Basic Qualifications 【基本条件】 教育レベル：大卒以上 職務経験：法人営業、アカウントマネジメント、ビジネスコンサルティング、インサイドセールス、マーケティングなどの実務経験4年以上 PCスキル：Microsoft Excel でのデータ集計・分析、Microsoft Word での文書作成 ・英語：定常的に書面（email、レポート）、および口頭（会議、電話、TV会議）でのコミュニケーションを行うことができる 日本語：ネイティブ レベル ; 英語：会話レベル Bachelor's Degree 4+ years’ experience in business role requiring to negotiate with the",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 16,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 48,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "컨설턴트, AI, 타이틀 매칭",
+        "experience": "요구 4년",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4389425281",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Director, Customer Success and Renewals",
+    "company": "Box",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-09",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Director",
+    "jobFunction": "Information Technology and Customer Service",
+    "url": "https://jp.linkedin.com/jobs/view/director-customer-success-and-renewals-at-box-4389425281",
+    "directUrl": "https://www.box.com/careers",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 47,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: 도입/정착, CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Box Japan",
+    "targetCompanyType": "enterprise-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "WHAT IS BOX? Box は、インテリジェントコンテンツ管理(ICM)市場におけるリーディングカンパニーです。私たちのミッションは「人と組織の働き方の変革」です。私たちは、安全でユーザビリティの高いコンテンツ管理、コラボレーション、ワークフロー、電子サイン、AI などを提供することにより、お客様のデジタルトランスフォーメーションを強力に推進しています。Box には、この急成長の途上にある市場のリーダーとして、さらに市場の拡大に寄与し、お客様のデジタルトランスフォーメーションや働き方改革などのパートナーとしての役割を得る機会があります。現在、Box はFortune500 の最大手企業を含む、グローバルで 11 万社以上、日本では 2万社以上の企業に製品を提供しています。 WHY WE NEEDS YOU Boxは現在、世界中で11万5,000社以上の組織に導入されており、そのミッションは、AIを駆使したContent Cloudを通じて、世界中のあらゆるワークフローをインテリジェントに進化させることにあります。 現在、私たちは単なるストレージサービスから、セキュアなコンテンツ管理、コラボレーション、そしてAIによる業務効率化をワンストップで実現するプラットフォームへと大きな転換期を迎えています。この重要な局面において、お客様がBoxの真の価値を享受し、持続的な成長を実現するためには、カスタマーサクセスとリニューアル（契約更新）の両面を統合的にリードする存在が不可欠です。 あなたは、戦略的な顧客への導入支援と、商用的な実行（リニューアル・拡大戦略）の橋渡し役を担います。AI駆動の次世代ワークフローを顧客のビジネスに定着させるとともに、シームレスな更新戦略を通じて長期的なパートナーシップを構築し、収益維持（GRR/NRRの最大化）に責任を持つ、Boxの成長戦略における極めて重要な役割を果たしていただくことを期待しています。 WHAT YOU'LL DO Director, Customer Success & Renewalsは、ポストセールスにおける顧客体験の最適化、リテンション（維持）、および収益成長の最大化に責任を持つリーダーシップポジションです。カスタマーサクセス（CSM）チームとリニューアル（更新）チームの両方を統括し、戦略的なガイダンスを提供することで、顧客のライフタイムバリューを最大化し、会社の持続的な成長を牽引します。 戦略的リーダーシップとチーム管理 カスタマーサクセスおよびリニューアル部門のビジョンと戦略を策定し、実行する。 高パフォーマンスなチームを構築・育成し、コーチングを通じてメンバーのキャリア成長を支援する。 採用、オンボーディング、リテンション戦略を通じて、クラス最高のタレントを確保する。 顧客維持と収益成長の最大化 リテンション（更新率）、アドプション（活用率）、およびネットリテンション（NRR）の目標達成に責任を持つ。 リニューアル戦略を最適化し、商談の交渉、価格設定、契約条件の管理を監督する。 顧客のヘルススコアを監視し、解約リスクを早期に特定・回避するための予防的措置を講じる。 顧客エンゲージメントとエグゼクティブ関係の構築 主要顧客のエグゼクティブ層との強固な信頼関係を構築し、戦略的パートナーとしての地位を",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 17,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 47,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "도입/정착, CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4403825230",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Sr. Amazon Quick Strategist, Amazon Quick Customer Success Team, AWS",
+    "company": "Amazon Web Services (AWS)",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-05-30",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Senior level",
+    "jobFunction": "Project Management, Management, and Product Management",
+    "url": "https://jp.linkedin.com/jobs/view/sr-amazon-quick-strategist-amazon-quick-customer-success-team-aws-at-amazon-web-services-aws-4403825230",
+    "directUrl": "https://www.amazon.jobs/ja/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 47,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: 도입/정착, CS, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Description AWS is known for its relentless customer obsession. Our Professional Services teams are on the front line of helping customers succeed using AWS technologies that align with the new ways of managing people and rearchitecting critical processes to leverage the capabilities of Gen AI. AWS Amazon Quick Customer Success Team (Q-CST) members leverage their deep knowledge of AWS services and market trends in collaboration with our sales and partner teams to propose, architect, and implement transformational solutions for customers. We make customer success a reality using AWS Gen AI services as an enabler. Amazon Quick Strategists are dynamic professionals who architect and propel customer success, expertly guiding organizations from initial proof-of-concept to full-scale production implementation of Amazon Quick. These visionaries excel at crafting strategic roadmaps that expand Amazon Quick's footprint across the enterprise, driving innovation and efficiency. With a strong executive presence, they skillfully navigate interactions with internal leadership (VPs, Directors) and diverse stakeholders, while rapidly building trust with Account Teams and customers at all levels, from Enterprise Architects to C-Suite executives. As technology specialists with keen business acumen, they possess the unique ability to identify high-impact use cases, quantify value, and drive measu",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 17,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 47,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "도입/정착, CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4424784370",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "【ITコンサルタント】戦略立案や、実行支援するコンサルティング業務／プロジェクトデリバリー",
+    "company": "（株）野村総合研究所",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Engineering",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90it%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%80%91%E6%88%A6%E7%95%A5%E7%AB%8B%E6%A1%88%E3%82%84%E3%80%81%E5%AE%9F%E8%A1%8C%E6%94%AF%E6%8F%B4%E3%81%99%E3%82%8B%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E6%A5%AD%E5%8B%99%EF%BC%8F%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC-at-%EF%BC%88%E6%A0%AA%EF%BC%89%E9%87%8E%E6%9D%91%E7%B7%8F%E5%90%88%E7%A0%94%E7%A9%B6%E6%89%80-4424784370",
+    "directUrl": "https://career.nri.co.jp/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 46,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Nomura Research Institute",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "【仕事内容】 【具体的な職務内容】 ・銀行、証券会社、生損保、カード会社など金融機関及び金融サービスを提供する企業への戦略立案、及び戦略の実行を支援するコンサルティング業務 ・特に、DXを主とした先端の変革ツール・理論を元に、顧客企業の戦略、組織、業務等の変革を支援 ・また、フィンテック、エンベッドファイナンスといった、金融サービスの発達を、事業会社に対して導入し、企業の成長戦略の策定・実行を支援するコンサルティング業務 ・上記コンサルティングプロジェクトの提案営業並びに、プロジェクトデリバリー 【モデル年収例】 20代 620～1100万 30代 870～1500万 40代1100～1800万 【求める人材】 ＜求めるスキル、経験【必須】＞ ＜業務知識、経験＞ ■下記のいずれかに該当する方 ・経営企画、営業企画などの企画関連、法人営業、調査部門およびそれに準ずる業務を経験されている方 ・事業会社の財務部門での業務を経験されている方 ・コンサルティングファームにおいて、金融機関向けコンサルティング業務経験を有する方 ＜関連技術、スキル＞ ・企画力 ・プレゼン能力 ・PCスキル（MS Word、Excel、Power Point） ＜求めるマインド【必須】＞ ・プロフェッショナルとして謙虚、勤勉であり、顧客のため、チームのためにリーダーシップを発揮できる方 ・同社使命の「新しい社会のパラダイムを洞察し、その実現を担う。お客様の信頼を得て、お客様とともに栄える」に共感し、金 融分野を中心とした自己成長・自己実現に信念と情熱を持てる方 【給与】 ※詳細はコンサルタントへご確認ください。 【勤務地】 ＜東京本社＞東京都千代田区大手町1-9-2 大手町フィナンシャルシティ グランキューブ 【勤務時間】 09:00～18:00※ポジション等により変動する可能性がございます。 【雇用・契約形態】 【待遇・福利厚生】 確定拠出年金、退職一時金、コンサル・ITスキル講座、DX人材育成プログラム、社費留学生制度、語学研修、資格取得支援、保養所、従業員持株会、財形貯蓄 ・確定拠出年金：会社が拠出し付与。付与額は職種により異なる ・退職一時金：確定拠出年金とは別に会社が拠出し付与。付与額は職階により異なる ・社費留学生制度：海外 【休日・休暇】 完全週休二日制（土日）、祝日、暑中休暇、リフレッシュ休暇、育児休暇、産前・産後休暇、マタニティ有給休暇、パートナー出産休暇、介護休暇、慶弔休暇、振替休日、子の看護休暇、半日休暇、介護休業、育児休業・出生時育児休業（産後パパ育休）",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 20,
+      "experience": 12,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 46,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "official-8881570949246474388",
+    "source": "Official",
+    "sourceQuality": "official",
+    "title": "Implementation Partners",
+    "company": "Salesforce Japan",
+    "location": "Tokyo 확인 필요",
+    "postedDate": "",
+    "salaryText": "",
+    "employmentType": "",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://appexchange.salesforce.com/consulting",
+    "directUrl": "https://appexchange.salesforce.com/consulting",
+    "directUrlStatus": "verified_official",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 46,
+    "reasons": [
+      "공식 Careers 페이지에서 키워드 링크 발견",
+      "스킬: Salesforce",
+      "직무: 도입/정착, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "일반 HTML 스캔 결과라 상세 직무 페이지 여부 확인 필요",
+      "상세 연봉 미확인"
+    ],
+    "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 10,
+      "role": 9,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 5,
+      "total": 46,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce",
+        "role": "도입/정착, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "공식 공고"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414919579",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "ARPU Growth Strategy & Implementation - Marketing Division",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Marketing and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/arpu-growth-strategy-implementation-marketing-division-at-rakuten-4414919579",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 45,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Job Description: About Rakuten & Our Business The Marketing Division serves as a cross-group organization responsible for leading branding, creative, marketing, and membership initiatives. Our mission is to expand the membership value and ecosystem of the Rakuten Group, which encompasses over 70 diverse services. About The Department & Service The Marketing Planning Department is responsible for formulating strategy for Rakuten Mobile’s plans and products, and leading those initiatives through to execution. The ARPU Promotion Group , where this position will be based, is tasked with maximizing ARPU (Average Revenue Per User) for Rakuten Mobile. We handle the planning and improvement of optional services, sales promotion, and the design and execution of marketing campaigns. In addition to launching new optional services, we formulate strategies based on the competitive landscape and pricing differentials to drive usage and profitability for existing services. We also promote value creation and revenue growth unique to Rakuten Mobile through coordination, negotiation, and alliance building with external partners. Background of Recruitment As Rakuten Mobile continues to revolutionize and disrupt the Japanese telecommunications industry, we are looking for someone to take part in the planning and promotion of new optional services that directly impact ARPU growth. In an increasingl",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 13,
       "experience": 12,
       "salary": 5,
       "location": 8,
@@ -3013,99 +3718,27 @@ window.JOB_RADAR_JOBS = [
         "source": 5
       },
       "notes": {
-        "skills": "CRM",
-        "role": "컨설턴트, 타이틀 매칭",
+        "skills": "AI",
+        "role": "도입/정착, AI, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
-        "coreTitleMatch": true,
+        "coreTitleMatch": false,
         "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
     }
   },
   {
-    "id": "linkedin-4414911786",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "CRM / Personalization (CX) Marketing Specialist - Marketing Division",
-    "company": "Rakuten",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Marketing and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/crm-personalization-cx-marketing-specialist-marketing-division-at-rakuten-4414911786",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 45,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce, CRM, Marketing Cloud",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인",
-      "제목의 목표 직무명 불명확"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Rakuten",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description Business Overview The Marketing Division leads brand, creative, marketing, and membership as a cross-group organization with a mission to expand Rakuten Group's membership value and ecosystem of over 70 services. We believe that the mobile domain is a platform that plays a fundamental role in the ecosystem, and as the Marketing Division, we are further promoting collaboration with Rakuten Mobile. Department Overview We will increase the number of new Rakuten Mobile subscribers in the web marketing area and promote expansion of market share. The CRM Group is responsible for accelerating new subscriber growth for Rakuten Mobile through data- and AI-driven digital marketing initiatives. We take an end-to-end approach to designing and optimizing online customer touchpoints, including banner optimization across Rakuten-owned platforms, SEO enhancement for non-branded owned media, and CRM execution using Salesforce Marketing Cloud. In addition, with the goal of maximizing the value of our marketing platforms, we organize requirements and define specifications for functional improvements across a wide range of marketing tools, regardless of tool type or delivery model, and also play a PMO role to drive platform enhancement initiatives. Position Why We Hire Rakuten Mobile surpassed 10 million subscribers by the end of 2025, marking a major milestone. Going forward, we m",
-    "scoreBreakdown": {
-      "skills": 19,
-      "role": 0,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 45,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce, CRM, Marketing Cloud",
-        "role": "직무 방향 약함",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "official-8753994240891308203",
+    "id": "official-585462804477898889",
     "source": "Official",
     "sourceQuality": "official",
     "title": "Customer Success Awards",
     "company": "Salesforce Japan",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3122,7 +3755,7 @@ window.JOB_RADAR_JOBS = [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "스킬: Salesforce",
       "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3130,6 +3763,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3154,7 +3788,7 @@ window.JOB_RADAR_JOBS = [
         "role": "CS, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3165,12 +3799,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-2465799643349768306",
+    "id": "official-8168870654916429220",
     "source": "Official",
     "sourceQuality": "official",
     "title": "Customer Success Events",
     "company": "Salesforce Japan",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3187,7 +3821,7 @@ window.JOB_RADAR_JOBS = [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "스킬: Salesforce",
       "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3195,6 +3829,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3219,7 +3854,7 @@ window.JOB_RADAR_JOBS = [
         "role": "CS, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3230,12 +3865,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-5780528622485649057",
+    "id": "official-9024325250040759921",
     "source": "Official",
     "sourceQuality": "official",
     "title": "Customer success",
     "company": "Salesforce Japan",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3252,7 +3887,7 @@ window.JOB_RADAR_JOBS = [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "스킬: Salesforce",
       "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3260,6 +3895,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3284,7 +3920,7 @@ window.JOB_RADAR_JOBS = [
         "role": "CS, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3295,12 +3931,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-6805973811115047155",
+    "id": "official-4901075450502770558",
     "source": "Official",
     "sourceQuality": "official",
     "title": "You + agents = Customer Success.",
     "company": "Salesforce Japan",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3317,7 +3953,7 @@ window.JOB_RADAR_JOBS = [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "스킬: Salesforce",
       "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3325,6 +3961,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "Salesforce Japan",
+    "targetCompanyType": "crm-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3349,7 +3986,7 @@ window.JOB_RADAR_JOBS = [
         "role": "CS, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3360,12 +3997,600 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-4263617872935456301",
+    "id": "linkedin-4420279919",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Experience Customer Success Specialist - CAI",
+    "company": "Cisco",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-18",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/customer-experience-customer-success-specialist-cai-at-cisco-4420279919",
+    "directUrl": "https://jobs.cisco.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 44,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Cisco Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Meet the Team The Cisco Customer Experience (CX) organisation is one of Cisco’s fastest-growing teams, with a clear purpose: helping customers get real, lasting value from their Cisco investments. We work at the crossroads of technical knowledge and business understanding, partnering with customers to improve how they operate and achieve outcomes that matter to them. The Customer Success Specialist (CSS) team is a collaborative group of technical advisors who bring deep product knowledge and a genuine curiosity about customer success; We work side-by-side with customers to guide them, not from the sidelines. We are part of a global community that shares adoption approaches and learning across three areas of focus: Networking, Security, and Cloud & AI Infrastructure. If you enjoy working through sophisticated technical challenges, contributing to how Cisco’s products improve over time, and collaborating with curious, knowledgeable colleagues, this team is a great fit. Your Impact As a Customer Success Specialist, you will serve as a strategic advisor and technical expert, leading targeted engagements that accelerate product adoption and drive measurable business value for Cisco’s customers. You will lead the full adoption journey, from baselining customer environments and building onboarding roadmaps to facilitating executive-level workshops and providing feedback that directly ",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 12,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 44,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4420299001",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Experience Customer Success Specialist - Sec",
+    "company": "Cisco",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-18",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/customer-experience-customer-success-specialist-sec-at-cisco-4420299001",
+    "directUrl": "https://jobs.cisco.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 44,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Cisco Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Meet the Team The Cisco Customer Experience (CX) organisation is one of Cisco’s fastest-growing teams, with a clear purpose: helping customers get real, lasting value from their Cisco investments. We work at the crossroads of technical knowledge and business understanding, partnering with customers to improve how they operate and achieve outcomes that matter to them. The Customer Success Specialist (CSS) team is a collaborative group of technical advisors who bring deep product knowledge and a genuine curiosity about customer success; We work side-by-side with customers to guide them, not from the sidelines. We are part of a global community that shares adoption approaches and learning across three areas of focus: Networking, Security, and Cloud & AI Infrastructure. If you enjoy working through sophisticated technical challenges, contributing to how Cisco’s products improve over time, and collaborating with curious, knowledgeable colleagues, this team is a great fit. Your Impact As a Customer Success Specialist, you will serve as a strategic advisor and technical expert, leading targeted engagements that accelerate product adoption and drive measurable business value for Cisco’s customers. You will lead the full adoption journey, from baselining customer environments and building onboarding roadmaps to facilitating executive-level workshops and providing feedback that directly ",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 12,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 44,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4420299002",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Experience Customer Success Specialist - NX",
+    "company": "Cisco",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-18",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/customer-experience-customer-success-specialist-nx-at-cisco-4420299002",
+    "directUrl": "https://jobs.cisco.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 44,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: CS, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Cisco Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Meet the Team The Cisco Customer Experience (CX) organisation is one of Cisco’s fastest-growing teams, with a clear purpose: helping customers get real, lasting value from their Cisco investments. We work at the crossroads of technical knowledge and business understanding, partnering with customers to improve how they operate and achieve outcomes that matter to them. The Customer Success Specialist (CSS) team is a collaborative group of technical advisors who bring deep product knowledge and a genuine curiosity about customer success; We work side-by-side with customers to guide them, not from the sidelines. We are part of a global community that shares adoption approaches and learning across three areas of focus: Networking, Security, and Cloud & AI Infrastructure. If you enjoy working through sophisticated technical challenges, contributing to how Cisco’s products improve over time, and collaborating with curious, knowledgeable colleagues, this team is a great fit. Your Impact As a Customer Success Specialist, you will serve as a strategic advisor and technical expert, leading targeted engagements that accelerate product adoption and drive measurable business value for Cisco’s customers. You will lead the full adoption journey, from baselining customer environments and building onboarding roadmaps to facilitating executive-level workshops and providing feedback that directly ",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 12,
+      "experience": 12,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 44,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "CS, AI, 타이틀 매칭",
+        "experience": "연차 요건 미확인",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4416503248",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "ビザ申請コンサルタント",
+    "company": "Deloitte",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-05-21",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Associate",
+    "jobFunction": "Consulting",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%83%93%E3%82%B6%E7%94%B3%E8%AB%8B%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-deloitte-4416503248",
+    "directUrl": "https://www2.deloitte.com/jp/ja/careers.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 44,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: 컨설턴트, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Deloitte Japan",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "■デロイト トーマツ行政書士法人について デロイト トーマツ行政書士法人は、イミグレーション業務を中心としたグローバルモビリティサービスを提供するプロフェッショナルファームです。 ■業務内容 企業における日本に在留予定の外国人を対象に、イミグレーションコンサルタントとしてビザ申請に関する代行業務に従事いただきます。主な業務な以下の通りです。 【主な業務内容】 ・ビザ申請業務に関わる一連のプロセス実務 ・申請手続きの書類作成 ・入国管理局への申請代行（申請取次） ・部門における業務フローの構築 ・海外オフィスと連携し、申請に関わる窓口業務 ■MUST ＜経験＞ ・日本のでのビザ申請代行業務、もしくは類似の経験3年以上 ・英語（ビジネスレベルでの読み書き） ※英語は海外とのやり取りに、主にメールで使用します。会話力はあれば尚可。 ■WANT 【歓迎（WANT）】 ・行政書士の資格をお持ちの方 ・行政書士法人でのビザ申請代行業務経験者、アウトバウンド案件経験者 【その他】 【求める人物像】 ・社内外の関係者と協業し業務を遂行できるコミュニケーション能力のある方 ・主体的に物事を考え、実行できる方",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 12,
+      "experience": 16,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 44,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "컨설턴트, 타이틀 매칭",
+        "experience": "요구 3년",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414907962",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Salesforce CoE Team Lead - Business IT Platform Section, Corporate IT Service Department (CITSD)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Other",
+    "url": "https://jp.linkedin.com/jobs/view/salesforce-coe-team-lead-business-it-platform-section-corporate-it-service-department-citsd-at-rakuten-4414907962",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 43,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, AI",
+      "직무: AI",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Job Description Business Overview The Technology Management Division (TMD) provides Corporate IT, and Cyber Security & Privacy Governance to Rakuten Group companies and essential business management for technology organizations, thereby enabling innovation and strengthening the foundation of technology. Within TMD, the Corporate IT Supervisory Department (CITD) drives Rakuten Group’s global corporate IT services and infrastructure. Our mission is to empower Rakuten through innovative and secure IT solutions that enhance efficiency and foster productivity. Department Overview Corporate IT Service Department (CITSD) supports the Rakuten Group through innovative and secure IT solutions that improve efficiency and productivity. CITSD is responsible for enterprise application management for core business functions, driving business process automation and digital transformation through IT platforms, providing comprehensive end-user and operational support, and optimizing IT processes that underpin a wide range of critical services and platforms. In addition, CITSD incorporates AI technologies - such as generative AI and AI agents - to enhance support capabilities, including faster issue triage, improved knowledge discovery, and more efficient operations, helping business teams reduce workload while improving service quality. The Business IT Platform Section is responsible for plannin",
+    "scoreBreakdown": {
+      "skills": 14,
+      "role": 4,
+      "experience": 9,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 43,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, AI",
+        "role": "AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4396472147",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Associate Practice Engagement Manager - Salesforce",
+    "company": "Infosys",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-04",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Business Development and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/associate-practice-engagement-manager-salesforce-at-infosys-4396472147",
+    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 43,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: Salesforce, AI",
+      "직무: AI",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Infosys",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️ Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: Associate Practice Engagement Manager, Salesforce Location: Japan (Tokyo Office) Based on your role, please note that",
+    "scoreBreakdown": {
+      "skills": 14,
+      "role": 4,
+      "experience": 9,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 43,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "Salesforce, AI",
+        "role": "AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4028326372",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "【People Consulting】HRT コンサルタント",
+    "company": "EY",
+    "location": "Chiyoda, Tokyo, Japan",
+    "postedDate": "2026-06-15",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90people-consulting%E3%80%91hrt-%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-ey-4028326372",
+    "directUrl": "https://www.ey.com/ja_jp/careers",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 42,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: 컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "필수/우대 연차가 높음(5년)",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "EY Japan",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "職務内容／Job duties ピープルコンサルティングは、グローバルに約6,000人、日本でも300人を超える人事・組織専門プロフェッショナルを擁し、企業の大規模変革（海外進出、M&A・組織再編、労働生産性向上、コスト削減等）を人・組織の観点から包括的に支援しています。HRT(HR Transformation and Technology)チームは、ビジネスプロセス・テクノロジーの観点からの人事変革を支援するサービスを担っています。 ■業務内容 コア人事、給与計算、勤怠管理、タレントマネジメントなどの人事業務領域を広くカバーし、構想策定、要件定義、システム導入、PMO、運用保守（AMS）、運用安定化、HRシェアードサービス、アウトソーシング（特に給与BPO等）、継続的な改善までの一連のフェーズを一気通貫で支援します。 ＜入社後配属／アサインを予定している業務／プロジェクト＞ ※人事業務効率化や組織再設計に伴うグローバルもしくは国内の人事システム構想・要件定義・導入・導入後保守、PMO ■HRTチームインタビュー記事 ・アクシスコンサルティング様掲載 ・フォルトナ様掲載 ・Bizreach掲載 Qualifications 応募資格／Qualifications ◆シニアコンサルタント/コンサルタント 【必須要件：下記いずれかの領域を経験している方】 ・経営コンサルティングファームまたは人事・組織コンサルティングファームでの類似経験 ・システムインテグレーター・人事パッケージベンダー・ペイロールBPOベンダーにおける人事システム実務（導入/開発/保守など）の経験5年以上 ・事業会社における人事、経営企画、情報システム部での類似経験 ・大手コンサルティングファームでの大規模プロジェクトマネジメント（PMO)または大規模IT・業務改革経験（HR経験問わず） ・データアナリティクスかクラウドテクノロジー分野での類似経験（HR経験問わず） ◆マネージャー以上 【必須要件】 コンサルティングファームにおけるマネージャー相当のロールの経験 ＜募集ポジション＞ ・ディレクター / Director ・マネージャー / Manager、シニアマネージャー/Senior Manager ※プロジェクトマネジメント業務も担っていただきます ・シニアコンサルタント / Senior Consultant ※チームリーダーとしてメンバーを牽引いただきます ・コンサルタント/Consultant 【歓迎要件】 ※資格の有無は採用可否に直結しませんが、下記いずれかの経験・資格がある方は歓迎します SAP SuccessFactors、Works Human Intelligence COMPANY、Workday、電通総研 POSITIVEなど その他人事システム、タレントマネジメントシステムに関する有資格、実務経験者 【想定選考プロセスについて】 ・選考回数：2〜3回 ・その他：想定ランクに応じて適性検査・ケース面接実施の可能性あり ※選考プロセスは変更となる可能性があります",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 20,
+      "experience": 8,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 42,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "컨설턴트, 도입/정착, DX/업무개혁, 타이틀 매칭",
+        "experience": "요구 5년",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414924439",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Overseas Business Project Manager - Data Solutions Department, Marketing Solutions Business",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Not Applicable",
+    "jobFunction": "Project Management and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/overseas-business-project-manager-data-solutions-department-marketing-solutions-business-at-rakuten-4414924439",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 42,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: PM/PL, AI, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Job Description Business Overview Rakuten's Ad & Media Company offers a wide range of advertising and marketing services, including digital advertising, research, and influencer marketing. Our strength lies in our ability to provide end-to-end solutions, from marketing strategy planning and execution to effectiveness measurement and data analysis. Specifically, we solve our clients' marketing challenges through the following businesses: Rakuten Marketing/LinkShare: Provides comprehensive digital marketing solutions. Rakuten Data Marketing: Provides marketing solutions utilizing Rakuten's big data. Rakuten Insight: Provides marketing research services. This is an environment where you can work within a core organization of the Rakuten Group, leading to personal growth and career advancement. Department Overview Rakuten Insight, Inc. provides marketing research to clients both within and outside the Rakuten Group. By combining the Rakuten Group's vast data assets with AI technology, we deepen our understanding of consumers through \"research x data x AI\" and contribute to solving our clients' business challenges. We are creating a new standard in the industry through the development and provision of AI-infused research products. Within the Rakuten Group, expectations are rising for new data businesses that leverage our unique and vast data assets. In December 2024, we reorganized ",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 15,
+      "experience": 9,
+      "salary": 5,
+      "location": 6,
+      "source": 3,
+      "total": 42,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "PM/PL, AI, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "official-1997991507714934012",
     "source": "Official",
     "sourceQuality": "official",
     "title": "DX推進コンサルティング",
     "company": "TerraSky",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3381,7 +4606,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "직무: 컨설턴트, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3389,6 +4614,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "TerraSky",
+    "targetCompanyType": "salesforce-partner",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3413,8 +4639,83 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4406045542",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Delivery Project Manager",
+    "company": "IBM",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-10",
+    "salaryText": "",
+    "salaryStatus": "not_listed",
+    "employmentType": "Full-time",
+    "seniority": "Mid-Senior level",
+    "jobFunction": "Project Management and Information Technology",
+    "url": "https://jp.linkedin.com/jobs/view/delivery-project-manager-at-ibm-4406045542",
+    "directUrl": "https://www.ibm.com/jp-ja/careers/search",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 41,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: PM/PL, 도입/정착, AI, 타이틀 매칭",
+      "조건: 도쿄, 언어/글로벌",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "LinkedIn 공개 상세에 연봉 정보 없음",
+      "필수/우대 연차가 높음(10년)",
+      "시니어/매니저급 포지션",
+      "공고 연봉 미기재",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "IBM Japan",
+    "targetCompanyType": "technology-consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "descriptionText": "Introduction IBM Expert Labsは、世界規模のプロフェッショナルサービス組織であり、合理化されたジャーニーを提供することで、より迅速に、より大きな影響力でテクノロジー目標を達成できるよう支援します。ソフトウェアとインフラストラクチャー向けの厳選されたサービスは、ROIを最大化するように設計されており、IBMテクノロジーのシームレスな導入、最適化、成功を確実にすることで、急速に進化するデジタル環境で一歩先を行くことができます。 Your Role And Responsibilities This is a Japanese-speaking role located in Japan. For job details, please see the Japanese description below. IBM Zポートフォリオの「Technology Expert Labs」サービスを専門とするデリバリー・プロジェクト・マネージャーとして、IBM Z、LinuxONE、およびz/OS、Linux、GDPSといった関連ソフトウェアを導入しているクライアントに対し、世界最高水準のインフラストラクチャ・サービス・ソリューションを提供していただきます。クライアントの皆様と密に連携し、個々のニーズに合わせた最適なソリューションを届けることが重要なミッションです。 主な職務内容: クライアント・ソリューションの管理 IBM Z、LinuxONE、および関連ソフトウェアを導入するクライアントに対し、世界最高水準のインフラストラクチャー・サービス・ソリューションを、納期を遵守し効果的な形で提供します。 クライアントとの連携 クライアントと緊密に協力し、その特定のニーズを深く理解した上で、要件を満たす最適なソリューションを提案・提供します。 ソリューション導入の主導 ソリューション・デリバリー全体を統括し、効率的かつ効果的な導入プロセスを実現します。 チーム間の調整 社内の各関連チームと連携し、シームレスなソリューション・デリバリー体制を整えるとともに、クライアントへの的確なコミュニケーションを行います。 クライアントとの関係構築 クライアントと強固な信頼関係を構築・維持し、優れたカスタマーサービスを通じて、クライアントの満足度最大化を追求します。 Required Technical And Professional Expertise 【必須要件】 10年以上のITプロジェクトマネジメント経験 10名以上のチームマネジメント経験 プロジェクト管理手法（PMBOK、Agile、Waterfallなど）の理解と実践経験 顧客・ベンダーとの折衝経験 日本語での上級ビジネスコミュニケーション能力（読み書き・会話） Preferred Technical And Professional Experience 【歓迎要件】 PMP資格保持者 ITIL、Scrum Masterなどの関連資格 IBM Z、LinuxONE、およびz/OS、Linux、GDPSの知識 英語でのコミュニケーション能力大歓迎",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 20,
+      "experience": 1,
+      "salary": 5,
+      "location": 8,
+      "source": 3,
+      "total": 41,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "PM/PL, 도입/정착, AI, 타이틀 매칭",
+        "experience": "요구 10년 이상 + 시니어",
+        "salary": "공고 연봉 미기재",
+        "location": "도쿄, 언어/글로벌",
+        "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": false,
@@ -3447,7 +4748,7 @@ window.JOB_RADAR_JOBS = [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "직무: 컨설턴트, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3459,6 +4760,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3484,79 +4786,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, DX/업무개혁, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4241661114",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Project Manager",
-    "company": "Lenovo",
-    "location": "Greater Tokyo Area",
-    "postedDate": "2026-06-07",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Project Management and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/project-manager-at-lenovo-4241661114",
-    "directUrl": "https://jobs.lenovo.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 41,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: PM/PL, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Lenovo Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "We are Lenovo. We do what we say. We own what we do. We WOW our customers. Lenovo is a US$83 billion revenue global technology powerhouse, ranked #196 in the Fortune Global 500, and serving millions of customers every day in 180 markets. Focused on a bold vision to deliver Smarter Technology for All, Lenovo has built on its success as the world’s largest PC company with a full-stack portfolio of AI-enabled, AI-ready, and AI-optimized devices (PCs, workstations, smartphones, tablets), infrastructure (server, storage, edge, high performance computing and software defined infrastructure), software, solutions, and services. Lenovo’s continued investment in world-changing innovation is building a more equitable, trustworthy, and smarter future for everyone, everywhere. Lenovo is listed on the Hong Kong stock exchange under Lenovo Group Limited (HKSE: 992) (ADR: LNVGY). This transformation together with Lenovo’s world-changing innovation is building a more inclusive, trustworthy, and smarter future for everyone, everywhere. To find out more visit www.lenovo.com, and read about the latest news via our StoryHub. Employer: Lenovo Japan, LLC Work location: Akihabara UDX (Tokyo); (3 onsite and 2 remote days in a week could be applicable) Smoking: Not allowed in the office, but smoking room is available in 5th floor of Akihabara UDX Employment condition: Permanent Staff (Probation period: ",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 14,
-      "experience": 9,
-      "salary": 5,
-      "location": 10,
-      "source": 3,
-      "total": 41,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "PM/PL, DX/업무개혁, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 리모트/하이브리드, 언어/글로벌",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -3591,7 +4821,7 @@ window.JOB_RADAR_JOBS = [
       "회사 규모: 1000+ 대상 회사",
       "상세 본문에서 연봉 정보 확인",
       "직무: CS, 타이틀 매칭",
-      "조건: 일본/도쿄, 리모트/하이브리드",
+      "조건: 도쿄, 리모트/하이브리드",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3601,6 +4831,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Future",
+    "targetCompanyType": "technology-consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3626,7 +4857,7 @@ window.JOB_RADAR_JOBS = [
         "role": "CS, 타이틀 매칭",
         "experience": "요구 4년",
         "salary": "목표연봉 이상",
-        "location": "일본/도쿄, 리모트/하이브리드",
+        "location": "도쿄, 리모트/하이브리드",
         "source": "LinkedIn"
       },
       "flags": {
@@ -3637,83 +4868,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4389425281",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Director, Customer Success and Renewals",
-    "company": "Box",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-09",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Director",
-    "jobFunction": "Information Technology and Customer Service",
-    "url": "https://jp.linkedin.com/jobs/view/director-customer-success-and-renewals-at-box-4389425281",
-    "directUrl": "https://www.box.com/careers",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 39,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: 도입/정착, CS, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Box Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "WHAT IS BOX? Box は、インテリジェントコンテンツ管理(ICM)市場におけるリーディングカンパニーです。私たちのミッションは「人と組織の働き方の変革」です。私たちは、安全でユーザビリティの高いコンテンツ管理、コラボレーション、ワークフロー、電子サイン、AI などを提供することにより、お客様のデジタルトランスフォーメーションを強力に推進しています。Box には、この急成長の途上にある市場のリーダーとして、さらに市場の拡大に寄与し、お客様のデジタルトランスフォーメーションや働き方改革などのパートナーとしての役割を得る機会があります。現在、Box はFortune500 の最大手企業を含む、グローバルで 11 万社以上、日本では 2万社以上の企業に製品を提供しています。 WHY WE NEEDS YOU Boxは現在、世界中で11万5,000社以上の組織に導入されており、そのミッションは、AIを駆使したContent Cloudを通じて、世界中のあらゆるワークフローをインテリジェントに進化させることにあります。 現在、私たちは単なるストレージサービスから、セキュアなコンテンツ管理、コラボレーション、そしてAIによる業務効率化をワンストップで実現するプラットフォームへと大きな転換期を迎えています。この重要な局面において、お客様がBoxの真の価値を享受し、持続的な成長を実現するためには、カスタマーサクセスとリニューアル（契約更新）の両面を統合的にリードする存在が不可欠です。 あなたは、戦略的な顧客への導入支援と、商用的な実行（リニューアル・拡大戦略）の橋渡し役を担います。AI駆動の次世代ワークフローを顧客のビジネスに定着させるとともに、シームレスな更新戦略を通じて長期的なパートナーシップを構築し、収益維持（GRR/NRRの最大化）に責任を持つ、Boxの成長戦略における極めて重要な役割を果たしていただくことを期待しています。 WHAT YOU'LL DO Director, Customer Success & Renewalsは、ポストセールスにおける顧客体験の最適化、リテンション（維持）、および収益成長の最大化に責任を持つリーダーシップポジションです。カスタマーサクセス（CSM）チームとリニューアル（更新）チームの両方を統括し、戦略的なガイダンスを提供することで、顧客のライフタイムバリューを最大化し、会社の持続的な成長を牽引します。 戦略的リーダーシップとチーム管理 カスタマーサクセスおよびリニューアル部門のビジョンと戦略を策定し、実行する。 高パフォーマンスなチームを構築・育成し、コーチングを通じてメンバーのキャリア成長を支援する。 採用、オンボーディング、リテンション戦略を通じて、クラス最高のタレントを確保する。 顧客維持と収益成長の最大化 リテンション（更新率）、アドプション（活用率）、およびネットリテンション（NRR）の目標達成に責任を持つ。 リニューアル戦略を最適化し、商談の交渉、価格設定、契約条件の管理を監督する。 顧客のヘルススコアを監視し、解約リスクを早期に特定・回避するための予防的措置を講じる。 顧客エンゲージメントとエグゼクティブ関係の構築 主要顧客のエグゼクティブ層との強固な信頼関係を構築し、戦略的パートナーとしての地位を",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 13,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 39,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "도입/정착, CS, 타이틀 매칭",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "official-7806907765971096572",
+    "id": "official-1555335863145827120",
     "source": "Official",
     "sourceQuality": "official",
     "title": "AppExchangeコンサルティング",
     "company": "TerraSky",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3729,7 +4889,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3737,6 +4897,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "TerraSky",
+    "targetCompanyType": "salesforce-partner",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3761,7 +4922,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3772,12 +4933,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-1392153336136604637",
+    "id": "official-4867400533657203919",
     "source": "Official",
     "sourceQuality": "official",
     "title": "コンサルタント",
     "company": "BellSystem24",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3793,7 +4954,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3801,6 +4962,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "BellSystem24",
+    "targetCompanyType": "bpo-cx",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3825,7 +4987,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3836,12 +4998,12 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-3251306830606956299",
+    "id": "official-8403912974594156758",
     "source": "Official",
     "sourceQuality": "official",
     "title": "再入社後、育休を経て管理職へ昇進 コンサルタント 2007年入社",
     "company": "BellSystem24",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -3857,7 +5019,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "직무: 컨설턴트, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3865,6 +5027,7 @@ window.JOB_RADAR_JOBS = [
       "상세 연봉 미확인"
     ],
     "targetCompany": "BellSystem24",
+    "targetCompanyType": "bpo-cx",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -3889,7 +5052,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -3900,30 +5063,30 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4395982130",
+    "id": "linkedin-4405957679",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "【Apps】Business Analyst",
-    "company": "DXC Technology",
+    "title": "【XII-Space】 「宇宙・空間産業推進室」_組織横断コンサルタント",
+    "company": "PwC Japan",
     "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-10",
+    "postedDate": "2026-06-09",
     "salaryText": "",
     "salaryStatus": "not_listed",
     "employmentType": "Full-time",
     "seniority": "Not Applicable",
-    "jobFunction": "Research, Analyst, and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90apps%E3%80%91business-analyst-at-dxc-technology-4395982130",
-    "directUrl": "https://careers.dxc.com/",
+    "jobFunction": "Consulting, Information Technology, and Sales",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90xii-space%E3%80%91-%E3%80%8C%E5%AE%87%E5%AE%99%E3%83%BB%E7%A9%BA%E9%96%93%E7%94%A3%E6%A5%AD%E6%8E%A8%E9%80%B2%E5%AE%A4%E3%80%8D-%E7%B5%84%E7%B9%94%E6%A8%AA%E6%96%AD%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88-at-pwc-japan-4405957679",
+    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 36,
+    "score": 38,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "직무: PM/PL, DX/업무개혁",
-      "조건: 일본/도쿄",
+      "직무: 컨설턴트, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -3934,19 +5097,20 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "DXC Technology Japan",
+    "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description 【募集背景】 クレジットカード領域における新規案件拡大とビジネススケールに伴い、業務変革を牽引するビジネスアナリストを募集します。 【業務 内容 】 ・クレジットカード業務における業務整理／可視化 ・業務要件の整理およびドキュメンテーション ・関係部署（業務部門・開発部門）との要件調整 ・業務課題の特定および改善施策の立案・推進 ・プロジェクト全体の推進および進捗・課題管理 【 Apps事業部の魅力】 ・高い裁量と意思決定権限：プロジェクトの推進方針やチーム組成、パートナー選定、オフショア活用に至るまで、幅広い意思決定を主体的に担っていただきます。過度な承認プロセスに依存せず、自らの判断でスピーディーに価値創出をリードできる環境です。 ・フラットでオープンな組織風土：組織間の垣根が低く、部門横断での連携・コミュニケーションが活発です。役職や年次にとらわれず、建設的な意見や提案が歓迎されるカルチャーが根付いています。 【キャリアパス】 ・ビジネスアナリストとして専門性を高める ・PMO／プロジェクトマネージャーへのステップアップ 【採用要件】 ■必須（MUST） ・クレジットカード業務に関する知識・ご経験をお持ちの方 ・以下いずれかのご経験をお持ちの方 クレジットカードシステム開発におけるPL／PMのご経験 クレジットカード会社におけるシステム企画、または業務改善のご経験 DXCテクノロジーでは、コミュニティの強いつながりが成功への鍵であると考えています。DXCのワークモデルは、対面でのコラボレーションを重視しつつ、社員の幸福度、生産性、個々の働き方、そして生活環境をサポートする柔軟性も提供しています。DXCは、誰もが活躍できるインクルーシブな環境づくりに尽力しています。 採用詐欺とは、架空の求人情報を求職者に提供する詐欺行為であり、通常は偽のウェブサイトや、企業を装った未承諾のメールなどのオンラインサービスを通じて行われます。これらのメールは、受信者に個人情報の提供や、違法な採用プロセスの一環として支払いを求めることがあります。DXCでは、ソーシャルメディアネットワークを通じて雇用のオファーを行うことはなく、採用プロセスのいかなる段階でも応募者に金銭や支払いを求めることはありません。また、求職者にIT機器やその他の設備の購入を当社の代理として依頼することもありません。採用詐欺に関する詳細はこちらをご覧ください。",
+    "descriptionText": "募集要項 Job Description 【XII-Space】 「宇宙・空間産業推進室」_組織横断コンサルタント 職務内容 Roles and Responsibilities 宇宙・空間産業推進室は、PwCコンサルティングの組織横断型イニシアチブの一つとして、部門やサービス、業界を超えてコレクティブに協働することで、産学官を含む複数のセクターにおける分野横断的な枠組み作りや開発・実証、事業活動を支援しています。 ◆所属組織は、TMT（テクノロジー・エンタテイメント＆メディア・情報通信セクター）、TL（Technology Laboratory）のいずれかに在籍しつつ、以下の役割を担うことを求められています。 ・PwCコンサルティングにおける宇宙・空間産業推進室としての各種企画・推進業務 ・宇宙領域を中心としたPwCのグローバルにおける連携・推進業務 ・組織横断型のコンサルティング業務の遂行、並びに支援 ルール・規制・国際標準戦略の策定支援 空間情報基盤のグランドデザインおよび実装の支援 デジタルアプリケーション、次世代通信に係る技術戦略立案支援 研究開発・社会実証の伴走支援 宇宙・空間産業の推進、新規事業の創出支援 衛星データの産業（農業、海洋、環境、都市 等）利用推進 など 登録資格 Qualification ＜応募要件＞ コンサルティング会社、事業会社、公的機関を問わず、下記要件のいずれかを備えている方を募集しています。 ・コンサルティングファーム、シンクタンク、又はそれに準ずる組織における戦略コンサルティング・事業開発コンサルティングの経験を有する。 戦略的リサーチ及び分析業務の経験を有する 事業戦略・技術戦略の立案の経験を有する ・宇宙・航空領域に関する業務経験（コンサルティング、関係省庁、公的機関、製造業はじめ民間企業での経験も含む）を有する。 製造業における業務経験、知識をお持ちの方 経営企画、新規事業企画、マーケティング業務、商品企画経験者 製品企画、設計開発・生産技術、研究開発業務 政策立案、制度設計 勤務地 Work Location 東京",
     "scoreBreakdown": {
       "skills": 0,
-      "role": 10,
+      "role": 12,
       "experience": 12,
       "salary": 5,
       "location": 6,
       "source": 3,
-      "total": 36,
+      "total": 38,
       "max": {
         "skills": 30,
         "role": 25,
@@ -3957,161 +5121,15 @@ window.JOB_RADAR_JOBS = [
       },
       "notes": {
         "skills": "핵심 스킬 약함",
-        "role": "PM/PL, DX/업무개혁",
+        "role": "컨설턴트, 타이틀 매칭",
         "experience": "연차 요건 미확인",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414907962",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Salesforce CoE Team Lead - Business IT Platform Section, Corporate IT Service Department (CITSD)",
-    "company": "Rakuten",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Other",
-    "url": "https://jp.linkedin.com/jobs/view/salesforce-coe-team-lead-business-it-platform-section-corporate-it-service-department-citsd-at-rakuten-4414907962",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 35,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인",
-      "제목의 목표 직무명 불명확"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Rakuten",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description Business Overview The Technology Management Division (TMD) provides Corporate IT, and Cyber Security & Privacy Governance to Rakuten Group companies and essential business management for technology organizations, thereby enabling innovation and strengthening the foundation of technology. Within TMD, the Corporate IT Supervisory Department (CITD) drives Rakuten Group’s global corporate IT services and infrastructure. Our mission is to empower Rakuten through innovative and secure IT solutions that enhance efficiency and foster productivity. Department Overview Corporate IT Service Department (CITSD) supports the Rakuten Group through innovative and secure IT solutions that improve efficiency and productivity. CITSD is responsible for enterprise application management for core business functions, driving business process automation and digital transformation through IT platforms, providing comprehensive end-user and operational support, and optimizing IT processes that underpin a wide range of critical services and platforms. In addition, CITSD incorporates AI technologies - such as generative AI and AI agents - to enhance support capabilities, including faster issue triage, improved knowledge discovery, and more efficient operations, helping business teams reduce workload while improving service quality. The Business IT Platform Section is responsible for plannin",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 0,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 35,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "직무 방향 약함",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4396472147",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Associate Practice Engagement Manager - Salesforce",
-    "company": "Infosys",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-04",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Business Development and Sales",
-    "url": "https://jp.linkedin.com/jobs/view/associate-practice-engagement-manager-salesforce-at-infosys-4396472147",
-    "directUrl": "https://www.infosys.com/careers/apply.html",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 35,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인",
-      "제목의 목표 직무명 불명확"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Infosys",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About Infosys Infosys is a global leader in next-generation digital services and consulting. We enable clients in 56 countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Infosys has been recognized as a Top Employer across APAC — contributing to our sixth consecutive year of global certification. As an AI‑first organization, we empower our people to work on next‑generation technologies, continuously learn, and create impact at scale—supported by a culture rooted in care, inclusion, and excellence. ▶️ Join Infosys and be part of a culture that’s not just promised—it’s certified. #TopEmployer2026 #ThriveAtInfosys Role: Associate Practice Engagement Manager, Salesforce Location: Japan (Tokyo Office) Based on your role, please note that",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 0,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 35,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "직무 방향 약함",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": false,
+        "targetRoleTitleMatch": true,
         "offTargetTitle": false
       }
     }
@@ -4140,7 +5158,7 @@ window.JOB_RADAR_JOBS = [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "스킬: Salesforce, Sales Cloud, Service Cloud",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -4155,6 +5173,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Quest Global Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -4180,7 +5199,7 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "요구 8년 이상 + 시니어",
         "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4191,127 +5210,53 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4413685673",
+    "id": "linkedin-4341299073",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Practice Sales Manager- Salesforce",
-    "company": "Infosys Japan",
+    "title": "Enterprise Customer Success Manager",
+    "company": "Datadog",
     "location": "Tokyo, Japan",
-    "postedDate": "2026-05-21",
+    "postedDate": "2026-06-13",
     "salaryText": "",
-    "salaryStatus": "not_listed",
+    "salaryStatus": "unknown",
     "employmentType": "Full-time",
-    "seniority": "Mid-Senior level",
-    "jobFunction": "Sales",
-    "url": "https://jp.linkedin.com/jobs/view/practice-sales-manager-salesforce-at-infosys-japan-4413685673",
-    "directUrl": "https://www.infosys.com/careers/apply.html",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/enterprise-customer-success-manager-at-datadog-4341299073",
+    "directUrl": "https://careers.datadoghq.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 35,
+    "score": 30,
     "reasons": [
-      "Be an early applicant",
+      "Actively Hiring",
       "회사 규모: 1000+ 대상 회사",
-      "스킬: Salesforce",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "직무: CS, 타이틀 매칭",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
       "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인",
-      "제목의 목표 직무명 불명확"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Infosys",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Infosys is a global leader in next-generation digital services and consulting. We enable clients in over 56+ countries to navigate their digital transformation. With over three decades of experience in managing the systems and workings of global enterprises, we expertly steer our clients through their digital journey. We do it by enabling the enterprise with an AI-powered core that helps prioritize the execution of change. We also empower the business with agile digital at scale to deliver unprecedented levels of performance and customer delight. Our always-on learning agenda drives their continuous improvement through building and transferring digital skills, expertise, and ideas from our innovation ecosystem. Visit www.infosys.com to see how Infosys (NYSE: INFY) can help your enterprise navigate your next. Role: Associate Practice Engagement Manager, Salesforce Location: Japan (Tokyo Office) Your Role As part of our Salesforce Practice Sales team, you will play a key role in building and cultivating relationships and opportunities within existing as well as prospective clients, selling Salesforce ecosystem services and solutions. You will work as a trusted advisor and position Infosys as a partner of choice for Salesforce. You will work with Infosys industry new logo sales / GTM as well as client partner teams to expand business across Japan region. You will have the opportun",
-    "scoreBreakdown": {
-      "skills": 10,
-      "role": 0,
-      "experience": 9,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 35,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "Salesforce",
-        "role": "직무 방향 약함",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": true,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414924439",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Overseas Business Project Manager - Data Solutions Department, Marketing Solutions Business",
-    "company": "Rakuten",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Project Management and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/overseas-business-project-manager-data-solutions-department-marketing-solutions-business-at-rakuten-4414924439",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 34,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: PM/PL, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
+      "상세 연봉 미확인",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Rakuten",
+    "targetCompany": "Datadog Japan",
+    "targetCompanyType": "observability-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description Business Overview Rakuten's Ad & Media Company offers a wide range of advertising and marketing services, including digital advertising, research, and influencer marketing. Our strength lies in our ability to provide end-to-end solutions, from marketing strategy planning and execution to effectiveness measurement and data analysis. Specifically, we solve our clients' marketing challenges through the following businesses: Rakuten Marketing/LinkShare: Provides comprehensive digital marketing solutions. Rakuten Data Marketing: Provides marketing solutions utilizing Rakuten's big data. Rakuten Insight: Provides marketing research services. This is an environment where you can work within a core organization of the Rakuten Group, leading to personal growth and career advancement. Department Overview Rakuten Insight, Inc. provides marketing research to clients both within and outside the Rakuten Group. By combining the Rakuten Group's vast data assets with AI technology, we deepen our understanding of consumers through \"research x data x AI\" and contribute to solving our clients' business challenges. We are creating a new standard in the industry through the development and provision of AI-infused research products. Within the Rakuten Group, expectations are rising for new data businesses that leverage our unique and vast data assets. In December 2024, we reorganized ",
     "scoreBreakdown": {
       "skills": 0,
-      "role": 11,
+      "role": 8,
       "experience": 9,
-      "salary": 5,
+      "salary": 4,
       "location": 6,
       "source": 3,
-      "total": 34,
+      "total": 30,
       "max": {
         "skills": 30,
         "role": 25,
@@ -4322,10 +5267,367 @@ window.JOB_RADAR_JOBS = [
       },
       "notes": {
         "skills": "핵심 스킬 약함",
-        "role": "PM/PL, 타이틀 매칭",
+        "role": "CS, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4425417167",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "【シニア】カスタマーサクセス",
+    "company": "Yappli",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-07",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90%E3%82%B7%E3%83%8B%E3%82%A2%E3%80%91%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9-at-yappli-4425417167",
+    "directUrl": "https://yappli.co.jp/recruit/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 30,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 500+ 대상 회사",
+      "직무: CS, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 500+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Yappli",
+    "targetCompanyType": "megaventure",
+    "minCompanyEmployees": 500,
+    "companySizeBand": "500+",
+    "companyScaleStatus": "megaventure_500_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 8,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 30,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "CS, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414932028",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "CRM Strategy - Marketing Section, Fashion Business Department（Rakuten Fashion）(C&M)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/crm-strategy-marketing-section-fashion-business-department%EF%BC%88rakuten-fashion%EF%BC%89-c-m-at-rakuten-4414932028",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 30,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: CRM",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 5,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 30,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "CRM",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414925555",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Product Manager, AI Agent & Avatar - AI Incubation Office (AISO)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/product-manager-ai-agent-avatar-ai-incubation-office-aiso-at-rakuten-4414925555",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 30,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "스킬: AI",
+      "직무: AI",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인",
+      "제목의 목표 직무명 불명확"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 4,
+      "role": 4,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 30,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "AI",
+        "role": "AI",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": true,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4419977678",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Customer Success Manager",
+    "company": "PERSOL CAREER BRS (Bilingual Recruitment Solutions)",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-03",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/customer-success-manager-at-persol-career-brs-bilingual-recruitment-solutions-4419977678",
+    "directUrl": "https://www.recruit.co.jp/employment/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 30,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: CS, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Recruit",
+    "targetCompanyType": "internet-hr",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 8,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 30,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "CS, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4408785698",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Senior Customer Success Manager",
+    "company": "ServiceNow",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-05-29",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/senior-customer-success-manager-at-servicenow-4408785698",
+    "directUrl": "https://careers.servicenow.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 30,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: CS, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "ServiceNow Japan",
+    "targetCompanyType": "workflow-saas",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 8,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 30,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "CS, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4344,83 +5646,11 @@ window.JOB_RADAR_JOBS = [
     "location": "Tokyo, Tokyo, Japan",
     "postedDate": "2026-06-17",
     "salaryText": "",
-    "salaryStatus": "not_listed",
+    "salaryStatus": "unknown",
     "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Research, Analyst, and Information Technology",
+    "seniority": "",
+    "jobFunction": "",
     "url": "https://jp.linkedin.com/jobs/view/business-analyst-at-dxc-technology-4428706970",
-    "directUrl": "https://careers.dxc.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 29,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: 컨설턴트, DX/업무개혁",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "필수/우대 연차가 높음(7년)",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "DXC Technology Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description Essential Job Functions: Lead and mentor a team of consultants, fostering a collaborative and innovative work environment. Build and maintain strong client relationships, understanding their technology challenges and delivering customized solutions. Collaborate with the team to develop effective solutions that address clients' technology challenges. Contribute to identifying new business opportunities and expanding existing client accounts. Participate in proposal development, client presentations, and contract negotiations. Provide insights and contribute to the strategic direction of the Consulting Services division. Assist in overseeing the financial performance of the division, adhering to budgets, and ensuring profitability. Collaborate with other departments to ensure a cohesive approach to client engagement and service delivery. Basic Qualifications: Bachelor's degree in a relevant field or equivalent combination of education and experience Typically, 7+ years of relevant work experience in industry, with a minimum of 3 years in a similar role in consulting Proven experience: Strong experience in consulting with a record of successful projects Proficiencies: Solid understanding of consulting methodologies, industry trends, and technology A continuous learner that stays abreast with industry knowledge and technology Other Qualifications: Advanced degree in",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 11,
-      "experience": 4,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 29,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "컨설턴트, DX/업무개혁",
-        "experience": "요구 7년 이상",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4418808775",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "【Sales Operation】ビジネスアナリスト",
-    "company": "DXC Technology",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-18",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Sales and Business Development",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90sales-operation%E3%80%91%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88-at-dxc-technology-4418808775",
     "directUrl": "https://careers.dxc.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
@@ -4431,28 +5661,27 @@ window.JOB_RADAR_JOBS = [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "직무: DX/업무개혁",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
+      "상세 연봉 미확인",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
     "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description 大企業だけどベンチャー。そんな職場環境で一緒に成長していきませんか？ITサービスを提供するDXCではビジネスアナリストの募集しています。 事業部長や所属営業のビジネスパートナーとしてDealの進捗確認やレポート作成・分析を担当し、事業部や経営陣の意思決定をサポートします。 担当営業との密なコミュニケーションが重要です。 上司や先輩社員からの指導を通して、また担当営業との会話を通して多くの知識を得ることが出来ますので、IT知識が浅くても活躍できるポジションです。 【 具体的な業務内容 】 担当営業の総合窓口 営業からの情報収集、案件進捗状況の把握と報告 （案件獲得までのリスクやチャンス、確度など） 案件状況をSFDCで表現、分析基礎データ管理 財務担当者と連携し、月次予測精度向上 四半期で管理されている契約金額を把握し、確実な案件クローズ 次年度予算の策定、顧客戦略計画を営業と作成 Sales Booking Policyを学び、契約締結に向けて担当事業部や営業へのアドバイス実施 ビジネスアナリストチームで“何をすればビジネスを成長に導けるのか”を議論、企画、実行 各種レポートの作成 顧客訪問スケジュール管理 各種プロセス変更時のサポート 【 求める経験や人物像 】 日本語での高いコミュニケーション能力（必須） 英語でのコミュニケーション能力（あればなお可） エクセル (Sumif、LOOKUP、Pivotテーブル) Power BI （あればなお可） 高い倫理観をお持ちの方 積極性がありセルフスターター 好奇心旺盛で学ぶ姿勢がある方 プレッシャーに負けずに仕事ができる方 実行力があり結果にこだわる方 チームワークを重視して仕事ができる方 経営陣と臆することなく会話できる方 問題提起だけでなく解決策を提案できる方 【 将来的に 】 事業部や経営陣の意思決定に一番近いポジションなので、広い視野を持って分析する力や経営陣の視点でビジネスの成長を考える力を磨けます。 セールスオペレーションにはアナリスト以外にも色々な仕事を持った同僚がいます。幅広いセールスオペレーションの業務を勉強できます。 メールやChat、電話会議を通じて英語でのコミュニケーション能力を磨けます。 DXCテクノロジーでは、コミュニティの強いつながりが成功への鍵であると考えています。DXCのワークモデルは、対面でのコラボレーションを重視しつつ、社員の幸福度、生産性、個々の働き方、そして生活環境をサポートする柔軟性も提供しています。DXCは、誰もが活躍できるインクルーシブな環境づくりに尽力しています。 採用詐欺とは、架空の求人情報を求職者に提供する詐欺行為であり、通常は偽のウェブサイトや、企業を装った未承諾のメールなどのオンラインサービスを通じて行われます。これらのメールは、受信者に個人情報の提供や、違法な採用プロセスの一環として支払いを求めることがあります。DXCでは、ソーシャルメディアネットワークを通じて雇用のオファーを行うことはなく、採用プロセスのいかなる段階でも応募者に金銭や支払いを求めることはありません。また、求職者にIT機器やその他の設備の購入を当社の代理として依頼することもありません。採用詐欺に関する詳細はこちらをご覧ください。",
     "scoreBreakdown": {
       "skills": 0,
-      "role": 0,
+      "role": 3,
       "experience": 12,
-      "salary": 5,
-      "location": 8,
+      "salary": 4,
+      "location": 6,
       "source": 3,
       "total": 28,
       "max": {
@@ -4467,8 +5696,8 @@ window.JOB_RADAR_JOBS = [
         "skills": "핵심 스킬 약함",
         "role": "DX/업무개혁",
         "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4479,50 +5708,50 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4393402015",
+    "id": "linkedin-4395982130",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Business Development Representative",
-    "company": "GlobalLogic",
-    "location": "Tokyo, Japan",
-    "postedDate": "2026-06-17",
+    "title": "【Apps】Business Analyst",
+    "company": "DXC Technology",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-10",
     "salaryText": "",
-    "salaryStatus": "not_listed",
+    "salaryStatus": "unknown",
     "employmentType": "Full-time",
-    "seniority": "Entry level",
-    "jobFunction": "Information Technology, Engineering, and Business Development",
-    "url": "https://jp.linkedin.com/jobs/view/business-development-representative-at-globallogic-4393402015",
-    "directUrl": "https://www.globallogic.com/careers/",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90apps%E3%80%91business-analyst-at-dxc-technology-4395982130",
+    "directUrl": "https://careers.dxc.com/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
     "score": 28,
     "reasons": [
-      "Actively Hiring",
+      "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "직무: DX/업무개혁",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
+      "상세 연봉 미확인",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "GlobalLogic Japan",
+    "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About GlobalLogic GlobalLogic is a global leader in digital engineering services, helping enterprises design and build innovative digital products, platforms, and experiences. As a member of the Hitachi Group, GlobalLogic combines deep engineering expertise with industry knowledge across cloud, data, AI, and software engineering to support large-scale digital transformation initiatives worldwide.In Japan, GlobalLogic is expanding its commercial and delivery footprint, working closely with both domestic and global clients. Employees benefit from a global working environment, exposure to cutting-edge technologies, and clear career growth opportunities within a fast-growing organization. Role Title: Business Development Representative (BDR) Experience: 2–5 years Language Requirement: Native-level Japanese + Business-level English Function: Early-Stage Qualification & Pipeline Creation Role Overview The Business Development Representative (BDR) plays a key role at the top of the sales funnel by generating and qualifying new business opportunities. This role focuses on outbound prospecting, inbound lead follow-up, and early-stage discovery to ensure high-quality pipeline creation for downstream sales and solution teams. The BDR is often the first point of contact for prospective customers and is responsible for understanding business needs, validating use cases, and enabling success",
     "scoreBreakdown": {
       "skills": 0,
-      "role": 0,
+      "role": 3,
       "experience": 12,
-      "salary": 5,
-      "location": 8,
+      "salary": 4,
+      "location": 6,
       "source": 3,
       "total": 28,
       "max": {
@@ -4535,80 +5764,10 @@ window.JOB_RADAR_JOBS = [
       },
       "notes": {
         "skills": "핵심 스킬 약함",
-        "role": "직무 방향 약함",
+        "role": "DX/업무개혁",
         "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4418939431",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Business Analyst, AMXL JP",
-    "company": "Amazon",
-    "location": "Tokyo, Japan",
-    "postedDate": "2026-06-15",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Strategy/Planning, Analyst, and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/business-analyst-amxl-jp-at-amazon-4418939431",
-    "directUrl": "https://www.amazon.jobs/ja/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 28,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄, 언어/글로벌",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Amazon Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Description Are you excited to drive high-visibility, strategic logistics and technology solutions? AMXL Japan is looking for a Sr Business Analyst who continuously engages across business, technical and operational teams to deliver bigger smiles for our customers. At Amazon, we're working to be the most customer-centric company on earth. To get there, we need exceptionally talented, bright, and driven people. Amazon is one of the most recognizable brand names in the world and we distribute millions of products each year to our loyal customers. Amazon has great opportunities to pursue a career as a leader in Operations Planning & Management. We know that learning through experience is what transforms talented people into great leaders. Our roles are designed to accelerate the growth of leaders through challenging field experiences that stretch individual capability. Our Operations environment presents the candidates with great challenges in dealing with front line management, and driving scalable and continuous improvements across our Fulfillment Centers, Supply Chain & Transportation execution teams. As a Business Analyst in the AMXL team, you will be developing analytic solutions to drive deep dives, provide actionable insights and measure business impact. You will partner with global and internal stakeholders to ensure the team is prioritizing the right goals and opportuniti",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 0,
-      "experience": 12,
-      "salary": 5,
-      "location": 8,
-      "source": 3,
-      "total": 28,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "직무 방향 약함",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4627,46 +5786,45 @@ window.JOB_RADAR_JOBS = [
     "location": "Tokyo, Tokyo, Japan",
     "postedDate": "2026-06-05",
     "salaryText": "",
-    "salaryStatus": "not_listed",
+    "salaryStatus": "unknown",
     "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Project Management and Information Technology",
+    "seniority": "",
+    "jobFunction": "",
     "url": "https://jp.linkedin.com/jobs/view/project-manager-corporate-business-operation-department-group-sales-division-at-rakuten-4414932041",
     "directUrl": "https://corp.rakuten.co.jp/careers/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 28,
+    "score": 27,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "직무: PM/PL, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
       "시니어/매니저급 포지션",
-      "공고 연봉 미기재",
+      "상세 연봉 미확인",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
     "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description: Organization Description Overview: Department/Service This organization is the sole technology department responsible for providing mobile services to corporate clients. Understanding the corporate business, we plan, develop, maintain, and manage internal and external systems and vendors. We are looking for core members to participate in the business as we further expand our business to achieve our goal of becoming the No. 1 carrier. The Business IT Group performs a wide range of tasks to support Rakuten Mobile's corporate business, including planning, system development, and maintenance. This is a rewarding job where you can plan/develop systems and implement them in the field so that operations can be carried out efficiently while complying with laws and regulations. Background As the number of mobile lines for Rakuten Mobile increases, acquiring contracts for mobile lines and solutions for corporations, which are the core of Rakuten Mobile, plays an increasingly important role. We are seeking a Project Manager to plan, develop, and maintain the systems for operation services that support this corporate business. Job Description The Corporate Operations 2 Section is mainly responsible for the following tasks. You will be in charge of project management for each project and task within these areas: Development and maintenance of internal systems: billing-relat",
     "scoreBreakdown": {
       "skills": 0,
       "role": 5,
       "experience": 9,
-      "salary": 5,
+      "salary": 4,
       "location": 6,
       "source": 3,
-      "total": 28,
+      "total": 27,
       "max": {
         "skills": 30,
         "role": 25,
@@ -4679,8 +5837,8 @@ window.JOB_RADAR_JOBS = [
         "skills": "핵심 스킬 약함",
         "role": "PM/PL, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4699,44 +5857,43 @@ window.JOB_RADAR_JOBS = [
     "location": "Tokyo, Japan",
     "postedDate": "2026-05-26",
     "salaryText": "",
-    "salaryStatus": "not_listed",
+    "salaryStatus": "unknown",
     "employmentType": "Full-time",
-    "seniority": "Associate",
-    "jobFunction": "Engineering, Information Technology, and Other",
+    "seniority": "",
+    "jobFunction": "",
     "url": "https://jp.linkedin.com/jobs/view/customer-relationship-management-business-analyst-at-globallogic-4418244077",
     "directUrl": "https://www.globallogic.com/careers/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
     "fit": "backup",
-    "score": 28,
+    "score": 27,
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄, 언어/글로벌",
+      "조건: 도쿄, 언어/글로벌",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
       "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
       "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
+      "상세 연봉 미확인",
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
     "targetCompany": "GlobalLogic Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "About GlobalLogic - A Hitachi Group Company GlobalLogic is a digital engineering leader, helping brands around the world design and build innovative products, platforms, and digital experiences for the modern world. We bring together experience design, engineering, and data to empower our customers with the digital business potential of the future. Headquartered in Silicon Valley, GlobalLogic operates design studios and engineering centers around the world, providing expert services to clients in the automotive, communications, financial services, healthcare and life sciences, manufacturing, media and entertainment, semiconductor, and technology industries. GlobalLogic is Hitachi, Ltd. (TSE: 6501) group company, and contributes to driving innovation through data and technology to improve the quality of life and a sustainable society. What GlobalLogic offers to its employees: Attractive projects: We focus on industries such as high tech, communications, media, healthcare, retail, and telecom. There are many great global brands that love what we build. Collaborative environment: You can hone your skills by working with diverse and talented teams in an open and comfortable environment. There are also many opportunities to work with overseas teams and customers. Work-life balance: GlobalLogic values work-life balance and offers flexible work hours, work-from-home opportunities, pai",
     "scoreBreakdown": {
       "skills": 0,
       "role": 0,
       "experience": 12,
-      "salary": 5,
+      "salary": 4,
       "location": 8,
       "source": 3,
-      "total": 28,
+      "total": 27,
       "max": {
         "skills": 30,
         "role": 25,
@@ -4749,8 +5906,8 @@ window.JOB_RADAR_JOBS = [
         "skills": "핵심 스킬 약함",
         "role": "직무 방향 약함",
         "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄, 언어/글로벌",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄, 언어/글로벌",
         "source": "LinkedIn"
       },
       "flags": {
@@ -4769,222 +5926,12 @@ window.JOB_RADAR_JOBS = [
     "location": "Tokyo, Japan",
     "postedDate": "2026-06-17",
     "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Sales and Business Development",
-    "url": "https://jp.linkedin.com/jobs/view/account-executive-auth0-at-okta-4361469852",
-    "directUrl": "https://www.okta.com/company/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 26,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Okta Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we’re looking for lifelong learners and people who can make us better with their unique experiences. Join our team! We’re building a world where Identity belongs to you. The Auth0 Sales Team Auth0 supports Okta’s vision of freeing anyone to safely use any technology by providing a secure, highly available, enterprise-grade platform that secures billions of log-ins every year for Consumer and SaaS applications. As an Auth0 Account Executive, you will drive territory growth through both net new logos and cultivating relationships to develop and grow existing Auth0 customers. With the support of your Okta ecosystem, your focus will be on consistent results and an unwavering commitment to our customers. Account Executive, Auth0 The successful candidate is a highly motivated, self-driven, and senior sales executive who is passionate about winning key new logos, about engineering and product technology and about driving protection against the big",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 0,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 26,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "직무 방향 약함",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414926411",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Data Analyst - Customer Solutions Office, Travel & Mobility Business(C&M)",
-    "company": "Rakuten",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/data-analyst-customer-solutions-office-travel-mobility-business-c-m-at-rakuten-4414926411",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 26,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Rakuten",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Job Description Business Overview Rakuten Group's mission is \"To empower people and society through innovation.\" Within this mission, Rakuten Travel stands as one of Japan's largest accommodation booking sites, offering diverse and appealing services that cater to a wide range of travel needs. The dynamic business development, leveraging Rakuten Group's strong customer base and technology to bring innovation to the travel industry, is a significant attraction. Department Overview The Customer Solutions Office (CSO) consists of three groups that support customers and service providers and drive Net Promoter Score (NPS) for the travel business. Under the philosophy of \"Maximize Customer Satisfaction,\" the mission of the travel business, the CSO embraces \"Be the customer,\" empowering and supporting end-users and service providers who are customers of the Rakuten Travel business every day. Position Why We Hire The CS Operation Group serves as the headquarters function for end-user support operations, contributing to the Travel business by handling secondary escalations from the call center, building operational frameworks, and improving quality based on customer feedback. At Rakuten Travel, which continues to grow, improving efficiency and enhancing quality in the customer support domain are urgent priorities. In particular, automating operations, optimizing processes, and improvin",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 0,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 26,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "직무 방향 약함",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4390832519",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "Business Analyst, AMZL ACES , Amazon Logistics, ACES",
-    "company": "Amazon",
-    "location": "Tokyo, Japan",
-    "postedDate": "2026-05-30",
-    "salaryText": "",
-    "salaryStatus": "not_listed",
-    "employmentType": "Full-time",
-    "seniority": "Not Applicable",
-    "jobFunction": "Strategy/Planning, Analyst, and Information Technology",
-    "url": "https://jp.linkedin.com/jobs/view/business-analyst-amzl-aces-amazon-logistics-aces-at-amazon-4390832519",
-    "directUrl": "https://www.amazon.jobs/ja/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 26,
-    "reasons": [
-      "Actively Hiring",
-      "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "LinkedIn 공개 상세에 연봉 정보 없음",
-      "공고 연봉 미기재",
-      "공식 상세 URL 미확인"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "Amazon Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "descriptionText": "Description As a core member of the AMZL ACES PMO BI & Analytics team, you will contribute to the overall optimization of the last-mile operations network in Japan. Leveraging BI tools and AI technology, you will build an analytical foundation that enables leadership to make swift decisions. By applying statistical knowledge in practice and pursuing the truth behind data, you will deliver insights from new perspectives beyond traditional KPIs. With a solid understanding of processes and a bias for action, you will analyze and improve process challenges in a data-driven manner, contributing to continuous improvement, operational excellence, and maximization of customer value at Amazon Logistics Japan. AMZL ACES PMO BI & Analytics teamの中核メンバーとして、日本のラストマイルにおけるオペレーションネットワークの全体最適化に貢献します。BIツールとAI技術を活用し、リーダーが迅速な意思決定を行うための分析基盤を構築します。 統計的知識を実務に応用し、データの背後にある真理を追究することで、従来のKPIにとらわれない新しい視点からの洞察を提供します。プロセスを正しく理解する知識と行動力を持ち、データドリブンでプロセスの課題を分析して改善を行います。Amazon Logistics Japanにおける継続的な改善と卓越したオペレーション、そして顧客利益の最大化に貢献します。 Key job responsibilities ・Design, implement, and operate complex data analysis projects ・Develop dashboards and reports using BI tools such as QuickSight and Tableau ・Conduct anomaly detection, trend analysis, and predictive analysis using statistical methods ・Automate and streamline analysis leveraging AI/ML tools ・Pursue the truth behind data and provide actionable insights ・Propo",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 0,
-      "experience": 12,
-      "salary": 5,
-      "location": 6,
-      "source": 3,
-      "total": 26,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "직무 방향 약함",
-        "experience": "연차 요건 미확인",
-        "salary": "공고 연봉 미기재",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": false,
-        "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4414914776",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "AI Product Sales - Enterprise Solution Development Department, Group Sales Division（GSD）",
-    "company": "Rakuten",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-05",
-    "salaryText": "",
     "salaryStatus": "unknown",
     "employmentType": "Full-time",
     "seniority": "",
     "jobFunction": "",
-    "url": "https://jp.linkedin.com/jobs/view/ai-product-sales-enterprise-solution-development-department-group-sales-division%EF%BC%88gsd%EF%BC%89-at-rakuten-4414914776",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "url": "https://jp.linkedin.com/jobs/view/account-executive-auth0-at-okta-4361469852",
+    "directUrl": "https://www.okta.com/company/careers/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -4993,7 +5940,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5003,7 +5950,8 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Rakuten",
+    "targetCompany": "Okta Japan",
+    "targetCompanyType": "identity-saas",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5028,7 +5976,7 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "연차 요건 미확인",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -5039,12 +5987,426 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "official-6997020979832259962",
+    "id": "linkedin-4418939431",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Business Analyst, AMXL JP",
+    "company": "Amazon",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-15",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-amxl-jp-at-amazon-4418939431",
+    "directUrl": "https://www.amazon.jobs/ja/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4377813246",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Escalation Center Specialist, Customer Service - Mercari",
+    "company": "Mercari, Inc.",
+    "location": "Minato, Tokyo, Japan",
+    "postedDate": "2026-06-11",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/escalation-center-specialist-customer-service-mercari-at-mercari-inc-4377813246",
+    "directUrl": "https://careers.mercari.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Mercari",
+    "targetCompanyType": "megaventure",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "megaventure_500_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4405941841",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "デジタルマーケティングソリューションアーキテクト【FOX-BA】",
+    "company": "PwC Japan",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-08",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%88%E3%80%90fox-ba%E3%80%91-at-pwc-japan-4405941841",
+    "directUrl": "https://www.pwc.com/jp/ja/careers.html",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "PwC Japan",
+    "targetCompanyType": "consulting",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4414926411",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Data Analyst - Customer Solutions Office, Travel & Mobility Business(C&M)",
+    "company": "Rakuten",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-05",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/data-analyst-customer-solutions-office-travel-mobility-business-c-m-at-rakuten-4414926411",
+    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Rakuten",
+    "targetCompanyType": "internet",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4423878480",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Business Analyst",
+    "company": "Tata Consultancy Services",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-02",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4423878480",
+    "directUrl": "https://www.tcs.com/careers",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Tata Consultancy Services Japan",
+    "targetCompanyType": "global-si",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4390832519",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Business Analyst, AMZL ACES , Amazon Logistics, ACES",
+    "company": "Amazon",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-05-30",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/business-analyst-amzl-aces-amazon-logistics-aces-at-amazon-4390832519",
+    "directUrl": "https://www.amazon.jobs/ja/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 25,
+    "reasons": [
+      "Actively Hiring",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 12,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 25,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "연차 요건 미확인",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "official-4304820182577501854",
     "source": "Official",
     "sourceQuality": "official",
     "title": "SAP S/4HANA Finance Senior Consultant",
     "company": "DXC Technology Japan",
-    "location": "Japan",
+    "location": "Tokyo 확인 필요",
     "postedDate": "",
     "salaryText": "",
     "employmentType": "",
@@ -5060,7 +6422,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "공식 Careers 페이지에서 키워드 링크 발견",
       "직무: 컨설턴트, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5070,6 +6432,7 @@ window.JOB_RADAR_JOBS = [
       "제목이 Salesforce/CRM 중심이 아님"
     ],
     "targetCompany": "DXC Technology Japan",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5094,7 +6457,7 @@ window.JOB_RADAR_JOBS = [
         "role": "컨설턴트, DX/업무개혁, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "공식 공고"
       },
       "flags": {
@@ -5105,20 +6468,20 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4404745426",
+    "id": "linkedin-4419470717",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "[A]ビジネスパートナー（シニア・アナリストーアソシエイト・マネジャー）- コーポレート職",
-    "company": "Accenture Japan",
-    "location": "Yokohama, Kanagawa, Japan",
-    "postedDate": "2026-06-19",
+    "title": "Senior Strategic Partner Sales Manager, AWS",
+    "company": "Amazon Web Services (AWS)",
+    "location": "Tokyo, Japan",
+    "postedDate": "2026-06-17",
     "salaryText": "",
     "salaryStatus": "unknown",
     "employmentType": "Full-time",
     "seniority": "",
     "jobFunction": "",
-    "url": "https://jp.linkedin.com/jobs/view/a-%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%EF%BC%88%E3%82%B7%E3%83%8B%E3%82%A2%E3%83%BB%E3%82%A2%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88%E3%83%BC%E3%82%A2%E3%82%BD%E3%82%B7%E3%82%A8%E3%82%A4%E3%83%88%E3%83%BB%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%89-%E3%82%B3%E3%83%BC%E3%83%9D%E3%83%AC%E3%83%BC%E3%83%88%E8%81%B7-at-accenture-japan-4404745426",
-    "directUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
+    "url": "https://jp.linkedin.com/jobs/view/senior-strategic-partner-sales-manager-aws-at-amazon-web-services-aws-4419470717",
+    "directUrl": "https://www.amazon.jobs/ja/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -5127,7 +6490,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5138,7 +6501,8 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Accenture Japan",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5163,7 +6527,77 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4428815403",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Leader, Customer Delivery",
+    "company": "Cisco",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-15",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/leader-customer-delivery-at-cisco-4428815403",
+    "directUrl": "https://jobs.cisco.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 22,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "Cisco Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 22,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -5196,7 +6630,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5208,6 +6642,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5232,7 +6667,7 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -5243,11 +6678,11 @@ window.JOB_RADAR_JOBS = [
     }
   },
   {
-    "id": "linkedin-4414737725",
+    "id": "linkedin-4423588951",
     "source": "LinkedIn",
     "sourceQuality": "primary",
-    "title": "Product Manager, Customer Relationship Management - BSS Product Management Department (BSPMD)",
-    "company": "Rakuten",
+    "title": "Marketing Manager, Marketing & Program, Amazon Business",
+    "company": "Amazon",
     "location": "Tokyo, Japan",
     "postedDate": "2026-06-05",
     "salaryText": "",
@@ -5255,8 +6690,8 @@ window.JOB_RADAR_JOBS = [
     "employmentType": "Full-time",
     "seniority": "",
     "jobFunction": "",
-    "url": "https://jp.linkedin.com/jobs/view/product-manager-customer-relationship-management-bss-product-management-department-bspmd-at-rakuten-4414737725",
-    "directUrl": "https://corp.rakuten.co.jp/careers/",
+    "url": "https://jp.linkedin.com/jobs/view/marketing-manager-marketing-program-amazon-business-at-amazon-4423588951",
+    "directUrl": "https://www.amazon.jobs/ja/",
     "directUrlStatus": "company_careers",
     "directSearchUrl": "",
     "status": "open",
@@ -5265,7 +6700,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5276,7 +6711,8 @@ window.JOB_RADAR_JOBS = [
       "공식 상세 URL 미확인"
     ],
     "directSource": "Company careers",
-    "targetCompany": "Rakuten",
+    "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5301,7 +6737,77 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": false,
+        "offTargetTitle": false
+      }
+    }
+  },
+  {
+    "id": "linkedin-4424015935",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "Business Manager - CX Consulting",
+    "company": "SAP",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-03",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/business-manager-cx-consulting-at-sap-4424015935",
+    "directUrl": "https://jobs.sap.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 22,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "SAP Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 22,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "직무 방향 약함",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -5334,7 +6840,7 @@ window.JOB_RADAR_JOBS = [
     "reasons": [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5346,6 +6852,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Amazon Japan",
+    "targetCompanyType": "cloud-commerce",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5370,84 +6877,13 @@ window.JOB_RADAR_JOBS = [
         "role": "직무 방향 약함",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
         "coreTitleMatch": false,
         "targetRoleTitleMatch": false,
         "offTargetTitle": false
-      }
-    }
-  },
-  {
-    "id": "linkedin-4321502750",
-    "source": "LinkedIn",
-    "sourceQuality": "primary",
-    "title": "【EAS】SAP Project Manager",
-    "company": "DXC Technology",
-    "location": "Tokyo, Tokyo, Japan",
-    "postedDate": "2026-06-03",
-    "salaryText": "",
-    "salaryStatus": "unknown",
-    "employmentType": "Full-time",
-    "seniority": "",
-    "jobFunction": "",
-    "url": "https://jp.linkedin.com/jobs/view/%E3%80%90eas%E3%80%91sap-project-manager-at-dxc-technology-4321502750",
-    "directUrl": "https://careers.dxc.com/",
-    "directUrlStatus": "company_careers",
-    "directSearchUrl": "",
-    "status": "open",
-    "fit": "backup",
-    "score": 20,
-    "reasons": [
-      "Be an early applicant",
-      "회사 규모: 1000+ 대상 회사",
-      "직무: PM/PL, DX/업무개혁, 타이틀 매칭",
-      "조건: 일본/도쿄",
-      "회사 규모: 1000+ 대상"
-    ],
-    "risks": [
-      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
-      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
-      "시니어/매니저급 포지션",
-      "상세 연봉 미확인",
-      "공식 상세 URL 미확인",
-      "제목이 Salesforce/CRM 중심이 아님"
-    ],
-    "directSource": "Company careers",
-    "targetCompany": "DXC Technology Japan",
-    "minCompanyEmployees": 1000,
-    "companySizeBand": "1000+",
-    "companyScaleStatus": "target_1000_plus",
-    "scoreBreakdown": {
-      "skills": 0,
-      "role": 6,
-      "experience": 9,
-      "salary": 4,
-      "location": 6,
-      "source": 3,
-      "total": 20,
-      "max": {
-        "skills": 30,
-        "role": 25,
-        "experience": 20,
-        "salary": 10,
-        "location": 10,
-        "source": 5
-      },
-      "notes": {
-        "skills": "핵심 스킬 약함",
-        "role": "PM/PL, DX/업무개혁, 타이틀 매칭",
-        "experience": "시니어/매니저 타이틀",
-        "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
-        "source": "LinkedIn"
-      },
-      "flags": {
-        "coreTitleMatch": false,
-        "targetRoleTitleMatch": true,
-        "offTargetTitle": true
       }
     }
   },
@@ -5475,7 +6911,7 @@ window.JOB_RADAR_JOBS = [
       "Be an early applicant",
       "회사 규모: 1000+ 대상 회사",
       "직무: PM/PL, 타이틀 매칭",
-      "조건: 일본/도쿄",
+      "조건: 도쿄",
       "회사 규모: 1000+ 대상"
     ],
     "risks": [
@@ -5488,6 +6924,7 @@ window.JOB_RADAR_JOBS = [
     ],
     "directSource": "Company careers",
     "targetCompany": "Infosys",
+    "targetCompanyType": "global-si",
     "minCompanyEmployees": 1000,
     "companySizeBand": "1000+",
     "companyScaleStatus": "target_1000_plus",
@@ -5512,7 +6949,79 @@ window.JOB_RADAR_JOBS = [
         "role": "PM/PL, 타이틀 매칭",
         "experience": "시니어/매니저 타이틀",
         "salary": "상세 연봉 미확인",
-        "location": "일본/도쿄",
+        "location": "도쿄",
+        "source": "LinkedIn"
+      },
+      "flags": {
+        "coreTitleMatch": false,
+        "targetRoleTitleMatch": true,
+        "offTargetTitle": true
+      }
+    }
+  },
+  {
+    "id": "linkedin-4404699344",
+    "source": "LinkedIn",
+    "sourceQuality": "primary",
+    "title": "SAP LeanIX シニアカスタマーサクセスマネージャー",
+    "company": "SAP",
+    "location": "Tokyo, Tokyo, Japan",
+    "postedDate": "2026-06-09",
+    "salaryText": "",
+    "salaryStatus": "unknown",
+    "employmentType": "Full-time",
+    "seniority": "",
+    "jobFunction": "",
+    "url": "https://jp.linkedin.com/jobs/view/sap-leanix-%E3%82%B7%E3%83%8B%E3%82%A2%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-at-sap-4404699344",
+    "directUrl": "https://jobs.sap.com/",
+    "directUrlStatus": "company_careers",
+    "directSearchUrl": "",
+    "status": "open",
+    "fit": "backup",
+    "score": 14,
+    "reasons": [
+      "Be an early applicant",
+      "회사 규모: 1000+ 대상 회사",
+      "직무: CS, 타이틀 매칭",
+      "조건: 도쿄",
+      "회사 규모: 1000+ 대상"
+    ],
+    "risks": [
+      "LinkedIn 상세/지원 버튼은 로그인 후 재확인 필요",
+      "회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요",
+      "시니어/매니저급 포지션",
+      "상세 연봉 미확인",
+      "공식 상세 URL 미확인",
+      "제목이 Salesforce/CRM 중심이 아님"
+    ],
+    "directSource": "Company careers",
+    "targetCompany": "SAP Japan",
+    "targetCompanyType": "vendor",
+    "minCompanyEmployees": 1000,
+    "companySizeBand": "1000+",
+    "companyScaleStatus": "target_1000_plus",
+    "scoreBreakdown": {
+      "skills": 0,
+      "role": 0,
+      "experience": 9,
+      "salary": 4,
+      "location": 6,
+      "source": 3,
+      "total": 14,
+      "max": {
+        "skills": 30,
+        "role": 25,
+        "experience": 20,
+        "salary": 10,
+        "location": 10,
+        "source": 5
+      },
+      "notes": {
+        "skills": "핵심 스킬 약함",
+        "role": "CS, 타이틀 매칭",
+        "experience": "시니어/매니저 타이틀",
+        "salary": "상세 연봉 미확인",
+        "location": "도쿄",
         "source": "LinkedIn"
       },
       "flags": {
@@ -5525,7 +7034,7 @@ window.JOB_RADAR_JOBS = [
 ];
 
 window.JOB_RADAR_RUN = {
-  "generatedAt": "2026-06-19T19:38:55+09:00",
+  "generatedAt": "2026-06-19T20:07:30+09:00",
   "mode": "collector-run",
   "recommendedPollingMinutes": 180,
   "notes": [

@@ -22,7 +22,9 @@ window.JOB_RADAR_PROFILE = {
     "Salesforce PM/PL",
     "Presales",
     "Customer Success",
-    "Implementation Consultant"
+    "Implementation Consultant",
+    "AI Solution Consultant",
+    "AI Customer Success"
   ],
   strengths: [
     "Salesforce delivery and configuration",
@@ -56,6 +58,8 @@ window.JOB_RADAR_PROFILE = {
     "Implementation",
     "Presales",
     "Customer Success",
+    "AI",
+    "AI Solution",
     "DX"
   ]
 };

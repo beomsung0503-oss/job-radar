@@ -37,6 +37,11 @@ LINKEDIN_QUERIES = [
     "Service Cloud Consultant",
     "Agentforce Consultant",
     "Slack Salesforce Consultant",
+    "AI Solution Consultant",
+    "AI Customer Success",
+    "AI Project Manager",
+    "AI DX Consultant",
+    "AI Implementation Consultant",
 ]
 
 def load_target_companies():
@@ -54,6 +59,8 @@ def load_target_companies():
         aliases = re.findall(r'"([^"]+)"', aliases_block) if aliases_block else []
         min_employees = find_one(r"minEmployees:\s*([0-9]+)", block)
         employee_band = find_one(r'employeeBand:\s*"([^"]+)"', block) or "1000+"
+        company_type = find_one(r'type:\s*"([^"]+)"', block)
+        priority = find_one(r'priority:\s*"([^"]+)"', block)
         if name and url and terms:
             companies.append(
                 {
@@ -63,6 +70,8 @@ def load_target_companies():
                     "aliases": aliases,
                     "minEmployees": int(min_employees or 0),
                     "employeeBand": employee_band,
+                    "type": company_type,
+                    "priority": priority,
                 }
             )
     return companies
@@ -117,6 +126,9 @@ CORE_TITLE_TERMS = [
     "Salesforce",
     "CRM",
     "Agentforce",
+    "AI",
+    "生成AI",
+    "LLM",
     "Slack",
     "Sales Cloud",
     "Service Cloud",
@@ -147,6 +159,9 @@ TARGET_ROLE_TITLE_TERMS = [
 MATCH_TERMS = [
     "Salesforce",
     "CRM",
+    "AI",
+    "生成AI",
+    "LLM",
     "Sales Cloud",
     "Agentforce",
     "Slack",
@@ -170,7 +185,49 @@ CANDIDATE_PROFILE = {
     "current_salary_man": 500,
     "target_salary_man": 600,
     "min_company_employees": 1000,
+    "min_ai_venture_employees": 500,
 }
+
+TOKYO_SCOPE_TERMS = [
+    "Tokyo",
+    "東京",
+    "Minato",
+    "Chiyoda",
+    "Chuo-ku",
+    "Shibuya",
+    "Shinjuku",
+    "Shinagawa",
+    "Akasaka",
+    "Roppongi",
+    "Remote",
+    "リモート",
+    "在宅",
+    "Hybrid",
+    "ハイブリッド",
+]
+
+NON_TOKYO_LOCATION_TERMS = [
+    "Osaka",
+    "大阪",
+    "Fukuoka",
+    "福岡",
+    "Nagoya",
+    "名古屋",
+    "Kyoto",
+    "京都",
+    "Kobe",
+    "神戸",
+    "Sapporo",
+    "札幌",
+    "Sendai",
+    "仙台",
+    "Hiroshima",
+    "広島",
+    "Yokohama",
+    "横浜",
+    "Kanagawa",
+    "神奈川",
+]
 
 ROLE_TITLE_PATTERNS = [
     r"\bConsultant\b",
@@ -291,8 +348,40 @@ def company_matches_target(company, target):
     return False
 
 
+def is_megaventure_target(job_or_target):
+    return "megaventure" in (job_or_target.get("type") or job_or_target.get("targetCompanyType") or "")
+
+
+def is_ai_venture_target(job_or_target):
+    return "ai-megaventure" in (job_or_target.get("type") or job_or_target.get("targetCompanyType") or "")
+
+
+def required_company_floor(job):
+    if is_megaventure_target(job):
+        return CANDIDATE_PROFILE["min_ai_venture_employees"]
+    return CANDIDATE_PROFILE["min_company_employees"]
+
+
+def company_scale_allowed(job):
+    return job.get("minCompanyEmployees", 0) >= required_company_floor(job)
+
+
+def is_tokyo_scope(job):
+    title_location = " ".join([job.get("title", ""), job.get("location", "")])
+    if contains_any(title_location, NON_TOKYO_LOCATION_TERMS):
+        return False
+    text = " ".join(
+        [
+            title_location,
+            job.get("descriptionText", ""),
+            " ".join(job.get("reasons", [])),
+        ]
+    )
+    return contains_any(text, TOKYO_SCOPE_TERMS)
+
+
 def infer_company_scale(job):
-    if job.get("minCompanyEmployees", 0) >= CANDIDATE_PROFILE["min_company_employees"]:
+    if company_scale_allowed(job):
         return job
 
     text = " ".join(
@@ -303,15 +392,15 @@ def infer_company_scale(job):
         ]
     )
     if re.search(r"(?:Fortune|フォーチュン)\s*(?:Global\s*)?500", text, flags=re.I):
-        job["minCompanyEmployees"] = CANDIDATE_PROFILE["min_company_employees"]
-        job["companySizeBand"] = "1000+"
+        job["minCompanyEmployees"] = required_company_floor(job)
+        job["companySizeBand"] = "500+" if is_ai_venture_target(job) else "1000+"
         job["companyScaleStatus"] = "inferred_large"
         job["reasons"].append("회사 규모: Fortune/Global 500급 신호")
     elif re.search(r"(?:over|more than|超过|従業員|社員|employees?|people)\s*[0-9,]{4,}", text, flags=re.I):
-        job["minCompanyEmployees"] = CANDIDATE_PROFILE["min_company_employees"]
-        job["companySizeBand"] = "1000+"
+        job["minCompanyEmployees"] = required_company_floor(job)
+        job["companySizeBand"] = "500+" if is_ai_venture_target(job) else "1000+"
         job["companyScaleStatus"] = "inferred_large"
-        job["reasons"].append("회사 규모: 본문에서 1000명 이상 신호")
+        job["reasons"].append(f"회사 규모: 본문에서 {required_company_floor(job)}명 이상 신호")
     else:
         job.setdefault("minCompanyEmployees", 0)
         job.setdefault("companySizeBand", "미확인")
@@ -346,13 +435,14 @@ def add_direct_destination(job, careers_map):
             job["directUrlStatus"] = "company_careers"
             job["directSource"] = "Company careers"
             job["targetCompany"] = target["name"]
+            job["targetCompanyType"] = target.get("type", "")
             job["minCompanyEmployees"] = target.get("minEmployees", 0)
             job["companySizeBand"] = target.get("employeeBand", "1000+")
-            if job["minCompanyEmployees"] >= CANDIDATE_PROFILE["min_company_employees"]:
-                job["companyScaleStatus"] = "target_1000_plus"
+            if company_scale_allowed(job):
+                job["companyScaleStatus"] = "megaventure_500_plus" if is_megaventure_target(job) else "target_1000_plus"
                 job["reasons"].append(f"회사 규모: {job['companySizeBand']} 대상 회사")
             else:
-                job["companyScaleStatus"] = "below_1000"
+                job["companyScaleStatus"] = "below_required_size"
             job["risks"].append("회사 Careers까지 연결됨; 동일 공고 매칭은 추가 확인 필요")
             return job
 
@@ -466,7 +556,9 @@ def detailed_score_job(job):
         return None
 
     infer_company_scale(job)
-    if job.get("minCompanyEmployees", 0) < CANDIDATE_PROFILE["min_company_employees"]:
+    if not company_scale_allowed(job):
+        return None
+    if not is_tokyo_scope(job):
         return None
 
     title = job.get("title", "")
@@ -505,6 +597,9 @@ def detailed_score_job(job):
         ("Service Cloud", 4),
         ("Marketing Cloud", 4),
         ("Agentforce", 5),
+        ("AI", 4),
+        ("生成AI", 4),
+        ("LLM", 4),
         ("Slack", 5),
         ("Flow", 3),
         ("Apex", 3),
@@ -526,6 +621,7 @@ def detailed_score_job(job):
         (["Implementation", "導入", "要件定義", "定着"], "도입/정착", 5),
         (["Presales", "Pre-Sales", "プリセールス"], "프리세일즈", 4),
         (["Customer Success", "カスタマーサクセス"], "CS", 4),
+        (["AI", "生成AI", "LLM", "Artificial Intelligence"], "AI", 4),
         (["DX", "業務改革", "Business transformation"], "DX/업무개혁", 3),
     ]
     for terms, label, points in role_weights:
@@ -593,9 +689,9 @@ def detailed_score_job(job):
 
     location = 0
     loc_hits = []
-    if contains_any(text, ["Tokyo", "東京", "Japan", "日本"]):
+    if contains_any(text, ["Tokyo", "東京"]):
         location += 5
-        loc_hits.append("일본/도쿄")
+        loc_hits.append("도쿄")
     if contains_any(text, ["Remote", "リモート", "在宅", "Hybrid", "ハイブリッド"]):
         location += 2
         loc_hits.append("리모트/하이브리드")
@@ -644,6 +740,8 @@ def detailed_score_job(job):
     if loc_hits:
         positives.append("조건: " + ", ".join(loc_hits))
     positives.append(f"회사 규모: {job.get('companySizeBand', '1000+')} 대상")
+    if is_ai_venture_target(job):
+        positives.append("회사군: AI 메가벤처")
 
     breakdown = {
         "skills": skills,
@@ -719,7 +817,7 @@ def collect_linkedin(max_queries, max_pages):
         for page in range(max_pages):
             params = {
                 "keywords": query,
-                "location": "Japan",
+                "location": "Tokyo, Japan",
                 "f_TPR": "r2592000",
                 "start": str(page * 25),
             }
@@ -784,7 +882,7 @@ def collect_official(max_companies):
                     "sourceQuality": "official",
                     "title": text[:160],
                     "company": company,
-                    "location": "Japan",
+                    "location": "Tokyo 확인 필요",
                     "postedDate": "",
                     "salaryText": "",
                     "employmentType": "",
@@ -800,9 +898,10 @@ def collect_official(max_companies):
                     "reasons": ["공식 Careers 페이지에서 키워드 링크 발견"],
                     "risks": ["일반 HTML 스캔 결과라 상세 직무 페이지 여부 확인 필요"],
                     "targetCompany": company,
+                    "targetCompanyType": target.get("type", ""),
                     "minCompanyEmployees": target.get("minEmployees", 0),
                     "companySizeBand": target.get("employeeBand", "1000+"),
-                    "companyScaleStatus": "target_1000_plus",
+                    "companyScaleStatus": "megaventure_500_plus" if is_megaventure_target(target) else "target_1000_plus",
                 }
             )
         time.sleep(0.25)

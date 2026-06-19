@@ -7,9 +7,9 @@ This is a local-first MVP for a Japan-focused job radar based on the user's resu
 - Prioritizes Salesforce, CRM, PM/PL, presales, implementation consultant, and customer success roles.
 - Excludes engineer/developer/admin-first job titles by default, including Japanese title variants such as `エンジニア`, `開発リーダー`, `アドミン`, `管理者`, and `社内SE`.
 - Uses paginated LinkedIn public search as the first discovery source.
-- Also runs conservative official Careers scanning for the 100-company watchlist.
-- Tracks a curated official Careers watchlist for 100 target companies.
-- Filters for companies with an expected employee scale of 1,000+.
+- Also runs conservative official Careers scanning for the 150-company watchlist.
+- Tracks a curated official Careers watchlist for 150 target companies.
+- Filters for companies with an expected employee scale of 1,000+, with a 500+ exception for AI/mega-venture targets.
 - Shows a `공고` button only when a verified official job URL is available; otherwise the primary action opens LinkedIn.
 - Presents recommendation, stretch, and backup buckets in a static dashboard.
 
@@ -32,7 +32,7 @@ Classification:
 
 Company Scale:
 
-- Jobs from target companies are allowed when the target company is marked `minEmployees: 1000`.
+- Jobs from target companies are allowed when the target company is marked `minEmployees: 1000`, or `minEmployees: 500` for AI/mega-venture targets.
 - Non-target jobs are allowed only when the job text contains a strong large-company signal such as Fortune/Global 500 or an explicit 1,000+ employee phrase.
 - Smaller or unverified company-scale jobs are filtered out before scoring.
 
@@ -40,11 +40,15 @@ Company Scale:
 
 True real-time updates are not necessary for job postings and are more likely to trigger rate limits. The intended model is:
 
-- LinkedIn discovery: every 3 hours, with multiple queries and pages.
+- LinkedIn discovery: every 3 hours, with Salesforce/CRM plus AI query sets across multiple pages.
 - Official Careers watchlist: every 3 hours for the highest-priority companies, using conservative keyword link scanning.
 - Immediate notification only when a new high-fit posting appears or a recommended posting disappears.
 
 The generic official-page scanner is conservative because many official Careers sites mix job pages with product, event, and help content. Promote official postings into the main feed only when the link text and target-company keywords look like a job page.
+
+## OpenWork
+
+The UI includes OpenWork search links and a display slot for company ratings. Ratings are not scraped automatically because OpenWork commonly requires login and automated scraping is brittle; add manual or licensed rating data to `openWorkRating` when available.
 
 ## Files
 
@@ -66,7 +70,7 @@ See `DEPLOY.md`. The recommended path is GitHub Pages with the included GitHub A
 Refresh LinkedIn data, including salary extraction from the top detail pages:
 
 ```powershell
-python .\scripts\collect_jobs.py --replace --linkedin-queries 16 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
+python .\scripts\collect_jobs.py --replace --linkedin-queries 26 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
 ```
 
 Try official scanning for the first few target companies:
