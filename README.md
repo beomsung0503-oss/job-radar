@@ -48,7 +48,7 @@ The generic official-page scanner is conservative because many official Careers 
 
 ## OpenWork
 
-The UI includes OpenWork search links and a display slot for company ratings. Ratings are not scraped automatically because OpenWork commonly requires login and automated scraping is brittle; add manual or licensed rating data to `openWorkRating` when available.
+The UI includes Google search links for `company + OpenWork 評判` and a display slot for company ratings. Ratings are not scraped automatically because OpenWork can require CAPTCHA/login and restricts mechanical access and reuse of rating data; add manual or licensed rating data to `openWorkRating` when available.
 
 ## Files
 

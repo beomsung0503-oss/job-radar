@@ -74,7 +74,7 @@ function ventureLabel(item) {
 }
 
 function openWorkSearchUrl(name) {
-  return `https://www.openwork.jp/search?keyword=${encodeURIComponent(name || "")}`;
+  return `https://www.google.com/search?q=${encodeURIComponent(`${name || ""} OpenWork 評判`)}`;
 }
 
 function openWorkLabel(item) {
