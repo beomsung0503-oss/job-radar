@@ -44,6 +44,13 @@ LINKEDIN_QUERIES = [
     "AI Implementation Consultant",
 ]
 
+MEGAVENTURE_ROLE_QUERIES = [
+    "Customer Success",
+    "Solution Consultant",
+    "Implementation Consultant",
+    "Project Manager",
+]
+
 def load_target_companies():
     target_file = DATA_DIR / "target_companies.js"
     if not target_file.exists():
@@ -810,29 +817,42 @@ def enrich_linkedin_details(jobs, detail_limit):
     return list(by_id.values())
 
 
-def collect_linkedin(max_queries, max_pages):
+def make_linkedin_search_url(query, start):
+    params = {
+        "keywords": query,
+        "location": "Tokyo, Japan",
+        "f_TPR": "r2592000",
+        "start": str(start),
+    }
+    return "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + urllib.parse.urlencode(params)
+
+
+def fetch_linkedin_query(query, max_pages, rows, careers_map):
+    for page in range(max_pages):
+        url = make_linkedin_search_url(query, page * 25)
+        try:
+            cards = parse_linkedin_cards(fetch(url))
+            if not cards:
+                break
+            for row in cards:
+                row = add_direct_destination(row, careers_map)
+                rows.setdefault(row["id"], row)
+        except Exception as exc:
+            print(f"[warn] LinkedIn query failed: {query} page {page + 1}: {exc}", file=sys.stderr)
+            break
+        time.sleep(1.0)
+
+
+def collect_linkedin(max_queries, max_pages, megaventure_companies=0):
     rows = {}
     careers_map = load_company_careers_map()
     for query in LINKEDIN_QUERIES[:max_queries]:
-        for page in range(max_pages):
-            params = {
-                "keywords": query,
-                "location": "Tokyo, Japan",
-                "f_TPR": "r2592000",
-                "start": str(page * 25),
-            }
-            url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + urllib.parse.urlencode(params)
-            try:
-                cards = parse_linkedin_cards(fetch(url))
-                if not cards:
-                    break
-                for row in cards:
-                    row = add_direct_destination(row, careers_map)
-                    rows.setdefault(row["id"], row)
-            except Exception as exc:
-                print(f"[warn] LinkedIn query failed: {query} page {page + 1}: {exc}", file=sys.stderr)
-                break
-            time.sleep(1.0)
+        fetch_linkedin_query(query, max_pages, rows, careers_map)
+    mega_targets = [target for target in careers_map if is_megaventure_target(target)]
+    for target in mega_targets[:megaventure_companies]:
+        company = target["name"]
+        for role_query in MEGAVENTURE_ROLE_QUERIES[:2]:
+            fetch_linkedin_query(f"{company} {role_query}", 1, rows, careers_map)
     return list(rows.values())
 
 
@@ -1026,6 +1046,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--linkedin-queries", type=int, default=12)
     parser.add_argument("--linkedin-pages", type=int, default=2)
+    parser.add_argument("--linkedin-megaventure-companies", type=int, default=30)
     parser.add_argument("--linkedin-detail-limit", type=int, default=48)
     parser.add_argument("--official-companies", type=int, default=0)
     parser.add_argument("--no-linkedin", action="store_true")
@@ -1035,7 +1056,11 @@ def main():
 
     new_jobs = []
     if not args.no_linkedin:
-        linkedin_jobs = collect_linkedin(args.linkedin_queries, args.linkedin_pages)
+        linkedin_jobs = collect_linkedin(
+            args.linkedin_queries,
+            args.linkedin_pages,
+            args.linkedin_megaventure_companies,
+        )
         new_jobs.extend(enrich_linkedin_details(linkedin_jobs, args.linkedin_detail_limit))
     if not args.no_official:
         new_jobs.extend(collect_official(args.official_companies))

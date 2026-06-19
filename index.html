@@ -58,12 +58,16 @@
         </label>
         <label>
           <span>최소 점수</span>
-          <input id="score-filter" type="range" min="0" max="100" value="60">
+          <input id="score-filter" type="range" min="0" max="100" value="0">
         </label>
-        <output id="score-output">60+</output>
+        <output id="score-output">0+</output>
       </section>
 
       <section class="metric-grid" aria-label="Metrics">
+        <article>
+          <span>전체 후보</span>
+          <strong id="metric-total">0</strong>
+        </article>
         <article>
           <span>추천 후보</span>
           <strong id="metric-recommended">0</strong>
@@ -71,6 +75,10 @@
         <article>
           <span>스트레치</span>
           <strong id="metric-stretch">0</strong>
+        </article>
+        <article>
+          <span>메가벤처</span>
+          <strong id="metric-megaventure">0</strong>
         </article>
         <article>
           <span>공식 감시 회사</span>

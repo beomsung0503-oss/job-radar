@@ -14,8 +14,10 @@ const els = {
   source: document.querySelector("#source-filter"),
   score: document.querySelector("#score-filter"),
   scoreOutput: document.querySelector("#score-output"),
+  total: document.querySelector("#metric-total"),
   recommended: document.querySelector("#metric-recommended"),
   stretch: document.querySelector("#metric-stretch"),
+  megaventure: document.querySelector("#metric-megaventure"),
   companies: document.querySelector("#metric-companies"),
   resultCount: document.querySelector("#result-count"),
   companyCount: document.querySelector("#company-count"),
@@ -229,8 +231,10 @@ function renderCompanies() {
 }
 
 function renderMetrics() {
+  els.total.textContent = String(jobs.length);
   els.recommended.textContent = String(jobs.filter((job) => job.fit === "recommended").length);
   els.stretch.textContent = String(jobs.filter((job) => job.fit === "stretch").length);
+  els.megaventure.textContent = String(jobs.filter(isMegaVenture).length);
 }
 
 function renderProfile() {
