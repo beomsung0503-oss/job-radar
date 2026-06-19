@@ -18,12 +18,24 @@ JOBS_JS = DATA_DIR / "jobs.js"
 LINKEDIN_QUERIES = [
     "Salesforce Consultant",
     "Salesforce コンサルタント",
+    "Salesforce 導入コンサルタント",
+    "Salesforce シニアコンサルタント",
     "Salesforce Project Manager",
     "Salesforce PM",
+    "Salesforce プロジェクトマネージャー",
+    "Salesforce プロジェクトリーダー",
     "CRM Consultant Salesforce",
+    "CRM コンサルタント Salesforce",
+    "CRM PM Salesforce",
+    "CX CRM Consultant",
     "Salesforce Presales",
     "Salesforce プリセールス",
     "Salesforce Customer Success",
+    "Salesforce カスタマーサクセス",
+    "Salesforce Implementation Consultant",
+    "Sales Cloud Consultant",
+    "Service Cloud Consultant",
+    "Agentforce Consultant",
     "Slack Salesforce Consultant",
 ]
 
@@ -186,7 +198,7 @@ CONTENT_LINK_PREFIXES = (
 )
 
 
-def fetch(url):
+def fetch(url, timeout=25):
     req = urllib.request.Request(
         url,
         headers={
@@ -194,7 +206,7 @@ def fetch(url):
             "Accept-Language": "en-US,en;q=0.9,ja;q=0.8,ko;q=0.7",
         },
     )
-    with urllib.request.urlopen(req, timeout=25) as res:
+    with urllib.request.urlopen(req, timeout=timeout) as res:
         return res.read().decode("utf-8", "replace")
 
 
@@ -700,24 +712,29 @@ def enrich_linkedin_details(jobs, detail_limit):
     return list(by_id.values())
 
 
-def collect_linkedin(max_queries):
+def collect_linkedin(max_queries, max_pages):
     rows = {}
     careers_map = load_company_careers_map()
     for query in LINKEDIN_QUERIES[:max_queries]:
-        params = {
-            "keywords": query,
-            "location": "Japan",
-            "f_TPR": "r2592000",
-            "start": "0",
-        }
-        url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + urllib.parse.urlencode(params)
-        try:
-            for row in parse_linkedin_cards(fetch(url)):
-                row = add_direct_destination(row, careers_map)
-                rows.setdefault(row["id"], row)
-        except Exception as exc:
-            print(f"[warn] LinkedIn query failed: {query}: {exc}", file=sys.stderr)
-        time.sleep(1.2)
+        for page in range(max_pages):
+            params = {
+                "keywords": query,
+                "location": "Japan",
+                "f_TPR": "r2592000",
+                "start": str(page * 25),
+            }
+            url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + urllib.parse.urlencode(params)
+            try:
+                cards = parse_linkedin_cards(fetch(url))
+                if not cards:
+                    break
+                for row in cards:
+                    row = add_direct_destination(row, careers_map)
+                    rows.setdefault(row["id"], row)
+            except Exception as exc:
+                print(f"[warn] LinkedIn query failed: {query} page {page + 1}: {exc}", file=sys.stderr)
+                break
+            time.sleep(1.0)
     return list(rows.values())
 
 
@@ -735,7 +752,7 @@ def collect_official(max_companies):
         url = target["url"]
         terms = target["terms"]
         try:
-            page = fetch(url)
+            page = fetch(url, timeout=6)
         except Exception as exc:
             print(f"[warn] Official page failed: {company}: {exc}", file=sys.stderr)
             continue
@@ -788,7 +805,7 @@ def collect_official(max_companies):
                     "companyScaleStatus": "target_1000_plus",
                 }
             )
-        time.sleep(1.0)
+        time.sleep(0.25)
     return rows
 
 
@@ -841,6 +858,48 @@ def merge_existing(new_jobs):
     return list(merged.values())
 
 
+def normalize_job_key(value):
+    value = unicodedata.normalize("NFKC", value or "").lower()
+    value = re.sub(r"[\s\-_‐‑‒–—―・/／｜|:：()\[\]（）【】「」『』]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def dedupe_jobs(jobs):
+    deduped = {}
+    for job in jobs:
+        key = (
+            normalize_company_name(job.get("company", "")),
+            normalize_job_key(job.get("title", "")),
+        )
+        existing = deduped.get(key)
+        if not existing:
+            deduped[key] = job
+            continue
+
+        existing_rank = (
+            1 if existing.get("directUrlStatus") == "verified_official" else 0,
+            existing.get("score", 0),
+            1 if existing.get("salaryText") else 0,
+        )
+        challenger_rank = (
+            1 if job.get("directUrlStatus") == "verified_official" else 0,
+            job.get("score", 0),
+            1 if job.get("salaryText") else 0,
+        )
+        winner, loser = (job, existing) if challenger_rank > existing_rank else (existing, job)
+        winner["reasons"] = list(dict.fromkeys((winner.get("reasons") or []) + (loser.get("reasons") or [])))
+        winner["risks"] = list(dict.fromkeys((winner.get("risks") or []) + (loser.get("risks") or [])))
+        if not winner.get("salaryText") and loser.get("salaryText"):
+            winner["salaryText"] = loser["salaryText"]
+            winner["salaryStatus"] = loser.get("salaryStatus", "listed")
+        if winner.get("directUrlStatus") != "verified_official" and loser.get("directUrlStatus") == "verified_official":
+            winner["directUrl"] = loser.get("directUrl", "")
+            winner["directUrlStatus"] = "verified_official"
+            winner["directSource"] = loser.get("directSource", "Official")
+        deduped[key] = winner
+    return list(deduped.values())
+
+
 def write_jobs_js(jobs):
     now = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
     payload = json.dumps(jobs, ensure_ascii=False, indent=2)
@@ -849,8 +908,8 @@ def write_jobs_js(jobs):
         "mode": "collector-run",
         "recommendedPollingMinutes": 180,
         "notes": [
-            "LinkedIn public search is rate-limited; avoid aggressive polling.",
-            "Official Careers collection uses conservative keyword link scanning.",
+            "LinkedIn public search is paginated but rate-limited; avoid aggressive polling.",
+            "Official Careers collection uses conservative keyword link scanning and may miss JavaScript-only ATS pages.",
             "求人ボックス is intentionally not used as a primary source.",
         ],
     }
@@ -866,8 +925,9 @@ def write_jobs_js(jobs):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--linkedin-queries", type=int, default=5)
-    parser.add_argument("--linkedin-detail-limit", type=int, default=24)
+    parser.add_argument("--linkedin-queries", type=int, default=12)
+    parser.add_argument("--linkedin-pages", type=int, default=2)
+    parser.add_argument("--linkedin-detail-limit", type=int, default=48)
     parser.add_argument("--official-companies", type=int, default=0)
     parser.add_argument("--no-linkedin", action="store_true")
     parser.add_argument("--no-official", action="store_true")
@@ -876,7 +936,7 @@ def main():
 
     new_jobs = []
     if not args.no_linkedin:
-        linkedin_jobs = collect_linkedin(args.linkedin_queries)
+        linkedin_jobs = collect_linkedin(args.linkedin_queries, args.linkedin_pages)
         new_jobs.extend(enrich_linkedin_details(linkedin_jobs, args.linkedin_detail_limit))
     if not args.no_official:
         new_jobs.extend(collect_official(args.official_companies))
@@ -899,9 +959,10 @@ def main():
         return
 
     merged = filtered if args.replace else merge_existing(filtered)
+    merged = dedupe_jobs(merged)
     merged.sort(key=lambda item: (item.get("score", 0), item.get("postedDate", "")), reverse=True)
-    write_jobs_js(merged[:80])
-    print(f"Wrote {len(merged[:80])} jobs to {JOBS_JS}")
+    write_jobs_js(merged[:160])
+    print(f"Wrote {len(merged[:160])} jobs to {JOBS_JS}")
 
 
 if __name__ == "__main__":

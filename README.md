@@ -6,7 +6,8 @@ This is a local-first MVP for a Japan-focused job radar based on the user's resu
 
 - Prioritizes Salesforce, CRM, PM/PL, presales, implementation consultant, and customer success roles.
 - Excludes engineer/developer/admin-first job titles by default, including Japanese title variants such as `エンジニア`, `開発リーダー`, `アドミン`, `管理者`, and `社内SE`.
-- Uses LinkedIn as the first discovery source.
+- Uses paginated LinkedIn public search as the first discovery source.
+- Also runs conservative official Careers scanning for the 100-company watchlist.
 - Tracks a curated official Careers watchlist for 100 target companies.
 - Filters for companies with an expected employee scale of 1,000+.
 - Shows a `공고` button only when a verified official job URL is available; otherwise the primary action opens LinkedIn.
@@ -39,11 +40,11 @@ Company Scale:
 
 True real-time updates are not necessary for job postings and are more likely to trigger rate limits. The intended model is:
 
-- LinkedIn discovery: every 3-6 hours.
-- Official Careers watchlist: every 6-12 hours.
+- LinkedIn discovery: every 3 hours, with multiple queries and pages.
+- Official Careers watchlist: every 3 hours for the highest-priority companies, using conservative keyword link scanning.
 - Immediate notification only when a new high-fit posting appears or a recommended posting disappears.
 
-The generic official-page scanner is conservative and disabled by default because many official Careers sites mix job pages with product, event, and help content. Promote official postings into the main feed after adding a company-specific ATS adapter or validating the page pattern.
+The generic official-page scanner is conservative because many official Careers sites mix job pages with product, event, and help content. Promote official postings into the main feed only when the link text and target-company keywords look like a job page.
 
 ## Files
 
@@ -65,7 +66,7 @@ See `DEPLOY.md`. The recommended path is GitHub Pages with the included GitHub A
 Refresh LinkedIn data, including salary extraction from the top detail pages:
 
 ```powershell
-python .\scripts\collect_jobs.py --replace --linkedin-queries 5 --linkedin-detail-limit 24 --no-official
+python .\scripts\collect_jobs.py --replace --linkedin-queries 16 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
 ```
 
 Try official scanning for the first few target companies:

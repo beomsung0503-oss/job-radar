@@ -17,13 +17,13 @@ This gives you:
 5. Open `Actions -> Deploy Job Radar -> Run workflow`.
 6. After the workflow finishes, open the Pages URL shown in the deployment summary.
 
-The workflow refreshes LinkedIn job data with:
+The workflow refreshes LinkedIn plus conservative official Careers data with:
 
 ```bash
-python scripts/collect_jobs.py --replace --linkedin-queries 5 --linkedin-detail-limit 24 --no-official
+python scripts/collect_jobs.py --replace --linkedin-queries 16 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
 ```
 
-Official Careers are kept as a watchlist until company-specific ATS adapters are added. This avoids mixing product/event/help pages into the actual job feed.
+Official Careers scanning is intentionally conservative. It promotes links only when the link text and target-company keywords look like a job page, so it may miss JavaScript-only ATS pages.
 
 ## Vercel or Netlify
 

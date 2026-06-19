@@ -32,8 +32,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh LinkedIn jobs
-        run: python scripts/collect_jobs.py --replace --linkedin-queries 5 --linkedin-detail-limit 24 --no-official
+      - name: Refresh job data
+        run: python scripts/collect_jobs.py --replace --linkedin-queries 16 --linkedin-pages 3 --linkedin-detail-limit 64 --official-companies 30
         continue-on-error: true
 
       - name: Configure Pages
