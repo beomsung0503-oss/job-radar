@@ -272,6 +272,12 @@ output {
   color: #3843a5;
 }
 
+.badge.new {
+  background: #e6f4ff;
+  color: #075985;
+  font-weight: 700;
+}
+
 .reason-list,
 .risk-list {
   margin: 10px 0 0;

@@ -15,6 +15,16 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 JOBS_JS = DATA_DIR / "jobs.js"
 
+COLLECTION_STATS = {
+    "linkedinSearchRequests": 0,
+    "linkedinSearchSucceeded": 0,
+    "linkedinSearchFailed": 0,
+    "linkedinDetailRequests": 0,
+    "linkedinDetailFailed": 0,
+    "officialRequests": 0,
+    "officialFailed": 0,
+}
+
 LINKEDIN_QUERIES = [
     "Salesforce Consultant",
     "Salesforce コンサルタント",
@@ -50,6 +60,14 @@ MEGAVENTURE_ROLE_QUERIES = [
     "Implementation Consultant",
     "Project Manager",
 ]
+
+
+def rotated_slice(items, count, rotation_slot):
+    if not items or count <= 0:
+        return []
+    count = min(count, len(items))
+    start = (rotation_slot * count) % len(items)
+    return [items[(start + index) % len(items)] for index in range(count)]
 
 def load_target_companies():
     target_file = DATA_DIR / "target_companies.js"
@@ -794,9 +812,11 @@ def enrich_linkedin_details(jobs, detail_limit):
         if not raw_id.isdigit():
             continue
         detail_url = f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{raw_id}"
+        COLLECTION_STATS["linkedinDetailRequests"] += 1
         try:
             detail = parse_linkedin_detail(fetch(detail_url))
         except Exception as exc:
+            COLLECTION_STATS["linkedinDetailFailed"] += 1
             job["risks"].append(f"상세 파싱 실패: {exc}")
             time.sleep(1.5)
             continue
@@ -830,29 +850,33 @@ def make_linkedin_search_url(query, start):
 def fetch_linkedin_query(query, max_pages, rows, careers_map):
     for page in range(max_pages):
         url = make_linkedin_search_url(query, page * 25)
+        COLLECTION_STATS["linkedinSearchRequests"] += 1
         try:
             cards = parse_linkedin_cards(fetch(url))
+            COLLECTION_STATS["linkedinSearchSucceeded"] += 1
             if not cards:
                 break
             for row in cards:
                 row = add_direct_destination(row, careers_map)
                 rows.setdefault(row["id"], row)
         except Exception as exc:
+            COLLECTION_STATS["linkedinSearchFailed"] += 1
             print(f"[warn] LinkedIn query failed: {query} page {page + 1}: {exc}", file=sys.stderr)
             break
         time.sleep(1.0)
 
 
-def collect_linkedin(max_queries, max_pages, megaventure_companies=0):
+def collect_linkedin(max_queries, max_pages, megaventure_companies=0, rotation_slot=0):
     rows = {}
     careers_map = load_company_careers_map()
-    for query in LINKEDIN_QUERIES[:max_queries]:
+    for query in rotated_slice(LINKEDIN_QUERIES, max_queries, rotation_slot):
         fetch_linkedin_query(query, max_pages, rows, careers_map)
     mega_targets = [target for target in careers_map if is_megaventure_target(target)]
-    for target in mega_targets[:megaventure_companies]:
+    selected_targets = rotated_slice(mega_targets, megaventure_companies, rotation_slot)
+    for index, target in enumerate(selected_targets):
         company = target["name"]
-        for role_query in MEGAVENTURE_ROLE_QUERIES[:2]:
-            fetch_linkedin_query(f"{company} {role_query}", 1, rows, careers_map)
+        role_query = MEGAVENTURE_ROLE_QUERIES[(rotation_slot + index) % len(MEGAVENTURE_ROLE_QUERIES)]
+        fetch_linkedin_query(f"{company} {role_query}", 1, rows, careers_map)
     return list(rows.values())
 
 
@@ -862,16 +886,18 @@ def absolute_url(base, href):
     return urllib.parse.urljoin(base, href)
 
 
-def collect_official(max_companies):
+def collect_official(max_companies, rotation_slot=0):
     rows = []
     target_companies = load_target_companies()
-    for target in target_companies[:max_companies]:
+    for target in rotated_slice(target_companies, max_companies, rotation_slot):
         company = target["name"]
         url = target["url"]
         terms = target["terms"]
+        COLLECTION_STATS["officialRequests"] += 1
         try:
             page = fetch(url, timeout=6)
         except Exception as exc:
+            COLLECTION_STATS["officialFailed"] += 1
             print(f"[warn] Official page failed: {company}: {exc}", file=sys.stderr)
             continue
 
@@ -954,7 +980,7 @@ def classify(job):
     return "backup"
 
 
-def merge_existing(new_jobs):
+def load_existing_jobs():
     existing = []
     if JOBS_JS.exists():
         text = JOBS_JS.read_text(encoding="utf-8")
@@ -971,10 +997,44 @@ def merge_existing(new_jobs):
             except json.JSONDecodeError:
                 existing = []
 
+    return existing
+
+
+def merge_existing(new_jobs, existing=None):
+    if existing is None:
+        existing = load_existing_jobs()
+
     merged = {job["url"]: job for job in existing}
     for job in new_jobs:
         merged[job["url"]] = job
     return list(merged.values())
+
+
+def parse_seen_date(value):
+    if not value:
+        return None
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00")).date()
+    except ValueError:
+        try:
+            return dt.date.fromisoformat(value[:10])
+        except ValueError:
+            return None
+
+
+def prune_stale_jobs(jobs, max_age_days):
+    if max_age_days <= 0:
+        return jobs
+    cutoff = dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=max_age_days)
+    kept = []
+    for job in jobs:
+        if job.get("source") == "Official" and not job.get("postedDate"):
+            kept.append(job)
+            continue
+        seen_date = parse_seen_date(job.get("lastSeenAt")) or parse_seen_date(job.get("postedDate"))
+        if seen_date is None or seen_date >= cutoff:
+            kept.append(job)
+    return kept
 
 
 def normalize_job_key(value):
@@ -1015,17 +1075,24 @@ def dedupe_jobs(jobs):
             winner["directUrl"] = loser.get("directUrl", "")
             winner["directUrlStatus"] = "verified_official"
             winner["directSource"] = loser.get("directSource", "Official")
+        first_seen = [value for value in [winner.get("firstSeenAt"), loser.get("firstSeenAt")] if value]
+        last_seen = [value for value in [winner.get("lastSeenAt"), loser.get("lastSeenAt")] if value]
+        if first_seen:
+            winner["firstSeenAt"] = min(first_seen)
+        if last_seen:
+            winner["lastSeenAt"] = max(last_seen)
         deduped[key] = winner
     return list(deduped.values())
 
 
-def write_jobs_js(jobs):
+def write_jobs_js(jobs, collection_summary=None):
     now = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
     payload = json.dumps(jobs, ensure_ascii=False, indent=2)
     run = {
         "generatedAt": now,
         "mode": "collector-run",
-        "recommendedPollingMinutes": 180,
+        "recommendedPollingMinutes": 360,
+        "collection": collection_summary or {},
         "notes": [
             "LinkedIn public search is paginated but rate-limited; avoid aggressive polling.",
             "Official Careers collection uses conservative keyword link scanning and may miss JavaScript-only ATS pages.",
@@ -1049,10 +1116,20 @@ def main():
     parser.add_argument("--linkedin-megaventure-companies", type=int, default=30)
     parser.add_argument("--linkedin-detail-limit", type=int, default=48)
     parser.add_argument("--official-companies", type=int, default=0)
+    parser.add_argument("--rotation-slot", type=int, default=-1)
+    parser.add_argument("--max-age-days", type=int, default=45)
     parser.add_argument("--no-linkedin", action="store_true")
     parser.add_argument("--no-official", action="store_true")
     parser.add_argument("--replace", action="store_true")
     args = parser.parse_args()
+
+    rotation_slot = args.rotation_slot
+    if rotation_slot < 0:
+        rotation_slot = int(dt.datetime.now(dt.timezone.utc).timestamp() // (6 * 60 * 60))
+
+    existing_jobs = load_existing_jobs()
+    existing_by_url = {job.get("url"): job for job in existing_jobs if job.get("url")}
+    collected_at = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
 
     new_jobs = []
     if not args.no_linkedin:
@@ -1060,10 +1137,11 @@ def main():
             args.linkedin_queries,
             args.linkedin_pages,
             args.linkedin_megaventure_companies,
+            rotation_slot,
         )
         new_jobs.extend(enrich_linkedin_details(linkedin_jobs, args.linkedin_detail_limit))
     if not args.no_official:
-        new_jobs.extend(collect_official(args.official_companies))
+        new_jobs.extend(collect_official(args.official_companies, rotation_slot))
 
     filtered = []
     for job in new_jobs:
@@ -1076,17 +1154,35 @@ def main():
         job["fit"] = classify(job)
         job["reasons"] = list(dict.fromkeys((job.get("reasons") or []) + positives))
         job["risks"] = list(dict.fromkeys((job.get("risks") or []) + scoring_risks))
+        previous = existing_by_url.get(job.get("url"), {})
+        previous_posted = previous.get("postedDate")
+        job["firstSeenAt"] = (
+            previous.get("firstSeenAt")
+            or (f"{previous_posted}T00:00:00+09:00" if previous_posted else "")
+            or collected_at
+        )
+        job["lastSeenAt"] = collected_at
         filtered.append(job)
 
-    if not filtered and JOBS_JS.exists():
-        print("No new jobs collected; keeping existing dashboard data.")
-        return
+    if not filtered:
+        raise SystemExit("No jobs collected; keeping the previous deployment.")
 
-    merged = filtered if args.replace else merge_existing(filtered)
+    new_count = sum(1 for job in filtered if job.get("url") not in existing_by_url)
+    merged = filtered if args.replace else merge_existing(filtered, existing_jobs)
     merged = dedupe_jobs(merged)
+    merged = prune_stale_jobs(merged, args.max_age_days)
     merged.sort(key=lambda item: (item.get("score", 0), item.get("postedDate", "")), reverse=True)
-    write_jobs_js(merged[:160])
+    collection_summary = {
+        **COLLECTION_STATS,
+        "rotationSlot": rotation_slot,
+        "collectedThisRun": len(filtered),
+        "newJobs": new_count,
+        "retainedJobs": max(0, len(merged) - new_count),
+        "totalJobs": len(merged[:160]),
+    }
+    write_jobs_js(merged[:160], collection_summary)
     print(f"Wrote {len(merged[:160])} jobs to {JOBS_JS}")
+    print("Collection summary: " + json.dumps(collection_summary, ensure_ascii=False))
 
 
 if __name__ == "__main__":

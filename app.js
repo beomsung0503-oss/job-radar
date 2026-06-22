@@ -8,6 +8,7 @@ const els = {
   currentSalary: document.querySelector("#profile-current-salary"),
   targetRoles: document.querySelector("#profile-target-roles"),
   lastUpdated: document.querySelector("#last-updated"),
+  collectionSummary: document.querySelector("#collection-summary"),
   pollingLabel: document.querySelector("#polling-label"),
   search: document.querySelector("#search-input"),
   fit: document.querySelector("#fit-filter"),
@@ -162,6 +163,13 @@ function badgeClass(fit) {
   return "badge";
 }
 
+function isNewJob(job) {
+  if (!job.firstSeenAt) return false;
+  const firstSeen = new Date(job.firstSeenAt);
+  if (Number.isNaN(firstSeen.getTime())) return false;
+  return Date.now() - firstSeen.getTime() <= 7 * 24 * 60 * 60 * 1000;
+}
+
 function renderJobs() {
   const visible = jobs
     .filter(isVisible)
@@ -189,6 +197,7 @@ function renderJobs() {
           <div class="score">${job.score}</div>
         </div>
         <div class="badge-row">
+          ${isNewJob(job) ? `<span class="badge new">최근 7일 신규</span>` : ""}
           <span class="${badgeClass(job.fit)}">${fitLabel(job.fit)}</span>
           <span class="badge">${job.source}</span>
           <span class="badge">${sourceLabel(job)}</span>
@@ -242,7 +251,12 @@ function renderProfile() {
   els.currentSalary.textContent = `${profile.currentSalaryJpyMan}만 엔`;
   els.targetRoles.textContent = profile.targetRoles.slice(0, 4).join(" · ");
   els.lastUpdated.textContent = `마지막 수집 ${formatDate(run.generatedAt)}`;
-  els.pollingLabel.textContent = `${run.recommendedPollingMinutes || 180}분 폴링`;
+  const collection = run.collection || {};
+  const failures = Number(collection.linkedinSearchFailed || 0)
+    + Number(collection.linkedinDetailFailed || 0)
+    + Number(collection.officialFailed || 0);
+  els.collectionSummary.textContent = `이번 회차 신규 ${collection.newJobs ?? "-"} · 수집 오류 ${failures}`;
+  els.pollingLabel.textContent = `${Math.round((run.recommendedPollingMinutes || 360) / 60)}시간 순환`;
 }
 
 function bindFilters() {

@@ -3,7 +3,7 @@ name: Deploy Job Radar
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "17 0,6,12,18 * * *"
   push:
     branches:
       - main
@@ -32,9 +32,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Restore the last deployed job pool
+        run: curl --fail --silent --show-error --location --retry 3 "https://beomsung0503-oss.github.io/job-radar/data/jobs.js?run=${GITHUB_RUN_ID}" --output data/jobs.js || true
+
       - name: Refresh job data
-        run: python scripts/collect_jobs.py --replace --linkedin-queries 26 --linkedin-pages 3 --linkedin-megaventure-companies 30 --linkedin-detail-limit 64 --official-companies 30
-        continue-on-error: true
+        run: python scripts/collect_jobs.py --linkedin-queries 8 --linkedin-pages 2 --linkedin-megaventure-companies 8 --linkedin-detail-limit 28 --official-companies 25 --max-age-days 45
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
