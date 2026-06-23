@@ -70,7 +70,7 @@ See `DEPLOY.md`. The recommended path is GitHub Pages with the included GitHub A
 Refresh LinkedIn data, including salary extraction from the top detail pages:
 
 ```powershell
-python .\scripts\collect_jobs.py --replace --linkedin-queries 26 --linkedin-pages 3 --linkedin-megaventure-companies 30 --linkedin-detail-limit 64 --official-companies 30
+python .\scripts\collect_jobs.py --linkedin-queries 8 --linkedin-pages 2 --linkedin-target-companies 12 --linkedin-detail-limit 28 --official-companies 25 --max-age-days 45
 ```
 
 Try official scanning for the first few target companies:

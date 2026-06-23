@@ -61,6 +61,29 @@ MEGAVENTURE_ROLE_QUERIES = [
     "Project Manager",
 ]
 
+COMPANY_DOMAIN_TERMS = [
+    "Salesforce",
+    "CRM",
+    "Agentforce",
+    "AI",
+    "生成AI",
+    "DX",
+]
+
+COMPANY_ROLE_TERMS = [
+    "Consultant",
+    "コンサル",
+    "Customer Success",
+    "カスタマーサクセス",
+    "Solution",
+    "Implementation",
+    "導入",
+    "Project Manager",
+    "PM",
+    "Presales",
+    "プリセールス",
+]
+
 
 def rotated_slice(items, count, rotation_slot):
     if not items or count <= 0:
@@ -68,6 +91,24 @@ def rotated_slice(items, count, rotation_slot):
     count = min(count, len(items))
     start = (rotation_slot * count) % len(items)
     return [items[(start + index) % len(items)] for index in range(count)]
+
+
+def company_search_terms(target, rotation_slot, index):
+    watch_terms = target.get("terms", [])
+    domains = [term for term in watch_terms if contains_any(term, COMPANY_DOMAIN_TERMS)]
+    roles = [term for term in watch_terms if contains_any(term, COMPANY_ROLE_TERMS)]
+    offset = rotation_slot + index
+    domain = domains[offset % len(domains)] if domains else ""
+    role = roles[offset % len(roles)] if roles else ""
+    if not role:
+        fallback_roles = MEGAVENTURE_ROLE_QUERIES if is_megaventure_target(target) else [
+            "Salesforce Consultant",
+            "CRM Consultant",
+            "Salesforce Project Manager",
+            "Customer Success",
+        ]
+        role = fallback_roles[offset % len(fallback_roles)]
+    return " ".join(dict.fromkeys(term for term in [domain, role] if term))
 
 def load_target_companies():
     target_file = DATA_DIR / "target_companies.js"
@@ -866,17 +907,16 @@ def fetch_linkedin_query(query, max_pages, rows, careers_map):
         time.sleep(1.0)
 
 
-def collect_linkedin(max_queries, max_pages, megaventure_companies=0, rotation_slot=0):
+def collect_linkedin(max_queries, max_pages, target_company_count=0, rotation_slot=0):
     rows = {}
     careers_map = load_company_careers_map()
     for query in rotated_slice(LINKEDIN_QUERIES, max_queries, rotation_slot):
         fetch_linkedin_query(query, max_pages, rows, careers_map)
-    mega_targets = [target for target in careers_map if is_megaventure_target(target)]
-    selected_targets = rotated_slice(mega_targets, megaventure_companies, rotation_slot)
+    selected_targets = rotated_slice(careers_map, target_company_count, rotation_slot)
     for index, target in enumerate(selected_targets):
         company = target["name"]
-        role_query = MEGAVENTURE_ROLE_QUERIES[(rotation_slot + index) % len(MEGAVENTURE_ROLE_QUERIES)]
-        fetch_linkedin_query(f"{company} {role_query}", 1, rows, careers_map)
+        search_terms = company_search_terms(target, rotation_slot, index)
+        fetch_linkedin_query(f"{company} {search_terms}", 1, rows, careers_map)
     return list(rows.values())
 
 
@@ -1113,7 +1153,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--linkedin-queries", type=int, default=12)
     parser.add_argument("--linkedin-pages", type=int, default=2)
-    parser.add_argument("--linkedin-megaventure-companies", type=int, default=30)
+    parser.add_argument("--linkedin-target-companies", type=int, default=12)
     parser.add_argument("--linkedin-detail-limit", type=int, default=48)
     parser.add_argument("--official-companies", type=int, default=0)
     parser.add_argument("--rotation-slot", type=int, default=-1)
@@ -1136,7 +1176,7 @@ def main():
         linkedin_jobs = collect_linkedin(
             args.linkedin_queries,
             args.linkedin_pages,
-            args.linkedin_megaventure_companies,
+            args.linkedin_target_companies,
             rotation_slot,
         )
         new_jobs.extend(enrich_linkedin_details(linkedin_jobs, args.linkedin_detail_limit))
@@ -1175,6 +1215,8 @@ def main():
     collection_summary = {
         **COLLECTION_STATS,
         "rotationSlot": rotation_slot,
+        "targetCompaniesScanned": min(args.linkedin_target_companies, len(load_target_companies())),
+        "targetCompanyPool": len(load_target_companies()),
         "collectedThisRun": len(filtered),
         "newJobs": new_count,
         "retainedJobs": max(0, len(merged) - new_count),
