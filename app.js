@@ -258,7 +258,10 @@ function renderProfile() {
   const companyScan = collection.targetCompanyPool
     ? ` · 회사 직접검색 ${collection.targetCompaniesScanned}/${collection.targetCompanyPool}`
     : "";
-  els.collectionSummary.textContent = `이번 회차 신규 ${collection.newJobs ?? "-"} · 수집 오류 ${failures}${companyScan}`;
+  const officialScan = collection.officialRequests
+    ? ` · 공식 ${collection.officialRequests}개 검사/${collection.officialJobsAccepted ?? 0}건 통과`
+    : "";
+  els.collectionSummary.textContent = `이번 회차 신규 ${collection.newJobs ?? "-"} · 수집 오류 ${failures}${companyScan}${officialScan}`;
   els.pollingLabel.textContent = `${Math.round((run.recommendedPollingMinutes || 360) / 60)}시간 순환`;
 }
 

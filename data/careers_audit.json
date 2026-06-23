@@ -1,0 +1,2596 @@
+[
+  {
+    "company": "Salesforce Japan",
+    "careersUrl": "https://careers.salesforce.com/",
+    "priority": "A",
+    "type": "crm-saas",
+    "status": "ok",
+    "finalUrl": "https://www.salesforce.com/company/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "PwC Japan",
+    "careersUrl": "https://www.pwc.com/jp/ja/careers.html",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.pwc.com/jp/ja/careers.html",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Accenture Japan",
+    "careersUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.accenture.com/jp-ja/careers/jobsearch",
+    "httpStatus": 200,
+    "providers": [
+      "workday"
+    ],
+    "externalAtsHosts": [
+      "accenture.wd103.myworkdayjobs.com"
+    ],
+    "providerLinks": [
+      "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/userHome"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Deloitte Japan",
+    "careersUrl": "https://www2.deloitte.com/jp/ja/careers.html",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.deloitte.com/jp/ja/careers.html",
+    "httpStatus": 200,
+    "providers": [
+      "jposting"
+    ],
+    "externalAtsHosts": [
+      "deloittejapan.jposting.net"
+    ],
+    "providerLinks": [
+      "https://deloittejapan.jposting.net",
+      "https://deloittejapan.jposting.net/"
+    ],
+    "error": ""
+  },
+  {
+    "company": "IBM Japan",
+    "careersUrl": "https://www.ibm.com/jp-ja/careers/search",
+    "priority": "A",
+    "type": "technology-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.ibm.com/jp-ja/careers/search",
+    "httpStatus": 200,
+    "providers": [
+      "avature"
+    ],
+    "externalAtsHosts": [
+      "ibmglobal.avature.net"
+    ],
+    "providerLinks": [
+      "https://ibmglobal.avature.net/ja_JP/globalform?source&#61;WEB_Search_APAC",
+      "https://ibmglobal.avature.net/ja_JP/careers/JobAlerts"
+    ],
+    "error": ""
+  },
+  {
+    "company": "NTT DATA",
+    "careersUrl": "https://www.nttdata.com/global/en/careers",
+    "priority": "A",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://careers.services.global.ntt/global/en",
+    "httpStatus": 200,
+    "providers": [
+      "workday",
+      "phenom"
+    ],
+    "externalAtsHosts": [
+      "cdn.phenompeople.com",
+      "assets.phenompeople.com",
+      "nttglobaldatacenters.wd501.myworkdayjobs.com"
+    ],
+    "providerLinks": [
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781270809227_globalstyles.css",
+      "https://cdn.phenompeople.com",
+      "https://assets.phenompeople.com",
+      "https://cdn.phenompeople.com/CareerConnectResources/NTT1GLOBAL/images/Sales_campaign11-1741774115192.jpg",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/favicon.ico",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/h/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/m/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/l/apple-touch-icon-precomposed.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/l/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/NTT1GLOBAL/en_global/desktop/assets/images/l/splash.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/NTT1GLOBAL/canvas/dstenantcss/main1740467371050.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477678823_ph-basic-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477691201_require-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477705359_vendor-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477715895_vendor-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675284377_ph-common-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675292520_ph-common-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477744200_ph-loader-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1781676129802.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1780297894913.css"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Nomura Research Institute",
+    "careersUrl": "https://career.nri.co.jp/",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://career.nri.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "jposting"
+    ],
+    "externalAtsHosts": [
+      "progres07.jposting.net"
+    ],
+    "providerLinks": [
+      "https://progres07.jposting.net/pgnri/u/job.phtml?_gl=1*3auu9p*_ga*MTQwODYxODM0MS4xNjk0MTM3MDQx*_ga_Y1L14CHPXL*MTcwMTkxMzkwNy4yNy4xLjE3MDE5MTM5MTguNDkuMC4w&_ga=2.123393611.1993126287.1701913908-1408618341.1694137041",
+      "https://progres07.jposting.net/pgnri/u/event.phtml?_gl=1*1bjvjnx*_ga*MTQwODYxODM0MS4xNjk0MTM3MDQx*_ga_Y1L14CHPXL*MTcwMTkxMzkwNy4yNy4xLjE3MDE5MTM5NjEuNi4wLjA.&_ga=2.123393611.1993126287.1701913908-1408618341.1694137041"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Infosys",
+    "careersUrl": "https://www.infosys.com/careers/apply.html",
+    "priority": "A",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://www.infosys.com/careers/apply.html",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "HCLTech",
+    "careersUrl": "https://www.hcltech.com/careers",
+    "priority": "A",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://careers.hcltech.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Tata Consultancy Services Japan",
+    "careersUrl": "https://www.tcs.com/careers",
+    "priority": "A",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://www.tcs.com/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "ServiceNow Japan",
+    "careersUrl": "https://careers.servicenow.com/",
+    "priority": "A",
+    "type": "workflow-saas",
+    "status": "ok",
+    "finalUrl": "https://careers.servicenow.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "TerraSky",
+    "careersUrl": "https://www.terrasky.co.jp/recruit/",
+    "priority": "A",
+    "type": "salesforce-partner",
+    "status": "ok",
+    "finalUrl": "https://www.terrasky.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "transcosmos",
+    "careersUrl": "https://www.trans-cosmos.co.jp/saiyou/career/",
+    "priority": "A",
+    "type": "bpo-cx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "BellSystem24",
+    "careersUrl": "https://www.bell24.co.jp/ja/recruit/",
+    "priority": "A",
+    "type": "bpo-cx",
+    "status": "ok",
+    "finalUrl": "https://www.bell24.co.jp/ja/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "GlobalLogic Japan",
+    "careersUrl": "https://www.globallogic.com/careers/",
+    "priority": "B",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://www.globallogic.com/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "DXC Technology Japan",
+    "careersUrl": "https://careers.dxc.com/",
+    "priority": "B",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://careers.dxc.com/",
+    "httpStatus": 200,
+    "providers": [
+      "workday"
+    ],
+    "externalAtsHosts": [
+      "dxctechnology.wd1.myworkdayjobs.com"
+    ],
+    "providerLinks": [
+      "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/login"
+    ],
+    "error": ""
+  },
+  {
+    "company": "EY Japan",
+    "careersUrl": "https://www.ey.com/ja_jp/careers",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.ey.com/ja_jp/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "KPMG Consulting Japan",
+    "careersUrl": "https://recruit.kpmg-consulting.jp/",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://recruit.kpmg-consulting.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Capgemini Japan",
+    "careersUrl": "https://www.capgemini.com/jp-jp/careers/",
+    "priority": "A",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.capgemini.com/jp-jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Cognizant Japan",
+    "careersUrl": "https://careers.cognizant.com/",
+    "priority": "A",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://careers.cognizant.com/apj-jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Wipro Japan",
+    "careersUrl": "https://careers.wipro.com/",
+    "priority": "B",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://careers.wipro.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Avanade Japan",
+    "careersUrl": "https://www.avanade.com/ja-jp/career",
+    "priority": "B",
+    "type": "microsoft-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.avanade.com/ja-jp/career",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Microsoft Japan",
+    "careersUrl": "https://careers.microsoft.com/",
+    "priority": "B",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://careers.microsoft.com/v2/global/en/home.html",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Oracle Japan",
+    "careersUrl": "https://www.oracle.com/careers/",
+    "priority": "B",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://www.oracle.com/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "SAP Japan",
+    "careersUrl": "https://jobs.sap.com/",
+    "priority": "B",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://jobs.sap.com/",
+    "httpStatus": 200,
+    "providers": [
+      "successfactors"
+    ],
+    "externalAtsHosts": [
+      "career5.successfactors.eu"
+    ],
+    "providerLinks": [
+      "https://jobs.sap.com/",
+      "https://jobs.sap.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css",
+      "https://jobs.sap.com/platform/css/j2w/min/bootstrapV3.global.responsive.min.css?h=17a7e153",
+      "https://jobs.sap.com/platform/csb/css/navbar-fixed-top.css",
+      "https://jobs.sap.com/platform/js/j2w/j2w.fallbacks.js",
+      "https://jobs.sap.com/platform/js/jquery/jquery-migrate-1.4.1.js",
+      "https://jobs.sap.com/platform/csb/css/customHeader.css?h=17a7e153",
+      "https://jobs.sap.com/platform/css/j2w/min/sitebuilderframework.min.css?h=17a7e153",
+      "https://jobs.sap.com/platform/css/j2w/min/BS3ColumnizedSearch.min.css?h=17a7e153",
+      "https://jobs.sap.com/platform/css/search/BS3ColumnizedSearchHideLabels.css?h=17a7e153",
+      "https://jobs.sap.com/platform/fontawesome4.7/css/font-awesome-4.7.0.min.css?h=17a7e153",
+      "https://jobs.sap.com/sites/csb/sap/72Brand/72BrandVariable_Th-Blk.woff2",
+      "https://jobs.sap.com/sites/csb/sap/jobs-ui/components/job-ui.css?v=m4k2znhxokq2gecp",
+      "https://jobs.sap.com/sites/csb/sap/jobs-ui/csb/global-head-keep.js?v=m4k2znhxokq2gecp",
+      "https://jobs.sap.com/sites/csb/sap/jobs-ui/components/job-ui.esm.js?v=m4k2znhxokq2gecp",
+      "https://jobs.sap.com/sites/csb/sap/jobs-ui/components/job-ui.js?v=m4k2znhxokq2gecp",
+      "https://jobs.sap.com/sites/csb/sap/jobs-ui/csb/global-head.css?v=m4k2znhxokq2gecp",
+      "https://jobs.sap.com/platform/csb/css/fullContent.css?h=17a7e153",
+      "https://jobs.sap.com/#content",
+      "https://jobs.sap.com/?locale=de_DE"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Adobe Japan",
+    "careersUrl": "https://careers.adobe.com/",
+    "priority": "B",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://careers.adobe.com/us/en",
+    "httpStatus": 200,
+    "providers": [
+      "phenom"
+    ],
+    "externalAtsHosts": [
+      "cdn.phenompeople.com",
+      "assets.phenompeople.com"
+    ],
+    "providerLinks": [
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781270809227_globalstyles.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/favicon.ico",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/h/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/m/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/l/apple-touch-icon-precomposed.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/l/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/en_us/desktop/assets/images/l/splash.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/ADOBUS/canvas/dstenantcss/main1750231788796.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477678823_ph-basic-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477691201_require-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477705359_vendor-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477715895_vendor-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675284377_ph-common-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675292520_ph-common-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477744200_ph-loader-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1781676129802.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1780297894913.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1773309022884_ph-tracking-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1773309038427_ph-app-config-5.0.js"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Fujitsu",
+    "careersUrl": "https://fujitsu.recruiting.jp.fujitsu.com/",
+    "priority": "A",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://fujitsu.recruiting.jp.fujitsu.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "NEC",
+    "careersUrl": "https://jpn.nec.com/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://jpn.nec.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Hitachi",
+    "careersUrl": "https://www.hitachi.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.hitachi.com/ja-jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "SCSK",
+    "careersUrl": "https://www.scsk.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.scsk.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "BIPROGY",
+    "careersUrl": "https://www.biprogy.com/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.biprogy.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/biprogy"
+    ],
+    "error": ""
+  },
+  {
+    "company": "JSOL",
+    "careersUrl": "https://www.jsol.co.jp/recruit/",
+    "priority": "A",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.jsol.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "ITOCHU Techno-Solutions",
+    "careersUrl": "https://www.ctc-g.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.ctc-g.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "TIS",
+    "careersUrl": "https://www.tis.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.tis.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "axol"
+    ],
+    "externalAtsHosts": [
+      "job.axol.jp"
+    ],
+    "providerLinks": [
+      "https://job.axol.jp/bx/s/tis_27/mypage/login"
+    ],
+    "error": ""
+  },
+  {
+    "company": "ABeam Consulting",
+    "careersUrl": "https://www.abeam.com/jp/ja/careers/",
+    "priority": "A",
+    "type": "consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "QUNIE",
+    "careersUrl": "https://www.qunie.com/recruit/",
+    "priority": "B",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.fortience.com/careers/new-graduate/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "BayCurrent Consulting",
+    "careersUrl": "https://www.baycurrent.co.jp/career/",
+    "priority": "B",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.baycurrent.co.jp/careers/career-path/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Ridgelinez",
+    "careersUrl": "https://www.ridgelinez.com/careers/",
+    "priority": "B",
+    "type": "consulting",
+    "status": "ok",
+    "finalUrl": "https://www.ridgelinez.com/recruit/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/ridgelinez/jobs",
+      "https://hrmos.co/pages/ridgelinez/jobs/Industry-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/Technology-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/CX-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/PX-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/MC-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/BS-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/RX-ALL-HP",
+      "https://hrmos.co/pages/ridgelinez/jobs/Corporate-ALL-HP"
+    ],
+    "error": ""
+  },
+  {
+    "company": "SHIFT",
+    "careersUrl": "https://recruit.shiftinc.jp/career/",
+    "priority": "B",
+    "type": "technology-consulting",
+    "status": "ok",
+    "finalUrl": "https://recruit.shiftinc.jp/career/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Simplex",
+    "careersUrl": "https://www.simplex.inc/careers/",
+    "priority": "C",
+    "type": "technology-consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Future",
+    "careersUrl": "https://www.future.co.jp/recruit/",
+    "priority": "C",
+    "type": "technology-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.future.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "talentio",
+      "axol"
+    ],
+    "externalAtsHosts": [
+      "job.axol.jp",
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://job.axol.jp/bx/s/future_27/mypage/login",
+      "https://open.talentio.com/1/c/future/requisitions/1974",
+      "https://open.talentio.com/r/1/c/future/homes/3520?group_ids=8622",
+      "https://open.talentio.com/1/c/future/requisitions/detail/18505"
+    ],
+    "error": ""
+  },
+  {
+    "company": "NS Solutions",
+    "careersUrl": "https://www.nssol.nipponsteel.com/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.nssol.nipponsteel.com/recruiting/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "DTS",
+    "careersUrl": "https://www.dts.co.jp/recruit/",
+    "priority": "C",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.dts.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "NTT Comware",
+    "careersUrl": "https://www.nttcom.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "NTT Communications",
+    "careersUrl": "https://www.ntt.com/about-us/careers.html",
+    "priority": "B",
+    "type": "telecom-dx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "NTT Docomo Business",
+    "careersUrl": "https://www.ntt.com/about-us/careers.html",
+    "priority": "B",
+    "type": "telecom-dx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "NTT TechnoCross",
+    "careersUrl": "https://www.ntt-tx.co.jp/recruit/",
+    "priority": "C",
+    "type": "si-consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Hitachi Solutions",
+    "careersUrl": "https://www.hitachi-solutions.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.hitachi-solutions.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Hitachi Systems",
+    "careersUrl": "https://www.hitachi-systems.com/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.hitachi-systems.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "NEC Solution Innovators",
+    "careersUrl": "https://www.nec-solutioninnovators.co.jp/recruit/",
+    "priority": "B",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.nec-solutioninnovators.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/nes/jobs/000001OS_NES250312",
+      "https://hrmos.co/pages/nes/jobs/000001OS_NES250219",
+      "https://hrmos.co/pages/nes/jobs/000001OS_NES1113"
+    ],
+    "error": ""
+  },
+  {
+    "company": "NEC Networks & System Integration",
+    "careersUrl": "https://www.nesic.co.jp/recruit/",
+    "priority": "C",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.nesic.co.jp/recruit/index.html",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Canon IT Solutions",
+    "careersUrl": "https://www.canon-its.co.jp/recruit/",
+    "priority": "C",
+    "type": "si-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.canon-its.co.jp/corporate/recruit",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Toshiba Digital Solutions",
+    "careersUrl": "https://www.global.toshiba/jp/recruit/career.html",
+    "priority": "C",
+    "type": "si-consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Panasonic Connect",
+    "careersUrl": "https://connect.panasonic.com/jp-ja/recruit/career",
+    "priority": "C",
+    "type": "technology",
+    "status": "ok",
+    "finalUrl": "https://connect.panasonic.com/jp-ja/recruit/career/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/panasonic/jobs/Z_PCO"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Mitsubishi Electric",
+    "careersUrl": "https://www.mitsubishielectric.co.jp/saiyo/career/",
+    "priority": "C",
+    "type": "technology",
+    "status": "ok",
+    "finalUrl": "https://www.mitsubishielectric.co.jp/saiyo/career/",
+    "httpStatus": 200,
+    "providers": [
+      "jposting"
+    ],
+    "externalAtsHosts": [
+      "progres02.jposting.net"
+    ],
+    "providerLinks": [
+      "https://progres02.jposting.net/pgmitsubishielectric/u/job.phtml?randd_code=5",
+      "https://progres02.jposting.net/pgmitsubishielectric/u/job.phtml"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Ricoh",
+    "careersUrl": "https://jp.ricoh.com/jobs",
+    "priority": "C",
+    "type": "technology",
+    "status": "ok",
+    "finalUrl": "https://jp.ricoh.com/jobs",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Dentsu Digital",
+    "careersUrl": "https://www.dentsudigital.co.jp/careers",
+    "priority": "B",
+    "type": "digital-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.dentsudigital.co.jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Hakuhodo DY ONE",
+    "careersUrl": "https://www.hakuhodody-one.co.jp/recruit/",
+    "priority": "C",
+    "type": "digital-consulting",
+    "status": "ok",
+    "finalUrl": "https://www.hakuhodody-one.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/hakuhodody-one"
+    ],
+    "error": ""
+  },
+  {
+    "company": "CyberAgent",
+    "careersUrl": "https://www.cyberagent.co.jp/careers/",
+    "priority": "C",
+    "type": "internet",
+    "status": "ok",
+    "finalUrl": "https://www.cyberagent.co.jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/cyberagent-group",
+      "https://hrmos.co/pages/ca-adv-group"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Rakuten",
+    "careersUrl": "https://corp.rakuten.co.jp/careers/",
+    "priority": "B",
+    "type": "internet",
+    "status": "ok",
+    "finalUrl": "https://corp.rakuten.co.jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "workday"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "SoftBank",
+    "careersUrl": "https://www.softbank.jp/corp/recruit/career/",
+    "priority": "B",
+    "type": "telecom-dx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "KDDI",
+    "careersUrl": "https://career.kddi.com/",
+    "priority": "B",
+    "type": "telecom-dx",
+    "status": "ok",
+    "finalUrl": "https://career.kddi.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "LY Corporation",
+    "careersUrl": "https://www.lycorp.co.jp/ja/recruit/career/",
+    "priority": "B",
+    "type": "internet",
+    "status": "ok",
+    "finalUrl": "https://www.lycorp.co.jp/ja/recruit/career/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Recruit",
+    "careersUrl": "https://www.recruit.co.jp/employment/",
+    "priority": "B",
+    "type": "internet-hr",
+    "status": "ok",
+    "finalUrl": "https://www.recruit.co.jp/employment/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "PERSOL Business Process Design",
+    "careersUrl": "https://www.persol-bd.co.jp/recruit/",
+    "priority": "B",
+    "type": "business-process-consulting",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "PERSOL Cross Technology",
+    "careersUrl": "https://persol-xtech.co.jp/recruit/",
+    "priority": "B",
+    "type": "technology-consulting",
+    "status": "ok",
+    "finalUrl": "https://persol-xtech.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Altius Link",
+    "careersUrl": "https://www.altius-link.com/recruit/",
+    "priority": "C",
+    "type": "bpo-cx",
+    "status": "ok",
+    "finalUrl": "https://www.altius-link.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "TMJ",
+    "careersUrl": "https://www.tmj.jp/recruit/",
+    "priority": "C",
+    "type": "bpo-cx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Relia",
+    "careersUrl": "https://www.relia-group.com/recruit/",
+    "priority": "C",
+    "type": "bpo-cx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "company": "Prestige International",
+    "careersUrl": "https://www.prestigein.com/recruit/",
+    "priority": "C",
+    "type": "bpo-cx",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Page Not Found"
+  },
+  {
+    "company": "Amazon Japan",
+    "careersUrl": "https://www.amazon.jobs/ja/",
+    "priority": "B",
+    "type": "cloud-commerce",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Google Japan",
+    "careersUrl": "https://www.google.com/about/careers/applications/jobs/results/",
+    "priority": "C",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://www.google.com/about/careers/applications/jobs/results/",
+    "httpStatus": 200,
+    "providers": [
+      "google"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://www.google.com/about/careers/applications/jobs/results/",
+      "https://www.google.com/about/careers/applications/",
+      "https://www.google.com/about/careers/applications/jobs/results",
+      "https://accounts.google.com/ServiceLogin?passive=1209600&amp;continue=https://www.google.com/about/careers/applications/jobs/results/&amp;followup=https://www.google.com/about/careers/applications/jobs/results/&amp;ec=GAZA6QE",
+      "https://www.google.com/about/careers/applications/eeo/",
+      "https://www.google.com/about/careers/applications/jobs/results/privacy-policy",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/73103654852141766-google-cloud",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/98979282226684614-google",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/115779418420323014-crossgoogle",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/87898923733000902-aigoogle-cloud",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/129471552969155270-google-cloud",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/88490793949373126-google",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/103085848634761926-sbs-scaledgoogle",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/133370081898832582",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/93522537115198150-accelerated-growthgoogle",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/115483100036637382-mandiant",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/82656735860269766-aigoogle-cloud",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/95310282657538758-greach",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/79471583818588870",
+      "https://www.google.com/about/careers/applications/jobs/results/jobs/results/92604627442115270"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Cisco Japan",
+    "careersUrl": "https://jobs.cisco.com/",
+    "priority": "C",
+    "type": "vendor",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  },
+  {
+    "company": "Dell Technologies Japan",
+    "careersUrl": "https://jobs.dell.com/",
+    "priority": "C",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers",
+    "httpStatus": 200,
+    "providers": [
+      "oracle"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandExpStatic/css/ce-custom.css?themeNumber=1003&lang=ja&themeVersion=1&brandVersion=25&brandTlVersion=16&siteNumber=CX_1001",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandExpStatic/js/ce-custom.js?themeNumber=1003&themeVersion=1&brandVersion=25",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers/join-talent-community",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers/my-profile/sign-in",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers/pages/equal-employment-opportunity-policy-statement",
+      "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/ja/sites/careers/pages/email-scam-directed-to-potential-candidates"
+    ],
+    "error": ""
+  },
+  {
+    "company": "HP Japan",
+    "careersUrl": "https://jobs.hp.com/",
+    "priority": "C",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://jobs.hp.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Lenovo Japan",
+    "careersUrl": "https://jobs.lenovo.com/",
+    "priority": "C",
+    "type": "vendor",
+    "status": "ok",
+    "finalUrl": "https://jobs.lenovo.com/en_US/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Workday Japan",
+    "careersUrl": "https://workday.wd5.myworkdayjobs.com/Workday",
+    "priority": "C",
+    "type": "enterprise-saas",
+    "status": "ok",
+    "finalUrl": "https://workday.wd5.myworkdayjobs.com/Workday",
+    "httpStatus": 200,
+    "providers": [
+      "workday"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://workday.wd5.myworkdayjobs.com/Workday"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Box Japan",
+    "careersUrl": "https://www.box.com/careers",
+    "priority": "C",
+    "type": "enterprise-saas",
+    "status": "ok",
+    "finalUrl": "https://careers.box.com/ja/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Zendesk Japan",
+    "careersUrl": "https://jobs.zendesk.com/",
+    "priority": "C",
+    "type": "cx-saas",
+    "status": "ok",
+    "finalUrl": "https://www.zendesk.co.jp/company/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "workday"
+    ],
+    "externalAtsHosts": [
+      "zendesk.wd1.myworkdayjobs.com"
+    ],
+    "providerLinks": [
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk",
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?jobFamilyGroup=e6d626275d3101267029eaf81701cf5a&amp;jobFamilyGroup=5c7e2781e58b0192bc8d6a0047618e63&amp;jobFamilyGroup=1815d3ad6904104bcf0cc7e2e7bb6a41",
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?jobFamilyGroup=1815d3ad6904104bcf0ccab4cf7a6a43&amp;jobFamilyGroup=1815d3ad6904104bcf0cc573687a6a3f&amp;jobFamilyGroup=abec733f3be101c000cd32241801cd5d&amp;jobFamilyGroup=5c7e2781e58b01ba2956560047618763&amp;jobFamilyGroup=abec733f3be101956d6364091801c35d&amp;jobFamilyGroup=5c7e2781e58b012bcadb650047618c63",
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?jobFamilyGroup=5c7e2781e58b013cfae0600047618a63&amp;jobFamilyGroup=d7ba3b8781a601c78cbc1833cb000044&amp;jobFamilyGroup=4d1fab4820d201f14f55cdf60e8c2c33",
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?workerSubType=1815d3ad6904104ae6ca3529c973d404",
+      "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/introduceYourself"
+    ],
+    "error": ""
+  },
+  {
+    "company": "HubSpot Japan",
+    "careersUrl": "https://www.hubspot.com/careers",
+    "priority": "C",
+    "type": "crm-saas",
+    "status": "ok",
+    "finalUrl": "https://www.hubspot.com/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Atlassian Japan",
+    "careersUrl": "https://www.atlassian.com/company/careers",
+    "priority": "C",
+    "type": "enterprise-saas",
+    "status": "ok",
+    "finalUrl": "https://www.atlassian.com/company/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Okta Japan",
+    "careersUrl": "https://www.okta.com/company/careers/",
+    "priority": "C",
+    "type": "identity-saas",
+    "status": "ok",
+    "finalUrl": "https://www.okta.com/company/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Snowflake Japan",
+    "careersUrl": "https://careers.snowflake.com/",
+    "priority": "C",
+    "type": "data-saas",
+    "status": "ok",
+    "finalUrl": "https://careers.snowflake.com/us/en",
+    "httpStatus": 200,
+    "providers": [
+      "phenom"
+    ],
+    "externalAtsHosts": [
+      "cdn.phenompeople.com",
+      "assets.phenompeople.com"
+    ],
+    "providerLinks": [
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781270809227_globalstyles.css",
+      "https://cdn.phenompeople.com",
+      "https://assets.phenompeople.com",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/favicon.ico",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/h/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/m/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/l/apple-touch-icon-precomposed.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/l/apple-touch-icon.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/pp/SNCOUS/en_us/desktop/assets/images/l/splash.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/SNCOUS/canvas/dstenantcss/main1780986799000.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477678823_ph-basic-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477691201_require-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477705359_vendor-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477715895_vendor-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675284377_ph-common-bundle-part1-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1781675292520_ph-common-bundle-part2-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/globalplatform/1766477744200_ph-loader-5.0.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1781676129802.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1780297894913.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Databricks Japan",
+    "careersUrl": "https://www.databricks.com/company/careers",
+    "priority": "C",
+    "type": "data-saas",
+    "status": "ok",
+    "finalUrl": "https://www.databricks.com/company/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Datadog Japan",
+    "careersUrl": "https://careers.datadoghq.com/",
+    "priority": "C",
+    "type": "observability-saas",
+    "status": "ok",
+    "finalUrl": "https://careers.datadoghq.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "MongoDB Japan",
+    "careersUrl": "https://www.mongodb.com/company/careers",
+    "priority": "C",
+    "type": "data-saas",
+    "status": "ok",
+    "finalUrl": "https://www.mongodb.com/company/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "UiPath Japan",
+    "careersUrl": "https://www.uipath.com/company/careers",
+    "priority": "C",
+    "type": "automation-saas",
+    "status": "ok",
+    "finalUrl": "https://www.uipath.com/careers",
+    "httpStatus": 200,
+    "providers": [
+      "ashby"
+    ],
+    "externalAtsHosts": [
+      "jobs.ashbyhq.com"
+    ],
+    "providerLinks": [
+      "https://jobs.ashbyhq.com/uipath/form/uipath-talent-community"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Quest Global Japan",
+    "careersUrl": "https://www.quest-global.com/careers/",
+    "priority": "C",
+    "type": "global-si",
+    "status": "ok",
+    "finalUrl": "https://careers.quest-global.com/global/en",
+    "httpStatus": 200,
+    "providers": [
+      "phenom"
+    ],
+    "externalAtsHosts": [
+      "cdn.phenompeople.com"
+    ],
+    "providerLinks": [
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/splash.png?v=1715776988704",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/apple-touch-icon.png?v=1715776990112",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/apple-touch-icon-precomposed.png?v=1715776989109",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/120x120-apple-touch-icon.png?v=1715776989443",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/152x152-apple-touch-icon.png?v=1715776988348",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/167x167-apple-touch-icon.png?v=1715776989853",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/desktop/assets/images/180x180-apple-touch-icon.png?v=1715776990374",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/en_global/external/desktop/assets/images/favicon.ico?v=1744785073500",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/default/common/fontfaces/fontface-1706878667695.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1781676129802.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1779376257811.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/common/fontfaces/fontface-1713345029986.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/css/template-theme-1698129135931.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/assets/css/default/canvas-site-custom-styles-1781081744395.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/default/common/canvas-global-branding1710415393536.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/canvas/common/canvas-global-branding1776851179943.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/images/Header-1707137167631.svg",
+      "https://cdn.phenompeople.com/CareerConnectResources/QGRQGAGLOBAL/images/CareersWeb_banner-final-1769518885524.jpg",
+      "https://cdn.phenompeople.com/CareerConnectResources/canvas/common/widgets/images/1698911188440_location-1.jpg"
+    ],
+    "error": ""
+  },
+  {
+    "company": "SAS Institute Japan",
+    "careersUrl": "https://www.sas.com/ja_jp/careers.html",
+    "priority": "C",
+    "type": "analytics-saas",
+    "status": "ok",
+    "finalUrl": "https://www.sas.com/ja_jp/careers.html",
+    "httpStatus": 200,
+    "providers": [
+      "icims"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://globalcareers-sas.icims.com/jobs/intro",
+      "https://japan-sas.icims.com/jobs/intro?hashed=-435680032"
+    ],
+    "error": ""
+  },
+  {
+    "company": "OpenText Japan",
+    "careersUrl": "https://careers.opentext.com/",
+    "priority": "C",
+    "type": "enterprise-software",
+    "status": "ok",
+    "finalUrl": "https://careers.opentext.com/us/en",
+    "httpStatus": 200,
+    "providers": [
+      "phenom"
+    ],
+    "externalAtsHosts": [
+      "cdn.phenompeople.com"
+    ],
+    "providerLinks": [
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/favicon.ico",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/180x180-apple-touch-icon.png?v=1715334535119",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/167x167-apple-touch-icon.png?v=1715334534549",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/152x152-apple-touch-icon.png?v=1715334533439",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/120x120-apple-touch-icon.png?v=1715334534298",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/apple-touch-icon-precomposed.png?v=1715334534022",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/apple-touch-icon.png?v=1715334534831",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/en_us/desktop/assets/images/splash.png?v=1715334533731",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/fontfaces/fontface-1715062590172.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1781676129802.js",
+      "https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1779376257811.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/fontfaces/fontface-1760347979448.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/css/template-theme-1698129135931.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/assets/css/gustavo-test/canvas-site-custom-styles-1773675962721.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/canvas-global-branding1715062590045.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/canvas-global-branding1769114124267.css",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/images/OTCareersLogoHeader-1739575621282.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/images/opentext-careers-hp-image-17176884195171-1719941477012.png",
+      "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/images/page_2-1755872035807.png"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Workato Japan",
+    "careersUrl": "https://www.workato.com/careers",
+    "priority": "C",
+    "type": "automation-saas",
+    "status": "ok",
+    "finalUrl": "https://www.workato.com/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Cybozu",
+    "careersUrl": "https://cybozu.co.jp/recruit/",
+    "priority": "C",
+    "type": "saas",
+    "status": "ok",
+    "finalUrl": "https://cybozu.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Sansan",
+    "careersUrl": "https://jp.corp-sansan.com/recruit/",
+    "priority": "C",
+    "type": "saas",
+    "status": "ok",
+    "finalUrl": "https://jp.corp-sansan.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "SmartHR",
+    "careersUrl": "https://smarthr.co.jp/recruit/",
+    "priority": "C",
+    "type": "saas",
+    "status": "ok",
+    "finalUrl": "https://recruit.smarthr.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "freee",
+    "careersUrl": "https://jobs.freee.co.jp/",
+    "priority": "C",
+    "type": "saas",
+    "status": "ok",
+    "finalUrl": "https://jobs.freee.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Money Forward",
+    "careersUrl": "https://corp.moneyforward.com/recruit/",
+    "priority": "C",
+    "type": "saas",
+    "status": "ok",
+    "finalUrl": "https://recruit.moneyforward.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Appier Japan",
+    "careersUrl": "https://www.appier.com/en/careers",
+    "priority": "B",
+    "type": "ai-megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "PKSHA Technology",
+    "careersUrl": "https://www.pkshatech.com/recruit/",
+    "priority": "B",
+    "type": "ai-megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "ExaWizards",
+    "careersUrl": "https://exawizards.com/recruit/",
+    "priority": "B",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.exawizards.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "LegalOn Technologies",
+    "careersUrl": "https://legalontech.jp/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://legalontech.jp/privacy-policy/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Preferred Networks",
+    "careersUrl": "https://www.preferred.jp/ja/careers/",
+    "priority": "B",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.preferred.jp/ja/careers",
+    "httpStatus": 200,
+    "providers": [
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://open.talentio.com/r/1/c/preferred/homes/4618",
+      "https://open.talentio.com/r/1/c/preferred/homes/4619"
+    ],
+    "error": ""
+  },
+  {
+    "company": "SmartNews",
+    "careersUrl": "https://www.smartnews.com/careers/",
+    "priority": "B",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Mercari",
+    "careersUrl": "https://careers.mercari.com/",
+    "priority": "B",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://careers.mercari.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "DeNA",
+    "careersUrl": "https://dena.com/jp/recruit/",
+    "priority": "B",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://dena.com/jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "MIXI",
+    "careersUrl": "https://mixi.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://mixigroup-recruit.mixi.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "GREE",
+    "careersUrl": "https://corp.gree.net/jp/ja/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://hd.gree.net:443/jp/ja/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos",
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://hrmos.co/pages/greeinc",
+      "https://hrmos.co/pages/1218800560317673472/jobs?category=1714903735551152128",
+      "https://hrmos.co/pages/1218800560317673472/jobs?category=1836260123121479681",
+      "https://open.talentio.com/r/1/c/dadan/homes/4668"
+    ],
+    "error": ""
+  },
+  {
+    "company": "GMO Internet Group",
+    "careersUrl": "https://recruit.gmo.jp/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.group.gmo/",
+    "httpStatus": 200,
+    "providers": [
+      "axol"
+    ],
+    "externalAtsHosts": [
+      "mypage.3030.i-webs.jp"
+    ],
+    "providerLinks": [
+      "https://mypage.3030.i-webs.jp/gmo2028/applicant/login/baitai-entry/entrycd/W01",
+      "https://mypage.3030.i-webs.jp/gmo2027/applicant/login/baitai-entry/entrycd/W03"
+    ],
+    "error": ""
+  },
+  {
+    "company": "GMO Payment Gateway",
+    "careersUrl": "https://www.gmo-pg.com/corp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.gmo-pg.com/corp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/gmopg/"
+    ],
+    "error": ""
+  },
+  {
+    "company": "DMM.com",
+    "careersUrl": "https://dmm-corp.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://dmm-corp.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "ZOZO",
+    "careersUrl": "https://corp.zozo.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://corp.zozo.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Kakaku.com",
+    "careersUrl": "https://corporate.kakaku.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://corporate.kakaku.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Cookpad",
+    "careersUrl": "https://info.cookpad.com/careers",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://cookpad.careers/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "M3",
+    "careersUrl": "https://corporate.m3.com/recruit/",
+    "priority": "B",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://corporate.m3.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://open.talentio.com/r/1/c/m3-inc/pages/105728",
+      "https://open.talentio.com/1/c/m3-inc/requisitions/detail/10724",
+      "https://open.talentio.com/1/c/m3-inc/requisitions/detail/16694",
+      "https://open.talentio.com/1/c/m3-inc/requisitions/detail/21922",
+      "https://open.talentio.com/1/c/m3-inc/requisitions/detail/10291",
+      "https://open.talentio.com/1/c/m3-inc/requisitions/detail/14963",
+      "https://open.talentio.com/r/1/c/m3-inc/pages/72682",
+      "https://open.talentio.com/r/1/c/m3/pages/113115",
+      "https://open.talentio.com/r/1/c/m3/pages/121554",
+      "https://open.talentio.com/r/1/c/m3/pages/80781",
+      "https://open.talentio.com/r/1/c/m3/pages/78950",
+      "https://open.talentio.com/r/1/c/m3/pages/78949",
+      "https://open.talentio.com/r/1/c/m3/pages/80782",
+      "https://open.talentio.com/r/1/c/m3/pages/80780",
+      "https://open.talentio.com/r/1/c/m3/pages/83383",
+      "https://open.talentio.com/r/1/c/m3/pages/83848",
+      "https://open.talentio.com/r/1/c/m3/pages/83385",
+      "https://open.talentio.com/r/1/c/m3/pages/83378",
+      "https://open.talentio.com/r/1/c/m3/pages/83384",
+      "https://open.talentio.com/r/1/c/m3/pages/113906"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Medley",
+    "careersUrl": "https://www.medley.jp/jobs/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.medley.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos",
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://hrmos.co/pages/medley/jobs",
+      "https://open.talentio.com/r/1/c/medley/homes/3673",
+      "https://hrmos.co/pages/medley/jobs/5000003",
+      "https://hrmos.co/pages/medley/jobs/5000002"
+    ],
+    "error": ""
+  },
+  {
+    "company": "JMDC",
+    "careersUrl": "https://www.jmdc.co.jp/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.jmdc.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/jmdc/jobs?category=1436964960091348992",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354743617902772224",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354743589859655680",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354743642141655040",
+      "https://hrmos.co/pages/jmdc/jobs?category=1497766630978326528",
+      "https://hrmos.co/pages/jmdc/jobs?category=1496451710724210688",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354744043247140864",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354744021256404992",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354744120766267392",
+      "https://hrmos.co/pages/jmdc/jobs?category=1354744149761490944"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Visional",
+    "careersUrl": "https://www.visional.inc/ja/careers/",
+    "priority": "B",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "company": "Timee",
+    "careersUrl": "https://corp.timee.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://corp.timee.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "LayerX",
+    "careersUrl": "https://jobs.layerx.co.jp/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://jobs.layerx.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Ubie",
+    "careersUrl": "https://recruit.ubie.life/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.ubie.life/",
+    "httpStatus": 200,
+    "providers": [
+      "herp"
+    ],
+    "externalAtsHosts": [
+      "herp.careers"
+    ],
+    "providerLinks": [
+      "https://herp.careers/v1/ubiehr/cYHimCZJ3-TF",
+      "https://herp.careers/v1/ubiehr/O0R0k49Q9T5o",
+      "https://herp.careers/v1/ubiehr/Tirj5oCs5hdd",
+      "https://herp.careers/v1/ubiehr/nzMydNhry1As",
+      "https://herp.careers/v1/ubiehr/XlO51PBeQQMv",
+      "https://herp.careers/v1/ubiehr/ogFi0WrEYj26",
+      "https://herp.careers/v1/ubiehr/YCfO7_Vx1l58",
+      "https://herp.careers/v1/ubiehr/f5-1jXvnBMVv",
+      "https://herp.careers/v1/ubiehr/_oeH0lYReImI",
+      "https://herp.careers/v1/ubiehr/iUJoFcmv_7QC",
+      "https://herp.careers/v1/ubiehr/i5yZXEKLgR7y",
+      "https://herp.careers/v1/ubiehr/9QxaWhCu--oj",
+      "https://herp.careers/v1/ubiehr/x3F1XHsBBT_L",
+      "https://herp.careers/v1/ubiehr/QC24-tv1B1S8",
+      "https://herp.careers/v1/ubiehr/cQ6vihXLiMLg",
+      "https://herp.careers/v1/ubiehr/jOXYtKIKkonz",
+      "https://herp.careers/v1/ubiehr/Bilnrfg8U7vj",
+      "https://herp.careers/v1/ubiehr/MExdfj2UgARV",
+      "https://herp.careers/v1/ubiehr/jPbhWm2_j_Kt",
+      "https://herp.careers/v1/ubiehr/QgtWksLQ36dN"
+    ],
+    "error": ""
+  },
+  {
+    "company": "FRONTEO",
+    "careersUrl": "https://www.fronteo.com/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "BrainPad",
+    "careersUrl": "https://www.brainpad.co.jp/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.brainpad.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Macromill",
+    "careersUrl": "https://www.macromill.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.macromill.com/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Plus Alpha Consulting",
+    "careersUrl": "https://www.pa-consul.co.jp/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Page not found: /recruit/"
+  },
+  {
+    "company": "GENIEE",
+    "careersUrl": "https://geniee.co.jp/recruit/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "ok",
+    "finalUrl": "https://geniee.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/geniee/"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Uzabase",
+    "careersUrl": "https://www.uzabase.com/jp/careers/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.uzabase.com/jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/uzabase/jobs?category=1767828127386013696",
+      "https://hrmos.co/pages/uzabase/jobs?category=1775421296935796736",
+      "https://hrmos.co/pages/uzabase/jobs?category=1766002544481845248",
+      "https://hrmos.co/pages/uzabase/jobs?category=1767828127386013697",
+      "https://hrmos.co/pages/uzabase/jobs?category=1956309367429656576",
+      "https://hrmos.co/pages/uzabase/jobs?category=1781623987516506112",
+      "https://hrmos.co/pages/uzabase/jobs?category=1775421721060077568",
+      "https://hrmos.co/pages/uzabase/jobs?category=1775421478041649152",
+      "https://hrmos.co/pages/uzabase/jobs?category=1781976910148149248",
+      "https://hrmos.co/pages/uzabase/jobs?category=1775421721060077569",
+      "https://hrmos.co/pages/uzabase/jobs?category=1775421170460753920",
+      "https://hrmos.co/pages/uzabase/jobs?jobType=PART",
+      "https://hrmos.co/pages/uzabase/jobs/uzabase_connect/apply"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Raksul",
+    "careersUrl": "https://corp.raksul.com/careers/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "note",
+    "careersUrl": "https://note.jp/n/n82b8a31a1b6f",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "dip",
+    "careersUrl": "https://www.dip-net.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit-dip.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "KLab",
+    "careersUrl": "https://www.klab.com/jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.klab.com/jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Dwango",
+    "careersUrl": "https://dwango.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.dwango.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "hrmos"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [
+      "https://hrmos.co/pages/dwango"
+    ],
+    "error": ""
+  },
+  {
+    "company": "KADOKAWA Connected",
+    "careersUrl": "https://kdx.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://dwango.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "ENECHANGE",
+    "careersUrl": "https://enechange.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://careers.enechange.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "herp"
+    ],
+    "externalAtsHosts": [
+      "herp.careers"
+    ],
+    "providerLinks": [
+      "https://herp.careers/v1/enechange"
+    ],
+    "error": ""
+  },
+  {
+    "company": "HENNGE",
+    "careersUrl": "https://hennge.com/jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://hennge.com/jp/error/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Safie",
+    "careersUrl": "https://safie.co.jp/careers/",
+    "priority": "C",
+    "type": "ai-megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "KARTE PLAID",
+    "careersUrl": "https://plaid.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.plaid.co.jp/",
+    "httpStatus": 200,
+    "providers": [
+      "herp",
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "herp.careers",
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://herp.careers/v1/plaid2011/poHtv8ILnGAK",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-188fd0ff21b0",
+      "https://herp.careers/v1/plaid2011/LdUyner8xyfr",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-4b140118d90a",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-36c3078d7cf9",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-25d3c5d68b47",
+      "https://herp.careers/v1/plaid2011/019abe15-667f-711c-aaa1-28f204c7af11",
+      "https://herp.careers/v1/plaid2011/XT8qH24OZomq",
+      "https://herp.careers/v1/plaid2011/SrfKmlfgDOCy",
+      "https://herp.careers/v1/plaid2011/5FIpY0mj7qRo",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-8621b708ef89",
+      "https://herp.careers/v1/plaid2011/019abe15-667f-711c-aaa1-31f784f5ca8a",
+      "https://herp.careers/v1/plaid2011/019abe15-5edc-711c-aa9d-9aefbbf8953c",
+      "https://herp.careers/v1/plaid2011/019abe15-667f-711c-aaa1-8156e5ec68e1",
+      "https://herp.careers/v1/plaid2011/019abe15-6ce8-711c-aaa4-3e98ed89cc2c",
+      "https://herp.careers/v1/plaid2011/Yt7Fqeu4hEjY",
+      "https://herp.careers/v1/plaid2011/I9HK4l-RBAE_",
+      "https://herp.careers/v1/plaid2011/019abe15-6ce8-711c-aaa4-3517c36b1086",
+      "https://herp.careers/v1/plaid2011/019abe15-960d-711c-aabd-c2ad552452db",
+      "https://herp.careers/v1/plaid2011/019abe15-667e-711c-aaa0-828f83643454"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Yappli",
+    "careersUrl": "https://yappli.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://yappli.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "talentio"
+    ],
+    "externalAtsHosts": [
+      "open.talentio.com"
+    ],
+    "providerLinks": [
+      "https://open.talentio.com/r/1/c/yappli/homes/3493"
+    ],
+    "error": ""
+  },
+  {
+    "company": "Kaizen Platform",
+    "careersUrl": "https://kaizenplatform.com/recruit",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "LIFULL",
+    "careersUrl": "https://lifull.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://lifull.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "GA technologies",
+    "careersUrl": "https://www.ga-tech.co.jp/careers/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.ga-tech.co.jp/careers/",
+    "httpStatus": 200,
+    "providers": [
+      "herp"
+    ],
+    "externalAtsHosts": [
+      "herp.careers"
+    ],
+    "providerLinks": [
+      "https://herp.careers/v1/gatech/requisition-groups/ea547fba-fd63-4c78-a470-a5345c453648",
+      "https://herp.careers/v1/gatech/requisition-groups/3996f4ab-1628-43ac-9a29-8c43e627a3da",
+      "https://herp.careers/v1/gatech/requisition-groups/d535b82d-5318-4553-a150-cede6f048974",
+      "https://herp.careers/v1/gatech/requisition-groups/faa8e0e0-aaf2-4a9d-bc69-2f5dd3f01225",
+      "https://herp.careers/v1/gatech/requisition-groups/3506b3af-3461-4efc-b21d-8f5db5efe116",
+      "https://herp.careers/v1/gatech/requisition-groups/50917baf-fd27-43bc-9082-09b9a2a54333",
+      "https://herp.careers/v1/gatech/requisition-groups/0da1d593-d190-41d7-87f1-2eff4eac4bf8",
+      "https://herp.careers/v1/gatech/requisition-groups/854da91f-0f92-40e0-9ff8-601cbc7f6b6a",
+      "https://herp.careers/v1/gatech/requisition-groups/52a51d7f-f69e-4c27-84b1-8c213a4b0ef5",
+      "https://herp.careers/v1/gatech/requisition-groups/3c00a01c-8561-4796-943f-21dcb7d64ac9",
+      "https://herp.careers/v1/gatech/2fXeO09l6N0J"
+    ],
+    "error": ""
+  },
+  {
+    "company": "WealthNavi",
+    "careersUrl": "https://www.wealthnavi.com/recruit",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "BitFlyer",
+    "careersUrl": "https://bitflyer.com/ja-jp/recruit",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://bitflyer.com/ja-jp/recruit",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Paidy",
+    "careersUrl": "https://paidy.com/careers/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "BASE",
+    "careersUrl": "https://binc.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "STORES",
+    "careersUrl": "https://www.st.inc/careers",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "Chatwork",
+    "careersUrl": "https://corp.chatwork.com/ja/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://career.kubell.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Spiber",
+    "careersUrl": "https://spiber.inc/en/careers/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://spiber.inc/en/careers",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Caddi",
+    "careersUrl": "https://caddi.com/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "failed",
+    "finalUrl": "",
+    "httpStatus": null,
+    "providers": [],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "company": "MonotaRO",
+    "careersUrl": "https://recruit.monotaro.com/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://recruit.monotaro.com/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "AnyMind Group",
+    "careersUrl": "https://anymindgroup.com/career/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://anymindgroup.com/career/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  },
+  {
+    "company": "Ateam",
+    "careersUrl": "https://www.a-tm.co.jp/recruit/",
+    "priority": "C",
+    "type": "megaventure",
+    "status": "ok",
+    "finalUrl": "https://www.a-tm.co.jp/recruit/",
+    "httpStatus": 200,
+    "providers": [
+      "custom"
+    ],
+    "externalAtsHosts": [],
+    "providerLinks": [],
+    "error": ""
+  }
+]

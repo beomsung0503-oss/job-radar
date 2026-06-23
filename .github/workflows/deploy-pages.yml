@@ -36,7 +36,7 @@ jobs:
         run: curl --fail --silent --show-error --location --retry 3 "https://beomsung0503-oss.github.io/job-radar/data/jobs.js?run=${GITHUB_RUN_ID}" --output data/jobs.js || true
 
       - name: Refresh job data
-        run: python scripts/collect_jobs.py --linkedin-queries 8 --linkedin-pages 2 --linkedin-target-companies 12 --linkedin-detail-limit 28 --official-companies 25 --max-age-days 45
+        run: python scripts/collect_jobs.py --linkedin-queries 8 --linkedin-pages 2 --linkedin-target-companies 12 --linkedin-detail-limit 28 --official-companies 150 --max-age-days 45
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -1,4 +1,5 @@
 import argparse
+import concurrent.futures
 import datetime as dt
 import html
 import json
@@ -9,6 +10,8 @@ import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
+
+from official_sources import collect_official_jobs
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +26,10 @@ COLLECTION_STATS = {
     "linkedinDetailFailed": 0,
     "officialRequests": 0,
     "officialFailed": 0,
+    "officialCompaniesWithJobs": 0,
+    "officialJobsCollected": 0,
+    "officialAdapterErrors": 0,
+    "officialLegacyRemoved": 0,
 }
 
 LINKEDIN_QUERIES = [
@@ -145,6 +152,17 @@ def load_target_companies():
 
 def load_company_careers_map():
     return load_target_companies()
+
+
+def load_careers_audit():
+    audit_file = DATA_DIR / "careers_audit.json"
+    if not audit_file.exists():
+        return {}
+    try:
+        rows = json.loads(audit_file.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {row.get("company"): row for row in rows if row.get("company")}
 
 EXCLUDE_TITLE_TERMS = [
     "Engineer",
@@ -929,68 +947,33 @@ def absolute_url(base, href):
 def collect_official(max_companies, rotation_slot=0):
     rows = []
     target_companies = load_target_companies()
-    for target in rotated_slice(target_companies, max_companies, rotation_slot):
-        company = target["name"]
-        url = target["url"]
-        terms = target["terms"]
-        COLLECTION_STATS["officialRequests"] += 1
-        try:
-            page = fetch(url, timeout=6)
-        except Exception as exc:
-            COLLECTION_STATS["officialFailed"] += 1
-            print(f"[warn] Official page failed: {company}: {exc}", file=sys.stderr)
-            continue
+    selected_targets = rotated_slice(target_companies, max_companies, rotation_slot)
+    audit = load_careers_audit()
+    COLLECTION_STATS["officialRequests"] += len(selected_targets)
 
-        found = set()
-        for match in re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', page, flags=re.I | re.S):
-            href, body = match.groups()
-            text = strip_tags(body)
-            if len(text) < 4:
-                continue
-            if text.lower().startswith(CONTENT_LINK_PREFIXES):
-                continue
-            haystack = f"{text} {href}"
-            if not any(term.lower() in haystack.lower() for term in terms):
-                continue
-            if not any(re.search(pattern, text, flags=re.I) for pattern in ROLE_TITLE_PATTERNS):
-                continue
-            if any(term.lower() in text.lower() for term in EXCLUDE_TITLE_TERMS):
-                continue
-            link = absolute_url(url, html.unescape(href))
-            key = (company, text, link)
-            if key in found:
-                continue
-            found.add(key)
-            rows.append(
-                {
-                    "id": f"official-{abs(hash(key))}",
-                    "source": "Official",
-                    "sourceQuality": "official",
-                    "title": text[:160],
-                    "company": company,
-                    "location": "Tokyo 확인 필요",
-                    "postedDate": "",
-                    "salaryText": "",
-                    "employmentType": "",
-                    "seniority": "",
-                    "jobFunction": "",
-                    "url": link,
-                    "directUrl": link,
-                    "directUrlStatus": "verified_official",
-                    "directSearchUrl": "",
-                    "status": "open",
-                    "fit": "backup",
-                    "score": 0,
-                    "reasons": ["공식 Careers 페이지에서 키워드 링크 발견"],
-                    "risks": ["일반 HTML 스캔 결과라 상세 직무 페이지 여부 확인 필요"],
-                    "targetCompany": company,
-                    "targetCompanyType": target.get("type", ""),
-                    "minCompanyEmployees": target.get("minEmployees", 0),
-                    "companySizeBand": target.get("employeeBand", "1000+"),
-                    "companyScaleStatus": "megaventure_500_plus" if is_megaventure_target(target) else "target_1000_plus",
-                }
-            )
-        time.sleep(0.25)
+    def collect_target(target):
+        try:
+            return target, collect_official_jobs(target, audit.get(target["name"], {}))
+        except Exception as exc:
+            return target, {"jobs": [], "errors": [str(exc)], "providers": []}
+
+    workers = min(10, max(1, len(selected_targets)))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        for target, result in executor.map(collect_target, selected_targets):
+            jobs = result.get("jobs", [])
+            errors = result.get("errors", [])
+            if jobs:
+                COLLECTION_STATS["officialCompaniesWithJobs"] += 1
+                COLLECTION_STATS["officialJobsCollected"] += len(jobs)
+                rows.extend(jobs)
+            if errors:
+                COLLECTION_STATS["officialAdapterErrors"] += len(errors)
+                if not jobs:
+                    COLLECTION_STATS["officialFailed"] += 1
+                print(
+                    f"[warn] Official adapters: {target['name']}: {'; '.join(errors[:3])}",
+                    file=sys.stderr,
+                )
     return rows
 
 
@@ -1209,6 +1192,15 @@ def main():
 
     new_count = sum(1 for job in filtered if job.get("url") not in existing_by_url)
     merged = filtered if args.replace else merge_existing(filtered, existing_jobs)
+    if args.official_companies >= len(load_target_companies()):
+        current_official_urls = {job.get("url") for job in filtered if job.get("source") == "Official"}
+        before_cleanup = len(merged)
+        merged = [
+            job
+            for job in merged
+            if job.get("source") != "Official" or job.get("url") in current_official_urls
+        ]
+        COLLECTION_STATS["officialLegacyRemoved"] = before_cleanup - len(merged)
     merged = dedupe_jobs(merged)
     merged = prune_stale_jobs(merged, args.max_age_days)
     merged.sort(key=lambda item: (item.get("score", 0), item.get("postedDate", "")), reverse=True)
@@ -1218,6 +1210,7 @@ def main():
         "targetCompaniesScanned": min(args.linkedin_target_companies, len(load_target_companies())),
         "targetCompanyPool": len(load_target_companies()),
         "collectedThisRun": len(filtered),
+        "officialJobsAccepted": sum(1 for job in filtered if job.get("source") == "Official"),
         "newJobs": new_count,
         "retainedJobs": max(0, len(merged) - new_count),
         "totalJobs": len(merged[:160]),
