@@ -272,6 +272,11 @@ output {
   color: #3843a5;
 }
 
+.badge.potential {
+  background: #f0f9e8;
+  color: #3f6b16;
+}
+
 .badge.new {
   background: #e6f4ff;
   color: #075985;

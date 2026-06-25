@@ -26,6 +26,26 @@ ROLE_TERMS = [
     "Solution",
     "DX",
     "業務改革",
+    "ITコンサル",
+    "IT Consultant",
+    "Associate Consultant",
+    "アソシエイト",
+]
+POTENTIAL_TERMS = [
+    "ポテンシャル採用",
+    "ポテンシャル",
+    "第二新卒",
+    "未経験可",
+    "未経験歓迎",
+    "未経験OK",
+    "未経験から",
+    "育成枠",
+    "若手",
+    "ジュニア",
+    "Junior",
+    "Associate",
+    "アソシエイト",
+    "キャリアチェンジ",
 ]
 EXCLUDE_TITLE_TERMS = [
     "Engineer",
@@ -166,7 +186,15 @@ def title_relevant(title, target):
     watch_match = any(contains_term(title, term) for term in watch_terms)
     role_match = any(contains_term(title, term) for term in ROLE_TERMS)
     domain_match = any(contains_term(title, term) for term in DOMAIN_TERMS)
-    return watch_match or (role_match and domain_match)
+    potential_match = any(contains_term(title, term) for term in POTENTIAL_TERMS)
+    pure_sales = any(contains_term(title, term) for term in ["Sales", "営業", "Account Executive"])
+    protected_sales = any(
+        contains_term(title, term)
+        for term in ["Salesforce", "Sales Cloud", "Presales", "Pre-Sales", "Customer Success", "Solution Consultant", "Consultant", "コンサル"]
+    )
+    if pure_sales and not protected_sales:
+        return False
+    return watch_match or (role_match and domain_match) or (potential_match and role_match)
 
 
 def infer_location(text):
@@ -474,7 +502,12 @@ def workday_boards(provider_links):
 
 def collect_workday(target, provider_links):
     rows = []
-    search_terms = list(dict.fromkeys(target.get("terms", []) + ["Salesforce", "CRM", "Customer Success"]))[:5]
+    search_terms = list(
+        dict.fromkeys(
+            target.get("terms", [])
+            + ["Salesforce", "CRM", "Customer Success", "ポテンシャル採用", "第二新卒", "未経験可"]
+        )
+    )[:8]
     for scheme, host, tenant, site in workday_boards(provider_links):
         api_root = f"{scheme}://{host}/wday/cxs/{tenant}/{site}"
         postings = {}

@@ -19,6 +19,7 @@ const els = {
   recommended: document.querySelector("#metric-recommended"),
   stretch: document.querySelector("#metric-stretch"),
   megaventure: document.querySelector("#metric-megaventure"),
+  potential: document.querySelector("#metric-potential"),
   companies: document.querySelector("#metric-companies"),
   resultCount: document.querySelector("#result-count"),
   companyCount: document.querySelector("#company-count"),
@@ -68,6 +69,11 @@ function isAiVenture(item) {
 
 function isMegaVenture(item) {
   return (item.targetCompanyType || item.type || "").includes("megaventure");
+}
+
+function isPotential(job) {
+  return Boolean(job.potentialSignal)
+    || (job.reasons || []).some((item) => item.includes("포텐셜") || item.includes("第二新卒") || item.includes("育成"));
 }
 
 function ventureLabel(item) {
@@ -146,6 +152,7 @@ function isVisible(job) {
     job.company,
     job.location,
     job.salaryText,
+    isPotential(job) ? "포텐셜 第二新卒 育成" : "",
     ...(job.reasons || []),
     ...(job.risks || [])
   ].join(" ").toLowerCase();
@@ -201,6 +208,7 @@ function renderJobs() {
           <span class="${badgeClass(job.fit)}">${fitLabel(job.fit)}</span>
           <span class="badge">${job.source}</span>
           <span class="badge">${sourceLabel(job)}</span>
+          ${isPotential(job) ? `<span class="badge potential">포텐셜</span>` : ""}
           <span class="badge">${job.employmentType || "고용형태 미기재"}</span>
           <span class="badge good">${companySizeLabel(job)}</span>
           ${ventureLabel(job) ? `<span class="badge ai">${ventureLabel(job)}</span>` : ""}
@@ -244,6 +252,7 @@ function renderMetrics() {
   els.recommended.textContent = String(jobs.filter((job) => job.fit === "recommended").length);
   els.stretch.textContent = String(jobs.filter((job) => job.fit === "stretch").length);
   els.megaventure.textContent = String(jobs.filter(isMegaVenture).length);
+  els.potential.textContent = String(jobs.filter(isPotential).length);
 }
 
 function renderProfile() {
@@ -261,7 +270,10 @@ function renderProfile() {
   const officialScan = collection.officialRequests
     ? ` · 공식 ${collection.officialRequests}개 검사/${collection.officialJobsAccepted ?? 0}건 통과`
     : "";
-  els.collectionSummary.textContent = `이번 회차 신규 ${collection.newJobs ?? "-"} · 수집 오류 ${failures}${companyScan}${officialScan}`;
+  const potentialScan = collection.potentialJobsAccepted
+    ? ` · 포텐셜 ${collection.potentialJobsAccepted}건`
+    : "";
+  els.collectionSummary.textContent = `이번 회차 신규 ${collection.newJobs ?? "-"} · 수집 오류 ${failures}${companyScan}${officialScan}${potentialScan}`;
   els.pollingLabel.textContent = `${Math.round((run.recommendedPollingMinutes || 360) / 60)}시간 순환`;
 }
 

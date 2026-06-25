@@ -61,11 +61,33 @@ LINKEDIN_QUERIES = [
     "AI Implementation Consultant",
 ]
 
+LINKEDIN_POTENTIAL_QUERIES = [
+    "Salesforce ポテンシャル採用",
+    "Salesforce 第二新卒",
+    "Salesforce 未経験 コンサルタント",
+    "CRM ポテンシャル採用",
+    "CRM 第二新卒",
+    "CRM 未経験 コンサルタント",
+    "DX コンサルタント ポテンシャル採用",
+    "ITコンサルタント ポテンシャル採用 Salesforce",
+    "ITコンサルタント 第二新卒 Salesforce",
+    "SaaS カスタマーサクセス ポテンシャル採用",
+    "AI コンサルタント ポテンシャル採用",
+    "AI Customer Success ポテンシャル採用",
+]
+
 MEGAVENTURE_ROLE_QUERIES = [
     "Customer Success",
     "Solution Consultant",
     "Implementation Consultant",
     "Project Manager",
+]
+
+POTENTIAL_QUERY_TERMS = [
+    "ポテンシャル採用",
+    "第二新卒",
+    "未経験可",
+    "育成枠",
 ]
 
 COMPANY_DOMAIN_TERMS = [
@@ -115,7 +137,8 @@ def company_search_terms(target, rotation_slot, index):
             "Customer Success",
         ]
         role = fallback_roles[offset % len(fallback_roles)]
-    return " ".join(dict.fromkeys(term for term in [domain, role] if term))
+    potential = POTENTIAL_QUERY_TERMS[offset % len(POTENTIAL_QUERY_TERMS)] if offset % 4 == 0 else ""
+    return " ".join(dict.fromkeys(term for term in [domain, role, potential] if term))
 
 def load_target_companies():
     target_file = DATA_DIR / "target_companies.js"
@@ -238,6 +261,27 @@ TARGET_ROLE_TITLE_TERMS = [
     "業務改革",
     "Solution Consultant",
     "Technical Consultant",
+    "ITコンサル",
+    "IT Consultant",
+    "Associate Consultant",
+    "アソシエイト",
+]
+
+POTENTIAL_TERMS = [
+    "ポテンシャル採用",
+    "ポテンシャル",
+    "第二新卒",
+    "未経験可",
+    "未経験歓迎",
+    "未経験OK",
+    "未経験から",
+    "育成枠",
+    "若手",
+    "ジュニア",
+    "Junior",
+    "Associate",
+    "アソシエイト",
+    "キャリアチェンジ",
 ]
 
 MATCH_TERMS = [
@@ -261,6 +305,9 @@ MATCH_TERMS = [
     "プリセールス",
     "Customer Success",
     "DX",
+    "ポテンシャル採用",
+    "第二新卒",
+    "未経験可",
 ]
 
 CANDIDATE_PROFILE = {
@@ -667,6 +714,8 @@ def detailed_score_job(job):
 
     core_title_match = contains_any(title, CORE_TITLE_TERMS)
     target_role_title_match = contains_any(title, TARGET_ROLE_TITLE_TERMS)
+    potential_signal = contains_any(text, POTENTIAL_TERMS)
+    potential_title_match = contains_any(title, POTENTIAL_TERMS)
     off_target_title = contains_any(
         title,
         ["SAP", "ServiceNow", "Dynamics", "Power Platform", "Oracle", "Adobe"],
@@ -715,6 +764,9 @@ def detailed_score_job(job):
     if target_role_title_match:
         role += 4
         role_hits.append("타이틀 매칭")
+    if potential_signal:
+        role += 3
+        role_hits.append("포텐셜採用")
     if contains_any(title, ["Sales", "営業"]) and not contains_any(title, ["Salesforce", "Sales Cloud"]):
         role -= 6
     if off_target_title:
@@ -747,6 +799,12 @@ def detailed_score_job(job):
     elif senior_title and required_years and required_years >= 4:
         experience = max(0, experience - 3)
         experience_note += " + 시니어"
+    elif potential_signal and (required_years is None or required_years <= 2):
+        experience = max(experience, 18 if target_role_title_match else 16)
+        experience_note = "포텐셜/育成枠"
+    elif potential_signal and required_years <= 3:
+        experience = max(experience, 15)
+        experience_note += " + 포텐셜"
 
     salary_values = salary_numbers_man(salary_text)
     if salary_values:
@@ -815,6 +873,10 @@ def detailed_score_job(job):
         risks.append("제목이 Salesforce/CRM 중심이 아님")
     if core_title_match and not target_role_title_match:
         risks.append("제목의 목표 직무명 불명확")
+    if potential_signal and not core_title_match:
+        risks.append("포텐셜枠이지만 Salesforce/CRM 직접성은 약함")
+    if contains_any(text, ["未経験可", "未経験歓迎", "未経験OK", "未経験から"]):
+        risks.append("육성형 공고라 연봉/직급 상승폭 확인 필요")
 
     positives = []
     if skill_hits:
@@ -823,6 +885,8 @@ def detailed_score_job(job):
         positives.append("직무: " + ", ".join(dict.fromkeys(role_hits)))
     if loc_hits:
         positives.append("조건: " + ", ".join(loc_hits))
+    if potential_signal:
+        positives.append("채용枠: 포텐셜/第二新卒/育成")
     positives.append(f"회사 규모: {job.get('companySizeBand', '1000+')} 대상")
     if is_ai_venture_target(job):
         positives.append("회사군: AI 메가벤처")
@@ -854,6 +918,8 @@ def detailed_score_job(job):
         "flags": {
             "coreTitleMatch": core_title_match,
             "targetRoleTitleMatch": target_role_title_match,
+            "potentialSignal": potential_signal,
+            "potentialTitleMatch": potential_title_match,
             "offTargetTitle": off_target_title,
         },
     }
@@ -930,6 +996,8 @@ def collect_linkedin(max_queries, max_pages, target_company_count=0, rotation_sl
     careers_map = load_company_careers_map()
     for query in rotated_slice(LINKEDIN_QUERIES, max_queries, rotation_slot):
         fetch_linkedin_query(query, max_pages, rows, careers_map)
+    for query in rotated_slice(LINKEDIN_POTENTIAL_QUERIES, min(4, max_queries), rotation_slot):
+        fetch_linkedin_query(query, max_pages, rows, careers_map)
     selected_targets = rotated_slice(careers_map, target_company_count, rotation_slot)
     for index, target in enumerate(selected_targets):
         company = target["name"]
@@ -998,6 +1066,15 @@ def classify(job):
         and flags.get("targetRoleTitleMatch")
     ):
         return "recommended"
+    if (
+        flags.get("potentialSignal")
+        and score >= 50
+        and experience >= 15
+        and role >= 10
+        and flags.get("targetRoleTitleMatch")
+        and not flags.get("offTargetTitle")
+    ):
+        return "stretch"
     if score >= 55:
         return "stretch"
     return "backup"
@@ -1136,7 +1213,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--linkedin-queries", type=int, default=12)
     parser.add_argument("--linkedin-pages", type=int, default=2)
-    parser.add_argument("--linkedin-target-companies", type=int, default=12)
+    parser.add_argument(
+        "--linkedin-target-companies",
+        "--linkedin-megaventure-companies",
+        dest="linkedin_target_companies",
+        type=int,
+        default=12,
+    )
     parser.add_argument("--linkedin-detail-limit", type=int, default=48)
     parser.add_argument("--official-companies", type=int, default=0)
     parser.add_argument("--rotation-slot", type=int, default=-1)
@@ -1174,6 +1257,7 @@ def main():
         score, breakdown, positives, scoring_risks = scored
         job["score"] = score
         job["scoreBreakdown"] = breakdown
+        job["potentialSignal"] = bool(breakdown.get("flags", {}).get("potentialSignal"))
         job["fit"] = classify(job)
         job["reasons"] = list(dict.fromkeys((job.get("reasons") or []) + positives))
         job["risks"] = list(dict.fromkeys((job.get("risks") or []) + scoring_risks))
@@ -1189,6 +1273,18 @@ def main():
 
     if not filtered:
         raise SystemExit("No jobs collected; keeping the previous deployment.")
+
+    linkedin_failed = COLLECTION_STATS.get("linkedinSearchFailed", 0)
+    linkedin_succeeded = COLLECTION_STATS.get("linkedinSearchSucceeded", 0)
+    if (
+        not args.no_linkedin
+        and existing_jobs
+        and linkedin_failed > linkedin_succeeded
+        and len(filtered) < len(existing_jobs) * 0.75
+    ):
+        raise SystemExit(
+            "LinkedIn network failure threshold exceeded; keeping the previous deployment."
+        )
 
     new_count = sum(1 for job in filtered if job.get("url") not in existing_by_url)
     merged = filtered if args.replace else merge_existing(filtered, existing_jobs)
@@ -1211,6 +1307,7 @@ def main():
         "targetCompanyPool": len(load_target_companies()),
         "collectedThisRun": len(filtered),
         "officialJobsAccepted": sum(1 for job in filtered if job.get("source") == "Official"),
+        "potentialJobsAccepted": sum(1 for job in filtered if job.get("potentialSignal")),
         "newJobs": new_count,
         "retainedJobs": max(0, len(merged) - new_count),
         "totalJobs": len(merged[:160]),
