@@ -39,12 +39,8 @@ POTENTIAL_TERMS = [
     "未経験歓迎",
     "未経験OK",
     "未経験から",
+    "未経験",
     "育成枠",
-    "若手",
-    "ジュニア",
-    "Junior",
-    "Associate",
-    "アソシエイト",
     "キャリアチェンジ",
 ]
 EXCLUDE_TITLE_TERMS = [

@@ -275,12 +275,8 @@ POTENTIAL_TERMS = [
     "未経験歓迎",
     "未経験OK",
     "未経験から",
+    "未経験",
     "育成枠",
-    "若手",
-    "ジュニア",
-    "Junior",
-    "Associate",
-    "アソシエイト",
     "キャリアチェンジ",
 ]
 
@@ -875,7 +871,7 @@ def detailed_score_job(job):
         risks.append("제목의 목표 직무명 불명확")
     if potential_signal and not core_title_match:
         risks.append("포텐셜枠이지만 Salesforce/CRM 직접성은 약함")
-    if contains_any(text, ["未経験可", "未経験歓迎", "未経験OK", "未経験から"]):
+    if contains_any(text, ["未経験可", "未経験歓迎", "未経験OK", "未経験から", "未経験"]):
         risks.append("육성형 공고라 연봉/직급 상승폭 확인 필요")
 
     positives = []
@@ -1080,6 +1076,59 @@ def classify(job):
     return "backup"
 
 
+GENERATED_REASON_PREFIXES = (
+    "스킬: ",
+    "직무: ",
+    "조건: ",
+    "채용枠: ",
+    "회사 규모: ",
+    "회사군: ",
+)
+
+GENERATED_RISK_EXACT = {
+    "공고 연봉 미기재",
+    "상세 연봉 미확인",
+    "공식 상세 URL 미확인",
+    "회사 규모는 본문 신호 기반 추정",
+    "제목이 Salesforce/CRM 중심이 아님",
+    "제목의 목표 직무명 불명확",
+    "포텐셜枠이지만 Salesforce/CRM 직접성은 약함",
+    "육성형 공고라 연봉/직급 상승폭 확인 필요",
+    "시니어/매니저급 포지션",
+}
+
+GENERATED_RISK_PREFIXES = (
+    "필수/우대 연차가 높음",
+)
+
+
+def clean_generated_scoring_notes(job):
+    job["reasons"] = [
+        item
+        for item in job.get("reasons", [])
+        if not any(item.startswith(prefix) for prefix in GENERATED_REASON_PREFIXES)
+    ]
+    job["risks"] = [
+        item
+        for item in job.get("risks", [])
+        if item not in GENERATED_RISK_EXACT
+        and not any(item.startswith(prefix) for prefix in GENERATED_RISK_PREFIXES)
+    ]
+    return job
+
+
+def apply_scoring(job, scored):
+    score, breakdown, positives, scoring_risks = scored
+    clean_generated_scoring_notes(job)
+    job["score"] = score
+    job["scoreBreakdown"] = breakdown
+    job["potentialSignal"] = bool(breakdown.get("flags", {}).get("potentialSignal"))
+    job["fit"] = classify(job)
+    job["reasons"] = list(dict.fromkeys((job.get("reasons") or []) + positives))
+    job["risks"] = list(dict.fromkeys((job.get("risks") or []) + scoring_risks))
+    return job
+
+
 def load_existing_jobs():
     existing = []
     if JOBS_JS.exists():
@@ -1254,13 +1303,7 @@ def main():
         scored = detailed_score_job(job)
         if scored is None:
             continue
-        score, breakdown, positives, scoring_risks = scored
-        job["score"] = score
-        job["scoreBreakdown"] = breakdown
-        job["potentialSignal"] = bool(breakdown.get("flags", {}).get("potentialSignal"))
-        job["fit"] = classify(job)
-        job["reasons"] = list(dict.fromkeys((job.get("reasons") or []) + positives))
-        job["risks"] = list(dict.fromkeys((job.get("risks") or []) + scoring_risks))
+        apply_scoring(job, scored)
         previous = existing_by_url.get(job.get("url"), {})
         previous_posted = previous.get("postedDate")
         job["firstSeenAt"] = (
@@ -1299,6 +1342,13 @@ def main():
         COLLECTION_STATS["officialLegacyRemoved"] = before_cleanup - len(merged)
     merged = dedupe_jobs(merged)
     merged = prune_stale_jobs(merged, args.max_age_days)
+    rescored_merged = []
+    for job in merged:
+        scored = detailed_score_job(job)
+        if scored is None:
+            continue
+        rescored_merged.append(apply_scoring(job, scored))
+    merged = rescored_merged
     merged.sort(key=lambda item: (item.get("score", 0), item.get("postedDate", "")), reverse=True)
     collection_summary = {
         **COLLECTION_STATS,
