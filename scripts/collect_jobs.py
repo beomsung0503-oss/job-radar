@@ -711,11 +711,34 @@ def detailed_score_job(job):
     core_title_match = contains_any(title, CORE_TITLE_TERMS)
     target_role_title_match = contains_any(title, TARGET_ROLE_TITLE_TERMS)
     potential_title_match = contains_any(title, POTENTIAL_TERMS)
-    potential_signal = potential_title_match
     off_target_title = contains_any(
         title,
         ["SAP", "ServiceNow", "Dynamics", "Power Platform", "Oracle", "Adobe"],
     ) and not core_title_match
+    pure_sales_title = (
+        contains_any(title, ["営業", "Account Executive"])
+        or (
+            contains_any(title, ["Sales"])
+            and not contains_any(
+                title,
+                [
+                    "Salesforce",
+                    "Sales Cloud",
+                    "Presales",
+                    "Pre-Sales",
+                    "プリセールス",
+                    "Customer Success",
+                    "カスタマーサクセス",
+                ],
+            )
+        )
+    )
+    potential_signal = (
+        potential_title_match
+        and target_role_title_match
+        and not off_target_title
+        and not pure_sales_title
+    )
 
     skills = 0
     skill_hits = []
@@ -763,7 +786,7 @@ def detailed_score_job(job):
     if potential_signal:
         role += 3
         role_hits.append("포텐셜採用")
-    if contains_any(title, ["Sales", "営業"]) and not contains_any(title, ["Salesforce", "Sales Cloud"]):
+    if pure_sales_title:
         role -= 6
     if off_target_title:
         role -= 8
@@ -867,6 +890,8 @@ def detailed_score_job(job):
         risks.append("회사 규모는 본문 신호 기반 추정")
     if off_target_title:
         risks.append("제목이 Salesforce/CRM 중심이 아님")
+    if pure_sales_title:
+        risks.append("순수 영업 성격이 강함")
     if core_title_match and not target_role_title_match:
         risks.append("제목의 목표 직무명 불명확")
     if potential_signal and not core_title_match:
@@ -916,6 +941,7 @@ def detailed_score_job(job):
             "targetRoleTitleMatch": target_role_title_match,
             "potentialSignal": potential_signal,
             "potentialTitleMatch": potential_title_match,
+            "pureSalesTitle": pure_sales_title,
             "offTargetTitle": off_target_title,
         },
     }
@@ -1095,6 +1121,7 @@ GENERATED_RISK_EXACT = {
     "포텐셜枠이지만 Salesforce/CRM 직접성은 약함",
     "육성형 공고라 연봉/직급 상승폭 확인 필요",
     "시니어/매니저급 포지션",
+    "순수 영업 성격이 강함",
 }
 
 GENERATED_RISK_PREFIXES = (
