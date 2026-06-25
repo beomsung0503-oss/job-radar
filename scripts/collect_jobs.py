@@ -275,7 +275,15 @@ POTENTIAL_TERMS = [
     "未経験歓迎",
     "未経験OK",
     "未経験から",
-    "未経験",
+    "未経験者歓迎",
+    "育成枠",
+    "キャリアチェンジ",
+]
+
+POTENTIAL_BODY_TERMS = [
+    "ポテンシャル採用",
+    "ポテンシャル",
+    "第二新卒",
     "育成枠",
     "キャリアチェンジ",
 ]
@@ -710,8 +718,9 @@ def detailed_score_job(job):
 
     core_title_match = contains_any(title, CORE_TITLE_TERMS)
     target_role_title_match = contains_any(title, TARGET_ROLE_TITLE_TERMS)
-    potential_signal = contains_any(text, POTENTIAL_TERMS)
     potential_title_match = contains_any(title, POTENTIAL_TERMS)
+    potential_body_text = " ".join([description, " ".join(job.get("reasons", []))])
+    potential_signal = potential_title_match or contains_any(potential_body_text, POTENTIAL_BODY_TERMS)
     off_target_title = contains_any(
         title,
         ["SAP", "ServiceNow", "Dynamics", "Power Platform", "Oracle", "Adobe"],
