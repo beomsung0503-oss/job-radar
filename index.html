@@ -58,6 +58,19 @@
           </select>
         </label>
         <label>
+          <span>정렬</span>
+          <select id="sort-filter">
+            <option value="fresh">신규 우선</option>
+            <option value="score">점수순</option>
+            <option value="recent">최근 발견순</option>
+            <option value="lastSeen">최근 확인순</option>
+          </select>
+        </label>
+        <label class="check-control">
+          <input id="new-only-filter" type="checkbox">
+          <span>최근 7일</span>
+        </label>
+        <label>
           <span>최소 점수</span>
           <input id="score-filter" type="range" min="0" max="100" value="0">
         </label>
@@ -90,8 +103,8 @@
           <strong id="metric-companies">0</strong>
         </article>
         <article>
-          <span>회사 규모 조건</span>
-          <strong id="metric-excluded">1000+/500+</strong>
+          <span>최근 7일 신규</span>
+          <strong id="metric-recent">0</strong>
         </article>
       </section>
 

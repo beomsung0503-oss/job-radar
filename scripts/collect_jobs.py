@@ -17,6 +17,7 @@ from official_sources import collect_official_jobs
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 JOBS_JS = DATA_DIR / "jobs.js"
+DISPLAY_LIMIT = 300
 
 COLLECTION_STATS = {
     "linkedinSearchRequests": 0,
@@ -1387,10 +1388,10 @@ def main():
         "potentialJobsAccepted": sum(1 for job in filtered if job.get("potentialSignal")),
         "newJobs": new_count,
         "retainedJobs": max(0, len(merged) - new_count),
-        "totalJobs": len(merged[:160]),
+        "totalJobs": len(merged[:DISPLAY_LIMIT]),
     }
-    write_jobs_js(merged[:160], collection_summary)
-    print(f"Wrote {len(merged[:160])} jobs to {JOBS_JS}")
+    write_jobs_js(merged[:DISPLAY_LIMIT], collection_summary)
+    print(f"Wrote {len(merged[:DISPLAY_LIMIT])} jobs to {JOBS_JS}")
     print("Collection summary: " + json.dumps(collection_summary, ensure_ascii=False))
 
 

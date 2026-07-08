@@ -13,6 +13,8 @@ const els = {
   search: document.querySelector("#search-input"),
   fit: document.querySelector("#fit-filter"),
   source: document.querySelector("#source-filter"),
+  sort: document.querySelector("#sort-filter"),
+  newOnly: document.querySelector("#new-only-filter"),
   score: document.querySelector("#score-filter"),
   scoreOutput: document.querySelector("#score-output"),
   total: document.querySelector("#metric-total"),
@@ -21,6 +23,7 @@ const els = {
   megaventure: document.querySelector("#metric-megaventure"),
   potential: document.querySelector("#metric-potential"),
   companies: document.querySelector("#metric-companies"),
+  recent: document.querySelector("#metric-recent"),
   resultCount: document.querySelector("#result-count"),
   companyCount: document.querySelector("#company-count"),
   jobsList: document.querySelector("#jobs-list"),
@@ -72,8 +75,7 @@ function isMegaVenture(item) {
 }
 
 function isPotential(job) {
-  return Boolean(job.potentialSignal)
-    || (job.reasons || []).some((item) => item.includes("포텐셜") || item.includes("第二新卒") || item.includes("育成"));
+  return Boolean(job.potentialSignal);
 }
 
 function ventureLabel(item) {
@@ -160,6 +162,7 @@ function isVisible(job) {
   if (query && !haystack.includes(query)) return false;
   if (fit !== "all" && job.fit !== fit) return false;
   if (source !== "all" && job.source !== source) return false;
+  if (els.newOnly.checked && !isNewJob(job)) return false;
   if ((job.score || 0) < minScore) return false;
   return true;
 }
@@ -177,10 +180,33 @@ function isNewJob(job) {
   return Date.now() - firstSeen.getTime() <= 7 * 24 * 60 * 60 * 1000;
 }
 
+function dateValue(value) {
+  if (!value) return 0;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+}
+
+function sortVisibleJobs(items) {
+  const mode = els.sort.value;
+  const byScore = (job) => Number(job.score || 0);
+  const byFirstSeen = (job) => dateValue(job.firstSeenAt);
+  const byLastSeen = (job) => dateValue(job.lastSeenAt);
+  const comparers = {
+    fresh: (a, b) => Number(isNewJob(b)) - Number(isNewJob(a))
+      || byScore(b) - byScore(a)
+      || byFirstSeen(b) - byFirstSeen(a),
+    score: (a, b) => byScore(b) - byScore(a)
+      || byFirstSeen(b) - byFirstSeen(a),
+    recent: (a, b) => byFirstSeen(b) - byFirstSeen(a)
+      || byScore(b) - byScore(a),
+    lastSeen: (a, b) => byLastSeen(b) - byLastSeen(a)
+      || byScore(b) - byScore(a)
+  };
+  return [...items].sort(comparers[mode] || comparers.fresh);
+}
+
 function renderJobs() {
-  const visible = jobs
-    .filter(isVisible)
-    .sort((a, b) => (b.score || 0) - (a.score || 0));
+  const visible = sortVisibleJobs(jobs.filter(isVisible));
 
   els.scoreOutput.textContent = `${els.score.value}+`;
   els.resultCount.textContent = `${visible.length}건`;
@@ -253,6 +279,7 @@ function renderMetrics() {
   els.stretch.textContent = String(jobs.filter((job) => job.fit === "stretch").length);
   els.megaventure.textContent = String(jobs.filter(isMegaVenture).length);
   els.potential.textContent = String(jobs.filter(isPotential).length);
+  els.recent.textContent = String(jobs.filter(isNewJob).length);
 }
 
 function renderProfile() {
@@ -278,7 +305,7 @@ function renderProfile() {
 }
 
 function bindFilters() {
-  [els.search, els.fit, els.source, els.score].forEach((el) => {
+  [els.search, els.fit, els.source, els.sort, els.newOnly, els.score].forEach((el) => {
     el.addEventListener("input", renderJobs);
     el.addEventListener("change", renderJobs);
   });

@@ -127,7 +127,7 @@ h2 {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) 160px 170px 170px 46px;
+  grid-template-columns: minmax(240px, 1fr) 135px 150px 150px 104px 150px 46px;
   align-items: end;
   gap: 12px;
   padding: 14px;
@@ -154,6 +154,27 @@ select {
 
 input[type="range"] {
   padding: 0;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  min-height: 16px;
+  margin: 0;
+}
+
+.check-control {
+  min-height: 38px;
+  grid-template-columns: 16px 1fr;
+  align-items: center;
+  align-self: end;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  padding: 8px 10px;
+}
+
+.check-control span {
+  color: var(--ink);
 }
 
 output {
